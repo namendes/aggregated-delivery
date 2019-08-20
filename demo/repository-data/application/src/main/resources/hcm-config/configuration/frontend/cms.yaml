@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/ui-extensions/pageConfig:
+      jcr:primaryType: frontend:uiExtension
+      frontend:displayName: Page configuration
+      frontend:extensionPoint: channel.page.tools
+      frontend:url: http://localhost:4200

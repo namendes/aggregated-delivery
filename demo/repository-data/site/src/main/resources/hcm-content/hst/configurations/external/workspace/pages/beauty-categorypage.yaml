@@ -1,0 +1,23 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:pages/beauty-categorypage:
+  jcr:primaryType: hst:component
+  hst:lastmodified: 2019-08-20T16:47:34.316+02:00
+  hst:referencecomponent: hst:abstractpages/base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['hippostd:relaxed']
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-08-20T16:48:38.074+02:00
+    hst:xtype: hst.vbox
+    mode: inside
+    selector: '#content > section:nth-child(1) > div'
+    /carousel:
+      jcr:primaryType: hst:containeritemcomponent
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+      hst:iconpath: images/essentials/catalog-component-icons/carousel.svg
+      hst:label: Carousel
+      hst:parameternames: [document4, document3, document6, document5, document2,
+        document1, cycle, pause, carouselWidth, carouselHeight, carouselBackgroundColor,
+        showNavigation, interval]
+      hst:parametervalues: ['', '', '', '', banners/banner2, banners/banner1, 'on',
+        'on', '700', '250', '#FFFFFF', 'on', '3000']
+      hst:template: essentials-carousel

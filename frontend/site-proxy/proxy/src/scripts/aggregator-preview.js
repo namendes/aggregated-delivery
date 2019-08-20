@@ -146,6 +146,7 @@ var cmsProxy = proxy(cmsFilter,
     });
 
 live_app.use('/cms', cmsProxy);// add the proxy to express
+live_app.use('/site/_cmssessioncontext', cmsProxy);// add the proxy to express
 live_app.use('/site/_cmsinternal', cmsProxy);// add the proxy to express
 live_app.use('/site/_cmsinternal/webfiles', cmsProxy);
 live_app.use('/site/images', cmsProxy);

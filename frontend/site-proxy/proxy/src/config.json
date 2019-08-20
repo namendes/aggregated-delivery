@@ -2,9 +2,9 @@
     "proxy": {
         "common": {
             "target_url": "https://www.site.com",
-            "br_base_url": "http://me:8080",
-            "service_url": "http://me:8080/site/rest/page/url",
-            "host": "me",
+            "br_base_url": "http://localhost:8080",
+            "service_url": "http://localhost:8080/site/rest/page/url",
+            "host": "localhost",
             "br_mount_alias": "external",
             "br_mount_path": "/external",
             "site_root_path": "",
@@ -37,7 +37,7 @@
             "config_id": "liveSite",
             "node_port": 3000,
             "log_level": "debug",
-            "br_site_url": "http://me:8080/site",
+            "br_site_url": "http://localhost:8080/site",
             "br_rel_url": "/site/external",
             "prepend": "/site",
             "processors": [
@@ -49,7 +49,7 @@
             "config_id": "previewSite",
             "node_port": 3001,
             "log_level": "error",
-            "br_site_url": "http://me:8080/site/_cmsinternal",
+            "br_site_url": "http://localhost:8080/site/_cmsinternal",
             "br_rel_url": "/site/_cmsinternal/external",
             "prepend": "/site/_cmsinternal",
             "processors": [

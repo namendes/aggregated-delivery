@@ -22,3 +22,6 @@ definitions:
       /myproject:
         jcr:primaryType: hst:configuration
         hst:inheritsfrom: [../common]
+      /external:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]

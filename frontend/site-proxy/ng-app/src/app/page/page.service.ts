@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
 import {Container} from "../model/container";
 
-const baseUrl = 'http://me:8080/site/rest';
+const baseUrl = 'http://localhost:8080/site/rest';
 
 @Injectable({
   providedIn: 'root'

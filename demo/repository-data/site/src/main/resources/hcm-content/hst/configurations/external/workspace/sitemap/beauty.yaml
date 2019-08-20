@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/beauty:
+  jcr:primaryType: hst:sitemapitem
+  hst:componentconfigurationid: hst:pages/beauty-categorypage
+  hst:lastmodified: 2019-08-20T16:47:34.316+02:00
+  hst:pagetitle: beauty
