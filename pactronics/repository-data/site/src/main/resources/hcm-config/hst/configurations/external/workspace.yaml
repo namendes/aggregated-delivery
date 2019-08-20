@@ -3,7 +3,7 @@ definitions:
     /hst:hst/hst:configurations/external/hst:workspace:
       jcr:primaryType: hst:workspace
       jcr:mixinTypes: ['dxphst:mergeable']
-      dxphst:treehash: BDD04E2C8CCE1B6B5148D2D1089E8DE7
+      dxphst:treehash: 8C97F3B5531B30F3B3DB508D95E57954
       /hst:containers:
         jcr:primaryType: hst:containercomponentfolder
         jcr:mixinTypes: ['dxphst:mergeable']

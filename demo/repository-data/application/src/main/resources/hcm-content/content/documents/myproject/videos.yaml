@@ -1,0 +1,29 @@
+/content/documents/myproject/videos:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 607ab483-840c-4173-b3d9-da14e5f61f5e
+  hippostd:foldertype: [new-video-document, new-video-folder]
+  hippotranslation:id: 1a3a9721-6edc-4f1c-8202-bc2cd2d566c6
+  hippotranslation:locale: en
+  /video-example:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d931c679-fd25-42fc-8659-5a7f183f275e
+    hippo:name: Video example
+    /video-example:
+      jcr:primaryType: myproject:video
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 21fca7e5-06b2-489c-8632-f284109134cd
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-10T14:30:23.582+02:00
+      hippostdpubwf:lastModificationDate: 2014-06-10T14:58:14.034+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 16d421fd-4be6-46be-86f5-ef3b2d83c28f
+      hippotranslation:locale: en
+      myproject:description: Sky News report on a South African family who have a
+        hippo living in their house as a pet
+      myproject:link: //www.youtube.com/embed/KWgB1hyOHWc
+      myproject:title: Video example

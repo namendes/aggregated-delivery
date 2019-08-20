@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/gezondheid:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/gezondheid-contentpage
+  hst:lastmodified: 2019-08-20T13:32:20.290+02:00
+  hst:pagetitle: gezondheid

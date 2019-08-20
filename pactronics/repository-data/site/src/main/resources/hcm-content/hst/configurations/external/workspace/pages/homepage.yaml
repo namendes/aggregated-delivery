@@ -25,7 +25,7 @@
   /main:
     jcr:primaryType: hst:containercomponent
     jcr:mixinTypes: ['dxphst:mergeable', 'hippostd:relaxed']
-    hst:lastmodified: 2019-08-19T10:40:57.864+02:00
+    hst:lastmodified: 2019-08-20T13:09:55.373+02:00
     hst:xtype: HST.vBox
     mode: inside
     selector: '#content > section:nth-child(2) > div'
@@ -41,6 +41,6 @@
         document, org.hippoecm.hst.core.component.template, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
         document, org.hippoecm.hst.core.component.template]
       hst:parametervalues: ['off', etos/nagels, 'webfile:/freemarker/hstdefault/essentials-banner.ftl',
-        'off', etos/beauty-banner, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+        'off', shop/nagels, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
       hst:template: essentials-banner
       hst:xtype: hst.item

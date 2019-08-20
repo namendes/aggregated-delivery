@@ -75,11 +75,6 @@ exports.transform = async function (config, processorConfig, input, proxyRes, re
 
                             allCookies = utils.mergeNewCookies(res, setCookie, cookies);
 
-                            //console.log("URL: " + relUrl +  " MARKUP: " + markup);
-                            // TODO add alternative to replace inside
-                            //markup = "<div>gello</div>";  
-                          //  console.log(container.selector + " - " + $(container.selector).attr('class'))
-                            
                             if (container.mode === 'replace') {
                                 //console.log(container.selector);
                                 //REPLACE eveything
@@ -95,9 +90,7 @@ exports.transform = async function (config, processorConfig, input, proxyRes, re
                                 $(container.selector).empty();
                                 $(container.selector).append(markup);
                             }
-                            // $(container.selector).remove();
-                            //  await replaceContainer(container);
-                           // console.log(container);
+                           
                         })
                     }
                     await start();

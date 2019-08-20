@@ -159,7 +159,7 @@ var rootProxy = proxy(
     });
 
 fullConfig.root_urls.forEach(url => {
-    live_app.use(url, rootProxy);
+       live_app.use(url, rootProxy);
 });
 
 // the context defines the inital part, so nothing before this context can be fetched
