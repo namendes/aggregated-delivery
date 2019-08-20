@@ -1,0 +1,14 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:containers/article-detail/main/ProductsGrid:
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+  hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+  hst:label: Products Grid
+  hst:parameternames: [connectorComponent, starterstoreQueryParam_query, starterstoreQueryParam_currentPage,
+    showFacets, connector, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    widgetId, showPagination, locale, starterstoreQueryParam_pageSize, commands]
+  hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+  hst:parametervalues: [productSearch, smart watch, '1', 'off', '', 'off', AgX23W,
+    'off', en, '3', 'customInitContextCommand, personalizationCallCommand, commerceCallCommand']
+  hst:template: starterstore-productlist
+  hst:xtype: hst.item

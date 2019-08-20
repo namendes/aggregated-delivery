@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/ui-extensions/readonly:
+      hipposys:groups: [ecomm, webmaster]

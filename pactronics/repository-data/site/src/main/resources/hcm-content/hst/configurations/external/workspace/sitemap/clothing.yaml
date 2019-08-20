@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/clothing:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/clothing-categorypage
+  hst:lastmodified: 2019-06-25T18:56:36.376+02:00
+  hst:pagetitle: clothing

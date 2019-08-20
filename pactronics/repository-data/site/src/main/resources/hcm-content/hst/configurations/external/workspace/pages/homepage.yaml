@@ -1,0 +1,46 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:pages/homepage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /menu:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable', 'hippostd:relaxed']
+    hst:lastmodified: 2019-08-12T21:34:38.719+02:00
+    hst:xtype: HST.vBox
+    mode: bottom
+    selector: '#modal-navigation'
+    /CategoryMenu:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/category-menu.png
+      hst:label: Category Menu
+      hst:parameternames: [connectorComponent, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        page, locale, menu, commands, org.hippoecm.hst.core.component.template]
+      hst:parametersinfoclassname: org.onehippo.cms7.essentials.components.info.EssentialsMenuComponentInfo
+      hst:parametervalues: [categoriesList, 'off', '1', en, categories, 'initContextCommand,
+          hstMenuCommand', 'webfile:/freemarker/hstdefault/essentials-menu/starterstore-categories-menu.ftl']
+      hst:template: essentials-menu
+      hst:xtype: hst.item
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable', 'hippostd:relaxed']
+    hst:lastmodified: 2019-08-19T10:40:57.864+02:00
+    hst:xtype: HST.vBox
+    mode: inside
+    selector: '#content > section:nth-child(2) > div'
+    /banner:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Banner
+      hst:parameternameprefixes: [unnamed-1556020018490@1566204047, unnamed-1556020018490@1566204047,
+        unnamed-1556020018490@1566204047, '', '', '']
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, org.hippoecm.hst.core.component.template, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', etos/nagels, 'webfile:/freemarker/hstdefault/essentials-banner.ftl',
+        'off', etos/beauty-banner, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+      hst:template: essentials-banner
+      hst:xtype: hst.item

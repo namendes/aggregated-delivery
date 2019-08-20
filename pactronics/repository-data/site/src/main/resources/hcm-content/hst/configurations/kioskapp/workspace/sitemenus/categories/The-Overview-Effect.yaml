@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/kioskapp/hst:workspace/hst:sitemenus/categories/The Overview Effect:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: overview-effect-2
+  hst:repobased: false

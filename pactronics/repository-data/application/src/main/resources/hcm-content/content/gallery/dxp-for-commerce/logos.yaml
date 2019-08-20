@@ -1,0 +1,71 @@
+/content/gallery/dxp-for-commerce/logos:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 3a14f3bf-22ae-49e4-b4f8-3f8dc4dd2a35
+  hippostd:foldertype: [new-pactronics-pactronics-folder]
+  hippostd:gallerytype: ['pactronics:pactronics']
+  /logo.svg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a540131a-dbda-4bfd-bee7-2b231311f7f8
+    hippo:name: logo.svg
+    /logo.svg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:description: ''
+      hippogallery:filename: logo (1).svg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: logo (1).svg
+        hippogallery:height: 11
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxp-for-commerce/logos/logo.svg/logo.svg/thumbnail/thumbnail.bin
+        jcr:lastModified: 2018-08-15T15:28:22.548+02:00
+        jcr:mimeType: image/svg+xml
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 0
+        hippogallery:width: 0
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxp-for-commerce/logos/logo.svg/logo.svg/original/original.bin
+        jcr:lastModified: 2018-08-15T15:28:22.548+02:00
+        jcr:mimeType: image/svg+xml
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 190
+        hippogallery:width: 1000
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxp-for-commerce/logos/logo.svg/logo.svg/desktop/desktop.bin
+        jcr:lastModified: 2019-04-26T12:37:05.988+02:00
+        jcr:mimeType: image/svg+xml
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 152
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxp-for-commerce/logos/logo.svg/logo.svg/laptop/laptop.bin
+        jcr:lastModified: 2019-04-26T12:37:06.002+02:00
+        jcr:mimeType: image/svg+xml
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxp-for-commerce/logos/logo.svg/logo.svg/tablet/tablet.bin
+        jcr:lastModified: 2019-04-26T12:37:06.004+02:00
+        jcr:mimeType: image/svg+xml
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 76
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxp-for-commerce/logos/logo.svg/logo.svg/mobile/mobile.bin
+        jcr:lastModified: 2019-04-26T12:37:06.006+02:00
+        jcr:mimeType: image/svg+xml

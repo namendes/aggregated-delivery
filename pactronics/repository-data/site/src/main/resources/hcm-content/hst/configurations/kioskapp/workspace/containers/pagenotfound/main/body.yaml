@@ -1,0 +1,17 @@
+/hst:hst/hst:configurations/kioskapp/hst:workspace/hst:containers/pagenotfound/main/body:
+  jcr:primaryType: hst:containercomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:label: Body
+  hst:lastmodified: 2019-05-08T14:57:33.810-07:00
+  hst:xtype: hst.vbox
+  /banner:
+    jcr:primaryType: hst:containeritemcomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+    hst:iconpath: images/essentials/catalog-component-icons/banner.png
+    hst:label: Banner
+    hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+      document, org.hippoecm.hst.core.component.template]
+    hst:parametervalues: ['off', banners/articles/smart-watch-buying-guide, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+    hst:template: essentials-banner
+    hst:xtype: hst.item

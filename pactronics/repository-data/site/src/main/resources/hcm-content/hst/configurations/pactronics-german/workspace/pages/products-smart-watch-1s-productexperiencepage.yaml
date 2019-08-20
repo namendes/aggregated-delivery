@@ -1,0 +1,25 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:pages/products-smart-watch-1s-productexperiencepage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2018-11-29T10:30:34.495+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2018-11-29T10:30:46.823+01:00
+    hst:xtype: hst.vbox
+    /ProductsHighlight:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+      hst:label: Products Highlight
+      hst:parameternames: [connectorComponent, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, page, locale, commands]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductDecoratorInfo
+      hst:parametervalues: [productDetail, 'off', products/smart-watch-1s, '1', en,
+        'initContextCommand, cartCreateCommand, cartProductListCommand, cartProductAddCommand,
+          contentSingleDecoratorCommand']
+      hst:template: starterstore-productcontentenricher
+      hst:xtype: hst.item

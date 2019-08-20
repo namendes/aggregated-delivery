@@ -1,0 +1,13 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kioskapp/hst:pages/cart:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        /intro:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: cart/main/intro
+        /closing:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: cart/main/closing

@@ -1,0 +1,29 @@
+
+<bre-render-cms-component [path]="'header'" [renderComponent]="starterstoreHeaderComponent"></bre-render-cms-component>
+
+<div class="container">
+  <div class="row" style="padding-top:70px;">
+    <div class="col-md-12">
+      <bre-render-cms-component [path]="'main/intro'"></bre-render-cms-component>
+    </div>
+  </div>
+  <div class="row" style="padding-top:20px;">
+    <div class="col-md-10">
+      <bre-render-cms-component [path]="'main/body'"></bre-render-cms-component>
+    </div>
+    <div class="col-md-2">
+      <button class="btn" (click)="findCart()" style="width:95%;">Find My Cart</button>
+      <button class="btn" (click)="shopStore()" style="width:95%;">Shop the Store</button>
+      <button class="btn" (click)="openChat()" style="width:95%;">Open Chat</button>
+      <button class="btn" (click)="getHelp()" style="width:95%;">Get Associate</button>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <div class="row" style="padding-top:20px">
+    <div class="col-md-12">
+      <bre-render-cms-component [path]="'main/closing'"></bre-render-cms-component>
+    </div>
+  </div>
+</div>
+
+<app-base-footer></app-base-footer>

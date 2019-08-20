@@ -1,0 +1,4 @@
+/content/gallery/beauty-products.jpg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 5b8fbda9-5664-497f-a23f-25bcb919bcd5

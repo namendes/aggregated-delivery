@@ -1,0 +1,20 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/signin-contentpage:
+      jcr:primaryType: hst:component
+      hst:lastmodified: 2018-10-24T17:03:37.387-04:00
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:containercomponent
+        hst:label: Content Page Main
+        hst:lastmodified: 2018-10-24T17:04:04.483-04:00
+        hst:xtype: hst.vbox
+        /LoginForm:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.LoginFormComponent
+          hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+          hst:label: Login form
+          hst:parameternames: [connectorComponent]
+          hst:parametervalues: [authenticateCustomer]
+          hst:template: starterstore-login-form
+          hst:xtype: hst.item

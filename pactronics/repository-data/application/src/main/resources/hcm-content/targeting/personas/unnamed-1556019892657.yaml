@@ -1,0 +1,20 @@
+/targeting:targeting/targeting:personas/unnamed-1556019892657:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1556019892657-alterego
+  targeting:avatar: image-1556291048557
+  targeting:description: ''
+  targeting:name: Maria
+  targeting:quote: ''
+  targeting:segmentDescription: ''
+  targeting:segmentName: GoPro
+  /targeting:expression:
+    jcr:primaryType: targeting:rule
+    targeting:targetgroup: commerceBrands/gopro-1556019525016
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p10.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1556019892657/avatar/p10.png
+    jcr:lastModified: 2019-04-26T17:04:08.557+02:00
+    jcr:mimeType: image/png

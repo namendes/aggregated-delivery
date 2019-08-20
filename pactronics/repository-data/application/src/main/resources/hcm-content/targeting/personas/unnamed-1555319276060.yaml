@@ -1,0 +1,20 @@
+/targeting:targeting/targeting:personas/unnamed-1555319276060:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1555319276060-alterego
+  targeting:avatar: image-1556290811604
+  targeting:description: ''
+  targeting:name: Seppo
+  targeting:quote: ''
+  targeting:segmentDescription: ''
+  targeting:segmentName: Polar
+  /targeting:expression:
+    jcr:primaryType: targeting:rule
+    targeting:targetgroup: commerceBrands/interestedinpolar-1555319190004
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p7.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1555319276060/avatar/p7.png
+    jcr:lastModified: 2019-04-26T17:00:11.604+02:00
+    jcr:mimeType: image/png

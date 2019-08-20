@@ -1,0 +1,54 @@
+/content/urlrewriter/proxy/proxy-svg:
+  .meta:order-before: proxy-preview-new
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 12c03faa-f5f5-439b-a6ae-bea2c96d239d
+  hippo:name: proxy (svg)
+  hippo:versionHistory: 74889af1-65b6-452e-a1cf-f20543de73f5
+  /proxy-svg[1]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: dcc64e7e-398c-4b32-a68e-27a76cba60c6
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-06-20T12:10:10.225+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-20T16:00:12.726+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2008-03-26T12:03:00+01:00
+    urlrewriter:rule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>SVG\
+      \ Assets preview</name> \r\n<from>^/en(.*)</from> \r\n<to type=\"proxy\" last=\"\
+      true\" qsappend=\"true\">http://localhost:3000$1</to> \r\n<condition type=\"\
+      request-uri\" operator=\"equal\">\\.svg</condition> \r\n<set type=\"response-header\"\
+      \ name=\"Content-Type\">image/svg+xml</set>\r\n</rule>"
+  /proxy-svg[2]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 8b1ff241-dc05-46d7-b627-6a3d13af76f3
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-06-20T12:10:10.225+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-20T16:00:16.433+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>SVG\
+      \ Assets preview</name> \r\n<from>^/en(.*)</from> \r\n<to type=\"proxy\" last=\"\
+      true\" qsappend=\"true\">http://localhost:3000$1</to> \r\n<condition type=\"\
+      request-uri\" operator=\"equal\">\\.svg</condition> \r\n<set type=\"response-header\"\
+      \ name=\"Content-Type\">image/svg+xml</set>\r\n</rule>"
+  /proxy-svg[3]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: b684d8f4-8346-4f9a-9e7f-e1babeaad668
+    hippo:availability: []
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-06-20T12:10:10.225+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-20T16:00:16.433+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-06-20T16:00:17.810+02:00
+    urlrewriter:rule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>SVG\
+      \ Assets preview</name> \r\n<from>^/en(.*)</from> \r\n<to type=\"proxy\" last=\"\
+      true\" qsappend=\"true\">http://localhost:3000$1</to> \r\n<condition type=\"\
+      request-uri\" operator=\"equal\">\\.svg</condition> \r\n<set type=\"response-header\"\
+      \ name=\"Content-Type\">image/svg+xml</set>\r\n</rule>"

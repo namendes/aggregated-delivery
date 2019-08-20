@@ -1,0 +1,167 @@
+/content/documents/pactronics-german/videos:
+  .meta:order-before: services
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 63a8c545-5532-4903-8542-24b9d3cd7653
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 29755de4-a644-4208-b199-8e30be6447f8
+  hippotranslation:locale: de
+  /video-example:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 6a2cdd70-d5ba-40f2-adb5-6f246912cfc8
+    hippo:name: Video example
+    hippo:versionHistory: 7b3019f8-d9cc-4fef-bdc4-7ed4c20440a2
+    /video-example[1]:
+      jcr:primaryType: pactronics:video
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 48c036b8-d63f-48c3-8968-83bb7068c3eb
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-10T14:30:23.582+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:20:16.077+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c471677d-34b0-4d3c-91bd-b38f1c6e1f14
+      hippotranslation:locale: de
+      pactronics:description: Sky News report on a South African family who have a
+        hippo living in their house as a pet
+      pactronics:link: //www.youtube.com/embed/Mlt7W6QDqvI
+      pactronics:title: Video example
+    /video-example[2]:
+      jcr:primaryType: pactronics:video
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bb6a90a8-69ee-4b39-a65b-b61488a303bd
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-10T14:30:23.582+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:20:16.117+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c471677d-34b0-4d3c-91bd-b38f1c6e1f14
+      hippotranslation:locale: de
+      pactronics:description: Sky News report on a South African family who have a
+        hippo living in their house as a pet
+      pactronics:link: //www.youtube.com/embed/Mlt7W6QDqvI
+      pactronics:title: Video example
+    /video-example[3]:
+      jcr:primaryType: pactronics:video
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6b7c795d-b38a-4691-a4dc-f019b1460c0a
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-10T14:30:23.582+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:20:16.077+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:07.446+02:00
+      hippotranslation:id: c471677d-34b0-4d3c-91bd-b38f1c6e1f14
+      hippotranslation:locale: de
+      pactronics:description: Sky News report on a South African family who have a
+        hippo living in their house as a pet
+      pactronics:link: //www.youtube.com/embed/Mlt7W6QDqvI
+      pactronics:title: Video example
+  /best-smartwatches-2018:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 062d0d86-3fb4-4861-9621-967febca42f3
+    hippo:name: Best Smartwatches 2018
+    hippo:versionHistory: c7438c2c-4831-4f7b-a02e-ac8f9de2c900
+    /best-smartwatches-2018[1]:
+      jcr:primaryType: pactronics:video
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 4e0bc9e0-1937-47fc-b446-c71041d06420
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-30T12:43:46.868+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:20:26.140+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b346af25-bff5-42ec-949f-821cc4e8f309
+      hippotranslation:locale: de
+      pactronics:description: ''
+      pactronics:link: https://www.youtube.com/embed/v17TLuJlioU
+      pactronics:title: Best Smartwatches 2018
+    /best-smartwatches-2018[2]:
+      jcr:primaryType: pactronics:video
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 459f7fb8-848d-4a17-9358-609bbeab70dd
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-30T12:43:46.868+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:20:26.173+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b346af25-bff5-42ec-949f-821cc4e8f309
+      hippotranslation:locale: de
+      pactronics:description: ''
+      pactronics:link: https://www.youtube.com/embed/v17TLuJlioU
+      pactronics:title: Best Smartwatches 2018
+    /best-smartwatches-2018[3]:
+      jcr:primaryType: pactronics:video
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 38d47002-53d5-4507-93c5-0429a2b1544b
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-30T12:43:46.868+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:20:26.140+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:07.510+02:00
+      hippotranslation:id: b346af25-bff5-42ec-949f-821cc4e8f309
+      hippotranslation:locale: de
+      pactronics:description: ''
+      pactronics:link: https://www.youtube.com/embed/v17TLuJlioU
+      pactronics:title: Best Smartwatches 2018
+  /baumgarter:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 38e42422-8167-4b7b-9c97-8721d0e5432f
+    hippo:name: Baumgarter
+    hippo:versionHistory: 2f289c30-59ad-4f3a-b8f4-9f45d69b3cd8
+    /baumgarter[1]:
+      jcr:primaryType: pactronics:video
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 43269a7c-216d-42be-a3da-e8a6e736ce55
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-10T08:18:19.708+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:20:40.044+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d9b6c837-5263-4bc4-a5d2-c45b33aa097f
+      hippotranslation:locale: de
+      pactronics:description: ''
+      pactronics:link: //www.youtube.com/embed/7f-K-XnHi9I?t=212
+      pactronics:title: ''
+    /baumgarter[2]:
+      jcr:primaryType: pactronics:video
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b901199e-bdcc-4827-8491-71c64a5df231
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-10T08:18:19.708+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:20:40.152+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d9b6c837-5263-4bc4-a5d2-c45b33aa097f
+      hippotranslation:locale: de
+      pactronics:description: ''
+      pactronics:link: //www.youtube.com/embed/7f-K-XnHi9I?t=212
+      pactronics:title: ''
+    /baumgarter[3]:
+      jcr:primaryType: pactronics:video
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b8b00d18-e4f2-4cfe-a101-34ca2abc0d7b
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-10T08:18:19.708+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:20:40.044+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:06.338+02:00
+      hippotranslation:id: d9b6c837-5263-4bc4-a5d2-c45b33aa097f
+      hippotranslation:locale: de
+      pactronics:description: ''
+      pactronics:link: //www.youtube.com/embed/7f-K-XnHi9I?t=212
+      pactronics:title: ''

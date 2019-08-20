@@ -1,0 +1,416 @@
+/content/documents/pactronics/shop:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 28412209-05e4-40ce-85ef-f6d9124322a5
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 4c60de4e-26a8-46ed-a74f-9ec688aa8f3c
+  hippotranslation:locale: en
+  /beauty-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: f1a0e7aa-dbeb-4802-bcc1-f719f7191a19
+    hippo:name: beauty banner
+    hippo:versionHistory: a31628bf-59d8-497f-9243-a04520caedb8
+    /beauty-banner[1]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 98075353-6cac-4f6d-9a8f-21b38fd34e00
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:23:16.782+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T14:36:32.246+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 2a45c68b-1fc7-4b24-8339-65ea4ce988a6
+      hippotranslation:locale: en
+      pactronics:bynderImage: ''
+      pactronics:externalLink: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <h2 style="text-align:center">Waar ben je naar op zoek?</h2>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 5b8fbda9-5664-497f-a23f-25bcb919bcd5
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /beauty-banner[2]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 62cf69e8-7528-46b5-b711-8e34b2f66c5e
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:23:16.782+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T12:32:44.505+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 2a45c68b-1fc7-4b24-8339-65ea4ce988a6
+      hippotranslation:locale: en
+      pactronics:bynderImage: ''
+      pactronics:externalLink: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <h2 style="text-align:center">Waar ben je naar op zoek?</h2>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 5b8fbda9-5664-497f-a23f-25bcb919bcd5
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /beauty-banner[3]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3aab1774-b1fd-4552-8b24-c6f53367fe0a
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:23:16.782+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T12:32:44.505+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-08-12T12:32:46.041+02:00
+      hippotranslation:id: 2a45c68b-1fc7-4b24-8339-65ea4ce988a6
+      hippotranslation:locale: en
+      pactronics:bynderImage: ''
+      pactronics:externalLink: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <h2 style="text-align:center">Waar ben je naar op zoek?</h2>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 5b8fbda9-5664-497f-a23f-25bcb919bcd5
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /nagels:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 418b4793-9ee1-4272-a231-b13873f9a49f
+    hippo:name: Nagels
+    hippo:versionHistory: 347c5724-1961-47ca-8665-a51683dd645d
+    /nagels[1]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 56fa0714-0e82-4bba-a2f4-b2864f7068b6
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:32:55.402+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T21:19:40.943+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a75cc437-3a0d-4c9a-b564-29ea9dc9ce97
+      hippotranslation:locale: en
+      pactronics:bynderImage: ''
+      pactronics:externalLink: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <h1><strong>Hoe doe je zelf&nbsp;een manicure?</strong></h1>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: a716e692-ebce-4289-9de1-b4d258e68008
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 16a2ed8d-fd8c-47f0-a368-8ec20c140dff
+    /nagels[2]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 466558b6-0a30-4c51-843e-1a57c0e37096
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:32:55.402+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T21:19:37.946+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a75cc437-3a0d-4c9a-b564-29ea9dc9ce97
+      hippotranslation:locale: en
+      pactronics:bynderImage: ''
+      pactronics:externalLink: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <h1><strong>Hoe doe je zelf&nbsp;een manicure?</strong></h1>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: a716e692-ebce-4289-9de1-b4d258e68008
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 16a2ed8d-fd8c-47f0-a368-8ec20c140dff
+    /nagels[3]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5eebab25-b64b-4cf4-920c-640a5e4564d7
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:32:55.402+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T21:19:37.946+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-08-12T21:19:40.793+02:00
+      hippotranslation:id: a75cc437-3a0d-4c9a-b564-29ea9dc9ce97
+      hippotranslation:locale: en
+      pactronics:bynderImage: ''
+      pactronics:externalLink: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <h1><strong>Hoe doe je zelf&nbsp;een manicure?</strong></h1>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: a716e692-ebce-4289-9de1-b4d258e68008
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 16a2ed8d-fd8c-47f0-a368-8ec20c140dff
+  /nail-polish-remover:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: fa856a08-242b-42bf-81c5-830d275b6649
+    hippo:name: nail polish remover
+    hippo:versionHistory: f5762ec0-717c-4c61-ac3c-4852f8899dfe
+    /nail-polish-remover[1]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7e2a3781-1e89-44e9-9029-45e832d46167
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:34:19.271+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T12:45:49.894+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d1ae978e-4a2d-493c-953a-4e732a360841
+      hippotranslation:locale: en
+      pactronics:introduction: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h3>Productomschrijving:</h3>
+
+          <p><br />
+          We hebben een onderscheidende en dynamische positie in de markt gemarkeerd door een hoogwaardige nagellakverwijderaar te bieden. Geschikt voor het verwijderen van nagellak, ons hele assortiment wordt verwerkt met behulp van kwalitatieve chemische verbindingen en geavanceerde technologie aan het einde van de leverancier. Afgezien hiervan bieden we onze producten in verschillende verpakkingsopties en tegen betaalbare prijzen aan onze klanten.</p>
+
+          <p>&nbsp;</p>
+
+          <h3>Kenmerken:</h3>
+
+          <ul>
+           <li>
+           <pre>
+          Vlek de nagel niet</pre>
+           </li>
+           <li>
+           <pre>
+          Niet giftig</pre>
+           </li>
+           <li>
+           <pre>
+          Veilig gebruik</pre>
+           </li>
+          </ul>
+
+          <p>&nbsp;</p>
+    /nail-polish-remover[2]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 916a3ffa-4b17-4f9a-bbb7-344111deac98
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:34:19.271+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T12:45:46.782+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d1ae978e-4a2d-493c-953a-4e732a360841
+      hippotranslation:locale: en
+      pactronics:introduction: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h3>Productomschrijving:</h3>
+
+          <p><br />
+          We hebben een onderscheidende en dynamische positie in de markt gemarkeerd door een hoogwaardige nagellakverwijderaar te bieden. Geschikt voor het verwijderen van nagellak, ons hele assortiment wordt verwerkt met behulp van kwalitatieve chemische verbindingen en geavanceerde technologie aan het einde van de leverancier. Afgezien hiervan bieden we onze producten in verschillende verpakkingsopties en tegen betaalbare prijzen aan onze klanten.</p>
+
+          <p>&nbsp;</p>
+
+          <h3>Kenmerken:</h3>
+
+          <ul>
+           <li>
+           <pre>
+          Vlek de nagel niet</pre>
+           </li>
+           <li>
+           <pre>
+          Niet giftig</pre>
+           </li>
+           <li>
+           <pre>
+          Veilig gebruik</pre>
+           </li>
+          </ul>
+
+          <p>&nbsp;</p>
+    /nail-polish-remover[3]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2c44a57d-04a9-421f-807a-6eaa8c5230f3
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:34:19.271+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T12:45:46.782+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-08-12T12:45:49.832+02:00
+      hippotranslation:id: d1ae978e-4a2d-493c-953a-4e732a360841
+      hippotranslation:locale: en
+      pactronics:introduction: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h3>Productomschrijving:</h3>
+
+          <p><br />
+          We hebben een onderscheidende en dynamische positie in de markt gemarkeerd door een hoogwaardige nagellakverwijderaar te bieden. Geschikt voor het verwijderen van nagellak, ons hele assortiment wordt verwerkt met behulp van kwalitatieve chemische verbindingen en geavanceerde technologie aan het einde van de leverancier. Afgezien hiervan bieden we onze producten in verschillende verpakkingsopties en tegen betaalbare prijzen aan onze klanten.</p>
+
+          <p>&nbsp;</p>
+
+          <h3>Kenmerken:</h3>
+
+          <ul>
+           <li>
+           <pre>
+          Vlek de nagel niet</pre>
+           </li>
+           <li>
+           <pre>
+          Niet giftig</pre>
+           </li>
+           <li>
+           <pre>
+          Veilig gebruik</pre>
+           </li>
+          </ul>
+
+          <p>&nbsp;</p>
+  /polish-promo:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b95a1864-843c-4004-b6c2-54ca0f29275f
+    hippo:name: polish promo
+    hippo:versionHistory: f7d23113-496d-44f3-90ce-68f806d46134
+    /polish-promo[1]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: df64eb13-0026-401c-bb01-2c5019bfb1f7
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:41:53.927+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T12:46:10.318+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8196c116-578b-44ba-aed6-e53355e828d3
+      hippotranslation:locale: en
+      pactronics:bynderImage: ''
+      pactronics:externalLink: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <h3>Aanbieding bij&nbsp;<strong>Etos</strong></h3>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 82f5ae10-7b9f-438b-be93-fc2830beccc3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /polish-promo[2]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 1fbb0154-8cf6-44b6-a46c-b1a6abb2de4f
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:41:53.927+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T12:46:07.385+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8196c116-578b-44ba-aed6-e53355e828d3
+      hippotranslation:locale: en
+      pactronics:bynderImage: ''
+      pactronics:externalLink: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <h3>Aanbieding bij&nbsp;<strong>Etos</strong></h3>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 82f5ae10-7b9f-438b-be93-fc2830beccc3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /polish-promo[3]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5fd81bf3-c430-4761-ae89-85a35174c359
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-08-12T12:41:53.927+02:00
+      hippostdpubwf:lastModificationDate: 2019-08-12T12:46:07.385+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-08-12T12:46:10.259+02:00
+      hippotranslation:id: 8196c116-578b-44ba-aed6-e53355e828d3
+      hippotranslation:locale: en
+      pactronics:bynderImage: ''
+      pactronics:externalLink: ''
+      pactronics:title: ''
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <h3>Aanbieding bij&nbsp;<strong>Etos</strong></h3>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 82f5ae10-7b9f-438b-be93-fc2830beccc3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

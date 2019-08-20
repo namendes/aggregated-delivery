@@ -1,0 +1,3 @@
+/hst:hst/hst:sites/pactronics-german:
+  jcr:primaryType: hst:site
+  hst:content: /content/documents/pactronics-german

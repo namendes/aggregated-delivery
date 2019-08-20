@@ -1,0 +1,52 @@
+? /hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:pages/the-ultimate-moon-jumping-smartwatch-productexperiencepage
+: jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2019-01-10T08:44:55.666+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-01-10T08:46:47.083+01:00
+    hst:xtype: hst.vbox
+    /ProductsHighlight:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+      hst:label: Products Highlight
+      hst:parameternames: [connectorComponent, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, page, locale, commands]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductDecoratorInfo
+      hst:parametervalues: [productDetail, 'off', products/samsung-sm-r3800gnaxar-gear-2,
+        '1', en, 'initContextCommand, cartCreateCommand, cartProductListCommand, cartProductAddCommand,
+          contentSingleDecoratorCommand']
+      hst:template: starterstore-productcontentenricher
+      hst:xtype: hst.item
+    /videocomponent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsVideoComponent
+      hst:iconpath: images/essentials/catalog-component-icons/video.png
+      hst:label: Video
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, width, org.hippoecm.hst.core.component.template, height]
+      hst:parametervalues: ['off', videos/baumgarter, '1100', 'webfile:/freemarker/hstdefault/video-component/bare.ftl',
+        '700']
+      hst:template: video-component
+      hst:xtype: hst.item
+    /MoreLikeThis:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/more-like-this.png
+      hst:label: More Like This
+      hst:parameternames: [connectorComponent, productId, starterstoreQueryParam_offset,
+        com.onehippo.cms7.targeting.TargetingParameterUtil.hide, showPagination, locale,
+        starterstoreQueryParam_pageSize, commands, org.hippoecm.hst.core.component.template]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.MoreLikeThisComponentInfo
+      hst:parametervalues: [moreLikeThis, p10308, '1', 'off', 'off', en, '9', 'initContextCommand,
+          cartCreateCommand, cartProductListCommand, cartProductAddCommand, personalizationCallCommand,
+          pageableCommand', 'webfile:/freemarker/pactronics/morelikethis.ftl']
+      hst:template: morelikethis
+      hst:xtype: hst.item

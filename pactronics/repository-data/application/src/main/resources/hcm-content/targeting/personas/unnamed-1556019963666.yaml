@@ -1,0 +1,20 @@
+/targeting:targeting/targeting:personas/unnamed-1556019963666:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1556019963666-alterego
+  targeting:avatar: image-1556290867327
+  targeting:description: ''
+  targeting:name: Joseph
+  targeting:quote: ''
+  targeting:segmentDescription: ''
+  targeting:segmentName: Motorola
+  /targeting:expression:
+    jcr:primaryType: targeting:rule
+    targeting:targetgroup: commerceBrands/motorola-1556019755549
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p8.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1556019963666/avatar/p8.png
+    jcr:lastModified: 2019-04-26T17:01:07.327+02:00
+    jcr:mimeType: image/png

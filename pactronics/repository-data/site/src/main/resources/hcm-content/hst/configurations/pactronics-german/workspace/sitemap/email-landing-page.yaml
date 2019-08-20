@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:sitemap/email-landing-page:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/email-landing-page-contentpage
+  hst:lastmodified: 2019-01-02T19:44:32.911+01:00
+  hst:pagetitle: Email Landing Page

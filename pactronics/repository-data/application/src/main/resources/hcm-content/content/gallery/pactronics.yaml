@@ -1,0 +1,8 @@
+/content/gallery/pactronics:
+  .meta:order-before: channels
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 3d2af1b0-8dd0-41e1-8d56-6aacb8a040b5
+  hippo:name: Pactronics
+  hippostd:foldertype: [new-pactronics-pactronics-folder]
+  hippostd:gallerytype: ['pactronics:pactronics']

@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-catalog/hst:components/thematicComponent:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.bloomreach.brxforc.ThematicExtendedComponent
+      hst:parameternames: [fields, max_results_per_page, account_id, domain_key, sc2_mode,
+        request_type, default_separator]
+      hst:parametervalues: ['pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,
+          reviews, reviews_count', '9', '6212', pactronics, 'True', thematic, '-']

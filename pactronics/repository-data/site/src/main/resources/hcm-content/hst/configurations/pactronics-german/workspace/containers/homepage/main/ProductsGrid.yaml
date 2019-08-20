@@ -1,0 +1,29 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:containers/homepage/main/ProductsGrid:
+  .meta:order-before: MoreLikeThis
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+  hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+  hst:label: Products Grid
+  hst:parameternameprefixes: ['@1553019223$["and",{"returningvisitor":"returningvisitor"}]',
+    '@1553019223$["and",{"returningvisitor":"returningvisitor"}]', '@1553019223$["and",{"returningvisitor":"returningvisitor"}]',
+    '@1553019223$["and",{"returningvisitor":"returningvisitor"}]', '@1553019223$["and",{"returningvisitor":"returningvisitor"}]',
+    '@1553019223$["and",{"returningvisitor":"returningvisitor"}]', '@1553019223$["and",{"returningvisitor":"returningvisitor"}]',
+    '', '', '', '', '', '', '', '', '', '', '', '@1553019437$["and",{"returningvisitor":"returningvisitor"}]',
+    '@1553019437$["and",{"returningvisitor":"returningvisitor"}]', '@1553019437$["and",{"returningvisitor":"returningvisitor"}]',
+    '@1553019437$["and",{"returningvisitor":"returningvisitor"}]', '@1553019437$["and",{"returningvisitor":"returningvisitor"}]',
+    '@1553019437$["and",{"returningvisitor":"returningvisitor"}]', '@1553019437$["and",{"returningvisitor":"returningvisitor"}]']
+  hst:parameternames: [starterstoreQueryParam_query, showFacets, connector, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    widgetId, showPagination, starterstoreQueryParam_pageSize, connectorComponent,
+    starterstoreQueryParam_query, starterstoreQueryParam_currentPage, showFacets,
+    connector, com.onehippo.cms7.targeting.TargetingParameterUtil.hide, widgetId,
+    showPagination, locale, starterstoreQueryParam_pageSize, commands, starterstoreQueryParam_query,
+    showFacets, connector, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    widgetId, showPagination, starterstoreQueryParam_pageSize]
+  hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+  hst:parametervalues: [smart watches, 'off', '', 'off', '38', 'off', '3', productSearch,
+    smart watch, '1', 'off', '', 'off', '38', 'off', en, '3', 'customInitContextCommand,cartCreateCommand,
+      cartProductListCommand, cartProductAddCommand, personalizationCallCommand, commerceCallCommand,
+      pageableCommand', sunglasses, 'off', '', 'off', '', 'off', '3']
+  hst:template: starterstore-productlist
+  hst:xtype: hst.item

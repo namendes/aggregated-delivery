@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:sitemenus/categories/Guides:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: articles
+  hst:repobased: false

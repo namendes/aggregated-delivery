@@ -1,0 +1,180 @@
+{
+
+  "consumer1": {
+    "rate": 20,
+    "ips": [],
+    "pages": [
+      "/products/p10359",
+      "/products/p10015",
+      "/products/p10489",
+      "/products/p10359"
+   ],
+    "conversions": [
+      {
+        "from": "/products/p10359",
+        "to": "/products/p10072",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10015",
+        "to": "/products/p10072",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10489",
+        "to": "/products/p10072",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10359",
+        "to": "/products/p10072",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      }
+   ],
+    "frequency": {
+      "daily": [ 1, 1, 1],
+      "weekly": [ 10, 10, 10, 10, 10, 10, 10]
+    }
+  },
+
+  "consumer2": {
+    "rate": 15,
+    "ips": [],
+    "pages": [
+      "/products/p10028",
+      "/products/p10207",
+      "/products/p10442",
+      "/products/p10305"
+   ],
+    "conversions": [
+      {
+        "from": "/products/p10028",
+        "to": "/products/p10569",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10207",
+        "to": "/products/p10569",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10442",
+        "to": "/products/p10569",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10305",
+        "to": "/products/p10569",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      }
+   ],
+    "frequency": {
+      "daily": [ 1, 1, 1],
+      "weekly": [ 10, 10, 10, 10, 10, 10, 10]
+    }
+  },
+  "consumer3": {
+    "rate": 5,
+    "ips": [],
+    "pages": [
+      "/products/p10491",
+      "/products/p10052",
+      "/products/p10500",
+      "/products/p10494"
+   ],
+    "conversions": [
+      {
+        "from": "/products/p10491",
+        "to": "/products/p10439",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10052",
+        "to": "/products/p10439",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10500",
+        "to": "/products/p10439",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10494",
+        "to": "/products/p10439",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      }
+   ],
+    "frequency": {
+      "daily": [ 1, 1, 1],
+      "weekly": [ 10, 10, 10, 10, 10, 10, 10]
+    }
+  },
+  "consumer4": {
+    "rate": 10,
+    "ips": [],
+    "pages": [
+      "/products/p10207",
+      "/products/p10057",
+      "/products/p10073",
+      "/products/p10356"
+   ],
+    "conversions": [
+      {
+        "from": "/products/p10207",
+        "to": "/products/p10016",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10057",
+        "to": "/products/p10016",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10073",
+        "to": "/products/p10016",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      },
+      {
+        "from": "/products/p10356",
+        "to": "/products/p10016",
+        "text": "fake-text",
+        "rateNoMatch": 1.0,
+        "rateMatch": 0
+      }
+   ],
+    "frequency": {
+      "daily": [ 1, 1, 1],
+      "weekly": [ 10, 1, 1, 1, 1, 1, 1]
+    }
+  }
+}

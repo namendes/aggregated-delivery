@@ -1,0 +1,54 @@
+/content/documents/administration/spa:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 3a224e0d-a795-4bf7-90bb-baf281e3f3a5
+  hippostd:foldertype: [new-resource-bundle, new-untranslated-folder]
+  /kiosk-config:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: f5f71e7a-96b4-4ca1-9ce6-c2250f9ffd8e
+    hippo:name: kiosk config
+    hippo:versionHistory: 68ef903a-04fe-4494-a7eb-5bd0289f1c9d
+    /kiosk-config[1]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 55d06673-63e4-439c-b5c3-9a7113a0f333
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-25T14:43:27.548+02:00
+      hippostdpubwf:lastModificationDate: 2019-06-04T09:06:58.748+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '']
+      resourcebundle:id: spa.config.kiosk
+      resourcebundle:keys: [baseUrl.localhost, baseUrl.production]
+      resourcebundle:messages: ['http://localhost:8080/kiosk-app', 'https://pactronics-poc.onehippo.io/site/kiosk']
+    /kiosk-config[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 492d521a-31d9-4493-b019-60cc5e0a96ff
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-25T14:43:27.548+02:00
+      hippostdpubwf:lastModificationDate: 2019-06-04T09:07:27.988+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '']
+      resourcebundle:id: spa.config.kiosk
+      resourcebundle:keys: [baseUrl.localhost, baseUrl.production]
+      resourcebundle:messages: ['http://localhost:8080/kiosk-app', 'https://pactronics-poc.onehippo.io/site/kiosk']
+    /kiosk-config[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5565418d-5d9c-48e9-bbba-4bb85f53d04f
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-25T14:43:27.548+02:00
+      hippostdpubwf:lastModificationDate: 2019-06-04T09:07:27.988+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-06-04T09:07:29.646+02:00
+      resourcebundle:descriptions: ['', '']
+      resourcebundle:id: spa.config.kiosk
+      resourcebundle:keys: [baseUrl.localhost, baseUrl.production]
+      resourcebundle:messages: ['http://localhost:8080/kiosk-app', 'https://pactronics-poc.onehippo.io/site/kiosk']

@@ -1,0 +1,199 @@
+/content/gallery/pactronics/logos:
+  .meta:order-before: articles
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 86c5e462-d7c4-43ce-a3d6-7a2c584f6974
+  hippostd:foldertype: [new-pactronics-pactronics-folder]
+  hippostd:gallerytype: ['pactronics:pactronics']
+  /logo.svg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d198ef0b-7db6-4007-9684-a996be4c77b8
+    hippo:name: logo.svg
+    /logo.svg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:description: ''
+      hippogallery:filename: logo (1).svg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: logo (1).svg
+        hippogallery:height: 11
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/logo.svg/logo.svg/thumbnail/thumbnail.bin
+        jcr:lastModified: 2018-08-15T15:28:22.548+02:00
+        jcr:mimeType: image/svg+xml
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 0
+        hippogallery:width: 0
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/logo.svg/logo.svg/original/original.bin
+        jcr:lastModified: 2018-08-15T15:28:22.548+02:00
+        jcr:mimeType: image/svg+xml
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 190
+        hippogallery:width: 1000
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/logo.svg/logo.svg/desktop/desktop.bin
+        jcr:lastModified: 2019-04-26T12:37:10.597+02:00
+        jcr:mimeType: image/svg+xml
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 152
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/logo.svg/logo.svg/laptop/laptop.bin
+        jcr:lastModified: 2019-04-26T12:37:10.598+02:00
+        jcr:mimeType: image/svg+xml
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/logo.svg/logo.svg/tablet/tablet.bin
+        jcr:lastModified: 2019-04-26T12:37:10.600+02:00
+        jcr:mimeType: image/svg+xml
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 76
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/logo.svg/logo.svg/mobile/mobile.bin
+        jcr:lastModified: 2019-04-26T12:37:10.602+02:00
+        jcr:mimeType: image/svg+xml
+  /pactronics_logo.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: a1dc45be-ae97-4bb0-a7ae-edcd3720e036
+    /pactronics_logo.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:description: ''
+      hippogallery:filename: pactronics_logo.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: pactronics_logo.png
+        hippogallery:height: 14
+        hippogallery:width: 59
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics_logo.png/pactronics_logo.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-01-17T11:50:15.130+05:30
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 192
+        hippogallery:width: 804
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics_logo.png/pactronics_logo.png/original/original.png
+        jcr:lastModified: 2019-01-17T11:50:27.033+05:30
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 192
+        hippogallery:width: 804
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics_logo.png/pactronics_logo.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T12:37:11.752+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 191
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics_logo.png/pactronics_logo.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T12:37:11.774+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 143
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics_logo.png/pactronics_logo.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T12:37:11.806+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 95
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics_logo.png/pactronics_logo.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T12:37:11.829+02:00
+        jcr:mimeType: image/png
+  /pactronics-logo-small.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 7e75df5a-2bf2-462c-855f-703bf8d80e4d
+    /pactronics-logo-small.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: logo-small.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: logo-small.png
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics-logo-small.png/pactronics-logo-small.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-01-17T14:39:47.100+01:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 48
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics-logo-small.png/pactronics-logo-small.png/original/original.png
+        jcr:lastModified: 2019-01-17T14:39:47.100+01:00
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 48
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics-logo-small.png/pactronics-logo-small.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T12:37:11.695+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 48
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics-logo-small.png/pactronics-logo-small.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T12:37:11.715+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 48
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics-logo-small.png/pactronics-logo-small.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T12:37:11.730+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 96
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/logos/pactronics-logo-small.png/pactronics-logo-small.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T12:37:11.737+02:00
+        jcr:mimeType: image/png

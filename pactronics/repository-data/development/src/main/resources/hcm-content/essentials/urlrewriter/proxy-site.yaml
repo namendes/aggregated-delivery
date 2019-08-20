@@ -1,0 +1,72 @@
+/content/urlrewriter/sample-rules/proxy-site:
+  .meta:order-before: frontend-preview-all
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 6572cc5d-6042-44aa-9d76-8c2f38017a03
+  hippo:name: proxy (site)
+  hippo:versionHistory: 276d30c7-4e66-4dbb-88d1-df3beae544ae
+  /proxy-site[1]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: be4c4ff5-3524-4b43-995d-424ddde68752
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:57:18.135+02:00
+    hippostdpubwf:lastModificationDate: 2019-05-03T14:14:21.368+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2008-03-26T12:03:00+01:00
+    urlrewriter:rule: "<rule> \r\n<name>BESite</name> \r\n<from>^(.*)$</from> \r\n\
+      <set name=\"wildcard\">$1</set> \r\n<run class=\"com.bloomreach.pagemodel.hst.bepp.RequestProxy\"\
+      \ method=\"execute\"> \r\n<init-param> \r\n<param-name>origin</param-name> \r\
+      \n<param-value>http://localhost:8080/site/$1</param-value> \r\n</init-param>\
+      \ \r\n<init-param> \r\n<param-name>target</param-name> \r\n<param-value>http://localhost:8181/store/$1</param-value>\
+      \ \r\n</init-param> \r\n<init-param> \r\n<param-name>preview</param-name> \r\
+      \n<param-value>false</param-value> \r\n</init-param> \r\n<init-param> \r\n<param-name>extensionExclude</param-name>\
+      \ \r\n<param-value>.css,.js,.eos,.svg,.woff,.jpg,.png,.gif,.ttf,.woff2,.ico,.map</param-value>\
+      \ \r\n</init-param> \r\n</run> \r\n<to last=\"true\">null</to> \r\n<condition\
+      \ type=\"request-uri\" operator=\"notequal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|svg|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>"
+  /proxy-site[2]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 49c34a48-3057-4fc8-b197-f724cb3cde61
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:57:18.135+02:00
+    hippostdpubwf:lastModificationDate: 2019-05-03T00:08:28.098+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule> \r\n<name>BESite</name> \r\n<from>^(.*)$</from> \r\n\
+      <set name=\"wildcard\">$1</set> \r\n<run class=\"com.bloomreach.pagemodel.hst.bepp.RequestProxy\"\
+      \ method=\"execute\"> \r\n<init-param> \r\n<param-name>origin</param-name> \r\
+      \n<param-value>http://localhost:8080/site/$1</param-value> \r\n</init-param>\
+      \ \r\n<init-param> \r\n<param-name>target</param-name> \r\n<param-value>http://localhost:8181/store/$1</param-value>\
+      \ \r\n</init-param> \r\n<init-param> \r\n<param-name>preview</param-name> \r\
+      \n<param-value>false</param-value> \r\n</init-param> \r\n<init-param> \r\n<param-name>extensionExclude</param-name>\
+      \ \r\n<param-value>.css,.js,.eos,.svg,.woff,.jpg,.png,.gif,.ttf,.woff2,.ico,.map</param-value>\
+      \ \r\n</init-param> \r\n</run> \r\n<to last=\"true\">null</to> \r\n<condition\
+      \ type=\"request-uri\" operator=\"notequal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|svg|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>"
+  /proxy-site[3]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: ed63545b-5d66-4ca1-bf87-4197b2796bab
+    hippo:availability: []
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:57:18.135+02:00
+    hippostdpubwf:lastModificationDate: 2019-05-03T00:08:28.098+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-05-03T00:08:29.407+02:00
+    urlrewriter:rule: "<rule> \r\n<name>BESite</name> \r\n<from>^(.*)$</from> \r\n\
+      <set name=\"wildcard\">$1</set> \r\n<run class=\"com.bloomreach.pagemodel.hst.bepp.RequestProxy\"\
+      \ method=\"execute\"> \r\n<init-param> \r\n<param-name>origin</param-name> \r\
+      \n<param-value>http://localhost:8080/site/$1</param-value> \r\n</init-param>\
+      \ \r\n<init-param> \r\n<param-name>target</param-name> \r\n<param-value>http://localhost:8181/store/$1</param-value>\
+      \ \r\n</init-param> \r\n<init-param> \r\n<param-name>preview</param-name> \r\
+      \n<param-value>false</param-value> \r\n</init-param> \r\n<init-param> \r\n<param-name>extensionExclude</param-name>\
+      \ \r\n<param-value>.css,.js,.eos,.svg,.woff,.jpg,.png,.gif,.ttf,.woff2,.ico,.map</param-value>\
+      \ \r\n</init-param> \r\n</run> \r\n<to last=\"true\">null</to> \r\n<condition\
+      \ type=\"request-uri\" operator=\"notequal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|svg|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>"

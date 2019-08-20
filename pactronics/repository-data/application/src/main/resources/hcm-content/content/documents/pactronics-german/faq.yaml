@@ -1,0 +1,198 @@
+/content/documents/pactronics-german/faq:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 56b70e79-4ef8-4f8b-bef6-dd95379ca1da
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 36e540e0-8471-42ca-9e9c-dab35c15e216
+  hippotranslation:locale: de
+  /about-faq:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: e3b80945-ad67-41e0-ab1a-8b6759b3c0b8
+    hippo:name: About FAQ
+    hippo:versionHistory: 511d8318-cd0d-4e55-ab5e-4cff43fe0bdc
+    /about-faq[1]:
+      jcr:primaryType: pactronics:faqlist
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 59894a9d-81d8-4c49-ad25-4656dce55ee4
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-20T12:07:14.294+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:17:16.865+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:05.891+02:00
+      hippotranslation:id: d2bf5686-f5c7-4376-b829-c3d52e5d82dc
+      hippotranslation:locale: de
+      pactronics:title: FAQ
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is an example of FAQ document</p>
+      /pactronics:faqitem[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9b993b22-ae8c-4bdc-833e-5a8ce41d68f5
+      /pactronics:faqitem[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 12863d11-40cc-4324-aeac-ffda4b787732
+    /about-faq[2]:
+      jcr:primaryType: pactronics:faqlist
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 8233012b-de84-476a-be46-e405885dbd76
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-20T12:07:14.294+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:17:16.865+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d2bf5686-f5c7-4376-b829-c3d52e5d82dc
+      hippotranslation:locale: de
+      pactronics:title: FAQ
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is an example of FAQ document</p>
+      /pactronics:faqitem[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9b993b22-ae8c-4bdc-833e-5a8ce41d68f5
+      /pactronics:faqitem[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 12863d11-40cc-4324-aeac-ffda4b787732
+    /about-faq[3]:
+      jcr:primaryType: pactronics:faqlist
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: db7ff32a-12c5-49af-82eb-80502881f406
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-06-20T12:07:14.294+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:17:17.039+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d2bf5686-f5c7-4376-b829-c3d52e5d82dc
+      hippotranslation:locale: de
+      pactronics:title: FAQ
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is an example of FAQ document</p>
+      /pactronics:faqitem[1]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 9b993b22-ae8c-4bdc-833e-5a8ce41d68f5
+      /pactronics:faqitem[2]:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 12863d11-40cc-4324-aeac-ffda4b787732
+  /about-faq-items:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: c56c3669-4402-4a1f-abca-0648f1aa0cb0
+    hippo:name: About FAQ items
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: eaec89b9-6489-4f3f-b526-618de305b4b9
+    hippotranslation:locale: de
+    /faq-item-1:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 6ad536a0-5ae1-47ec-824d-4abf47f7abf2
+      hippo:name: FAQ Item 1
+      hippo:versionHistory: 0688548a-613b-4770-baea-902a7d009183
+      /faq-item-1[1]:
+        jcr:primaryType: pactronics:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 389b0a4b-5186-45f3-9871-aa4ffd858fbd
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:17:33.061+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-24T10:21:05.255+02:00
+        hippotranslation:id: 3fb9b523-fab1-4157-b3d5-4f6b03eac3db
+        hippotranslation:locale: de
+        pactronics:question: What is this?
+        /pactronics:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is FAQ item 1</p>
+      /faq-item-1[2]:
+        jcr:primaryType: pactronics:faqitem
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: de16b4b0-ce21-4ea4-bc27-82b8d22fe7c2
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:17:33.061+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3fb9b523-fab1-4157-b3d5-4f6b03eac3db
+        hippotranslation:locale: de
+        pactronics:question: What is this?
+        /pactronics:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is FAQ item 1</p>
+      /faq-item-1[3]:
+        jcr:primaryType: pactronics:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f6572408-e7e9-40d0-8fc7-689ecef85786
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:17:33.165+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3fb9b523-fab1-4157-b3d5-4f6b03eac3db
+        hippotranslation:locale: de
+        pactronics:question: What is this?
+        /pactronics:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is FAQ item 1</p>
+    /faq-item-2:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 26dad92c-6045-4ae9-920f-a0b05fcf2346
+      hippo:name: FAQ Item 2
+      hippo:versionHistory: 6fa590b5-91b3-4996-b542-8789ad58e110
+      /faq-item-2[1]:
+        jcr:primaryType: pactronics:faqitem
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: c66e01af-de79-4ec7-aafc-01c9a5bde365
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:17:43.546+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-24T10:21:07.182+02:00
+        hippotranslation:id: 747fd70f-e321-4ea9-864c-7f6fa7b64322
+        hippotranslation:locale: de
+        pactronics:question: What is this?
+        /pactronics:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is FAQ item 2</p>
+      /faq-item-2[2]:
+        jcr:primaryType: pactronics:faqitem
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: b52b86c6-3a83-44a7-9c4a-f7f751da926e
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:17:43.546+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 747fd70f-e321-4ea9-864c-7f6fa7b64322
+        hippotranslation:locale: de
+        pactronics:question: What is this?
+        /pactronics:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is FAQ item 2</p>
+      /faq-item-2[3]:
+        jcr:primaryType: pactronics:faqitem
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2e949404-78d2-479b-ac11-647fc27e815c
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2014-06-20T12:08:30.112+02:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:17:43.646+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 747fd70f-e321-4ea9-864c-7f6fa7b64322
+        hippotranslation:locale: de
+        pactronics:question: What is this?
+        /pactronics:answer:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is FAQ item 2</p>

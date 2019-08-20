@@ -1,0 +1,47 @@
+? /hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:pages/products-the-really-important-smartwatch-productexperiencepage
+: jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2018-12-18T15:47:34.292+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2018-12-18T15:49:38.107+01:00
+    hst:xtype: hst.vbox
+    /ProductsHighlight:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+      hst:label: Products Highlight
+      hst:parameternames: [connectorComponent, document, page, locale, commands]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductDecoratorInfo
+      hst:parametervalues: [productDetail, products/super-smartwatch, '1', en, 'initContextCommand,
+          cartCreateCommand, cartProductListCommand, cartProductAddCommand, contentSingleDecoratorCommand']
+      hst:template: starterstore-productcontentenricher
+      hst:xtype: hst.item
+    /featureteaser:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductFeatureComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Product Feature
+      hst:parameternames: [Product Feature Document, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        org.hippoecm.hst.core.component.template]
+      hst:parametervalues: [product-experience/product-features/smartwatch-features,
+        'off', 'webfile:/freemarker/pactronics/product-feature.ftl']
+      hst:template: product-feature
+      hst:xtype: hst.item
+    /videocomponent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsVideoComponent
+      hst:iconpath: images/essentials/catalog-component-icons/video.png
+      hst:label: Video
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, width, org.hippoecm.hst.core.component.template, height]
+      hst:parametervalues: ['off', videos/best-smartwatches-2018, '420', 'webfile:/freemarker/hstdefault/video-component.ftl',
+        '315']
+      hst:template: video-component
+      hst:xtype: hst.item

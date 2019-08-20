@@ -1,0 +1,360 @@
+/content/documents/administration/labels:
+  .meta:order-before: email
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 9bffef29-b163-411f-952a-553de25c2875
+  hippostd:foldertype: [new-resource-bundle, new-untranslated-folder]
+  /global:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 7e155df9-11e7-48b3-ac2e-986c32d2ad77
+    hippo:name: Global
+    /global[1]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: db55f6fe-37d5-457b-915c-d39d0f567f6c
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
+      hippostdpubwf:lastModificationDate: 2018-11-07T17:43:34.860+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-07T17:43:36.509+01:00
+      resourcebundle:descriptions: [Text shown in the global page footer., '', '',
+        '']
+      resourcebundle:id: essentials.global
+      resourcebundle:keys: [footer.text, footer.menu.main, account, orders]
+      resourcebundle:messages: [©2018, Global, Account, Orders]
+    /global[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 5a010556-c0e2-49da-8a55-0540dfbacedc
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
+      hippostdpubwf:lastModificationDate: 2018-11-07T17:43:34.860+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: [Text shown in the global page footer., '', '',
+        '']
+      resourcebundle:id: essentials.global
+      resourcebundle:keys: [footer.text, footer.menu.main, account, orders]
+      resourcebundle:messages: [©2018, Global, Account, Orders]
+    /global[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: df176a86-59b9-47ee-8fd6-1b9859123bea
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
+      hippostdpubwf:lastModificationDate: 2018-11-07T17:43:19.035+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: [Text shown in the global page footer., '', '',
+        '']
+      resourcebundle:id: essentials.global
+      resourcebundle:keys: [footer.text, footer.menu.main, account, orders]
+      resourcebundle:messages: [©2018, Global, Account, Orders]
+  /homepage:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 3aa05398-905b-4717-b06e-14a8ace3cbfc
+    hippo:name: Homepage
+    /homepage:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 58c6e76b-a9c2-4ec7-a5f7-886973cd3d77
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
+      hippostdpubwf:lastModificationDate: 2014-08-21T17:11:53.242+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-08-21T17:11:55.239+02:00
+      resourcebundle:descriptions: [Title displayed on homepage., Text displayed on
+          homepage.]
+      resourcebundle:id: essentials.homepage
+      resourcebundle:keys: [homepage.title, homepage.text]
+      resourcebundle:messages: [Home Page, 'Every website comes with its own styling
+          requirements. Hippo''s setup application can therefore not address site
+          styling. Instead, the generated pages use minimal styling to render the
+          content. It is the task of the Hippo developer to adjust the front-end to
+          the site''s needs.']
+  /pagenotfound:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 7a90befe-5561-42a4-90d0-a491d4feb8a4
+    hippo:name: Page not found
+    /pagenotfound:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cc8cedc1-c6ac-4035-a91d-6466af6be8ab
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
+      hippostdpubwf:lastModificationDate: 2014-08-21T17:11:53.242+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-08-21T17:11:55.239+02:00
+      resourcebundle:descriptions: [Title displayed when page is not found., Text
+          displayed when page is not found.]
+      resourcebundle:id: essentials.pagenotfound
+      resourcebundle:keys: [pagenotfound.title, pagenotfound.text]
+      resourcebundle:messages: [Page not found (404), 'The page you requested was
+          not found. - [This text can be edited here: http://localhost:8080/cms/?1&path=/content/documents/administration/labels/pagenotfound]']
+  /pagination:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 58083fb2-3ec7-4abe-a911-3996b93bc5f6
+    hippo:name: Pagination
+    /pagination:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 34b7f67c-7238-44ba-9663-b7f95b356e3e
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T14:30:14.382+02:00
+      hippostdpubwf:lastModificationDate: 2014-08-21T17:03:32.811+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-08-21T17:06:47.420+02:00
+      resourcebundle:descriptions: ['Used in the indication, how many results were
+          found. The label is appended to the number of results.', Label used for
+          the link to the previous page., Label used for the link to the next page.]
+      resourcebundle:id: essentials.pagination
+      resourcebundle:keys: [results.indication, page.previous, page.next]
+      resourcebundle:messages: [document(s), previous, next]
+  /checkout:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: ea9135d3-33d3-41b9-ad77-872210afda06
+    hippo:name: Checkout
+    hippo:versionHistory: ec4992a5-0809-4e61-b383-99cda4f20e07
+    /checkout[1]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 75c6cd35-0c3b-463d-b3da-c59a0ac06fd3
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-18T16:19:44.432+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-19T13:01:24.420+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '']
+      resourcebundle:id: checkout
+      resourcebundle:keys: [streetName, streetNumber, additionalStreetInfo, city,
+        state, postalCode, country, phone, mobile, fax, address.defaultshipment, confirmShipment,
+        changeDefaultShipmentAddress, checkout, confirmPayment, order, orderConfirmation,
+        genericErrorMessage, cart.empty, order.id.label, order.state.label, order.paymentstate.label,
+        order.shippingstate.label, order.totalprice.label, order.creation.label, order.no.item,
+        checkout.label.email, checkout.label.name, checkout.label.sendtoemail, checkout.message.error,
+        checkout.message.success, checkout.placeholder.email, checkout.placeholder.name,
+        checkout.send.email]
+      resourcebundle:messages: [Street Name, Street Number, Additional Street Info,
+        City, State, Postal Code, Country, Phone, Mobile, Fax, Your Default Shipment
+          Address, Confirm Shipment, 'Want to change default shipment adddress? Go
+          to My Addesses settings', Checkout, Confirm Payment, Order, 'Your order
+          has been submited: check the My Orders page to see the details.', 'Something
+          went wrong while performing the current operation, please contact us.',
+        Your shopping cart is empty., Order ID, Order State, Payment State, Shipping
+          State, Total Price, Order Date, There is no order item., Email address,
+        Name, We can send this cart to your email, 'Unable to send the email, please
+          try again later', Email sent, Enter your email address, Enter your name,
+        Send email]
+    /checkout[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d3976a8a-4db6-4a3e-bf95-d4d004684d33
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-18T16:19:44.432+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-19T13:02:56.845+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '']
+      resourcebundle:id: checkout
+      resourcebundle:keys: [streetName, streetNumber, additionalStreetInfo, city,
+        state, postalCode, country, phone, mobile, fax, address.defaultshipment, confirmShipment,
+        changeDefaultShipmentAddress, checkout, confirmPayment, order, orderConfirmation,
+        genericErrorMessage, cart.empty, order.id.label, order.state.label, order.paymentstate.label,
+        order.shippingstate.label, order.totalprice.label, order.creation.label, order.no.item,
+        checkout.label.email, checkout.label.name, checkout.label.sendtoemail, checkout.message.error,
+        checkout.message.success, checkout.placeholder.email, checkout.placeholder.name,
+        checkout.send.email]
+      resourcebundle:messages: [Street Name, Street Number, Additional Street Info,
+        City, State, Postal Code, Country, Phone, Mobile, Fax, Your Default Shipment
+          Address, Confirm Shipment, 'Want to change default shipment adddress? Go
+          to My Addesses settings', Checkout, Confirm Payment, Order, 'Your order
+          has been submited: check the My Orders page to see the details.', 'Something
+          went wrong while performing the current operation, please contact us.',
+        Your shopping cart is empty., Order ID, Order State, Payment State, Shipping
+          State, Total Price, Order Date, There is no order item., Email address,
+        Name, We can send this cart to your email, 'Unable to send the email, please
+          try again later', Email sent, Enter your email address, Enter your name,
+        Send email]
+    /checkout[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 25713caa-d96c-4c28-8a7e-a77274baa3c7
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-18T16:19:44.432+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-19T13:02:56.845+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-19T13:03:01.081+02:00
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '']
+      resourcebundle:id: checkout
+      resourcebundle:keys: [streetName, streetNumber, additionalStreetInfo, city,
+        state, postalCode, country, phone, mobile, fax, address.defaultshipment, confirmShipment,
+        changeDefaultShipmentAddress, checkout, confirmPayment, order, orderConfirmation,
+        genericErrorMessage, cart.empty, order.id.label, order.state.label, order.paymentstate.label,
+        order.shippingstate.label, order.totalprice.label, order.creation.label, order.no.item,
+        checkout.label.email, checkout.label.name, checkout.label.sendtoemail, checkout.message.error,
+        checkout.message.success, checkout.placeholder.email, checkout.placeholder.name,
+        checkout.send.email]
+      resourcebundle:messages: [Street Name, Street Number, Additional Street Info,
+        City, State, Postal Code, Country, Phone, Mobile, Fax, Your Default Shipment
+          Address, Confirm Shipment, 'Want to change default shipment adddress? Go
+          to My Addesses settings', Checkout, Confirm Payment, Order, 'Your order
+          has been submited: check the My Orders page to see the details.', 'Something
+          went wrong while performing the current operation, please contact us.',
+        Your shopping cart is empty., Order ID, Order State, Payment State, Shipping
+          State, Total Price, Order Date, There is no order item., Email address,
+        Name, We can send this cart to your email, 'Unable to send the email, please
+          try again later', Email sent, Enter your email address, Enter your name,
+        Send email]
+  /translations:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 5d749a54-2f91-470f-b178-e5047ee91ea1
+    hippo:name: Translations
+    hippo:versionHistory: 9ddc4b80-cc35-4658-9861-29c6c20f76ee
+    /translations[1]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a14ee427-19ae-4e9e-9e10-32008a0eed0e
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-19T15:48:32.354+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-19T16:28:10.263+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '']
+      resourcebundle:id: translations.labels
+      resourcebundle:keys: [text.login, text.cart, text.logout, text.relatedtoseen,
+        text.relatedtoproduct, text.mightalsolike, text.emailsignup, text.sidebarabout,
+        text.about, text.search, text.knowmore]
+      resourcebundle:messages: [Login, Cart, Logout, Related to Items You've Viewed,
+        Related to this item, You might also like, Email Sign-up, 'Pactronics is a
+          brand of Infiniti Retail Ltd., which is a wholly-owned subsidiary of Pactronics,
+          the holding company of the Pactronics Group.', About, Search, 'Want to know
+          more?']
+      resourcebundle:messages_de_DE: [Anmeldung, Wagen, Ausloggen, Vorschläge basierend
+          auf kürzlich gesehene Artikel, Ähnliche Artikel, Das könnte dir auch gefallen,
+        Email Anmelden, 'Pactronics ist eine Marke der Infiniti Retail Ltd., einer
+          hundertprozentigen Tochtergesellschaft von Pactronics, der Holdinggesellschaft
+          der Pactronics-Gruppe.', Über, Suche, 'Möchten Sie mehr wissen?']
+    /translations[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 9be2fd7d-9265-48e5-bf7f-683c4afbc147
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-19T15:48:32.354+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-19T16:28:24.946+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '']
+      resourcebundle:id: translations.labels
+      resourcebundle:keys: [text.login, text.cart, text.logout, text.relatedtoseen,
+        text.relatedtoproduct, text.mightalsolike, text.emailsignup, text.sidebarabout,
+        text.about, text.search, text.knowmore]
+      resourcebundle:messages: [Login, Cart, Logout, Related to Items You've Viewed,
+        Related to this item, You might also like, Email Sign-up, 'Pactronics is a
+          brand of Infiniti Retail Ltd., which is a wholly-owned subsidiary of Pactronics,
+          the holding company of the Pactronics Group.', About, Search, 'Want to know
+          more?']
+      resourcebundle:messages_de_DE: [Anmeldung, Wagen, Ausloggen, Vorschläge basierend
+          auf kürzlich gesehene Artikel, Ähnliche Artikel, Das könnte dir auch gefallen,
+        Email Anmelden, 'Pactronics ist eine Marke der Infiniti Retail Ltd., einer
+          hundertprozentigen Tochtergesellschaft von Pactronics, der Holdinggesellschaft
+          der Pactronics-Gruppe.', Über, Suche, 'Möchten Sie mehr wissen?']
+    /translations[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c3e79c44-b3d5-404c-b0b8-2f95a471907b
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-19T15:48:32.354+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-19T16:28:24.946+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-19T16:28:26.263+02:00
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '']
+      resourcebundle:id: translations.labels
+      resourcebundle:keys: [text.login, text.cart, text.logout, text.relatedtoseen,
+        text.relatedtoproduct, text.mightalsolike, text.emailsignup, text.sidebarabout,
+        text.about, text.search, text.knowmore]
+      resourcebundle:messages: [Login, Cart, Logout, Related to Items You've Viewed,
+        Related to this item, You might also like, Email Sign-up, 'Pactronics is a
+          brand of Infiniti Retail Ltd., which is a wholly-owned subsidiary of Pactronics,
+          the holding company of the Pactronics Group.', About, Search, 'Want to know
+          more?']
+      resourcebundle:messages_de_DE: [Anmeldung, Wagen, Ausloggen, Vorschläge basierend
+          auf kürzlich gesehene Artikel, Ähnliche Artikel, Das könnte dir auch gefallen,
+        Email Anmelden, 'Pactronics ist eine Marke der Infiniti Retail Ltd., einer
+          hundertprozentigen Tochtergesellschaft von Pactronics, der Holdinggesellschaft
+          der Pactronics-Gruppe.', Über, Suche, 'Möchten Sie mehr wissen?']
+  /starterstore-messages:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 048b00af-3cd8-4284-9665-4899355574f0
+    hippo:name: starterstore messages
+    hippo:versionHistory: 8103ea33-d322-4ccb-85a0-6a1332abe3dc
+    /starterstore-messages[1]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d73da861-db44-45d0-8bb9-da25139a4be8
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-05-11T22:52:11.166-04:00
+      hippostdpubwf:lastModificationDate: 2019-05-11T22:52:11.166-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:id: com.bloomreach.commercedxp.starterstore.components.messages
+      resourcebundle:keys: []
+      resourcebundle:messages: []
+    /starterstore-messages[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: f6c63037-36f4-4153-958c-f3f5d2c625ac
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-05-11T22:52:11.166-04:00
+      hippostdpubwf:lastModificationDate: 2019-05-11T22:53:41.771-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:id: com.bloomreach.commercedxp.starterstore.components.messages
+      resourcebundle:keys: []
+      resourcebundle:messages: []
+    /starterstore-messages[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 54a1a970-0eb6-4d86-8e31-18d0a76f3760
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-05-11T22:52:11.166-04:00
+      hippostdpubwf:lastModificationDate: 2019-05-11T22:53:41.771-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-05-11T22:53:48.669-04:00
+      resourcebundle:id: com.bloomreach.commercedxp.starterstore.components.messages
+      resourcebundle:keys: []
+      resourcebundle:messages: []

@@ -1,0 +1,23 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations:
+      /pactronics:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /kioskapp:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /pactronics-german:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /common:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common-catalog]
+      /external:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common-external]
+      /common-external:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common-catalog]
+      /common-catalog:
+        jcr:primaryType: hst:configuration

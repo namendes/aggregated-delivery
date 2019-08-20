@@ -1,0 +1,9 @@
+<div class="col-md-4 col-sm-4 col-xs-12" style="padding-left:0px; padding-top:5px;">
+  <a routerLink="/" *ngIf="hasImage(); else configureComponentBlock">
+    <figure style="width:auto;">
+      <img src="{{ getImageUrl() }}" alt="Pactronics Logo"/></figure>
+  </a>
+  <ng-template #configureComponentBlock>
+    <p>Click to configure {{ configuration.label }}</p>
+  </ng-template>
+</div>

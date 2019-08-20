@@ -1,0 +1,20 @@
+/targeting:targeting/targeting:personas/unnamed-1556020018490:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1556020018490-alterego
+  targeting:avatar: image-1556291310477
+  targeting:description: ''
+  targeting:name: Jenny
+  targeting:quote: ''
+  targeting:segmentDescription: ''
+  targeting:segmentName: Cameras
+  /targeting:expression:
+    jcr:primaryType: targeting:rule
+    targeting:targetgroup: commerceCategories/camera-1556019476439
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p13.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1556020018490/avatar/p13.png
+    jcr:lastModified: 2019-04-26T17:08:30.477+02:00
+    jcr:mimeType: image/png

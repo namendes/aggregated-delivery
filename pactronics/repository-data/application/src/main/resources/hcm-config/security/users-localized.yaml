@@ -1,0 +1,27 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:users:
+      /English-author:
+        jcr:primaryType: hipposys:user
+        hipposys:active: true
+        hipposys:password: English-author
+        hipposys:passwordlastmodified: 2019-04-02T17:56:42.538-07:00
+        hipposys:securityprovider: internal
+      /English-editor:
+        jcr:primaryType: hipposys:user
+        hipposys:active: true
+        hipposys:password: English-editor
+        hipposys:passwordlastmodified: 2019-04-02T17:56:53.319-07:00
+        hipposys:securityprovider: internal
+      /German-author:
+        jcr:primaryType: hipposys:user
+        hipposys:active: true
+        hipposys:password: German-author
+        hipposys:passwordlastmodified: 2019-04-02T17:56:42.538-07:00
+        hipposys:securityprovider: internal
+      /German-editor:
+        jcr:primaryType: hipposys:user
+        hipposys:active: true
+        hipposys:password: German-editor
+        hipposys:passwordlastmodified: 2019-04-02T17:56:53.319-07:00
+        hipposys:securityprovider: internal

@@ -1,0 +1,40 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:containers/homepage/main/carousel:
+  .meta:order-before: BannerRow
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+  hst:iconpath: images/essentials/catalog-component-icons/carousel.png
+  hst:label: Carousel
+  hst:parameternameprefixes: [unnamed-1556020018490@1556051470, unnamed-1556020018490@1556051470,
+    unnamed-1556020018490@1556051470, unnamed-1556020018490@1556051470, unnamed-1556020018490@1556051470,
+    unnamed-1556020018490@1556051470, unnamed-1556020018490@1556051470, unnamed-1556020018490@1556051470,
+    unnamed-1556020018490@1556051470, unnamed-1556020018490@1556051470, unnamed-1556020018490@1556051470,
+    unnamed-1556020018490@1556051470, unnamed-1556020018490@1556051470, unnamed-1556020018490@1556051470,
+    unnamed-1556020018490@1556051470, '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]',
+    '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]', '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]',
+    '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]', '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]',
+    '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]', '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]',
+    '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]', '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]',
+    '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]', '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]',
+    '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]', '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]',
+    '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]', '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]',
+    '@1556033572$["and",{"commerceBrands":"gopro-1556019525016"}]', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '']
+  hst:parameternames: [document4, document3, document6, document5, document2, document1,
+    cycle, pause, carouselWidth, carouselHeight, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    carouselBackgroundColor, showNavigation, interval, org.hippoecm.hst.core.component.template,
+    document4, document3, document6, document5, document2, document1, cycle, pause,
+    ext-comp-1827, carouselWidth, carouselHeight, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    carouselBackgroundColor, showNavigation, interval, org.hippoecm.hst.core.component.template,
+    document4, document3, document6, document5, document2, document1, cycle, pause,
+    carouselWidth, carouselHeight, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    carouselBackgroundColor, showNavigation, interval, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: ['', '', '', '', '', banners/brands/sony/sony-camera-offer,
+    'off', 'on', '100', '500', 'off', '#ffffff', 'off', '8000', 'webfile:/freemarker/hstdefault/essentials-carousel/carousel-full-editors.ftl',
+    '', '', '', '', '', banners/offers/buy-a-gopro-hero4-and-receive-a-free-accessory,
+    'off', 'on', '', '100', '500', 'off', '#ffffff', 'off', '8000', 'webfile:/freemarker/hstdefault/essentials-carousel/carousel-full-editors.ftl',
+    '', banners/get-a-new-camera, '', '', banners/articles/smart-watch-buying-guide,
+    banners/offers/50-off-samsung-watch-banner, 'off', 'on', '100', '600', 'off',
+    '#ffffff', 'off', '8000', 'webfile:/freemarker/hstdefault/essentials-carousel/carousel-full-editors.ftl']
+  hst:template: essentials-carousel
+  hst:xtype: hst.item

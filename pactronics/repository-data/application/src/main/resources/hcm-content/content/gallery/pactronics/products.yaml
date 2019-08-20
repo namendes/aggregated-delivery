@@ -1,0 +1,641 @@
+/content/gallery/pactronics/products:
+  .meta:order-before: product-finder
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 29c42c8a-6cb8-41ac-a06d-ea03fb743d70
+  hippostd:foldertype: [new-pactronics-pactronics-folder]
+  hippostd:gallerytype: ['pactronics:pactronics']
+  /laptoptable.jpeg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 79efcadf-e85f-45de-b381-120756a12585
+    /laptoptable.jpeg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: laptoptable.jpeg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: laptoptable.jpeg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/laptoptable.jpeg/laptoptable.jpeg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-11-22T13:48:55.874+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 225
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/laptoptable.jpeg/laptoptable.jpeg/original/original.jpg
+        jcr:lastModified: 2018-11-22T13:48:55.874+01:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 225
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/laptoptable.jpeg/laptoptable.jpeg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.269+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 225
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/laptoptable.jpeg/laptoptable.jpeg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.285+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 225
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/laptoptable.jpeg/laptoptable.jpeg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.300+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/laptoptable.jpeg/laptoptable.jpeg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.311+02:00
+        jcr:mimeType: image/jpeg
+  /milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 769e6165-cbb5-4e65-8227-5add98b7c24a
+    /milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg
+        hippogallery:height: 33
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-11-22T13:51:31.905+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 810
+        hippogallery:width: 1440
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/original/original.jpg
+        jcr:lastModified: 2018-11-22T13:51:31.905+01:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 562
+        hippogallery:width: 1000
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.337+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 450
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.394+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 337
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.436+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/milo-side-laptop-table-bdi-1055-c-table-group-full-feature-1440.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.478+02:00
+        jcr:mimeType: image/jpeg
+  /linkdesign_chiller_reference_01-1100x500.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b48c7167-9dce-48ad-b253-96b90bd6b1a5
+    hippo:name: linkdesign_Chiller_reference_01-1100x500.jpg
+    /linkdesign_chiller_reference_01-1100x500.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: linkdesign_Chiller_reference_01-1100x500.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: linkdesign_Chiller_reference_01-1100x500.jpg
+        hippogallery:height: 27
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/linkdesign_chiller_reference_01-1100x500.jpg/linkdesign_chiller_reference_01-1100x500.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-12-03T12:28:00.995+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 500
+        hippogallery:width: 1100
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/linkdesign_chiller_reference_01-1100x500.jpg/linkdesign_chiller_reference_01-1100x500.jpg/original/original.jpg
+        jcr:lastModified: 2018-12-03T12:28:00.995+05:30
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 454
+        hippogallery:width: 1000
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/linkdesign_chiller_reference_01-1100x500.jpg/linkdesign_chiller_reference_01-1100x500.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.482+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 363
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/linkdesign_chiller_reference_01-1100x500.jpg/linkdesign_chiller_reference_01-1100x500.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.538+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 272
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/linkdesign_chiller_reference_01-1100x500.jpg/linkdesign_chiller_reference_01-1100x500.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.584+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 181
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/linkdesign_chiller_reference_01-1100x500.jpg/linkdesign_chiller_reference_01-1100x500.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.614+02:00
+        jcr:mimeType: image/jpeg
+  /3_helloalvin_howitworks_header-1100x500.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b486157c-ea31-4890-acfa-6f6c54553400
+    hippo:name: 3_HelloAlvin_HowItWorks_Header-1100x500.jpg
+    /3_helloalvin_howitworks_header-1100x500.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: 3_HelloAlvin_HowItWorks_Header-1100x500.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: 3_HelloAlvin_HowItWorks_Header-1100x500.jpg
+        hippogallery:height: 27
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/3_helloalvin_howitworks_header-1100x500.jpg/3_helloalvin_howitworks_header-1100x500.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-12-03T12:31:08.483+05:30
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 500
+        hippogallery:width: 1100
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/3_helloalvin_howitworks_header-1100x500.jpg/3_helloalvin_howitworks_header-1100x500.jpg/original/original.jpg
+        jcr:lastModified: 2018-12-03T12:31:08.483+05:30
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 454
+        hippogallery:width: 1000
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/3_helloalvin_howitworks_header-1100x500.jpg/3_helloalvin_howitworks_header-1100x500.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.340+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 363
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/3_helloalvin_howitworks_header-1100x500.jpg/3_helloalvin_howitworks_header-1100x500.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.395+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 272
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/3_helloalvin_howitworks_header-1100x500.jpg/3_helloalvin_howitworks_header-1100x500.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.433+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 181
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/3_helloalvin_howitworks_header-1100x500.jpg/3_helloalvin_howitworks_header-1100x500.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.458+02:00
+        jcr:mimeType: image/jpeg
+  /fitness-tracker.jpeg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 5b3e6a9e-f37e-40d9-b501-1c4a393738ae
+    hippo:name: Fitness tracker.jpeg
+    /fitness-tracker.jpeg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: Fitness tracker.jpeg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: Fitness tracker.jpeg
+        hippogallery:height: 27
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/fitness-tracker.jpeg/fitness-tracker.jpeg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-04-02T15:43:32.259Z
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 151
+        hippogallery:width: 333
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/fitness-tracker.jpeg/fitness-tracker.jpeg/original/original.jpg
+        jcr:lastModified: 2019-04-02T15:43:32.259Z
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 151
+        hippogallery:width: 333
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/fitness-tracker.jpeg/fitness-tracker.jpeg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.513+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 151
+        hippogallery:width: 333
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/fitness-tracker.jpeg/fitness-tracker.jpeg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.518+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 151
+        hippogallery:width: 333
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/fitness-tracker.jpeg/fitness-tracker.jpeg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.522+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 181
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/fitness-tracker.jpeg/fitness-tracker.jpeg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:14.525+02:00
+        jcr:mimeType: image/jpeg
+  /surface.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 39780f7a-a3a4-49cd-a212-351ce1bd69cc
+    /surface.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: surface.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: surface.jpg
+        hippogallery:height: 27
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/surface.jpg/surface.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-04-19T10:57:21.577+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 253
+        hippogallery:width: 550
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/surface.jpg/surface.jpg/original/original.jpg
+        jcr:lastModified: 2019-04-19T10:57:21.577+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 253
+        hippogallery:width: 550
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/surface.jpg/surface.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.651+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 253
+        hippogallery:width: 550
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/surface.jpg/surface.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.657+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 253
+        hippogallery:width: 550
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/surface.jpg/surface.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.663+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 184
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/surface.jpg/surface.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.670+02:00
+        jcr:mimeType: image/jpeg
+  /martian-watches-feature-image.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 42da04df-67f8-4b2f-93ea-8429284a8594
+    hippo:name: Martian-Watches-Feature-Image.jpg
+    /martian-watches-feature-image.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: Martian-Watches-Feature-Image.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: Martian-Watches-Feature-Image.jpg
+        hippogallery:height: 30
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/martian-watches-feature-image.jpg/martian-watches-feature-image.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-04-26T15:28:24.020+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/martian-watches-feature-image.jpg/martian-watches-feature-image.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T15:28:24.020+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 415
+        hippogallery:width: 829
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/martian-watches-feature-image.jpg/martian-watches-feature-image.jpg/original/original.jpg
+        jcr:lastModified: 2019-04-26T15:28:24.020+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 415
+        hippogallery:width: 829
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/martian-watches-feature-image.jpg/martian-watches-feature-image.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T15:28:24.020+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 200
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/martian-watches-feature-image.jpg/martian-watches-feature-image.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T15:28:24.020+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/martian-watches-feature-image.jpg/martian-watches-feature-image.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T15:28:24.020+02:00
+        jcr:mimeType: image/jpeg
+  /perfect-android-accessory-sw.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 13d58e8d-13e0-4c70-9838-3147f5660e12
+    /perfect-android-accessory-sw.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: perfect-android-accessory-sw.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: perfect-android-accessory-sw.jpg
+        hippogallery:height: 26
+        hippogallery:width: 59
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/perfect-android-accessory-sw.jpg/perfect-android-accessory-sw.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-04-26T17:16:21.341+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 264
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/perfect-android-accessory-sw.jpg/perfect-android-accessory-sw.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T17:16:21.341+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 415
+        hippogallery:width: 940
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/perfect-android-accessory-sw.jpg/perfect-android-accessory-sw.jpg/original/original.jpg
+        jcr:lastModified: 2019-04-26T17:16:21.341+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 415
+        hippogallery:width: 940
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/perfect-android-accessory-sw.jpg/perfect-android-accessory-sw.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T17:16:21.341+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 176
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/perfect-android-accessory-sw.jpg/perfect-android-accessory-sw.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T17:16:21.341+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 353
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/perfect-android-accessory-sw.jpg/perfect-android-accessory-sw.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T17:16:21.341+02:00
+        jcr:mimeType: image/jpeg
+  /maxresdefault.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 1e6243cd-dc0c-4882-a2af-2002b67b92bb
+    /maxresdefault.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: maxresdefault.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: maxresdefault.jpg
+        hippogallery:height: 30
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/maxresdefault.jpg/maxresdefault.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-06-05T15:00:56.680+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 309
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/maxresdefault.jpg/maxresdefault.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-06-05T15:00:56.680+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 340
+        hippogallery:width: 660
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/maxresdefault.jpg/maxresdefault.jpg/original/original.jpg
+        jcr:lastModified: 2019-06-05T15:00:56.680+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 340
+        hippogallery:width: 660
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/maxresdefault.jpg/maxresdefault.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-06-05T15:00:56.680+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 206
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/maxresdefault.jpg/maxresdefault.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-06-05T15:00:56.680+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 340
+        hippogallery:width: 660
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/maxresdefault.jpg/maxresdefault.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-06-05T15:00:56.680+02:00
+        jcr:mimeType: image/jpeg
+  /gadgets.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 97d6c21c-bc9e-4373-ac74-c567d5a32bcc
+    /gadgets.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: gadgets.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: gadgets.jpg
+        hippogallery:height: 30
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/gadgets.jpg/gadgets.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-06-05T15:34:05.713+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 309
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/gadgets.jpg/gadgets.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-06-05T15:34:05.713+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 340
+        hippogallery:width: 660
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/gadgets.jpg/gadgets.jpg/original/original.jpg
+        jcr:lastModified: 2019-06-05T15:34:05.713+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 340
+        hippogallery:width: 660
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/gadgets.jpg/gadgets.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-06-05T15:34:05.713+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 206
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/gadgets.jpg/gadgets.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-06-05T15:34:05.713+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 340
+        hippogallery:width: 660
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/products/gadgets.jpg/gadgets.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-06-05T15:34:05.713+02:00
+        jcr:mimeType: image/jpeg

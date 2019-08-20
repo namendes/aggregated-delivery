@@ -1,0 +1,370 @@
+/content/documents/pactronics/email-templates:
+  .meta:order-before: buying-guides
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 726dcb04-2aef-4fc0-8788-fa8f6436643a
+  hippo:name: Email templates
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 42191cea-563b-436d-89d9-d55bd023a4b6
+  hippotranslation:locale: en
+  /in-store-checkout:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b532cf39-657b-4f3c-ad25-65782b3f7f8f
+    hippo:name: In-store checkout
+    hippo:versionHistory: 7a272966-cf51-4ffc-a396-db9982b0a3b2
+    /in-store-checkout[1]:
+      jcr:primaryType: pactronics:emailtemplate
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4670ec5f-4f09-45fe-b2db-2375742bbd06
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-16T12:28:04.333+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-19T16:18:33.869+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 2eb23066-ffbe-4769-a4c7-dc23936a4857
+      hippotranslation:locale: en
+      pactronics:instructions: |-
+        <p>In the template field, it's possible to add freemarker expressions like ${variable}.&nbsp;<br />
+        For images it is required to prefix the variable part with "&nbsp;<strong>IMG-</strong>" eg: ${IMG-logo}. The image has to be added in the Images field with the same key, in this case, for ${IMG-logo} the key should be just "logo".&nbsp;<br />
+        <br />
+        There are a few reserved keywords that can be used in the template:&nbsp;<br />
+        <strong>${IMG-logo}</strong>: company logo</p>
+
+        <p><strong>${name}</strong>: Name of the customer&nbsp;</p>
+
+        <p><strong>${email}</strong>: Email of the customer&nbsp;</p>
+
+        <p><strong>${cart}</strong>: Cart items&nbsp;</p>
+
+        <p><strong>${cartid}</strong>: Cart identifier&nbsp;</p>
+
+        <p><strong>${qrcode}</strong>: QR code image with the cartID</p>
+
+        <p>&nbsp;</p>
+
+        <p>&nbsp;</p>
+      /pactronics:htmltemplate:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <table border="0" cellpadding="1" cellspacing="0" style="border-collapse:collapse; color:#333333; margin:0 auto; width:640px">
+           <tbody>
+            <tr>
+             <td>
+             <table border="0" cellpadding="1" cellspacing="1" style="width:100%">
+              <tbody>
+               <tr>
+                <td style="width:404px"><strong>${IMG-logo}</strong></td>
+                <td style="text-align:right; width:392px">info@spacificelectronics.com<br />
+                <a href="http://www.pacificelectronics.com&nbsp;">www.pacificelectronics.com&nbsp;</a><br />
+                <a href="https://brxforbrands-poc.onehippo.io/site/signin">My Account</a> | <a href="https://brxforbrands-poc.onehippo.io/site/contact-us">Contact</a>&nbsp;<br />
+                &nbsp;</td>
+               </tr>
+               <tr>
+                <td colspan="2" style="width:404px">&nbsp;</td>
+               </tr>
+              </tbody>
+             </table>
+
+             <p>Hello&nbsp;${name},</p>
+
+             <p>Thank&nbsp;you for visiting our store, below your cart details.</p>
+
+             <p>${cart}</p>
+
+             <p>&nbsp;</p>
+
+             <table border="0" cellpadding="1" cellspacing="1" style="width:100%">
+              <tbody>
+               <tr>
+                <td style="width:485px">
+                <p>You can use the following <strong>QR code to </strong><strong>checkout</strong> these items in your local store</p>
+
+                <p>Alternatively, provide the <strong>order number</strong>:&nbsp;${cartid}</p>
+                </td>
+                <td style="text-align:right; width:311px">${IMG-qrcode}</td>
+               </tr>
+              </tbody>
+             </table>
+
+             <p>&nbsp;</p>
+
+             <p>You can cancel this order within 14 days, beginning from the day you receive the product (subject to&nbsp;<a href="https://brxforbrands-poc.onehippo.io/site/about-us">certain exceptions</a>). We will reimburse all payments received from you for the goods purchased and will also reimburse outbound delivery charges (for the least expensive type of delivery offered by us). You will be responsible for the cost of returning the product to us unless we delivered it to you in error, it is faulty, or you purchased shoes, clothing and accessories (check our&nbsp;<a href="https://brxforbrands-poc.onehippo.io/site/about-us">Returns Policy</a>). You may be subject to increased return costs if the product can't be returned normally by post.</p>
+
+             <p style="text-align:center"><a href="https://brxforbrands-poc.onehippo.io/site/overview-effect-2">${IMG-banner}</a></p>
+
+             <table border="0" cellpadding="0" cellspacing="0" style="width:100%" align="center">
+              <tbody>
+               <tr>
+                <td style="vertical-align:top">
+                <table border="0" cellpadding="0" cellspacing="0" style="width:100%" align="center">
+                 <tbody>
+                  <tr>
+                   <td>
+                   <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                     <tr>
+                      <td style="text-align:center"><a href="http://pacificelectronics.com">About Pacific Electronics.com</a> |&nbsp;Terms &amp; Conditions&nbsp;|&nbsp;<a href="http://pacificelectronics.com">Disclaimer</a>&nbsp;|&nbsp;Privacy Policy&nbsp;|&nbsp;<a href="http://pacificelectronics.com">Shipping &amp; Returns&nbsp;</a><br />
+                      Copyright 2019 | <a href="http://pacificelectronics.com">Pacific electronics</a></td>
+                     </tr>
+                    </tbody>
+                   </table>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+      /pactronics:images:
+        jcr:primaryType: pactronics:imagekeyvalue
+        pactronics:key: banner
+        /pactronics:value:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: a1dc45be-ae97-4bb0-a7ae-edcd3720e036
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /in-store-checkout[2]:
+      jcr:primaryType: pactronics:emailtemplate
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 96b1bddd-8f77-42b7-8831-4a73cc991b4d
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-16T12:28:04.333+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-19T16:19:29.722+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 2eb23066-ffbe-4769-a4c7-dc23936a4857
+      hippotranslation:locale: en
+      pactronics:instructions: |-
+        <p>In the template field, it's possible to add freemarker expressions like ${variable}.&nbsp;<br />
+        For images it is required to prefix the variable part with "&nbsp;<strong>IMG-</strong>" eg: ${IMG-logo}. The image has to be added in the Images field with the same key, in this case, for ${IMG-logo} the key should be just "logo".&nbsp;<br />
+        <br />
+        There are a few reserved keywords that can be used in the template:&nbsp;<br />
+        <strong>${IMG-logo}</strong>: company logo</p>
+
+        <p><strong>${name}</strong>: Name of the customer&nbsp;</p>
+
+        <p><strong>${email}</strong>: Email of the customer&nbsp;</p>
+
+        <p><strong>${cart}</strong>: Cart items&nbsp;</p>
+
+        <p><strong>${cartid}</strong>: Cart identifier&nbsp;</p>
+
+        <p><strong>${qrcode}</strong>: QR code image with the cartID</p>
+
+        <p>&nbsp;</p>
+
+        <p>&nbsp;</p>
+      /pactronics:htmltemplate:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <table border="0" cellpadding="1" cellspacing="0" style="border-collapse:collapse; color:#333333; margin:0 auto; width:640px">
+           <tbody>
+            <tr>
+             <td>
+             <table border="0" cellpadding="1" cellspacing="1" style="width:100%">
+              <tbody>
+               <tr>
+                <td style="width:404px"><strong>${IMG-logo}</strong></td>
+                <td style="text-align:right; width:392px">info@spacificelectronics.com<br />
+                <a href="http://www.pacificelectronics.com&nbsp;">www.pacificelectronics.com&nbsp;</a><br />
+                <a href="https://brxforbrands-poc.onehippo.io/site/signin">My Account</a> | <a href="https://brxforbrands-poc.onehippo.io/site/contact-us">Contact</a>&nbsp;<br />
+                &nbsp;</td>
+               </tr>
+               <tr>
+                <td colspan="2" style="width:404px">&nbsp;</td>
+               </tr>
+              </tbody>
+             </table>
+
+             <p>Hello&nbsp;${name},</p>
+
+             <p>Thank&nbsp;you for visiting our store, below your cart details.</p>
+
+             <p>${cart}</p>
+
+             <p>&nbsp;</p>
+
+             <table border="0" cellpadding="1" cellspacing="1" style="width:100%">
+              <tbody>
+               <tr>
+                <td style="width:485px">
+                <p>You can use the following <strong>QR code to </strong><strong>checkout</strong> these items in your local store</p>
+
+                <p>Alternatively, provide the <strong>order number</strong>:&nbsp;${cartid}</p>
+                </td>
+                <td style="text-align:right; width:311px">${IMG-qrcode}</td>
+               </tr>
+              </tbody>
+             </table>
+
+             <p>&nbsp;</p>
+
+             <p>You can cancel this order within 14 days, beginning from the day you receive the product (subject to&nbsp;<a href="https://brxforbrands-poc.onehippo.io/site/about-us">certain exceptions</a>). We will reimburse all payments received from you for the goods purchased and will also reimburse outbound delivery charges (for the least expensive type of delivery offered by us). You will be responsible for the cost of returning the product to us unless we delivered it to you in error, it is faulty, or you purchased shoes, clothing and accessories (check our&nbsp;<a href="https://brxforbrands-poc.onehippo.io/site/about-us">Returns Policy</a>). You may be subject to increased return costs if the product can't be returned normally by post.</p>
+
+             <p style="text-align:center"><a href="https://brxforbrands-poc.onehippo.io/site/overview-effect-2">${IMG-banner}</a></p>
+
+             <table border="0" cellpadding="0" cellspacing="0" style="width:100%" align="center">
+              <tbody>
+               <tr>
+                <td style="vertical-align:top">
+                <table border="0" cellpadding="0" cellspacing="0" style="width:100%" align="center">
+                 <tbody>
+                  <tr>
+                   <td>
+                   <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                     <tr>
+                      <td style="text-align:center"><a href="http://pacificelectronics.com">About Pacific Electronics.com</a> |&nbsp;Terms &amp; Conditions&nbsp;|&nbsp;<a href="http://pacificelectronics.com">Disclaimer</a>&nbsp;|&nbsp;Privacy Policy&nbsp;|&nbsp;<a href="http://pacificelectronics.com">Shipping &amp; Returns&nbsp;</a><br />
+                      Copyright 2019 | <a href="http://pacificelectronics.com">Pacific electronics</a></td>
+                     </tr>
+                    </tbody>
+                   </table>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+      /pactronics:images:
+        jcr:primaryType: pactronics:imagekeyvalue
+        pactronics:key: banner
+        /pactronics:value:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: a1dc45be-ae97-4bb0-a7ae-edcd3720e036
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /in-store-checkout[3]:
+      jcr:primaryType: pactronics:emailtemplate
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 93992e12-a163-47a2-b22f-26ef99c8778e
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-16T12:28:04.333+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-19T16:19:29.722+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-19T16:19:34.481+02:00
+      hippotranslation:id: 2eb23066-ffbe-4769-a4c7-dc23936a4857
+      hippotranslation:locale: en
+      pactronics:instructions: |-
+        <p>In the template field, it's possible to add freemarker expressions like ${variable}.&nbsp;<br />
+        For images it is required to prefix the variable part with "&nbsp;<strong>IMG-</strong>" eg: ${IMG-logo}. The image has to be added in the Images field with the same key, in this case, for ${IMG-logo} the key should be just "logo".&nbsp;<br />
+        <br />
+        There are a few reserved keywords that can be used in the template:&nbsp;<br />
+        <strong>${IMG-logo}</strong>: company logo</p>
+
+        <p><strong>${name}</strong>: Name of the customer&nbsp;</p>
+
+        <p><strong>${email}</strong>: Email of the customer&nbsp;</p>
+
+        <p><strong>${cart}</strong>: Cart items&nbsp;</p>
+
+        <p><strong>${cartid}</strong>: Cart identifier&nbsp;</p>
+
+        <p><strong>${qrcode}</strong>: QR code image with the cartID</p>
+
+        <p>&nbsp;</p>
+
+        <p>&nbsp;</p>
+      /pactronics:htmltemplate:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <table border="0" cellpadding="1" cellspacing="0" style="border-collapse:collapse; color:#333333; margin:0 auto; width:640px">
+           <tbody>
+            <tr>
+             <td>
+             <table border="0" cellpadding="1" cellspacing="1" style="width:100%">
+              <tbody>
+               <tr>
+                <td style="width:404px"><strong>${IMG-logo}</strong></td>
+                <td style="text-align:right; width:392px">info@spacificelectronics.com<br />
+                <a href="http://www.pacificelectronics.com&nbsp;">www.pacificelectronics.com&nbsp;</a><br />
+                <a href="https://brxforbrands-poc.onehippo.io/site/signin">My Account</a> | <a href="https://brxforbrands-poc.onehippo.io/site/contact-us">Contact</a>&nbsp;<br />
+                &nbsp;</td>
+               </tr>
+               <tr>
+                <td colspan="2" style="width:404px">&nbsp;</td>
+               </tr>
+              </tbody>
+             </table>
+
+             <p>Hello&nbsp;${name},</p>
+
+             <p>Thank&nbsp;you for visiting our store, below your cart details.</p>
+
+             <p>${cart}</p>
+
+             <p>&nbsp;</p>
+
+             <table border="0" cellpadding="1" cellspacing="1" style="width:100%">
+              <tbody>
+               <tr>
+                <td style="width:485px">
+                <p>You can use the following <strong>QR code to </strong><strong>checkout</strong> these items in your local store</p>
+
+                <p>Alternatively, provide the <strong>order number</strong>:&nbsp;${cartid}</p>
+                </td>
+                <td style="text-align:right; width:311px">${IMG-qrcode}</td>
+               </tr>
+              </tbody>
+             </table>
+
+             <p>&nbsp;</p>
+
+             <p>You can cancel this order within 14 days, beginning from the day you receive the product (subject to&nbsp;<a href="https://brxforbrands-poc.onehippo.io/site/about-us">certain exceptions</a>). We will reimburse all payments received from you for the goods purchased and will also reimburse outbound delivery charges (for the least expensive type of delivery offered by us). You will be responsible for the cost of returning the product to us unless we delivered it to you in error, it is faulty, or you purchased shoes, clothing and accessories (check our&nbsp;<a href="https://brxforbrands-poc.onehippo.io/site/about-us">Returns Policy</a>). You may be subject to increased return costs if the product can't be returned normally by post.</p>
+
+             <p style="text-align:center"><a href="https://brxforbrands-poc.onehippo.io/site/overview-effect-2">${IMG-banner}</a></p>
+
+             <table border="0" cellpadding="0" cellspacing="0" style="width:100%" align="center">
+              <tbody>
+               <tr>
+                <td style="vertical-align:top">
+                <table border="0" cellpadding="0" cellspacing="0" style="width:100%" align="center">
+                 <tbody>
+                  <tr>
+                   <td>
+                   <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                    <tbody>
+                     <tr>
+                      <td style="text-align:center"><a href="http://pacificelectronics.com">About Pacific Electronics.com</a> |&nbsp;Terms &amp; Conditions&nbsp;|&nbsp;<a href="http://pacificelectronics.com">Disclaimer</a>&nbsp;|&nbsp;Privacy Policy&nbsp;|&nbsp;<a href="http://pacificelectronics.com">Shipping &amp; Returns&nbsp;</a><br />
+                      Copyright 2019 | <a href="http://pacificelectronics.com">Pacific electronics</a></td>
+                     </tr>
+                    </tbody>
+                   </table>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+      /pactronics:images:
+        jcr:primaryType: pactronics:imagekeyvalue
+        pactronics:key: banner
+        /pactronics:value:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: a1dc45be-ae97-4bb0-a7ae-edcd3720e036
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []

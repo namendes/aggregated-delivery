@@ -1,0 +1,31 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/hippofolders/hippostd-directory/hide-english-content:
+      jcr:primaryType: hipposys:facetrule
+      hipposys:equals: false
+      hipposys:facet: jcr:path
+      hipposys:filter: false
+      hipposys:type: Reference
+      hipposys:value: /content/documents/pactronics
+    /hippo:configuration/hippo:domains/hippofolders/hippostd-folder/hide-english-content:
+      jcr:primaryType: hipposys:facetrule
+      hipposys:equals: false
+      hipposys:facet: jcr:path
+      hipposys:filter: false
+      hipposys:type: Reference
+      hipposys:value: /content/documents/pactronics
+    /hippo:configuration/hippo:domains/hippofolders/hippostd-directory/hide-german-content:
+      jcr:primaryType: hipposys:facetrule
+      hipposys:equals: false
+      hipposys:facet: jcr:path
+      hipposys:filter: false
+      hipposys:type: Reference
+      hipposys:value: /content/documents/pactronics-german
+    /hippo:configuration/hippo:domains/hippofolders/hippostd-folder/hide-german-content:
+      jcr:primaryType: hipposys:facetrule
+      hipposys:equals: false
+      hipposys:facet: jcr:path
+      hipposys:filter: false
+      hipposys:type: Reference
+      hipposys:value: /content/documents/pactronics-german
+

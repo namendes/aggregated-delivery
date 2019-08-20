@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:containers/faqlist/main/faq:
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+  hst:iconpath: images/component-icon-faq.png
+  hst:label: Faq
+  hst:parameternames: [document]
+  hst:parametervalues: [faq/about-faq]
+  hst:template: faqlist-main
+  hst:xtype: hst.item

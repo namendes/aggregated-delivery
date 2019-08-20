@@ -1,0 +1,4 @@
+/hst:hst/hst:blueprints/commerce-site/hst:configuration/hst:workspace/hst:sitemenus/main/About Us:
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: about-us
+  hst:repobased: false

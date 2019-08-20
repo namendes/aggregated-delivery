@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:groups/German-editor:
+      hipposys:members:
+        operation: override
+        type: string
+        value: [German-editor]

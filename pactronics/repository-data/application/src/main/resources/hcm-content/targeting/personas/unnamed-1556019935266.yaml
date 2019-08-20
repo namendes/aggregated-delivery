@@ -1,0 +1,20 @@
+/targeting:targeting/targeting:personas/unnamed-1556019935266:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1556019935266-alterego
+  targeting:avatar: image-1556290948100
+  targeting:description: ''
+  targeting:name: Bill
+  targeting:quote: ''
+  targeting:segmentDescription: ''
+  targeting:segmentName: Microsoft
+  /targeting:expression:
+    jcr:primaryType: targeting:rule
+    targeting:targetgroup: commerceBrands/microsoft-1556019713644
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p9.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1556019935266/avatar/p9.png
+    jcr:lastModified: 2019-04-26T17:02:28.100+02:00
+    jcr:mimeType: image/png

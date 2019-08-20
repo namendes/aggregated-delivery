@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:users/admin:
+      hipposys:active:
+        operation: override
+        value: 'true'
+    /hippo:configuration/hippo:modules/autoexport/hippo:moduleconfig:
+      autoexport:modules:
+        operation: add
+        type: string
+        value: [repository-data/deployment]

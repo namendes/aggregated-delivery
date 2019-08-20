@@ -1,0 +1,25 @@
+/targeting:targeting/targeting:personas/unnamed-1556020087836:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1556020087836-alterego
+  targeting:avatar: image-1556290566439
+  targeting:description: ''
+  targeting:name: Ana
+  targeting:quote: ''
+  targeting:segmentDescription: ''
+  targeting:segmentName: Technology
+  /targeting:expression:
+    jcr:primaryType: targeting:andexpression
+    /0000000000:
+      jcr:primaryType: targeting:rule
+      targeting:targetgroup: commerceCategories/smartglasses-1556019694878
+    /0000000001:
+      jcr:primaryType: targeting:rule
+      targeting:targetgroup: commerceCategories/smartwatch-1556019331730
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p4.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1556020087836/avatar/p4.png
+    jcr:lastModified: 2019-04-26T16:56:06.439+02:00
+    jcr:mimeType: image/png

@@ -1,0 +1,6 @@
+/content/urlrewriter/proxy:
+  jcr:primaryType: urlrewriter:ruleset
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 7aa46e40-5510-439a-9c20-0c296ef51a3a
+  hippo:name: Proxy
+  hippostd:foldertype: [new-urlrewriter-folder, new-urlrewriter-document]

@@ -1,0 +1,863 @@
+/content/documents/pactronics-german/products:
+  .meta:order-before: kaufberatung
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 54d1eb94-e46d-42b7-834a-21f0ecf22624
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: ef38edee-c4c6-4242-830c-004c91198432
+  hippotranslation:locale: de
+  /laptop-table:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 41d9a18a-5511-4f5e-aceb-ffd01d683d53
+    hippo:name: Laptop Table
+    hippo:versionHistory: 6889c456-1b99-4f6e-8e9e-6a2e3240b309
+    /laptop-table[1]:
+      jcr:primaryType: pactronics:productdecorator
+      jcr:mixinTypes: ['mix:versionable', 'starterstore:connectorsettable']
+      jcr:uuid: 14678eeb-2767-48df-a3f6-4e56faee38f9
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-22T13:46:07.896+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:19:25.992+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 60780204-df55-4e18-892c-0db1f1fbc1e2
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [p10406]
+      pactronics:title: Super Ergonomic laptop table
+      starterstore:connectorid: bloomreach
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Why We Love It</p>
+
+                                  <p>Our laptop table features an oval shape that offers ample workspace in one petite package. Made of solid acacia wood and metal, this mixed-material piece boasts an industrial look.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 39780f7a-a3a4-49cd-a212-351ce1bd69cc
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:experience:
+        jcr:primaryType: pactronics:experience
+        /pactronics:banner:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 7c0a14c3-cd2a-412d-8a5a-c4f23d33b4b6
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:featureteaser:
+          jcr:primaryType: pactronics:featureteaser
+          pactronics:centercaption: Works with all laptop types
+          pactronics:leftcaption: Looks great in the living room
+          pactronics:rightcaption: Many models and finishes available
+          pactronics:slogan: The best laptop table under $100 on the market!
+          /pactronics:featuredescription:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Pellentesque nec luctus odio, vitae faucibus metus. Suspendisse
+              sed magna lacus.&nbsp;</p>
+          /pactronics:leftimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7512b688-8571-4fab-a3bb-d500ff557979
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:centerimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 92505534-8ddb-46f9-9c84-d817c385a7b0
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:rightimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: af4eedb2-0e25-4f85-b30f-4c868bb8753b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pactronics:video:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d931c679-fd25-42fc-8659-5a7f183f275e
+        /pactronics:specifications:
+          jcr:primaryType: pactronics:specifications
+          /pactronics:dimensions:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>WxHxL</p>
+          /pactronics:storage:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>100MB</p>
+          /pactronics:display:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Retina 18'' Display</p>
+
+                                              <p>1440p</p>
+          /pactronics:battery:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>8hrs inactivity</p>
+          /pactronics:memory:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>16GB Ram</p>
+          /pactronics:graphics:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Nvidia RTX 2080Ti</p>
+        /pactronics:productgallery:
+          jcr:primaryType: pactronics:productgallery
+          /pactronics:imageone:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d7248561-aad1-42c3-8c1b-325252bf0ba5
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagetwo:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagethree:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefour:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefive:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /laptop-table[2]:
+      jcr:primaryType: pactronics:productdecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 9d18eccf-8022-4913-bad4-f8c27459138d
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-22T13:46:07.896+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:19:26.077+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 60780204-df55-4e18-892c-0db1f1fbc1e2
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [p10406]
+      pactronics:title: Super Ergonomic laptop table
+      starterstore:connectorid: bloomreach
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Why We Love It</p>
+
+                                  <p>Our laptop table features an oval shape that offers ample workspace in one petite package. Made of solid acacia wood and metal, this mixed-material piece boasts an industrial look.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 39780f7a-a3a4-49cd-a212-351ce1bd69cc
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:experience:
+        jcr:primaryType: pactronics:experience
+        /pactronics:banner:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 7c0a14c3-cd2a-412d-8a5a-c4f23d33b4b6
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:featureteaser:
+          jcr:primaryType: pactronics:featureteaser
+          pactronics:centercaption: Works with all laptop types
+          pactronics:leftcaption: Looks great in the living room
+          pactronics:rightcaption: Many models and finishes available
+          pactronics:slogan: The best laptop table under $100 on the market!
+          /pactronics:featuredescription:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Pellentesque nec luctus odio, vitae faucibus metus. Suspendisse
+              sed magna lacus.&nbsp;</p>
+          /pactronics:leftimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7512b688-8571-4fab-a3bb-d500ff557979
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:centerimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 92505534-8ddb-46f9-9c84-d817c385a7b0
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:rightimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: af4eedb2-0e25-4f85-b30f-4c868bb8753b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pactronics:video:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d931c679-fd25-42fc-8659-5a7f183f275e
+        /pactronics:specifications:
+          jcr:primaryType: pactronics:specifications
+          /pactronics:dimensions:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>WxHxL</p>
+          /pactronics:storage:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>100MB</p>
+          /pactronics:display:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Retina 18'' Display</p>
+
+                                              <p>1440p</p>
+          /pactronics:battery:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>8hrs inactivity</p>
+          /pactronics:memory:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>16GB Ram</p>
+          /pactronics:graphics:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Nvidia RTX 2080Ti</p>
+        /pactronics:productgallery:
+          jcr:primaryType: pactronics:productgallery
+          /pactronics:imageone:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d7248561-aad1-42c3-8c1b-325252bf0ba5
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagetwo:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagethree:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefour:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefive:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /laptop-table[3]:
+      jcr:primaryType: pactronics:productdecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 31be7c3d-e37f-407b-9dfd-b8166fcd6d0b
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-22T13:46:07.896+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:19:25.992+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:06.847+02:00
+      hippotranslation:id: 60780204-df55-4e18-892c-0db1f1fbc1e2
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [p10406]
+      pactronics:title: Super Ergonomic laptop table
+      starterstore:connectorid: bloomreach
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Why We Love It</p>
+
+                                  <p>Our laptop table features an oval shape that offers ample workspace in one petite package. Made of solid acacia wood and metal, this mixed-material piece boasts an industrial look.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 39780f7a-a3a4-49cd-a212-351ce1bd69cc
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:experience:
+        jcr:primaryType: pactronics:experience
+        /pactronics:banner:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 7c0a14c3-cd2a-412d-8a5a-c4f23d33b4b6
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:featureteaser:
+          jcr:primaryType: pactronics:featureteaser
+          pactronics:centercaption: Works with all laptop types
+          pactronics:leftcaption: Looks great in the living room
+          pactronics:rightcaption: Many models and finishes available
+          pactronics:slogan: The best laptop table under $100 on the market!
+          /pactronics:featuredescription:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Pellentesque nec luctus odio, vitae faucibus metus. Suspendisse
+              sed magna lacus.&nbsp;</p>
+          /pactronics:leftimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7512b688-8571-4fab-a3bb-d500ff557979
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:centerimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 92505534-8ddb-46f9-9c84-d817c385a7b0
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:rightimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: af4eedb2-0e25-4f85-b30f-4c868bb8753b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pactronics:video:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d931c679-fd25-42fc-8659-5a7f183f275e
+        /pactronics:specifications:
+          jcr:primaryType: pactronics:specifications
+          /pactronics:dimensions:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>WxHxL</p>
+          /pactronics:storage:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>100MB</p>
+          /pactronics:display:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Retina 18'' Display</p>
+
+                                              <p>1440p</p>
+          /pactronics:battery:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>8hrs inactivity</p>
+          /pactronics:memory:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>16GB Ram</p>
+          /pactronics:graphics:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Nvidia RTX 2080Ti</p>
+        /pactronics:productgallery:
+          jcr:primaryType: pactronics:productgallery
+          /pactronics:imageone:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d7248561-aad1-42c3-8c1b-325252bf0ba5
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagetwo:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagethree:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefour:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefive:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+  /smart-watch-1s:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b1544bc2-a369-41d1-87f3-6ffe98809681
+    hippo:name: Smart Watch 1S
+    hippo:versionHistory: 293ac53f-6dc4-4ba6-85f9-47d2a45ff89c
+    /smart-watch-1s[1]:
+      jcr:primaryType: pactronics:productdecorator
+      jcr:mixinTypes: ['mix:versionable', 'starterstore:connectorsettable']
+      jcr:uuid: 2009cd36-a5c4-42da-bb58-c0340ce264fe
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-29T10:26:47.386+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:19:38.192+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6f3c6612-b6e4-43bf-b71e-378e999f53a6
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [p90007]
+      pactronics:title: The Pactronics Space Watch 1S
+      starterstore:connectorid: bloomreach
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Our most advanced Space Watch is out now.</p>
+
+                                  <p>Shock resistant, any temperature, any environment.</p>
+
+                                  <p>Travel space in style.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 359ba3cc-76c4-49cc-bbcc-360200d87db4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:experience:
+        jcr:primaryType: pactronics:experience
+        /pactronics:banner:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:featureteaser:
+          jcr:primaryType: pactronics:featureteaser
+          pactronics:centercaption: ''
+          pactronics:leftcaption: ''
+          pactronics:rightcaption: ''
+          pactronics:slogan: ''
+          /pactronics:featuredescription:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:leftimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:centerimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:rightimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pactronics:video:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /pactronics:specifications:
+          jcr:primaryType: pactronics:specifications
+          /pactronics:dimensions:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:storage:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:display:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:battery:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:memory:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:graphics:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /pactronics:productgallery:
+          jcr:primaryType: pactronics:productgallery
+          /pactronics:imageone:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagetwo:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagethree:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefour:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefive:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /smart-watch-1s[2]:
+      jcr:primaryType: pactronics:productdecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 6218f6a1-388b-4b2a-a9d8-4c72ab783f40
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-29T10:26:47.386+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:19:38.256+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6f3c6612-b6e4-43bf-b71e-378e999f53a6
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [p90007]
+      pactronics:title: The Pactronics Space Watch 1S
+      starterstore:connectorid: bloomreach
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Our most advanced Space Watch is out now.</p>
+
+                                  <p>Shock resistant, any temperature, any environment.</p>
+
+                                  <p>Travel space in style.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 359ba3cc-76c4-49cc-bbcc-360200d87db4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:experience:
+        jcr:primaryType: pactronics:experience
+        /pactronics:banner:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:featureteaser:
+          jcr:primaryType: pactronics:featureteaser
+          pactronics:centercaption: ''
+          pactronics:leftcaption: ''
+          pactronics:rightcaption: ''
+          pactronics:slogan: ''
+          /pactronics:featuredescription:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:leftimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:centerimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:rightimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pactronics:video:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /pactronics:specifications:
+          jcr:primaryType: pactronics:specifications
+          /pactronics:dimensions:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:storage:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:display:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:battery:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:memory:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:graphics:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /pactronics:productgallery:
+          jcr:primaryType: pactronics:productgallery
+          /pactronics:imageone:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagetwo:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagethree:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefour:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefive:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /smart-watch-1s[3]:
+      jcr:primaryType: pactronics:productdecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: baa05ee0-ff05-4ff1-a183-45cf730d63c5
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-29T10:26:47.386+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:19:38.192+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:05.661+02:00
+      hippotranslation:id: 6f3c6612-b6e4-43bf-b71e-378e999f53a6
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [p90007]
+      pactronics:title: The Pactronics Space Watch 1S
+      starterstore:connectorid: bloomreach
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Our most advanced Space Watch is out now.</p>
+
+                                  <p>Shock resistant, any temperature, any environment.</p>
+
+                                  <p>Travel space in style.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 359ba3cc-76c4-49cc-bbcc-360200d87db4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:experience:
+        jcr:primaryType: pactronics:experience
+        /pactronics:banner:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:featureteaser:
+          jcr:primaryType: pactronics:featureteaser
+          pactronics:centercaption: ''
+          pactronics:leftcaption: ''
+          pactronics:rightcaption: ''
+          pactronics:slogan: ''
+          /pactronics:featuredescription:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:leftimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:centerimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:rightimage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pactronics:video:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /pactronics:specifications:
+          jcr:primaryType: pactronics:specifications
+          /pactronics:dimensions:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:storage:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:display:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:battery:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:memory:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:graphics:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /pactronics:productgallery:
+          jcr:primaryType: pactronics:productgallery
+          /pactronics:imageone:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagetwo:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagethree:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefour:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:imagefive:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+  /samsung-sm-r3800gnaxar-gear-2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 332197c9-a80b-4327-b3a5-73063d45250b
+    hippo:name: Samsung Sm-r3800gnaxar Gear 2
+    hippo:versionHistory: dbdfe78d-3cdd-4156-889b-b10fca3ca925
+    /samsung-sm-r3800gnaxar-gear-2[1]:
+      jcr:primaryType: pactronics:productdecorator
+      jcr:mixinTypes: ['mix:versionable', 'starterstore:connectorsettable']
+      jcr:uuid: 1c6c0b91-798a-436a-bb44-c2772a045fb0
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-10T08:06:08.330+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:19:55.596+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 62a1d1aa-a688-4dfb-b3b3-27922c25df0b
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [p10308]
+      pactronics:title: The Ultimate Sub-G SmartWatch
+      starterstore:connectorid: bloomreach
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>This is it</p>
+
+                                  <p>Don't jump too high!</p>
+
+                                  <ul>
+                                  <li>Seamless Communication: Samsung Gear 2 allows you to make and receive calls and read more on a large sAMOLED display making communication smooth and seamless.</li>
+                                  </ul>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6125280b-cfb1-41c6-8129-e9437bf7e079
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /samsung-sm-r3800gnaxar-gear-2[2]:
+      jcr:primaryType: pactronics:productdecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 9e0229e1-ddff-4a13-8f74-c83f4b98b9a0
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-10T08:06:08.330+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:19:55.635+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 62a1d1aa-a688-4dfb-b3b3-27922c25df0b
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [p10308]
+      pactronics:title: The Ultimate Sub-G SmartWatch
+      starterstore:connectorid: bloomreach
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>This is it</p>
+
+                                  <p>Don't jump too high!</p>
+
+                                  <ul>
+                                  <li>Seamless Communication: Samsung Gear 2 allows you to make and receive calls and read more on a large sAMOLED display making communication smooth and seamless.</li>
+                                  </ul>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6125280b-cfb1-41c6-8129-e9437bf7e079
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /samsung-sm-r3800gnaxar-gear-2[3]:
+      jcr:primaryType: pactronics:productdecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: d41734a0-72aa-4b96-82d2-c22311a3630b
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-10T08:06:08.330+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:19:55.596+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:07.126+02:00
+      hippotranslation:id: 62a1d1aa-a688-4dfb-b3b3-27922c25df0b
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [p10308]
+      pactronics:title: The Ultimate Sub-G SmartWatch
+      starterstore:connectorid: bloomreach
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>This is it</p>
+
+                                  <p>Don't jump too high!</p>
+
+                                  <ul>
+                                  <li>Seamless Communication: Samsung Gear 2 allows you to make and receive calls and read more on a large sAMOLED display making communication smooth and seamless.</li>
+                                  </ul>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6125280b-cfb1-41c6-8129-e9437bf7e079
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []

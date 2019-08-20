@@ -1,0 +1,43 @@
+/content/urlrewriter/proxy/exception-essentials:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: e84bc922-fa90-4105-abfc-253321d8fa3a
+  hippo:name: exception (essentials)
+  hippo:versionHistory: 617e64e1-f0ec-4ff5-8f7f-81c4c8dd7342
+  /exception-essentials[1]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 8c5cdef7-3c27-4dc7-9445-2fe642fb57aa
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:04:02.865+02:00
+    hippostdpubwf:lastModificationDate: 2019-05-02T22:43:01.133+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule> \r\n<name>BEEssentials</name> \r\n<from>^.*/essentials.*$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n</rule>"
+  /exception-essentials[2]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 009da733-a705-43bb-8d96-5aa603d5cd6a
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:04:02.865+02:00
+    hippostdpubwf:lastModificationDate: 2019-05-02T22:42:51.460+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule> \r\n<name>BEEssentials</name> \r\n<from>^.*/essentials.*$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n</rule>"
+  /exception-essentials[3]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 9a395761-5cf5-4f33-aa67-5d4b2641a843
+    hippo:availability: []
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:04:02.865+02:00
+    hippostdpubwf:lastModificationDate: 2019-05-02T22:43:01.133+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-05-02T22:43:02.783+02:00
+    urlrewriter:rule: "<rule> \r\n<name>BEEssentials</name> \r\n<from>^.*/essentials.*$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n</rule>"

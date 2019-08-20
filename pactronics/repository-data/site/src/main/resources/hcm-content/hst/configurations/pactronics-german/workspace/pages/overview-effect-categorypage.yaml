@@ -1,0 +1,25 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:pages/overview-effect-categorypage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2019-01-10T00:24:28.682+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-01-10T00:53:32.523+01:00
+    hst:xtype: hst.vbox
+    /categorydecorator:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:parameternames: [connectorComponent, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        starterstoreQueryParam_pageSize, starterstoreQueryParam_offset, commands,
+        showPagination, showFacets]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductDecoratorInfo
+      hst:parametervalues: [productSearchByCategory, 'off', '12', '1', 'initContextCommand,  cartCreateCommand,
+          cartProductListCommand, cartProductAddCommand, personalizationCallCommand,
+          commerceCallCommand, pageableCommand, contentSingleDecoratorCommand', 'on',
+        'on']
+      hst:template: starterstore-categorydetail
+      hst:xtype: hst.item

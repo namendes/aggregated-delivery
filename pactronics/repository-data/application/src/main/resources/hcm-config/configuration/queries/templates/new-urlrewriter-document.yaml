@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-urlrewriter-document:
+      jcr:statement: //element(*,hipposysedit:namespacefolder)/element(*,mix:referenceable)/element(*,hipposysedit:templatetype)/hipposysedit:prototypes/hipposysedit:prototype[@jcr:primaryType='urlrewriter:advancedrule'
+        or @jcr:primaryType='urlrewriter:rule' or @jcr:primaryType='urlrewriter:xmlrule'or
+        @jcr:primaryType='siteproxy:rule']

@@ -1,0 +1,13 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:sitemap/categories:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/categories-contentpage
+  hst:refId: categories
+  hst:relativecontentpath: categories
+  /_default_:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/category-detail
+    hst:parameternames: [externalReferenceId, br_data.ptype]
+    hst:parametervalues: ['${1}', category]
+    hst:relativecontentpath: ${parent}/${1}

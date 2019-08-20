@@ -1,0 +1,3 @@
+/targeting:targeting/targeting:alteregos/unnamed-1556020062123-alterego:
+  jcr:primaryType: targeting:alterego
+  targeting:targetingdata: '{"targetingData":{"commerceCategories":{"collectorId":"commerceCategories","termFreq":{"accesories":1},"size":100}}}'

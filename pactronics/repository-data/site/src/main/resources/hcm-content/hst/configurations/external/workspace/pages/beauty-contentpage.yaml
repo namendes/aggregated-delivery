@@ -1,0 +1,29 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:pages/beauty-contentpage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2019-08-11T12:05:05.587+02:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-08-11T12:27:36.353+02:00
+    hst:xtype: hst.vbox
+  /top:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable', 'hippostd:relaxed']
+    hst:lastmodified: 2019-08-12T14:04:40.853+02:00
+    hst:xtype: HST.vBox
+    mode: inside
+    selector: '#content > section:nth-child(1) > div'
+    /banner:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Banner
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', etos/beauty-banner, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+      hst:template: essentials-banner
+      hst:xtype: hst.item

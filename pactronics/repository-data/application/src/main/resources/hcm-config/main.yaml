@@ -1,0 +1,27 @@
+definitions:
+  namespace:
+    pactronics:
+      uri: http://www.onehippo.org/pactronics/nt/1.0
+      cnd: namespaces/pactronics.cnd
+    siteproxy:
+      uri: http://www.onehippo.org/siteproxy/nt/1.0
+      cnd: siteproxy.cnd
+  config:
+    /hippo:configuration/hippo:modules/webfiles/hippo:moduleconfig:
+      watchedModules: [repository-data/webfiles]
+      maxFileLengthKb: 1024
+    /hippo:configuration/hippo:domains/hippofolders/readonly:
+      hipposys:groups:
+        operation: add
+        type: string
+        value: [sitewriters]
+    /hippo:configuration/hippo:domains/preview-documents/readonly:
+      hipposys:groups:
+        operation: add
+        type: string
+        value: [previewusers]
+    /hippo:configuration/hippo:domains/live-documents/readonly:
+      hipposys:groups:
+        operation: add
+        type: string
+        value: [liveusers]

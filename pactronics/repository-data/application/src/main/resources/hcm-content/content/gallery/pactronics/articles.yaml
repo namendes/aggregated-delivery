@@ -1,0 +1,261 @@
+/content/gallery/pactronics/articles:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 47d32697-60bd-4ee6-90bf-24fd940be80a
+  hippostd:foldertype: [new-pactronics-pactronics-folder]
+  hippostd:gallerytype: ['pactronics:pactronics']
+  /laptop-linux.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 908b03b7-7780-4949-9fb4-f819489c0235
+    /laptop-linux.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: laptop-linux.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: laptop-linux.jpg
+        hippogallery:height: 33
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/laptop-linux.jpg/laptop-linux.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-11-22T09:52:58.060+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 545
+        hippogallery:width: 970
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/laptop-linux.jpg/laptop-linux.jpg/original/original.jpg
+        jcr:lastModified: 2018-11-22T09:52:58.060+01:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 545
+        hippogallery:width: 970
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/laptop-linux.jpg/laptop-linux.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:36:51.460+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 449
+        hippogallery:width: 800
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/laptop-linux.jpg/laptop-linux.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:36:51.604+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 337
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/laptop-linux.jpg/laptop-linux.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:36:51.741+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/laptop-linux.jpg/laptop-linux.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:36:51.909+02:00
+        jcr:mimeType: image/jpeg
+  /hot_watch_smart_watch_from_kickstarter_01.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 68f9b02e-5b49-433d-adb6-54aa80088ff5
+    hippo:name: HOT_Watch_Smart_Watch_from_Kickstarter_01.JPG
+    /hot_watch_smart_watch_from_kickstarter_01.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: HOT_Watch_Smart_Watch_from_Kickstarter_01.JPG
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: HOT_Watch_Smart_Watch_from_Kickstarter_01.JPG
+        hippogallery:height: 39
+        hippogallery:width: 59
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/hot_watch_smart_watch_from_kickstarter_01.jpg/hot_watch_smart_watch_from_kickstarter_01.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-11-29T11:44:16.415+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 220
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/hot_watch_smart_watch_from_kickstarter_01.jpg/hot_watch_smart_watch_from_kickstarter_01.jpg/original/original.jpg
+        jcr:lastModified: 2018-11-29T11:44:16.415+01:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 220
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/hot_watch_smart_watch_from_kickstarter_01.jpg/hot_watch_smart_watch_from_kickstarter_01.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:36:52.151+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 220
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/hot_watch_smart_watch_from_kickstarter_01.jpg/hot_watch_smart_watch_from_kickstarter_01.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:36:52.154+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 220
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/hot_watch_smart_watch_from_kickstarter_01.jpg/hot_watch_smart_watch_from_kickstarter_01.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:36:52.159+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 265
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/hot_watch_smart_watch_from_kickstarter_01.jpg/hot_watch_smart_watch_from_kickstarter_01.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:36:52.163+02:00
+        jcr:mimeType: image/jpeg
+  /1_uhzoof1etgckn9_xisst4w.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 997b1635-75df-45ee-99c1-fd1a77b5537e
+    hippo:name: 1_uHzooF1EtgcKn9_XiSST4w.png
+    /1_uhzoof1etgckn9_xisst4w.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: 1_uHzooF1EtgcKn9_XiSST4w.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: 1_uHzooF1EtgcKn9_XiSST4w.png
+        hippogallery:height: 36
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/1_uhzoof1etgckn9_xisst4w.png/1_uhzoof1etgckn9_xisst4w.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2018-11-29T15:00:04.736+01:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 364
+        hippogallery:width: 599
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/1_uhzoof1etgckn9_xisst4w.png/1_uhzoof1etgckn9_xisst4w.png/original/original.png
+        jcr:lastModified: 2018-11-29T15:00:04.736+01:00
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 364
+        hippogallery:width: 599
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/1_uhzoof1etgckn9_xisst4w.png/1_uhzoof1etgckn9_xisst4w.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T12:36:52.177+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 364
+        hippogallery:width: 599
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/1_uhzoof1etgckn9_xisst4w.png/1_uhzoof1etgckn9_xisst4w.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T12:36:52.279+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 364
+        hippogallery:width: 599
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/1_uhzoof1etgckn9_xisst4w.png/1_uhzoof1etgckn9_xisst4w.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T12:36:52.303+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 243
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/1_uhzoof1etgckn9_xisst4w.png/1_uhzoof1etgckn9_xisst4w.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T12:36:52.326+02:00
+        jcr:mimeType: image/png
+  /excercise.jpeg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 51be2ec8-25ab-4fd6-8337-1fa62acac5ae
+    hippo:name: Excercise.jpeg
+    /excercise.jpeg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: Excercise.jpeg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: Excercise.jpeg
+        hippogallery:height: 30
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/excercise.jpeg/excercise.jpeg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2019-04-03T13:12:06.811Z
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 325
+        hippogallery:width: 650
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/excercise.jpeg/excercise.jpeg/original/original.jpg
+        jcr:lastModified: 2019-04-03T13:12:06.811Z
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 325
+        hippogallery:width: 650
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/excercise.jpeg/excercise.jpeg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:36:52.014+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 325
+        hippogallery:width: 650
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/excercise.jpeg/excercise.jpeg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:36:52.046+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/excercise.jpeg/excercise.jpeg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:36:52.076+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 200
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/articles/excercise.jpeg/excercise.jpeg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:36:52.120+02:00
+        jcr:mimeType: image/jpeg

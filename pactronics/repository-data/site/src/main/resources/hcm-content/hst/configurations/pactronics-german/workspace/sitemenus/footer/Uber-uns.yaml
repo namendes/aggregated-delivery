@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:sitemenus/footer/Über uns:
+  .meta:order-before: Kontaktiere uns
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: about-us
+  hst:repobased: false

@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:sitemenus/main/content:
+  .meta:order-before: Articles
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: content

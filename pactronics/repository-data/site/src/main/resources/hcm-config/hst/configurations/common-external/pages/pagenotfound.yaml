@@ -1,0 +1,21 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/pagenotfound:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsPageNotFoundComponent
+        hst:template: pagenotfound-main
+        jcr:mixinTypes: ['hippostd:relaxed']
+        selector: ''
+        mode: top
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: pagenotfound/main
+      /bottom:
+        jcr:primaryType: hst:containercomponent
+        jcr:mixinTypes: ['hippostd:relaxed']
+        hst:xtype: HST.vBox
+        mode: inside
+        selector: '#content > div > section:nth-child(3) > div'

@@ -1,0 +1,28 @@
+/hst:hst/hst:configurations/kioskapp/hst:workspace/hst:containers/base/header/left:
+  jcr:primaryType: hst:containercomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:label: Header Left
+  hst:lastmodified: 2019-05-09T01:46:26.323-07:00
+  hst:xtype: hst.vbox
+  /logo:
+    jcr:primaryType: hst:containeritemcomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsImageComponent
+    hst:iconpath: images/essentials/catalog-component-icons/image.png
+    hst:label: Logo
+    hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+      document]
+    hst:parametervalues: ['off', /content/gallery/pactronics/logos/pactronics-logo-small.png]
+    hst:template: base-component
+    hst:xtype: hst.item
+  /menu:
+    jcr:primaryType: hst:containeritemcomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+    hst:iconpath: images/essentials/catalog-component-icons/menu.png
+    hst:label: Menu
+    hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+      menu, org.hippoecm.hst.core.component.template]
+    hst:parametervalues: ['off', main, 'webfile:/freemarker/hstdefault/essentials-menu/navbar.ftl']
+    hst:template: essentials-menu
+    hst:xtype: hst.item

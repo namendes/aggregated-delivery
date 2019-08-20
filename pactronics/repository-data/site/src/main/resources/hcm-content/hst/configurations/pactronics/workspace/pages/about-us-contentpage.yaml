@@ -1,0 +1,27 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:pages/about-us-contentpage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2018-11-14T10:43:48.099+05:30
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2018-11-14T12:22:13.667+05:30
+    hst:xtype: hst.vbox
+    /imagecomponent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsImageComponent
+      hst:iconpath: images/essentials/catalog-component-icons/image.png
+      hst:label: Image
+      hst:template: image-component
+      hst:xtype: hst.item
+    /simplecontent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+      hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+      hst:label: Simple Content
+      hst:template: contentpage-main
+      hst:xtype: hst.item

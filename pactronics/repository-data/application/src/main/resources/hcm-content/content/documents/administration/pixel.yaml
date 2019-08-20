@@ -1,0 +1,69 @@
+/content/documents/administration/pixel:
+  .meta:order-before: mappings
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 58676d03-7f39-457e-bdab-794f459f1535
+  hippostd:foldertype: [new-untranslated-folder, new-universal-pixel-variables-document]
+  /default-pixel-variables:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f9bfe4cb-9434-48d6-bf16-b8c297095de7
+    hippo:name: Default Pixel Variables
+    /default-pixel-variables[1]:
+      jcr:primaryType: universalpixel:pixelvariablesdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7143abae-2db2-4de5-8c35-7edb054bf597
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-10-11T14:41:50.004-04:00
+      hippostdpubwf:lastModificationDate: 2018-10-11T14:48:45.306-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      universalpixel:title: Default Pixel Variables
+      /universalpixel:pixelvariable[1]:
+        jcr:primaryType: universalpixel:pixelvariable
+        universalpixel:varname: pageview:ptype
+        universalpixel:varvalue: other
+      /universalpixel:pixelvariable[2]:
+        jcr:primaryType: universalpixel:pixelvariable
+        universalpixel:varname: pageview:cat_id
+        universalpixel:varvalue: category1
+    /default-pixel-variables[2]:
+      jcr:primaryType: universalpixel:pixelvariablesdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 4e2a9ae1-3f7c-4d53-a440-6d050bd4d8f1
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-10-11T14:41:50.004-04:00
+      hippostdpubwf:lastModificationDate: 2018-10-11T14:48:41.620-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      universalpixel:title: Default Pixel Variables
+      /universalpixel:pixelvariable[1]:
+        jcr:primaryType: universalpixel:pixelvariable
+        universalpixel:varname: pageview:ptype
+        universalpixel:varvalue: other
+      /universalpixel:pixelvariable[2]:
+        jcr:primaryType: universalpixel:pixelvariable
+        universalpixel:varname: pageview:cat_id
+        universalpixel:varvalue: category1
+    /default-pixel-variables[3]:
+      jcr:primaryType: universalpixel:pixelvariablesdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6b39219d-0ef3-42fd-b295-ca7e4be6650c
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-10-11T14:41:50.004-04:00
+      hippostdpubwf:lastModificationDate: 2018-10-11T14:48:41.620-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-10-11T14:48:49.394-04:00
+      universalpixel:title: Default Pixel Variables
+      /universalpixel:pixelvariable[1]:
+        jcr:primaryType: universalpixel:pixelvariable
+        universalpixel:varname: pageview:ptype
+        universalpixel:varvalue: other
+      /universalpixel:pixelvariable[2]:
+        jcr:primaryType: universalpixel:pixelvariable
+        universalpixel:varname: pageview:cat_id
+        universalpixel:varvalue: category1

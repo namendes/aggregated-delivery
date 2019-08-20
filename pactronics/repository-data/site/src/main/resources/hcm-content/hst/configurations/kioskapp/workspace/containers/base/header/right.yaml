@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/kioskapp/hst:workspace/hst:containers/base/header/right:
+  jcr:primaryType: hst:containercomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:label: Header Right
+  hst:lastmodified: 2019-05-08T14:57:33.810-07:00
+  hst:xtype: hst.vbox

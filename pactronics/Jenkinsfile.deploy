@@ -1,0 +1,192 @@
+// Copyright 2018-2019 BloomReach B.V. (https://www.bloomreach.com)
+
+import groovy.json.JsonSlurper
+
+pipeline {
+    agent {
+        docker {
+            label 'docker'
+            image 'onehippo/buildcms:latest'
+            registryUrl 'https://docker.io/'
+            //customWorkspace "workspace/"
+            args "-v /dev/urandom:/dev/random \
+                  --cap-add=SYS_ADMIN"
+        }
+    }
+    environment {
+        gitCredentialsID = 'a9511950-0b5d-4727-aa82-a0d7f205b1f4'
+        mavenSettingsID = 'org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig1412272376940'
+
+        def workspace = pwd()
+
+        // Setup variables for the deployment
+        od2_environment = "latest"
+        od2_url = "https://api-dxpfc.onehippo.io"
+
+        deployed_site = "https://${od2_environment}-dxpfc.onehippo.io/site/"
+        deployed_cms = "https://${od2_environment}-dxpfc.onehippo.io/cms/"
+    }
+
+//    options {
+//        buildDiscarder(logRotator(numToKeepStr:'10'))
+//        disableConcurrentBuilds()
+//        gitLabConnection('https://code.onehippo.org/')
+//        gitlabCommitStatus(name: 'jenkins')
+//        skipStagesAfterUnstable()
+//        timeout(time: 3, unit: 'HOURS')
+//        timestamps()
+//    }
+
+    stages {
+        stage('Prepare') {
+            steps {
+                echo "=== Build Environment ================"
+                sh "java -version && javac -version && node --version && mvn --version && google-chrome --version"
+                echo "======================================"
+            }
+        }
+        stage('Build') {
+            steps {
+                // Run the maven build
+                echo "Build the distribution:"
+                withMaven(
+                    options: [artifactsPublisher(disabled: true)],
+                    mavenSettingsConfig: mavenSettingsID) {
+                    // sh '$MVN_CMD help:effective-settings -U -Dhippo.snapshots=true'
+                    sh '$MVN_CMD -e -B -Dsurefire.useFile=false -U clean install -Dhippo.snapshots -Pdefault -Pwith-deployment-module'
+                    sh '$MVN_CMD -Dhippo.snapshots -Dhst-properties=conf/hst-dev.properties -P dist'
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                    // Login to get the access token
+                    echo "Login to OD2 and obtains token:"
+                    withCredentials([usernamePassword(credentialsId: 'brc_starterstore_admin', passwordVariable: 'od2_password', usernameVariable: 'od2_username')]) {
+
+                        def json = "{\"username\": \"${od2_username}\", \"password\": \"${od2_password}\"}"
+                        loginResult = sh(script: "curl  -s -X POST '${od2_url}/v3/authn/access_token' \
+                -H 'Content-Type: application/json' \
+                -d '${json}'",
+                                returnStdout: true)
+                    }
+                    echo "Login result ${loginResult}"
+                    String access_token = "Bearer " + parseJson(loginResult).access_token
+
+                    // Get the environment ID
+                    echo "Get the environments"
+                    environments = sh(script: "curl -X GET '${od2_url}/v3/environments/' \
+            -H 'Authorization: ${access_token}' \
+            -H 'Content-Type: application/json'",
+                            returnStdout: true)
+
+                    // We require an exising environment. Alternative is to delete/create one
+                    environmentID = getEnvironmentID(environments, od2_environment)
+                    echo "Environments result: ${environments}"
+                    echo "Environment ID: ${environmentID}"
+
+                    // Delete and create if environment exists, this is optional
+                    if (environmentID != null) {
+                        // Environment exists, delete it
+                        echo "Delete environment"
+                        sh(script: "curl --http1.1 -X DELETE '${od2_url}/v3/environments/${environmentID}' \
+            -H 'Authorization: ${access_token}' \
+            -H 'Content-Type: application/json'")
+                        environmentID = null
+                    }
+
+                    sleep 30
+
+                    // Create environment if not already exist
+                    if (environmentID == null) {
+                        // Create environment
+                        echo "Create environment"
+                        json = "{\"name\": \"${od2_environment}\"}"
+                        createEnvironmentResult = sh(script: "curl -X POST '${od2_url}/v3/environments/' \
+            -H 'Authorization: ${access_token}' \
+            -H 'Content-Type: application/json' \
+            -d '${json}'",
+                                returnStdout: true)
+                        echo "createEnvironmentResult " + createEnvironmentResult
+                        environmentID = parseJson(createEnvironmentResult).id
+                    }
+
+                    // Upload the distribution
+                    String projectVersion = readMavenPom(file: "${workspace}/pom.xml").getVersion()
+                    echo "Project version ${projectVersion}"
+                    String projectName = "starterstore-boot"
+                    String distribution = "target/${projectName}-${projectVersion}-distribution.tar.gz"
+                    echo "Upload the distribution ${distribution}"
+                    uploadResult = sh(script: "curl -X POST '${od2_url}/v3/distributions/?replace=true' \
+            -H 'Authorization: ${access_token}' \
+            -H 'Content-Type:multipart/form-data' \
+            -F 'dist_file=@${workspace}/${distribution}'",
+                            returnStdout: true)
+                    echo "Upload result: ${uploadResult}"
+
+                    distID = parseJson(uploadResult).id
+                    echo "distID: ${distID}"
+
+                    // Deploy the distribution to the environment
+                    echo "Deploy distribution"
+                    json = "{\"distributionId\": \"${distID}\", \"appConfigFileRoles\": [{\"appConfigFileId\": \"4f429cd9-6750-4085-bda6-a66c933ad9cd\",\"role\": \"file\"}]}"
+                    deployResult = sh(script: "curl  -i --http1.1 -X PUT '${od2_url}/v3/environments/${environmentID}/deploy' \
+            -H 'Authorization: ${access_token}' \
+            -H 'Content-Type: application/json' \
+            -d '${json}'",
+                            returnStdout: true)
+                    echo "Result of deploy: ${deployResult}"
+                }
+            }
+        }
+
+        stage('CMS Up') {
+            steps {
+                // Test if the CMS is up. Try for 10 minutes till the title is as expected
+                timeout(time: 10, unit: 'MINUTES') {
+                    waitUntil {
+                        script {
+                            try {
+                                httpRequest timeout: 60, url: "${deployed_cms}"
+                                return true
+                            } catch (exception) {
+                                return false
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        stage('Results') {
+            steps {
+                slackSend channel: 'dxpsolutions-ci', color: '#0000ff', message: "Project deployed on the BloomReach Cloud Engineering stack ${od2_environment} environment. CMS URL ${deployed_cms}"
+            }
+        }
+    }
+
+// You could move slackSend to post. Possible post states: always, success, failure, unstable
+//    post {
+//        success {
+//            slackSend channel: 'dxpsolutions-ci', color: '#0000ff', message: "Project deployed on the BloomReach Cloud Engineering stack ${od2_environment} environment. CMS URL ${deployed_cms}"
+//        }
+//    }
+
+}
+
+@NonCPS
+def parseJson(text) {
+    return new JsonSlurper().parseText(text)
+}
+
+// This can be moved to main script with Groovy 2.4.11 and plugin update
+@NonCPS
+def getEnvironmentID(environments, od2_environment) {
+    result = null
+    parseJson(environments).items.each() { env ->
+        if(env.name.toString() == od2_environment) {
+            result = env.id
+        }
+    }
+    return result
+}

@@ -1,0 +1,4 @@
+/targeting:targeting/targeting:characteristics/pageviews/cart-1555090123987:
+  jcr:primaryType: targeting:targetgroup
+  targeting:name: cart
+  targeting:propertynames: ['http://localhost:8080/site/cart']

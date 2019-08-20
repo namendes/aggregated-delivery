@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:pages/categories-contentpage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable', 'hst:editable']
+  hst:lastmodified: 2018-11-20T09:47:25.778+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2018-11-20T09:47:25.778+01:00
+    hst:xtype: hst.vbox

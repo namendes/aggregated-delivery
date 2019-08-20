@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/universal-pixel/rest:
+      hipposys:groups: [admin, ecomm, editor, webmaster]

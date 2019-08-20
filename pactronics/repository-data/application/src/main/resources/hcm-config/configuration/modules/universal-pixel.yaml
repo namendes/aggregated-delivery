@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/universal-pixel/hippo:moduleconfig:
+      default.vars.source: classpath:/com/onehippo/cms7/addon/unipixel/commerce-pixel-schema-0.1.json
+      default.editable.vars.list: pageview:ptype, pageview:cat, pageview:cat_id

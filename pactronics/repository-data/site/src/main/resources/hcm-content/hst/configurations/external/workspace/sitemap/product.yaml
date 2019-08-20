@@ -1,0 +1,18 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/product:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/product-contentpage
+  hst:lastmodified: 2019-08-13T11:40:24.509+02:00
+  hst:pagetitle: product
+  /skf-radial-spherical-plain-bearing:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/product-skf-radial-spherical-plain-bearing-contentpage
+    hst:lastmodified: 2019-08-13T11:40:52.746+02:00
+    hst:pagetitle: skf-radial-spherical-plain-bearing
+    /SPC00001605:
+      jcr:primaryType: hst:sitemapitem
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentconfigurationid: hst:pages/product-skf-radial-spherical-plain-bearing-spc00001605-contentpage
+      hst:lastmodified: 2019-08-13T11:42:14.325+02:00
+      hst:pagetitle: SPC00001605

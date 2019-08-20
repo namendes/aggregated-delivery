@@ -1,0 +1,18 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/producten:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/producten-contentpage
+  hst:lastmodified: 2019-08-12T11:49:22.304+02:00
+  hst:pagetitle: producten
+  /etos-nail-polish-remover-met-aceton-120219891.html:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/producten-etos-nail-polish-remover-met-aceton-120219891.html-contentpage
+    hst:lastmodified: 2019-08-12T12:37:21.612+02:00
+    hst:pagetitle: etos-nail-polish-remover-met-aceton-120219891
+  /nivea-3-in-1-verfrissende-reinigingsdoekjes-120092763.html:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/producten-nivea-3-in-1-verfrissende-reinigingsdoekjes-120092763.html-productpage
+    hst:lastmodified: 2019-08-12T14:06:15.918+02:00
+    hst:pagetitle: nivea-3-in-1-verfrissende-reinigingsdoekjes-120092763

@@ -1,0 +1,109 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/pactronics-german/hst:sitemap:
+      jcr:primaryType: hst:sitemap
+      /root:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/homepage
+        hst:pagetitle: Home Page
+        hst:refId: root
+      /_any_:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagenotfound
+      /pagenotfound:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagenotfound
+        hst:pagetitle: Not Found Page
+        hst:refId: pagenotfound
+      /content:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/contentlist
+        hst:pagetitle: List of Simple Documents
+        hst:relativecontentpath: content
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/contentpage
+          hst:relativecontentpath: ${parent}/${1}
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/contentlist
+          hst:relativecontentpath: ${parent}/${1}
+      /faq:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/faqlist
+        hst:pagetitle: List of FAQ's
+        hst:relativecontentpath: faq
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/faqpage
+          hst:relativecontentpath: ${parent}/${1}
+        /_default_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/faqlist
+          hst:relativecontentpath: ${parent}/${1}
+      /product-search:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/starterstore-productsearch
+        hst:pagetitle: Product Search Results
+        hst:refId: product-search
+      /search:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/starterstore-productsearch
+      /product-finder:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/product-finder
+      /no-results-found:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/no-results-page
+        hst:pagetitle: No Results Found
+        hst:refId: no-results-page
+        hst:relativecontentpath: content/no-results-found
+      /cart:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/starterstore-cart
+        hst:parameternames: [connectorComponent]
+        hst:parametervalues: [cartProductList]
+        hst:refId: cart
+      /signin:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/signin-contentpage
+        hst:lastmodified: 2018-10-24T17:03:37.387-04:00
+        hst:pagetitle: Sign in
+        hst:refId: signin
+      /signup:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/signup-contentpage
+        hst:lastmodified: 2018-10-24T17:04:22.885-04:00
+        hst:pagetitle: Sign up
+        hst:refId: signup
+      /account:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/account-contentpage
+        hst:lastmodified: 2018-10-24T17:04:22.885-04:00
+        hst:pagetitle: Account
+        hst:refId: account
+        /addresses:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/account-addresses-contentpage
+          hst:pagetitle: Account addresses
+          hst:refId: accountAddresses
+          /item:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/account-address-detail-contentpage
+            hst:pagetitle: Account address detail
+            /_default_:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/account-address-detail-contentpage
+              hst:pagetitle: Account address detail
+              hst:parameternames: [addressId]
+              hst:parametervalues: ['${1}']
+        /creds:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/account-creds-contentpage
+          hst:pagetitle: Account credentials
+          hst:refId: accountCredentials
+      /checkout:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/checkout
+        hst:parameternames: [connectorComponent]
+        hst:parametervalues: [cartDelete]

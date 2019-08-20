@@ -1,0 +1,586 @@
+/content/documents/pactronics-german/product-experience:
+  .meta:order-before: kaufberatung
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 02666d2a-5f16-4540-b8a2-ed04b58d0e5e
+  hippo:name: product experience
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: c9897902-dc48-4d87-9414-89d8ef033ab4
+  hippotranslation:locale: de
+  /banners:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 565c5b9e-a6de-4460-8f7d-84aa0473cfe2
+    hippostd:foldertype: [new-banner-document]
+    hippotranslation:id: 504c8886-dfb3-4287-9297-34473b7a6f70
+    hippotranslation:locale: de
+    /waterproof:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 4f39c486-333f-4176-a814-4cfe0ac8bc30
+      hippo:versionHistory: 6224200d-5f29-454b-9bae-703aa88561ca
+      /waterproof[1]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: c426c3d7-1713-4f2a-93d6-344bd00842ab
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T15:54:54.093+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:06.270+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6d8245c8-5327-4ba3-bcc4-2f43a6db38fb
+        hippotranslation:locale: de
+        pactronics:externalLink: ''
+        pactronics:title: Designed for optimal performance
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Wear your Pactronics&nbsp;Watch in the rain or other
+            challenging conditions.&nbsp;The watch is 5 ATM * waterproof and meets
+            a military standard ** so that you can actively go outdoors in the toughest
+            conditions.</p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ce54ac37-eddc-4fd8-bc89-3fce451d3910
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /waterproof[2]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 4a26e002-7bac-4b89-87c0-8f16c0e549f0
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T15:54:54.093+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:06.310+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6d8245c8-5327-4ba3-bcc4-2f43a6db38fb
+        hippotranslation:locale: de
+        pactronics:externalLink: ''
+        pactronics:title: Designed for optimal performance
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Wear your Pactronics&nbsp;Watch in the rain or other
+            challenging conditions.&nbsp;The watch is 5 ATM * waterproof and meets
+            a military standard ** so that you can actively go outdoors in the toughest
+            conditions.</p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ce54ac37-eddc-4fd8-bc89-3fce451d3910
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /waterproof[3]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b1f03a3e-0219-44cd-bddc-4646b51e9936
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T15:54:54.093+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:06.270+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-24T10:21:07.843+02:00
+        hippotranslation:id: 6d8245c8-5327-4ba3-bcc4-2f43a6db38fb
+        hippotranslation:locale: de
+        pactronics:externalLink: ''
+        pactronics:title: Designed for optimal performance
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Wear your Pactronics&nbsp;Watch in the rain or other
+            challenging conditions.&nbsp;The watch is 5 ATM * waterproof and meets
+            a military standard ** so that you can actively go outdoors in the toughest
+            conditions.</p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ce54ac37-eddc-4fd8-bc89-3fce451d3910
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /product-features:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 780716d8-00d7-4940-89b6-1333fd1cae5f
+    hippo:name: product features
+    hippostd:foldertype: [new-productfeature-document]
+    hippotranslation:id: 2298e0fc-7b97-41eb-a554-f81b34546b71
+    hippotranslation:locale: de
+    /smartwatch-features:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 0f41758e-6ae0-4fea-8db1-78d8c0a1bfbb
+      hippo:name: Smartwatch features
+      hippo:versionHistory: acd84881-e9fb-4341-92ed-932fef6fc605
+      /smartwatch-features[1]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: cf933a39-2fae-40e0-8f2d-ea5037068e75
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-11-30T12:51:58.192+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:21.790+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 953659ff-3452-49cd-80ea-20dee2bfbfed
+        hippotranslation:locale: de
+        pactronics:centercaption: Easy to use
+        pactronics:description: Striving for the ultimate Smartwatch
+        pactronics:leftcaption: Small and light
+        pactronics:rightcaption: Timeless looks
+        pactronics:slogan: The Pactronics difference
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 6adc7fa6-7992-46e1-9220-0b211922cfd0
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 70683567-d387-4c7d-afa9-4e84e89883aa
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: b7999c1b-bc09-4513-a05e-12d9b36786be
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /smartwatch-features[2]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 9d048d9f-ef7d-4fa2-ba70-9321f8685a04
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-11-30T12:51:58.192+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:21.831+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 953659ff-3452-49cd-80ea-20dee2bfbfed
+        hippotranslation:locale: de
+        pactronics:centercaption: Easy to use
+        pactronics:description: Striving for the ultimate Smartwatch
+        pactronics:leftcaption: Small and light
+        pactronics:rightcaption: Timeless looks
+        pactronics:slogan: The Pactronics difference
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 6adc7fa6-7992-46e1-9220-0b211922cfd0
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 70683567-d387-4c7d-afa9-4e84e89883aa
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: b7999c1b-bc09-4513-a05e-12d9b36786be
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /smartwatch-features[3]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 282a7914-c2af-47f1-9473-5ab657d29975
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-11-30T12:51:58.192+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:21.790+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-24T10:21:07.036+02:00
+        hippotranslation:id: 953659ff-3452-49cd-80ea-20dee2bfbfed
+        hippotranslation:locale: de
+        pactronics:centercaption: Easy to use
+        pactronics:description: Striving for the ultimate Smartwatch
+        pactronics:leftcaption: Small and light
+        pactronics:rightcaption: Timeless looks
+        pactronics:slogan: The Pactronics difference
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 6adc7fa6-7992-46e1-9220-0b211922cfd0
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 70683567-d387-4c7d-afa9-4e84e89883aa
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: b7999c1b-bc09-4513-a05e-12d9b36786be
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /alwayson:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: d2c12842-302f-4d98-a399-7fa0201f6819
+      hippo:name: AlwaysOn
+      hippo:versionHistory: 14e384d0-b4e9-45d8-aecb-aa0d9eb7f423
+      /alwayson[1]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: e1003371-2abf-4fc2-be4a-8fac0b77f030
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T14:47:49.708+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:31.191+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6fbad056-f0d1-41be-b0aa-30a0d001ad4b
+        hippotranslation:locale: de
+        pactronics:centercaption: ''
+        pactronics:description: The Pactronics Watch is an Always On watch and you
+          do not have to press a button or turn the ring to display the time. You
+          can set the sAMOLED display to a continuous time display so that you see
+          what time it is day and night.
+        pactronics:leftcaption: ''
+        pactronics:rightcaption: ''
+        pactronics:slogan: Always On, always with the times
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 9c760465-1e94-460b-963d-3266a57de25d
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /alwayson[2]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bb985ae7-b59f-40bb-8bb3-2f9d15a7bcb6
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T14:47:49.708+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:31.247+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6fbad056-f0d1-41be-b0aa-30a0d001ad4b
+        hippotranslation:locale: de
+        pactronics:centercaption: ''
+        pactronics:description: The Pactronics Watch is an Always On watch and you
+          do not have to press a button or turn the ring to display the time. You
+          can set the sAMOLED display to a continuous time display so that you see
+          what time it is day and night.
+        pactronics:leftcaption: ''
+        pactronics:rightcaption: ''
+        pactronics:slogan: Always On, always with the times
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 9c760465-1e94-460b-963d-3266a57de25d
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /alwayson[3]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7e368d5b-9004-4a22-8af0-8ec148bd8421
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T14:47:49.708+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:31.191+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-24T10:21:05.133+02:00
+        hippotranslation:id: 6fbad056-f0d1-41be-b0aa-30a0d001ad4b
+        hippotranslation:locale: de
+        pactronics:centercaption: ''
+        pactronics:description: The Pactronics Watch is an Always On watch and you
+          do not have to press a button or turn the ring to display the time. You
+          can set the sAMOLED display to a continuous time display so that you see
+          what time it is day and night.
+        pactronics:leftcaption: ''
+        pactronics:rightcaption: ''
+        pactronics:slogan: Always On, always with the times
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 9c760465-1e94-460b-963d-3266a57de25d
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /musicfeature:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 5b7a51d8-8bed-46ac-8f8e-aafa5dc3b00b
+      hippo:name: MusicFeature
+      hippo:versionHistory: 2abd2bb0-3c46-4273-a07b-035af0b1b939
+      /musicfeature[1]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 3a30e48b-6e53-4020-8c01-e935ee4c4565
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T15:56:06.017+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:41.325+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 5f330f8b-81f1-4bea-8a68-ca1e64946f21
+        hippotranslation:locale: de
+        pactronics:centercaption: ''
+        pactronics:description: Want to listen to music while exercising without your
+          Smartphone? It is possible thanks to the Spotify Premium app for the Pactronics
+          Watch. Connect your Pactronics Watch to wireless earphones and let's go!
+        pactronics:leftcaption: ''
+        pactronics:rightcaption: ''
+        pactronics:slogan: Always your music at hand
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 02d8bdad-a4bc-4b8a-a349-f82bc03b2a98
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /musicfeature[2]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 71bfa116-09ab-4af8-bd8c-730379227bf6
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T15:56:06.017+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:41.446+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 5f330f8b-81f1-4bea-8a68-ca1e64946f21
+        hippotranslation:locale: de
+        pactronics:centercaption: ''
+        pactronics:description: Want to listen to music while exercising without your
+          Smartphone? It is possible thanks to the Spotify Premium app for the Pactronics
+          Watch. Connect your Pactronics Watch to wireless earphones and let's go!
+        pactronics:leftcaption: ''
+        pactronics:rightcaption: ''
+        pactronics:slogan: Always your music at hand
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 02d8bdad-a4bc-4b8a-a349-f82bc03b2a98
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /musicfeature[3]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 48f9346a-0f23-40e4-95c5-92cda4099395
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T15:56:06.017+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:41.325+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-24T10:21:05.004+02:00
+        hippotranslation:id: 5f330f8b-81f1-4bea-8a68-ca1e64946f21
+        hippotranslation:locale: de
+        pactronics:centercaption: ''
+        pactronics:description: Want to listen to music while exercising without your
+          Smartphone? It is possible thanks to the Spotify Premium app for the Pactronics
+          Watch. Connect your Pactronics Watch to wireless earphones and let's go!
+        pactronics:leftcaption: ''
+        pactronics:rightcaption: ''
+        pactronics:slogan: Always your music at hand
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 02d8bdad-a4bc-4b8a-a349-f82bc03b2a98
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /batteryfeature:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 5df6bba3-59de-4151-853e-e19e276a4b8a
+      hippo:name: BatteryFeature
+      hippo:versionHistory: e5562fa2-d5ca-485d-a414-ae951ba1cf54
+      /batteryfeature[1]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 10f3e2dd-5ded-45ab-9e17-80307d5988b0
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T15:56:35.519+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:52.541+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b0151589-13c7-4328-adaf-72f50ab02dce
+        hippotranslation:locale: de
+        pactronics:centercaption: ''
+        pactronics:description: Have your charger come on for a night. The Pactronic
+          Watch's battery lasts for a long time with a single charge, so you can manage
+          your calls, music and much more for a long time.
+        pactronics:leftcaption: ''
+        pactronics:rightcaption: ''
+        pactronics:slogan: Battery lasts a long time
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: e38398ee-7d18-4907-bd8e-66b26d11db7b
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /batteryfeature[2]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d1c0a201-2513-4787-9986-5ade993f8b3b
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T15:56:35.519+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:52.583+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b0151589-13c7-4328-adaf-72f50ab02dce
+        hippotranslation:locale: de
+        pactronics:centercaption: ''
+        pactronics:description: Have your charger come on for a night. The Pactronic
+          Watch's battery lasts for a long time with a single charge, so you can manage
+          your calls, music and much more for a long time.
+        pactronics:leftcaption: ''
+        pactronics:rightcaption: ''
+        pactronics:slogan: Battery lasts a long time
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: e38398ee-7d18-4907-bd8e-66b26d11db7b
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /batteryfeature[3]:
+        jcr:primaryType: pactronics:productfeature
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 8cc0f5af-c9b7-49f3-a55f-2098659e1dac
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-12-06T15:56:35.519+01:00
+        hippostdpubwf:lastModificationDate: 2019-04-24T10:18:52.541+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-24T10:21:07.735+02:00
+        hippotranslation:id: b0151589-13c7-4328-adaf-72f50ab02dce
+        hippotranslation:locale: de
+        pactronics:centercaption: ''
+        pactronics:description: Have your charger come on for a night. The Pactronic
+          Watch's battery lasts for a long time with a single charge, so you can manage
+          your calls, music and much more for a long time.
+        pactronics:leftcaption: ''
+        pactronics:rightcaption: ''
+        pactronics:slogan: Battery lasts a long time
+        /pactronics:leftimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: e38398ee-7d18-4907-bd8e-66b26d11db7b
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:centerimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:rightimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []

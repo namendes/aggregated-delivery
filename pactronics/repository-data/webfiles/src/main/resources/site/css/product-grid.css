@@ -1,0 +1,129 @@
+/*
+ * Copyright 2017 Hippo B.V. (http://www.onehippo.com)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.bloomreach .products-container{
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.bloomreach .product {
+    max-width: 360px;
+    width: 360px;
+    background: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #DCDCDC;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bloomreach .product a {
+
+    float: right;
+    width: 100px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.bloomreach .product-text {
+    float: left;
+    width: 100px;
+    padding-top: 10px;
+}
+.bloomreach .product-text .description{
+    height: 30px;
+    overflow: hidden;
+}
+
+.bloomreach .rating {
+    clear: both;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+}
+
+.bloomreach .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+.bloomreach .rating > *:hover,
+.bloomreach .rating > *:hover ~ span,
+.bloomreach .rating:not(:hover) > input:checked ~ span {
+    color: transparent;
+}
+
+.bloomreach .rating > *:hover:before,
+.bloomreach .rating > *:hover ~ span:before,
+.bloomreach .rating:not(:hover) > input:checked ~ span:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: #A0B21E;
+}
+
+.bloomreach .rating > input {
+    margin-left: -1.1em;
+    margin-right: 0;
+    top: 3px;
+    width: 1.1em;
+    height: 1.1em;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+}
+
+
+
+.bloomreach .product-flow {
+    /* padding: 10px;*/
+    /*display: flex;*/
+
+    height: 320px;
+    padding: 10px;
+
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #DCDCDC;
+}
+
+.bloomreach .product-flow .product-text {
+    display: block;
+    width: 70%;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.bloomreach .product-flow .rating {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.bloomreach .product-flow a {
+    margin-top: 20px;
+
+    padding-top: 10px
+}
+
+.bloomreach .product-wrapper .thumbnail .caption h4 {
+    white-space: normal;
+}

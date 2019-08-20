@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:collectors/commerceBrands:
+      jcr:primaryType: targeting:collector
+      targeting:className: com.bloomreach.commercedxp.demo.pactronics.collectors.CommerceBrandCollector

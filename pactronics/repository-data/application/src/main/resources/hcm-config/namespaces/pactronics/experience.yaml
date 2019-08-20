@@ -1,0 +1,154 @@
+definitions:
+  config:
+    /hippo:namespaces/pactronics/experience:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 638a1cd9-335f-4274-9946-7ca250d26b9f
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3ddb59ed-dff4-4c0e-b902-a838922709b3
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
+          jcr:uuid: 76103034-8498-4a23-a01c-0fbf4ea857ea
+          hipposysedit:node: true
+          hipposysedit:supertype: ['hippo:compound', 'hippostd:relaxed']
+          hipposysedit:uri: http://www.onehippo.org/pactronics/nt/1.0
+          /banner:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:banner
+            hipposysedit:primary: false
+            hipposysedit:type: hippogallerypicker:imagelink
+          /featureteaser:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:featureteaser
+            hipposysedit:primary: false
+            hipposysedit:type: pactronics:featureteaser
+          /specifications:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:specifications
+            hipposysedit:primary: false
+            hipposysedit:type: pactronics:specifications
+          /mirror:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:video
+            hipposysedit:primary: false
+            hipposysedit:type: hippo:mirror
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: pactronics:experience
+          /pactronics:banner:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:featureteaser:
+            jcr:primaryType: pactronics:featureteaser
+            pactronics:centercaption: ''
+            pactronics:leftcaption: ''
+            pactronics:rightcaption: ''
+            pactronics:slogan: ''
+            /pactronics:featuredescription:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /pactronics:leftimage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /pactronics:centerimage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /pactronics:rightimage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /pactronics:specifications:
+            jcr:primaryType: pactronics:specifications
+            /pactronics:dimensions:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /pactronics:storage:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /pactronics:display:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /pactronics:battery:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /pactronics:memory:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /pactronics:graphics:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+          /pactronics:video:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /banner:
+            jcr:primaryType: frontend:plugin
+            caption: Product Banner
+            field: banner
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /featureteaser:
+            jcr:primaryType: frontend:plugin
+            caption: featureteaser
+            field: featureteaser
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /video:
+            jcr:primaryType: frontend:plugin
+            caption: Video
+            field: mirror
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              last.visited.nodetypes: ['pactronics:video']
+          /specifications:
+            jcr:primaryType: frontend:plugin
+            caption: specifications
+            field: specifications
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

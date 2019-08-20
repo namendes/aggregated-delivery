@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-catalog/hst:components/ProductSearch:
+      .meta:order-before: FacetList
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:template: starterstore-productsearch

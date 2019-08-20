@@ -1,0 +1,8 @@
+/content/documents/pactronics:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: bb1e6cec-d2da-445b-a6d4-f8a1beb0f997
+  hippo:name: Pactronics
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
+  hippotranslation:locale: en

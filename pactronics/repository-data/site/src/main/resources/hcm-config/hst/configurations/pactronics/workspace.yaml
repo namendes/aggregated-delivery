@@ -1,0 +1,193 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/pactronics/hst:workspace:
+      jcr:primaryType: hst:workspace
+      jcr:mixinTypes: ['dxphst:mergeable']
+      dxphst:treehash: E1D830B2C878AB517B036965A5484C01
+      /hst:containers:
+        jcr:primaryType: hst:containercomponentfolder
+        jcr:mixinTypes: ['dxphst:mergeable']
+        /base:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /top:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Top
+            hst:lastmodified: 2018-11-09T16:41:04.606+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+          /footer:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Footer
+            hst:lastmodified: 2018-11-09T16:41:04.606+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /homepage:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Home Page Main
+            hst:lastmodified: 2019-06-17T12:27:56.201+02:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /pagenotfound:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Page-Not-Found Main
+            hst:lastmodified: 2018-11-09T16:41:04.606+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /contentlist:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Content List Main
+            hst:lastmodified: 2018-11-09T16:41:04.606+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /contentpage:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Content Page Main
+            hst:lastmodified: 2018-11-09T16:41:04.606+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /faqlist:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Faq Main
+            hst:lastmodified: 2018-11-09T16:41:04.606+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /article-detail:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Article Detail Main
+            hst:lastmodified: 2019-01-11T20:18:58.118+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+          /right:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Article Detail Right
+            hst:lastmodified: 2018-11-12T14:33:22.139+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /starterstore-homepage:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /main-top:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Home Page Main Top
+            hst:lastmodified: 2018-11-14T10:44:04.704+05:30
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+          /main-left:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Home Page Main Left
+            hst:lastmodified: 2018-11-14T10:44:04.704+05:30
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Home Page Main
+            hst:lastmodified: 2018-11-14T10:44:04.704+05:30
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /starterstore-base:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /logo:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2019-04-18T10:45:14.890+02:00
+            hst:xtype: hst.noMarkup
+            jcr:mixinTypes: ['dxphst:mergeable']
+          /search:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2018-12-06T13:37:25.352+01:00
+            hst:xtype: hst.noMarkup
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /no-results-page:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: No-Results-Found Main
+            hst:lastmodified: 2018-12-17T14:00:17.440+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /cart:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /checkout:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Checkout
+            hst:lastmodified: 2019-01-17T13:21:58.403+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: cart
+            hst:lastmodified: 2019-01-09T17:08:59.254+01:00
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+        /starterstore-productdecorator:
+          jcr:primaryType: hst:containercomponentfolder
+          jcr:mixinTypes: ['dxphst:mergeable']
+          /top-container:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Top Container
+            hst:xtype: hst.vbox
+            jcr:mixinTypes: ['dxphst:mergeable']
+          /bottom-container:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:label: Bottom Container
+            hst:xtype: hst.vbox
+            hst:lastmodified: 2019-04-04T14:41:28.393+02:00
+            jcr:mixinTypes: ['dxphst:mergeable']
+      /hst:sitemenus:
+        jcr:primaryType: hst:sitemenus
+        jcr:mixinTypes: ['dxphst:mergeable']
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:sitemenu
+          hst:lastmodified: 2018-11-14T13:11:44.580+05:30
+          jcr:mixinTypes: ['dxphst:mergeable']
+        /footer:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:sitemenu
+          hst:lastmodified: 2019-04-08T15:21:34.543+02:00
+          jcr:mixinTypes: ['dxphst:mergeable']
+        /categories:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:sitemenu
+          jcr:mixinTypes: ['dxphst:mergeable']
+          hst:lastmodified: 2019-04-05T00:47:02.381Z

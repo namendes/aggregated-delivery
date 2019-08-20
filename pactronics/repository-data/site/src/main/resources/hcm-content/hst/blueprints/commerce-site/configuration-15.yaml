@@ -1,0 +1,8 @@
+/hst:hst/hst:blueprints/commerce-site/hst:configuration/hst:workspace/hst:containers/starterstore-base/logo/logo:
+  .meta:order-before: CategoriesMenu
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsImageComponent
+  hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide, document]
+  hst:parametervalues: ['off', /content/gallery/pactronics/logos/pactronics_logo.png]
+  hst:template: starterstore-logo
+  hst:xtype: Hst.item

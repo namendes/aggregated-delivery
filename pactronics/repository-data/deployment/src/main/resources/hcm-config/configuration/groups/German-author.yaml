@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:groups/German-author:
+      hipposys:members:
+        operation: override
+        type: string
+        value: [German-author]

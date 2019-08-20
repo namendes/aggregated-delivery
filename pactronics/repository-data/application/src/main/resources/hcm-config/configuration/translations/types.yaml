@@ -1,0 +1,89 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/pactronics:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        pactronics:content: Content
+        pactronics:introduction: Introduction
+        pactronics:publicationdate: Publication date
+        pactronics:title: Title
+        jcr:name: Simple Document
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        pactronics:content: Inhoud
+        pactronics:introduction: Introductie
+        pactronics:publicationdate: Publicatiedatum
+        pactronics:title: Titel
+        jcr:name: Eenvoudig Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        pactronics:content: Contenu
+        pactronics:introduction: Introduction
+        pactronics:publicationdate: Date de publication
+        pactronics:title: Titre
+        jcr:name: Document simple
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        pactronics:content: Inhalt
+        pactronics:introduction: Einführung
+        pactronics:publicationdate: Publikationsdatum
+        pactronics:title: Titel
+        jcr:name: Einfaches Dokument
+    /hippo:configuration/hippo:translations/hippo:types/pactronics:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        pactronics:content: Content
+        pactronics:image: Image
+        pactronics:link: Link
+        pactronics:title: Title
+        jcr:name: Banner
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        pactronics:content: Inhoud
+        pactronics:image: Afbeelding
+        pactronics:link: Link
+        pactronics:title: Titel
+        jcr:name: Banner
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        pactronics:content: Contenu
+        pactronics:image: Image
+        pactronics:link: Lien
+        pactronics:title: Titre
+        jcr:name: Bannière
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        pactronics:content: Inhalt
+        pactronics:image: Abbildung
+        pactronics:link: Link
+        pactronics:title: Titel
+        jcr:name: Banner
+    /hippo:configuration/hippo:translations/hippo:types/pactronics:categorydecorator:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Product Category
+    /hippo:configuration/hippo:translations/hippo:types/pactronics:productdecorator:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Product Detail
+    /hippo:configuration/hippo:translations/hippo:types/pactronics:article:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Article
+    /hippo:configuration/hippo:translations/hippo:types/pactronics:paragraph:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Paragraph Compound
+    /hippo:configuration/hippo:translations/hippo:types/pactronics:calltoaction:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Call to Action Compound
+    /hippo:configuration/hippo:translations/hippo:types/pactronics:pactronics:
+      jcr:primaryType: hipposys:resourcebundles

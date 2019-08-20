@@ -1,0 +1,17 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/starterstore-cart:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: starterstore-main-onecolumn
+        /list:
+          jcr:primaryType: hst:component
+          hst:parameternames: [commands]
+          hst:parametervalues: ['initContextCommand, cartCreateCommand, cartProductListCommand,
+              cartProductUpdateCommand, cartProductRemoveCommand, createQrCodeCommand']
+          hst:referencecomponent: hst:components/Cart
+          /container:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: cart/main

@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/kioskapp/hst:workspace/hst:sitemenus/footer/Contact us:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: contact-us
+  hst:repobased: false

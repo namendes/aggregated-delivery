@@ -1,0 +1,20 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/signup-contentpage:
+      jcr:primaryType: hst:component
+      hst:lastmodified: 2018-10-24T17:04:22.885-04:00
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:containercomponent
+        hst:label: Content Page Main
+        hst:lastmodified: 2018-10-24T17:04:34.916-04:00
+        hst:xtype: hst.vbox
+        /Signup:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.SignupFormComponent
+          hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+          hst:label: Sign up
+          hst:parameternames: [connectorComponent]
+          hst:parametervalues: [createCustomer]
+          hst:template: starterstore-signup
+          hst:xtype: hst.item

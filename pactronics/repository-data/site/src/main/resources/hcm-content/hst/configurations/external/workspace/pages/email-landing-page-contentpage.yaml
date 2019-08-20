@@ -1,0 +1,60 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:pages/email-landing-page-contentpage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2019-01-02T18:58:40.890+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-01-02T19:53:33.263+01:00
+    hst:xtype: hst.vbox
+    /banner:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Banner
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', banners/smart-watch-1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+      hst:template: essentials-banner
+      hst:xtype: hst.item
+    /simplecontent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+      hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+      hst:label: Simple Content
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', content/sample-document, 'webfile:/freemarker/hstdefault/contentpage-main.ftl']
+      hst:template: contentpage-main
+      hst:xtype: hst.item
+    /simpletext:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.SimpleTextComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Simple Text
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        text, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', This is a set of great products on sale today!,
+        'webfile:/freemarker/pactronics/simple-text-component/simple-text-component-title.ftl']
+      hst:template: simple-text-component
+      hst:xtype: hst.item
+    /ProductsGrid:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+      hst:label: Products Grid
+      hst:parameternames: [connectorComponent, starterstoreQueryParam_query, starterstoreQueryParam_currentPage,
+        showFacets, connector, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        widgetId, showPagination, locale, starterstoreQueryParam_pageSize, commands]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+      hst:parametervalues: [productSearch, smart watches, '1', 'off', '', 'off', '',
+        'off', en, '3', 'customInitContextCommand, personalizationCallCommand, commerceCallCommand,
+          pageableCommand']
+      hst:template: starterstore-productlist
+      hst:xtype: hst.item

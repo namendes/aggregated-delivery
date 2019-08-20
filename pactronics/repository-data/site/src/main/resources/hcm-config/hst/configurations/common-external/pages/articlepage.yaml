@@ -1,0 +1,21 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/articlepage:
+      jcr:primaryType: hst:component
+      jcr:mixinTypes: ['hst:prototypemeta']
+      hst:displayname: Article Page
+      hst:primarycontainer: main
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: article-detail-wrapper
+        /content:
+          jcr:primaryType: hst:component
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+          hst:template: article-detail
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: article-detail/main
+        /right:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: article-detail/right

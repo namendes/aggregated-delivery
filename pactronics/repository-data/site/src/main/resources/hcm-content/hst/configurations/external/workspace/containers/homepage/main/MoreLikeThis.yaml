@@ -1,0 +1,16 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:containers/homepage/main/MoreLikeThis:
+  .meta:order-before: JustForYou
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+  hst:iconpath: images/essentials/catalog-component-icons/more-like-this.png
+  hst:label: More Like This
+  hst:parameternames: [connectorComponent, productId, starterstoreQueryParam_offset,
+    com.onehippo.cms7.targeting.TargetingParameterUtil.hide, showPagination, locale,
+    starterstoreQueryParam_pageSize, commands, org.hippoecm.hst.core.component.template]
+  hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.MoreLikeThisComponentInfo
+  hst:parametervalues: [moreLikeThis, p10054, '1', 'off', 'off', en, '3', 'initContextCommand,
+      cartCreateCommand, cartProductListCommand, cartProductAddCommand, personalizationCallCommand',
+    'webfile:/freemarker/pactronics/morelikethis.ftl']
+  hst:template: morelikethis
+  hst:xtype: hst.item

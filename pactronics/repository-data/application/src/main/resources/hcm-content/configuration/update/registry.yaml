@@ -1,0 +1,23 @@
+/hippo:configuration/hippo:update/hippo:registry/Configure_Universal_Pixel_Channel_Info_Mixins:
+  jcr:primaryType: hipposys:updaterinfo
+  hipposys:batchsize: 10
+  hipposys:description: ''
+  hipposys:dryrun: false
+  hipposys:loglevel: DEBUG
+  hipposys:parameters: ''
+  hipposys:query: /jcr:root/hst:hst/hst:configurations//hst:workspace/hst:channel
+  hipposys:script: "// configure_universal_pixel_channel_info_mixins.groovy\r\npackage\
+    \ org.hippoecm.frontend.plugins.cms.admin.updater\r\n\r\nimport javax.jcr.Node\r\
+    \nimport javax.jcr.RepositoryException\r\nimport javax.jcr.Session\r\nimport org.apache.commons.lang.ArrayUtils;\r\
+    \nimport org.hippoecm.repository.util.JcrUtils;\r\nimport org.onehippo.repository.update.BaseNodeUpdateVisitor\r\
+    \n\r\nclass ConfigureUniversalPixelChannelInfoMixinsUpdaterVisitor extends BaseNodeUpdateVisitor\
+    \ {\r\n\r\n  String upixelMixinChannelInfo = \"com.onehippo.cms7.addon.unipixel.site.channel.UniversalPixelChannelInfo\"\
+    \r\n\r\n  boolean doUpdate(Node node) {\r\n    log.debug \"Updating node ${node.path}\"\
+    \r\n    if (node.hasProperty(\"hst:channelinfoclass\")) {\r\n      String[] oldValues\
+    \ = JcrUtils.getMultipleStringProperty(node, \"hst:channelinfomixins\", ArrayUtils.EMPTY_STRING_ARRAY)\r\
+    \n      if (!ArrayUtils.contains(oldValues, upixelMixinChannelInfo)) {\r\n   \
+    \     node.setProperty(\"hst:channelinfomixins\", ArrayUtils.add(oldValues, upixelMixinChannelInfo))\r\
+    \n        return true\r\n      }\r\n    }\r\n    return false\r\n  }\r\n\r\n \
+    \ boolean undoUpdate(Node node) {\r\n    throw new UnsupportedOperationException('Updater\
+    \ does not implement undoUpdate method')\r\n  }\r\n\r\n}"
+  hipposys:throttle: 1000

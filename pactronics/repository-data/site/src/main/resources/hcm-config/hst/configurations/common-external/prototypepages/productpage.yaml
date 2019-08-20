@@ -1,0 +1,22 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:prototypepages/productpage:
+      jcr:primaryType: hst:component
+      jcr:mixinTypes: ['hst:prototypemeta']
+      hst:displayname: Etos.nl product Page
+      hst:primarycontainer: main
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:containercomponent
+        jcr:mixinTypes: ['hippostd:relaxed']
+        hst:label: Content Page Main
+        hst:xtype: hst.vbox
+        mode: top
+        selector: '#content > div > section:nth-child(3) > div > div'
+      /bottom:
+        jcr:primaryType: hst:containercomponent
+        jcr:mixinTypes: ['dxphst:mergeable', 'hippostd:relaxed']
+        hst:lastmodified: 2019-08-12T13:38:44.245+02:00
+        hst:xtype: HST.vBox
+        mode: bottom
+        selector: '#content > div > section:nth-child(5) > div'

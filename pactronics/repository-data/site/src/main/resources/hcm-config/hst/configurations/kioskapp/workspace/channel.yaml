@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kioskapp/hst:workspace/hst:channel:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:channel
+      hst:channelinfoclass: com.bloomreach.commercedxp.starterstore.channels.StarterStoreChannelInfo
+      hst:channelinfomixins: [com.onehippo.cms7.addon.unipixel.site.channel.UniversalPixelChannelInfo]
+      hst:defaultdevice: default
+      hst:devices: []
+      hst:lastmodified: 2018-11-20T13:39:21.486+01:00
+      hst:lastmodifiedby: admin
+      hst:name: brX for Commerce SPA Demo
+      hst:type: spa
+      jcr:mixinTypes: ['dxphst:mergeable']

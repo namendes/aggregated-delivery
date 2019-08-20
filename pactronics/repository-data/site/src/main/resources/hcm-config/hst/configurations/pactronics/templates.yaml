@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/pactronics/hst:templates:
+      jcr:primaryType: hst:templates

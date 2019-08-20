@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/customer:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/customer-articlepage
+  hst:lastmodified: 2019-06-25T17:59:09.236+02:00
+  hst:pagetitle: customer

@@ -1,0 +1,10 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/product-list:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:parameternames: [commands, connectorComponent]
+        hst:parametervalues: ['initContextCommand, crispCommand', productList]
+        hst:referencecomponent: hst:components/ProductList

@@ -1,0 +1,22 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/starterstore-productsearch:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: starterstore-search-main
+        /product-list:
+          jcr:primaryType: hst:component
+          hst:parameternames: [commands, connectorComponent, starterstoreQueryParam_pageSize,
+            starterstoreQueryParam_currentPage, locale]
+          hst:parametervalues: ['initContextCommand,  cartCreateCommand, cartProductListCommand,
+              cartProductAddCommand, personalizationCallCommand, commerceCallCommand,pageableCommand,noResultsRedirectCommand',
+            productSearch, '12', '1', en]
+          hst:referencecomponent: hst:components/ProductSearch
+        /facet-list:
+          jcr:primaryType: hst:component
+          hst:parameternames: [commands, connectorComponent, locale]
+          hst:parametervalues: ['initContextCommand, personalizationCallCommand, commerceCallCommand,
+              pageableCommand', facetList, en]
+          hst:referencecomponent: hst:components/FacetList

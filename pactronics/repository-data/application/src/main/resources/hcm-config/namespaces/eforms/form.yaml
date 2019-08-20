@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:namespaces/eforms/form/editor:templates/_default_/store:
+      .meta:order-before: mail
+      jcr:primaryType: frontend:plugin
+      mode: ${mode}
+      plugin.class: com.onehippo.cms7.eforms.cms.extensions.StoreFormDataPlugin
+      wicket.id: ${cluster.id}.extensions.item
+      wicket.model: ${wicket.model}
+    /hippo:namespaces/eforms/form/editor:templates/_default_/mail:
+      jcr:primaryType: frontend:plugin
+      mode: ${mode}
+      plugin.class: com.onehippo.cms7.eforms.cms.extensions.MailFormDataPlugin
+      wicket.id: ${cluster.id}.extensions.item
+      wicket.model: ${wicket.model}

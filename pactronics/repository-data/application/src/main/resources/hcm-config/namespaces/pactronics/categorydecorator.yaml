@@ -1,0 +1,137 @@
+definitions:
+  config:
+    /hippo:namespaces/pactronics/categorydecorator:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 10648b86-f0cb-4d3f-8265-582f70f29163
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b538a196-937b-4437-9537-ee877a0db998
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
+          hipposysedit:node: true
+          hipposysedit:supertype: ['pactronics:basedocument', 'hippostd:relaxed',
+            'hippotranslation:translated', 'starterstore:connectorsettable']
+          hipposysedit:uri: http://www.onehippo.org/pactronics/nt/1.0
+          jcr:uuid: b657f4f8-6522-454c-8cdb-765ddd0c87eb
+          /title:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:title
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /description:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:description
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /image:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:image
+            hipposysedit:primary: false
+            hipposysedit:type: hippogallerypicker:imagelink
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: pactronics:categorydecorator
+          jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+          pactronics:title: ''
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2018-09-27T10:44:04.942+02:00
+          hippostdpubwf:lastModificationDate: 2018-09-27T10:44:04.942+02:00
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          jcr:uuid: 0cc4efd1-4cd8-4f50-abda-9671b6c95a18
+          starterstore:connectorid: commercetools
+          /pactronics:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            extension.left: ${cluster.id}.left
+            extension.right: ${cluster.id}.right
+            plugin.class: org.hippoecm.frontend.editor.layout.TwoColumn
+            wicket.extensions: [extension.left, extension.right]
+          /left:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.left.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.left
+          /right:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.right.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.right
+          /title:
+            jcr:primaryType: frontend:plugin
+            caption: Title
+            field: title
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /description:
+            jcr:primaryType: frontend:plugin
+            caption: Description
+            field: description
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /connectorsettable:
+            jcr:primaryType: frontend:plugin
+            mixin: starterstore:connectorsettable
+            plugin.class: org.hippoecm.frontend.editor.plugins.mixin.MixinLoaderPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /image:
+            jcr:primaryType: frontend:plugin
+            caption: Image
+            field: image
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /relatedextdocselector:
+            jcr:primaryType: frontend:plugin
+            caption: Related External Category
+            engine: ${engine}
+            example.external.docs.field.name: pactronics:relatedexdocids
+            external.document.service.facade: com.bloomreach.commercedxp.starterstore.cms.externalpickers.V1DelegatingCategoryServiceFacade
+            initial.search.enabled: 'true'
+            mode: ${mode}
+            plugin.class: org.onehippo.forge.exdocpicker.impl.field.ExternalDocumentFieldSelectorPlugin
+            selection.mode: single
+            wicket.id: ${cluster.id}.right.item
+            wicket.model: ${wicket.model}
+            icon.style: 'WIDTH: 150px;'
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

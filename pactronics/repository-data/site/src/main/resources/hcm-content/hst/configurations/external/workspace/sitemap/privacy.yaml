@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/privacy:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/privacy
+  hst:lastmodified: 2018-11-14T14:18:32.320+05:30
+  hst:pagetitle: privacy
+  hst:relativecontentpath: services/privacy

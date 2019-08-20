@@ -1,0 +1,75 @@
+<'pactronics'='http://www.onehippo.org/pactronics/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
+
+[pactronics:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[pactronics:article] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:bannerdocument] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:calltoaction] > hippo:compound, hippostd:relaxed
+  orderable
+
+[pactronics:categorydecorator] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:contentdocument] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:emailtemplate] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:experience] > hippo:compound, hippostd:relaxed
+  orderable
+
+[pactronics:faqitem] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:faqlist] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:featureteaser] > hippo:compound, hippostd:relaxed
+  orderable
+
+[pactronics:googlesearch] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:imagekeyvalue] > hippo:compound, hippostd:relaxed
+  orderable
+
+[pactronics:pactronics] > hippogallery:imageset, hippogallery:relaxed
+
+[pactronics:paragraph] > hippo:compound, hippostd:relaxed
+  orderable
+
+[pactronics:productdecorator] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:productfeature] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:productgallery] > hippo:compound, hippostd:relaxed
+  orderable
+
+[pactronics:searchresult] > hippo:compound, hippostd:relaxed
+  orderable
+
+[pactronics:specifications] > hippo:compound, hippostd:relaxed
+  orderable
+
+[pactronics:storelocations] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+
+[pactronics:teaser] > hippo:compound, hippostd:relaxed
+  orderable
+
+[pactronics:video] > hippostd:relaxed, hippotranslation:translated, pactronics:basedocument
+  orderable
+

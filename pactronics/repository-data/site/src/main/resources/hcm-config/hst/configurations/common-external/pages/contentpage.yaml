@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/contentpage:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:containercomponentreference
+        hst:referencecomponent: contentpage/main

@@ -1,0 +1,8 @@
+/content/documents/pactronics-german:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 45f56b62-1ffa-4d37-a10a-d97053883d3c
+  hippo:name: Pactronics German
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
+  hippotranslation:locale: de

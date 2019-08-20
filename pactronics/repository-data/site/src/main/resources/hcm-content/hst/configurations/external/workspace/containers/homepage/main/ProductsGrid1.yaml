@@ -1,0 +1,23 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:containers/homepage/main/ProductsGrid1:
+  .meta:order-before: MoreLikeThis
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+  hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+  hst:label: Products Grid
+  hst:parameternameprefixes: [unnamed-1556020039803@1556096801, unnamed-1556020039803@1556096801,
+    unnamed-1556020039803@1556096801, unnamed-1556020039803@1556096801, unnamed-1556020039803@1556096801,
+    unnamed-1556020039803@1556096801, unnamed-1556020039803@1556096801, unnamed-1556020039803@1556096801,
+    '', '', '', '', '', '', '', '', '', '', '']
+  hst:parameternames: [starterstoreQueryParam_query, showFacets, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    widgetId, ext-comp-1633, showPagination, starterstoreQueryParam_pageSize, org.hippoecm.hst.core.component.template,
+    connectorComponent, starterstoreQueryParam_query, starterstoreQueryParam_currentPage,
+    showFacets, com.onehippo.cms7.targeting.TargetingParameterUtil.hide, widgetId,
+    showPagination, locale, starterstoreQueryParam_pageSize, commands, org.hippoecm.hst.core.component.template]
+  hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+  hst:parametervalues: [sunglasses, 'off', 'off', '', '', 'off', '3', 'webfile:/freemarker/hstdefault/starterstore-productlist.ftl',
+    productSearch, smart watch, '1', 'off', 'off', '38', 'off', en, '3', 'customInitContextCommand,cartCreateCommand,
+      cartProductListCommand, cartProductAddCommand, personalizationCallCommand, commerceCallCommand',
+    'webfile:/freemarker/hstdefault/starterstore-productlist.ftl']
+  hst:template: starterstore-productlist
+  hst:xtype: hst.item

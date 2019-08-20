@@ -1,0 +1,19 @@
+  <ng-container *ngIf="template === 'starterstore-menu'">
+    <div *ngIf="!link.href" style="padding: 10px 15px;" class="list-group-item"
+      [ngStyle]="item.selected || item.expanded ? {'text-decoration':'underline'} : {}"
+      [innerHTML]="item.name"></div>
+    <a *ngIf="link.href && link.type === 'external'" class="list-group-item"
+      [href]="link.href"
+      [ngStyle]="item.selected || item.expanded ? {'text-decoration':'underline'} : {}"
+      [innerHTML]="item.name" ></a>
+    <a *ngIf="link.href && link.type === 'external'" class="list-group-item"
+      routerLink="{{link.href}}"
+      [ngStyle]="item.selected || item.expanded ? {'text-decoration':'underline'} : {}"
+      [innerHTML]="item.name" ></a>
+  </ng-container>
+
+  <li *ngIf="template !== 'starterstore-menu'" [ngClass]="item.expanded || item.selected ? 'active' : ''">
+    <div *ngIf="!link.href" [innerHTML]="item.name" style="padding: 10px 15px;"></div>
+    <a *ngIf="link.href && link.type === 'external'" [href]="link.href" [innerHTML]="item.name"></a>
+    <a *ngIf="link.href && link.type === 'internal'" routerLink="{{link.href}}" [innerHTML]="item.name"></a>
+  </li>

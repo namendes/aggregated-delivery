@@ -1,0 +1,598 @@
+/content/documents/pactronics-german/categories:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: ebf80b5d-3718-49db-bf70-a0c1977317c2
+  hippo:name: Categories
+  hippostd:foldertype: [new-translated-folder]
+  hippotranslation:id: ad3b2a63-e24e-43a3-a67c-f2ce4ffe382a
+  hippotranslation:locale: de
+  /smartwatches:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b1b41dc3-0f19-4fe3-afbb-070225368b29
+    hippo:name: Smartwatches
+    hippo:versionHistory: ebdd2ba1-09b3-400b-b79d-73fd16f67a42
+    /smartwatches[1]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:versionable', 'starterstore:connectorsettable']
+      jcr:uuid: 9e7d624a-03d7-475a-a9f7-acc96ac93ca1
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-30T13:11:39.355+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:07.972+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f0698267-a24d-4aa8-ae1b-ac22eef7b0ab
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [electronicswearablessmartwatch]
+      pactronics:title: Smartwatches Designed for Space Tourists
+      pactronics:topics: [watches, space]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h2><img src="matching-colors.jpg/{_document}/hippogallery:original" /></h2>
+
+                                  <p>The smartwatch is the ultimate smartphone accessory. It can tell the time, of course, but it can also beam important notifications straight to your wrist and run native apps too.</p>
+
+                                  <p>What's more impressive is that many of today's best models can also perform a ton of tricks, such as enabling you to search the internet with your voice, tracking your exercise with GPS and letting you pay at the grocery store without reaching for your wallet.</p>
+        /matching-colors.jpg:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: 3e432789-58bd-48e7-b6bc-09a371f9d205
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6c5093db-6d08-4a33-a643-01e481efb3c3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /smartwatches[2]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: d2152e62-226e-445b-b146-11e15144ad04
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-30T13:11:39.355+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:08.030+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f0698267-a24d-4aa8-ae1b-ac22eef7b0ab
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [electronicswearablessmartwatch]
+      pactronics:title: Smartwatches Designed for Space Tourists
+      pactronics:topics: [watches, space]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h2><img src="matching-colors.jpg/{_document}/hippogallery:original" /></h2>
+
+                                  <p>The smartwatch is the ultimate smartphone accessory. It can tell the time, of course, but it can also beam important notifications straight to your wrist and run native apps too.</p>
+
+                                  <p>What's more impressive is that many of today's best models can also perform a ton of tricks, such as enabling you to search the internet with your voice, tracking your exercise with GPS and letting you pay at the grocery store without reaching for your wallet.</p>
+        /matching-colors.jpg:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: 3e432789-58bd-48e7-b6bc-09a371f9d205
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6c5093db-6d08-4a33-a643-01e481efb3c3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /smartwatches[3]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: a26e36a8-fa1f-4fd9-b320-bbe1fb915db6
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-30T13:11:39.355+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:07.972+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:06.955+02:00
+      hippotranslation:id: f0698267-a24d-4aa8-ae1b-ac22eef7b0ab
+      hippotranslation:locale: de
+      pactronics:relatedexdocids: [electronicswearablessmartwatch]
+      pactronics:title: Smartwatches Designed for Space Tourists
+      pactronics:topics: [watches, space]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h2><img src="matching-colors.jpg/{_document}/hippogallery:original" /></h2>
+
+                                  <p>The smartwatch is the ultimate smartphone accessory. It can tell the time, of course, but it can also beam important notifications straight to your wrist and run native apps too.</p>
+
+                                  <p>What's more impressive is that many of today's best models can also perform a ton of tricks, such as enabling you to search the internet with your voice, tracking your exercise with GPS and letting you pay at the grocery store without reaching for your wallet.</p>
+        /matching-colors.jpg:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: 3e432789-58bd-48e7-b6bc-09a371f9d205
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6c5093db-6d08-4a33-a643-01e481efb3c3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /electronics:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 4875595e-44f3-4a90-96b4-e68b3bea4bef
+    hippo:versionHistory: f345b042-98c9-4001-8e80-3abe1cf304d7
+    /electronics[1]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:versionable', 'starterstore:connectorsettable']
+      jcr:uuid: d16dd4dd-d039-4b57-ab2e-eecb9f753206
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-14T15:24:42.853+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:34.981+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ac310326-365a-4b84-82d1-5e12e7ef6584
+      hippotranslation:locale: de
+      pactronics:categories: [space]
+      pactronics:relatedexdocids: [electronics]
+      pactronics:title: Electronics dif
+      pactronics:topics: [laptops]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /electronics[2]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 1e52cfb6-f040-4fca-a01b-263a9c858329
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-14T15:24:42.853+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:35.025+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ac310326-365a-4b84-82d1-5e12e7ef6584
+      hippotranslation:locale: de
+      pactronics:categories: [space]
+      pactronics:relatedexdocids: [electronics]
+      pactronics:title: Electronics dif
+      pactronics:topics: [laptops]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /electronics[3]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 94227f98-b8f9-4673-b99f-226e41200b06
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-14T15:24:42.853+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:34.981+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:05.827+02:00
+      hippotranslation:id: ac310326-365a-4b84-82d1-5e12e7ef6584
+      hippotranslation:locale: de
+      pactronics:categories: [space]
+      pactronics:relatedexdocids: [electronics]
+      pactronics:title: Electronics dif
+      pactronics:topics: [laptops]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /smart-glasses:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 90f00fa3-f569-4089-915b-45442e12c53f
+    hippo:name: Smart Glasses
+    hippo:versionHistory: 0db5218f-dd72-41af-bbeb-a0df256d786d
+    /smart-glasses[1]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:versionable', 'starterstore:connectorsettable']
+      jcr:uuid: afd145d0-e707-474d-b796-8f3077e4ecc6
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-29T00:09:13.274Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:47.974+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: acd46508-4795-435c-b1d8-2b5198668903
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:relatedexdocids: [electronicswearablessunglasses]
+      pactronics:title: Smart Glasses
+      pactronics:topics: []
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /smart-glasses[2]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 8d4e12dd-9164-422d-a495-795e602a1d49
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-29T00:09:13.274Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:48.020+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: acd46508-4795-435c-b1d8-2b5198668903
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:relatedexdocids: [electronicswearablessunglasses]
+      pactronics:title: Smart Glasses
+      pactronics:topics: []
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /smart-glasses[3]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: c042884f-60ac-4d32-97f8-b83499f012a4
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-29T00:09:13.274Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:47.974+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:05.200+02:00
+      hippotranslation:id: acd46508-4795-435c-b1d8-2b5198668903
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:relatedexdocids: [electronicswearablessunglasses]
+      pactronics:title: Smart Glasses
+      pactronics:topics: []
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /cameras:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 2e768b26-1385-4e7c-8641-fb416e9639b3
+    hippo:name: Cameras
+    hippo:versionHistory: 286bfbe7-3b20-4f19-9f72-854d7df5127a
+    /cameras[1]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:versionable', 'starterstore:connectorsettable']
+      jcr:uuid: a1ac8876-e062-46a1-aaa7-715f0a12bf25
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-29T00:17:06.390Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:59.135+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7def846f-52b9-496f-9a77-7b866aec3856
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:relatedexdocids: [electronicscameraphotovideo]
+      pactronics:title: Camera
+      pactronics:topics: [cameras]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /cameras[2]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 726137a1-31c3-41f7-803e-0214239ecf5a
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-29T00:17:06.390Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:59.179+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 7def846f-52b9-496f-9a77-7b866aec3856
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:relatedexdocids: [electronicscameraphotovideo]
+      pactronics:title: Camera
+      pactronics:topics: [cameras]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /cameras[3]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: eb11e838-bbca-4d62-91a2-ea4a9fb579d7
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-29T00:17:06.390Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:10:59.135+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:08.074+02:00
+      hippotranslation:id: 7def846f-52b9-496f-9a77-7b866aec3856
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:relatedexdocids: [electronicscameraphotovideo]
+      pactronics:title: Camera
+      pactronics:topics: [cameras]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /trackers:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 61048807-9cce-4a87-970a-3e3bfdeaf527
+    hippo:name: Trackers
+    hippo:versionHistory: 9d844463-c300-4a2a-a84a-f83a48bfc1f7
+    /trackers[1]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:versionable', 'starterstore:connectorsettable']
+      jcr:uuid: f19f2ac6-2b1b-4aa5-b9e3-b90731ad4fa9
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-29T00:19:28.246Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:11:09.435+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 1c65ff8e-a267-4092-8a07-3a7b0a767b00
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:relatedexdocids: [electronicsaccessoriessmarttrackers]
+      pactronics:title: Trackers
+      pactronics:topics: [sports]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /trackers[2]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 724b662e-e3be-4981-a1bf-54389c724403
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-29T00:19:28.246Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:11:09.476+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 1c65ff8e-a267-4092-8a07-3a7b0a767b00
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:relatedexdocids: [electronicsaccessoriessmarttrackers]
+      pactronics:title: Trackers
+      pactronics:topics: [sports]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /trackers[3]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 9f426362-1361-484d-861a-ccfd13204a71
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-29T00:19:28.246Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:11:09.435+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:07.590+02:00
+      hippotranslation:id: 1c65ff8e-a267-4092-8a07-3a7b0a767b00
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:relatedexdocids: [electronicsaccessoriessmarttrackers]
+      pactronics:title: Trackers
+      pactronics:topics: [sports]
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /sensors:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 30244bae-c87e-451b-9455-3dc234cfc3fd
+    hippo:name: Sensors
+    hippo:versionHistory: bc3c8511-899b-4977-b2a2-77951fcf8150
+    /sensors[1]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:versionable', 'starterstore:connectorsettable']
+      jcr:uuid: f040e37b-aa6c-4376-8141-0dd11bdb8784
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-03T14:36:51.050Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:11:19.138+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4df129f9-046a-40ba-bb8f-8e29c65cc075
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:title: Sensors
+      pactronics:topics: []
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /sensors[2]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: 5dbac3f4-b850-4143-a45e-5ba60e5cc255
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-03T14:36:51.050Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:11:19.180+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4df129f9-046a-40ba-bb8f-8e29c65cc075
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:title: Sensors
+      pactronics:topics: []
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /sensors[3]:
+      jcr:primaryType: pactronics:categorydecorator
+      jcr:mixinTypes: ['mix:referenceable', 'starterstore:connectorsettable']
+      jcr:uuid: ad49256c-ef13-45b6-89d7-b7c50e2c8c75
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-03T14:36:51.050Z
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:11:19.138+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:21:07.920+02:00
+      hippotranslation:id: 4df129f9-046a-40ba-bb8f-8e29c65cc075
+      hippotranslation:locale: de
+      pactronics:categories: []
+      pactronics:title: Sensors
+      pactronics:topics: []
+      starterstore:connectorid: bloomreach
+      /pactronics:resource:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+      /pactronics:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []

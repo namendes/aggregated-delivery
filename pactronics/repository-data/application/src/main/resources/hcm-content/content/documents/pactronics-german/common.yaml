@@ -1,0 +1,43 @@
+/content/documents/pactronics-german/common:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b1f02edc-68e5-4a94-988e-4f4a13b8fc9f
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: ae3c36a1-dda2-4b06-ab74-10a00b4b5e12
+  hippotranslation:locale: de
+  /value-lists:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 0cad9fd8-995f-4ab7-807a-67a684969b33
+    hippo:name: Value Lists
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 76e638d1-f9f1-4888-8d3d-68e74f4d9f93
+    hippotranslation:locale: de
+    /topics:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: ee4ed11c-f731-43b8-87d9-7e5f7b1007b0
+      hippo:name: Topics
+      /topics:
+        jcr:primaryType: selection:valuelist
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 33ada98a-6497-4cc2-8248-66257ec76a30
+        hippo:availability: [live, preview]
+        hippotranslation:id: 485b6132-d434-4f36-8a1a-23214a9eedac
+        hippotranslation:locale: de
+        /selection:listitem[1]:
+          jcr:primaryType: selection:listitem
+          selection:key: watches
+          selection:label: Watches
+        /selection:listitem[2]:
+          jcr:primaryType: selection:listitem
+          selection:key: laptops
+          selection:label: Laptops
+        /selection:listitem[3]:
+          jcr:primaryType: selection:listitem
+          selection:key: space
+          selection:label: Space
+        /selection:listitem[4]:
+          jcr:primaryType: selection:listitem
+          selection:key: sports
+          selection:label: Sports

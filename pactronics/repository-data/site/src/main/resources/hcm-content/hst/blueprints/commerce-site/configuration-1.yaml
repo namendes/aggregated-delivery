@@ -1,0 +1,14 @@
+/hst:hst/hst:blueprints/commerce-site/hst:configuration/hst:workspace/hst:containers/article-detail/main/ProductsGrid:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+  hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+  hst:label: Products Grid
+  hst:parameternames: [connectorComponent, starterstoreQueryParam_query, starterstoreQueryParam_currentPage,
+    showFacets, connector, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    widgetId, showPagination, locale, starterstoreQueryParam_pageSize, commands]
+  hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+  hst:parametervalues: [productSearch, heartrate fit training, '1', 'off', '', 'off',
+    '', 'off', en, '3', 'initContextCommand, personalizationCallCommand, commerceCallCommand,
+      pageableCommand']
+  hst:template: starterstore-productlist
+  hst:xtype: hst.item

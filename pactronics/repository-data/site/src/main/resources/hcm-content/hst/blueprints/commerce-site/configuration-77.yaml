@@ -1,0 +1,4 @@
+/hst:hst/hst:blueprints/commerce-site/hst:configuration/hst:workspace/hst:sitemenus/main/content:
+  .meta:order-before: Articles
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: content

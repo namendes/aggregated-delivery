@@ -1,0 +1,263 @@
+/content/gallery/pactronics/product-finder:
+  .meta:order-before: icons
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: a67506fa-47d1-48cc-8e65-14a794c7b985
+  hippostd:foldertype: [new-pactronics-pactronics-folder]
+  hippostd:gallerytype: ['pactronics:pactronics']
+  /handwatch.jpeg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 8a0505f6-1fd7-4121-b297-1081e0ea63c0
+    hippo:name: handwatch.jpeg
+    /handwatch.jpeg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: nl-feature-lengthy-battery-life-111729441.jpeg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: nl-feature-lengthy-battery-life-111729441.jpeg
+        hippogallery:height: 60
+        hippogallery:width: 57
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/handwatch.jpeg/handwatch.jpeg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-12-06T15:53:24.422+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 752
+        hippogallery:width: 720
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/handwatch.jpeg/handwatch.jpeg/original/original.jpg
+        jcr:lastModified: 2018-12-06T15:53:24.422+01:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 752
+        hippogallery:width: 720
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/handwatch.jpeg/handwatch.jpeg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.025+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 752
+        hippogallery:width: 720
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/handwatch.jpeg/handwatch.jpeg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.057+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 626
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/handwatch.jpeg/handwatch.jpeg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.093+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 382
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/handwatch.jpeg/handwatch.jpeg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.150+02:00
+        jcr:mimeType: image/jpeg
+  /smartwatch.jpeg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: c605b60c-4d27-4fdd-8937-1921d2911c92
+    hippo:name: smartwatch.jpeg
+    /smartwatch.jpeg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: nl-feature-now-your-music-goes-with-you-111729429.jpeg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: nl-feature-now-your-music-goes-with-you-111729429.jpeg
+        hippogallery:height: 60
+        hippogallery:width: 57
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch.jpeg/smartwatch.jpeg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-12-06T15:53:24.516+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 752
+        hippogallery:width: 720
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch.jpeg/smartwatch.jpeg/original/original.jpg
+        jcr:lastModified: 2018-12-06T15:53:24.516+01:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 752
+        hippogallery:width: 720
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch.jpeg/smartwatch.jpeg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:11.848+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 752
+        hippogallery:width: 720
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch.jpeg/smartwatch.jpeg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:11.899+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 626
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch.jpeg/smartwatch.jpeg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:11.937+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 382
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch.jpeg/smartwatch.jpeg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:11.994+02:00
+        jcr:mimeType: image/jpeg
+  /smartwatch-guy-1.jpeg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 8e428421-acaf-4a5d-952b-1e26d42cdfd6
+    hippo:name: smartwatch-guy-1.jpeg
+    /smartwatch-guy-1.jpeg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: smartwatch-guy.jpeg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: smartwatch-guy.jpeg
+        hippogallery:height: 60
+        hippogallery:width: 57
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch-guy-1.jpeg/smartwatch-guy-1.jpeg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-12-06T14:46:49.841+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 752
+        hippogallery:width: 720
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch-guy-1.jpeg/smartwatch-guy-1.jpeg/original/original.jpg
+        jcr:lastModified: 2018-12-06T14:46:49.841+01:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 752
+        hippogallery:width: 720
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch-guy-1.jpeg/smartwatch-guy-1.jpeg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.179+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 752
+        hippogallery:width: 720
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch-guy-1.jpeg/smartwatch-guy-1.jpeg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.210+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 626
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch-guy-1.jpeg/smartwatch-guy-1.jpeg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.240+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 382
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/smartwatch-guy-1.jpeg/smartwatch-guy-1.jpeg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.290+02:00
+        jcr:mimeType: image/jpeg
+  /hot_watch_smart_watch_from_kickstarter_01-1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 6adc7fa6-7992-46e1-9220-0b211922cfd0
+    hippo:name: hot_watch_smart_watch_from_kickstarter_01-1.jpg
+    /hot_watch_smart_watch_from_kickstarter_01-1.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: HOT_Watch_Smart_Watch_from_Kickstarter_01.JPG
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: HOT_Watch_Smart_Watch_from_Kickstarter_01.JPG
+        hippogallery:height: 39
+        hippogallery:width: 59
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/hot_watch_smart_watch_from_kickstarter_01-1.jpg/hot_watch_smart_watch_from_kickstarter_01-1.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-11-29T11:44:16.415+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 220
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/hot_watch_smart_watch_from_kickstarter_01-1.jpg/hot_watch_smart_watch_from_kickstarter_01-1.jpg/original/original.jpg
+        jcr:lastModified: 2018-11-29T11:44:16.415+01:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 220
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/hot_watch_smart_watch_from_kickstarter_01-1.jpg/hot_watch_smart_watch_from_kickstarter_01-1.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.317+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 220
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/hot_watch_smart_watch_from_kickstarter_01-1.jpg/hot_watch_smart_watch_from_kickstarter_01-1.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.321+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 146
+        hippogallery:width: 220
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/hot_watch_smart_watch_from_kickstarter_01-1.jpg/hot_watch_smart_watch_from_kickstarter_01-1.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.324+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 265
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/product-finder/hot_watch_smart_watch_from_kickstarter_01-1.jpg/hot_watch_smart_watch_from_kickstarter_01-1.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:12.326+02:00
+        jcr:mimeType: image/jpeg

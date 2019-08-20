@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>pactronics-demo</artifactId>
+    <groupId>com.bloomreach.commercedxp.demo</groupId>
+    <version>2.1.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>pactronics-demo-relevance-data</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-demo-data-generator</artifactId>
+      <version>${hippo.addon-targeting.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+    <!--<dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-maxmind-geolite2</artifactId>
+      &lt;!&ndash;<version>${geolite2.version}</version>&ndash;&gt;
+      <scope>runtime</scope>
+    </dependency>-->
+  </dependencies>
+</project>

@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-catalog/hst:components/thematicControlPanelComponent:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.dxpfc.thematic.components.ThematicControlPanelComponent
+      hst:parameternames: [thematicPageSitemapPath, account_id, rows, auth_key, sort_by]
+      hst:parametervalues: [thematic/, pactronics, '100', n4roHFXGN1Kekt6E2mWSimhayReg5,
+        revenue]

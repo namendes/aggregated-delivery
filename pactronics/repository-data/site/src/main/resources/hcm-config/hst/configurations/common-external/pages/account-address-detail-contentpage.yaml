@@ -1,0 +1,20 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/account-address-detail-contentpage:
+      jcr:primaryType: hst:component
+      hst:lastmodified: 2018-10-24T17:04:22.885-04:00
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:containercomponent
+        hst:label: Content Page Main
+        hst:lastmodified: 2018-10-24T17:04:34.916-04:00
+        hst:xtype: hst.vbox
+        /AccountAddressDetail:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.AccountAddressDetailComponent
+          hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+          hst:label: Account address detail
+          hst:parameternames: [connectorComponent, addressId]
+          hst:parametervalues: [getCustomer, '${addressId}']
+          hst:template: starterstore-account-address-detail
+          hst:xtype: hst.item

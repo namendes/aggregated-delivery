@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/verzorging:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/verzorging-contentpage
+  hst:lastmodified: 2019-08-14T13:31:18.454+02:00
+  hst:pagetitle: verzorging

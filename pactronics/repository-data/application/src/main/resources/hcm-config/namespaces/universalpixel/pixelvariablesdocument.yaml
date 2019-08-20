@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/universalpixel/pixelvariablesdocument/hipposysedit:prototypes/hipposysedit:prototype:
+      jcr:mixinTypes:
+        operation: override
+        value: ['mix:referenceable']

@@ -1,0 +1,5 @@
+
+<p *ngIf="content && content.name" [innerHTML]="content.name"></p>
+<div class="has-edit-button">
+  <app-menu-item *ngFor="let item of content.siteMenuItems" [item]="item" [template]="template"></app-menu-item>
+</div>

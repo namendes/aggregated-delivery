@@ -1,0 +1,1003 @@
+/content/documents/pactronics/services:
+  .meta:order-before: buying-guides
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: ed8f6fc1-6fb1-4e8a-9fc1-0b3f5df42bea
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: de1b7651-5290-41fc-ad13-7bc3b1b7b31f
+  hippotranslation:locale: en
+  /about-us:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b2847317-d294-4a0c-b07c-c75fce6770d5
+    hippo:name: about us
+    hippo:versionHistory: 1ff55b98-9963-4ceb-9ad8-790155ffc87c
+    /about-us[1]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e72c7c76-99f2-4958-9ac7-e66447534189
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-14T12:32:28.748+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-29T10:56:02.938+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 63ce6fa9-cb02-46e3-881c-21b54b0c5e75
+      hippotranslation:locale: en
+      pactronics:introduction: Pactronics stands for Pacific Electronics, launched
+        in 2006, Pactronics was the first one-of-its kind large format specialist
+        retail store that catered to all multi-brand digital gadgets and home electronic
+        needs all over the world. Over a decade since its inception,  Pactronics has
+        almost become synonyms for all electronics needs, with its tech-savvy staff,
+        product range, online presence and the will to help customers.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: About Pactronics
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Bringing alive the promise of a ‘Brighter Every Day’ for its customers, Pactronics offers its customers a world-class ambience to shop both in-store and online at www.pactronics.com and also allows for a seamless ‘omni-channel’ shopping experience that lets a customer enjoy the best of both the online &amp; the offline worlds. With over 6000 products across 200 brands with 112 stores across 19 major cities of the world, Pactronics ensures that for each customer, a Brighter Tomorrow begins Today! From the newlywed couple setting up their house to the son reducing his mother’s burden with a washing machine; from the daughter gifting her parents a new LED TV to the newly promoted manager buying an inverter air-conditioner to make the summer bearable, Pactronics ensures that customers always get ‘More for their money’!</p>
+
+          <p>With this intent to delight customers all along, Pactronics launched its own label products in 2008. Brand Pactronics stands for – Life, More Beautiful; the promise is based not just on the beauty in the way they look but also the value they offer to a customer’s life. The range is a perfect fit, for those who desire a completely feature-packed and quality product.</p>
+
+          <p>Pactronics is a brand of Infiniti Retail Ltd., which is a wholly-owned subsidiary of Pactronics, the holding company of the Pactronics Group.</p>
+    /about-us[2]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 5d8a6391-ac3a-4f79-817b-b7619188c777
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-14T12:32:28.748+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-29T10:59:35.817+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 63ce6fa9-cb02-46e3-881c-21b54b0c5e75
+      hippotranslation:locale: en
+      pactronics:introduction: Pactronics stands for Pacific Electronics, launched
+        in 2006, Pactronics was the first one-of-its kind large format specialist
+        retail store that catered to all multi-brand digital gadgets and home electronic
+        needs all over the world. Over a decade since its inception,  Pactronics has
+        almost become synonyms for all electronics needs, with its tech-savvy staff,
+        product range, online presence and the will to help customers.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: About Pactronics
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Bringing alive the promise of a ‘Brighter Every Day’ for its customers, Pactronics offers its customers a world-class ambience to shop both in-store and online at www.pactronics.com and also allows for a seamless ‘omni-channel’ shopping experience that lets a customer enjoy the best of both the online &amp; the offline worlds. With over 6000 products across 200 brands with 112 stores across 19 major cities of the world, Pactronics ensures that for each customer, a Brighter Tomorrow begins Today! From the newlywed couple setting up their house to the son reducing his mother’s burden with a washing machine; from the daughter gifting her parents a new LED TV to the newly promoted manager buying an inverter air-conditioner to make the summer bearable, Pactronics ensures that customers always get ‘More for their money’!</p>
+
+          <p>With this intent to delight customers all along, Pactronics launched its own label products in 2008. Brand Pactronics stands for – Life, More Beautiful; the promise is based not just on the beauty in the way they look but also the value they offer to a customer’s life. The range is a perfect fit, for those who desire a completely feature-packed and quality product.</p>
+
+          <p>Pactronics is a brand of Infiniti Retail Ltd., which is a wholly-owned subsidiary of Pactronics, the holding company of the Pactronics Group.</p>
+    /about-us[3]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b5d2ca9e-52f1-44ed-9479-05671ec5d818
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-14T12:32:28.748+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-29T10:59:35.817+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-29T10:59:38.397+05:30
+      hippotranslation:id: 63ce6fa9-cb02-46e3-881c-21b54b0c5e75
+      hippotranslation:locale: en
+      pactronics:introduction: Pactronics stands for Pacific Electronics, launched
+        in 2006, Pactronics was the first one-of-its kind large format specialist
+        retail store that catered to all multi-brand digital gadgets and home electronic
+        needs all over the world. Over a decade since its inception,  Pactronics has
+        almost become synonyms for all electronics needs, with its tech-savvy staff,
+        product range, online presence and the will to help customers.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: About Pactronics
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Bringing alive the promise of a ‘Brighter Every Day’ for its customers, Pactronics offers its customers a world-class ambience to shop both in-store and online at www.pactronics.com and also allows for a seamless ‘omni-channel’ shopping experience that lets a customer enjoy the best of both the online &amp; the offline worlds. With over 6000 products across 200 brands with 112 stores across 19 major cities of the world, Pactronics ensures that for each customer, a Brighter Tomorrow begins Today! From the newlywed couple setting up their house to the son reducing his mother’s burden with a washing machine; from the daughter gifting her parents a new LED TV to the newly promoted manager buying an inverter air-conditioner to make the summer bearable, Pactronics ensures that customers always get ‘More for their money’!</p>
+
+          <p>With this intent to delight customers all along, Pactronics launched its own label products in 2008. Brand Pactronics stands for – Life, More Beautiful; the promise is based not just on the beauty in the way they look but also the value they offer to a customer’s life. The range is a perfect fit, for those who desire a completely feature-packed and quality product.</p>
+
+          <p>Pactronics is a brand of Infiniti Retail Ltd., which is a wholly-owned subsidiary of Pactronics, the holding company of the Pactronics Group.</p>
+  /privacy:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 1e68f140-9c9f-4313-a56f-2dbafde008a7
+    hippo:versionHistory: d8cfe6e6-641b-4088-9d32-6c92acc3340a
+    /privacy[1]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cf6f4866-a808-42ff-b263-223a7c0da244
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-14T14:19:45.883+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-29T10:59:45.781+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 65e75f1f-88a3-4ef3-9ce5-a6fd0d8a20a2
+      hippotranslation:locale: en
+      pactronics:introduction: Your privacy is important to us. This is why, as a
+        Pactronics customer, we are committed to the protection of your Privacy.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: Privacy Policy
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>We assure:<br />
+          While offering you valued added service, our foremost interest is to reciprocate your faith.</p>
+
+          <ul>
+           <li>We shall strive to safeguard your personal information and try to prevent any unauthorized use and / or access thereof.</li>
+           <li>We will limit the use of your personal information to the extent that we reasonably require, to deliver our products, services and other opportunities, and to administer our business.</li>
+           <li>We will permit only authorized employees, who are trained in proper handling of customer personal information, to have access to that information. Employees who violate our Privacy Policy will be subject to our normal disciplinary process.</li>
+           <li>We shall act upon your request, in writing, for any addition or modification of your personal information or any part thereof. You may Email us at <a href="mailto:Sonyindia.care@ap.sony.com"><strong>pactronics.care@ap.pactronics.com</strong></a>&nbsp;for any modifications/changes, if required.</li>
+           <li>Whenever we hire other organizations to provide support services that require sharing of personal information, we will require them to confirm to our privacy standards and allow us to audit them for compliance.</li>
+          </ul>
+
+          <p>How we use information<br />
+          Your information is important to us at Pactronics. We shall use your information to provide you with quick and convenient access to you, to provide you with information about products &amp; services and of new items of interest. We undertake not to divulge your information , save and except where we are required, by law, to respond to statutory authorities or direction of any Court or legal authority.</p>
+    /privacy[2]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 5d1a5c5f-80b4-4fbd-9869-f98e35c8f853
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-14T14:19:45.883+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-29T11:01:25.016+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 65e75f1f-88a3-4ef3-9ce5-a6fd0d8a20a2
+      hippotranslation:locale: en
+      pactronics:introduction: Your privacy is important to us. This is why, as a
+        Pactronics customer, we are committed to the protection of your Privacy.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: Privacy Policy
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>We assure:<br />
+          While offering you valued added service, our foremost interest is to reciprocate your faith.</p>
+
+          <ul>
+           <li>We shall strive to safeguard your personal information and try to prevent any unauthorized use and / or access thereof.</li>
+           <li>We will limit the use of your personal information to the extent that we reasonably require, to deliver our products, services and other opportunities, and to administer our business.</li>
+           <li>We will permit only authorized employees, who are trained in proper handling of customer personal information, to have access to that information. Employees who violate our Privacy Policy will be subject to our normal disciplinary process.</li>
+           <li>We shall act upon your request, in writing, for any addition or modification of your personal information or any part thereof. You may Email us at <a href="mailto:Sonyindia.care@ap.sony.com"><strong>pactronics.care@ap.pactronics.com</strong></a>&nbsp;for any modifications/changes, if required.</li>
+           <li>Whenever we hire other organizations to provide support services that require sharing of personal information, we will require them to confirm to our privacy standards and allow us to audit them for compliance.</li>
+          </ul>
+
+          <p>How we use information<br />
+          Your information is important to us at Pactronics. We shall use your information to provide you with quick and convenient access to you, to provide you with information about products &amp; services and of new items of interest. We undertake not to divulge your information , save and except where we are required, by law, to respond to statutory authorities or direction of any Court or legal authority.</p>
+    /privacy[3]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 45cf34dc-36e2-470b-a02a-8479a409a97e
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-14T14:19:45.883+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-29T11:01:25.016+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-29T11:01:27.925+05:30
+      hippotranslation:id: 65e75f1f-88a3-4ef3-9ce5-a6fd0d8a20a2
+      hippotranslation:locale: en
+      pactronics:introduction: Your privacy is important to us. This is why, as a
+        Pactronics customer, we are committed to the protection of your Privacy.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: Privacy Policy
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>We assure:<br />
+          While offering you valued added service, our foremost interest is to reciprocate your faith.</p>
+
+          <ul>
+           <li>We shall strive to safeguard your personal information and try to prevent any unauthorized use and / or access thereof.</li>
+           <li>We will limit the use of your personal information to the extent that we reasonably require, to deliver our products, services and other opportunities, and to administer our business.</li>
+           <li>We will permit only authorized employees, who are trained in proper handling of customer personal information, to have access to that information. Employees who violate our Privacy Policy will be subject to our normal disciplinary process.</li>
+           <li>We shall act upon your request, in writing, for any addition or modification of your personal information or any part thereof. You may Email us at <a href="mailto:Sonyindia.care@ap.sony.com"><strong>pactronics.care@ap.pactronics.com</strong></a>&nbsp;for any modifications/changes, if required.</li>
+           <li>Whenever we hire other organizations to provide support services that require sharing of personal information, we will require them to confirm to our privacy standards and allow us to audit them for compliance.</li>
+          </ul>
+
+          <p>How we use information<br />
+          Your information is important to us at Pactronics. We shall use your information to provide you with quick and convenient access to you, to provide you with information about products &amp; services and of new items of interest. We undertake not to divulge your information , save and except where we are required, by law, to respond to statutory authorities or direction of any Court or legal authority.</p>
+  /careers:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 1ed96882-6d1d-483b-b3cd-67e8ba6c05a1
+    hippo:versionHistory: 6a9d0d34-6121-4e84-8ad9-80fb43721538
+    /careers[1]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 30708d1f-1108-44cc-b6ee-707cb9a483c6
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-29T10:52:02.054+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-29T11:08:18.246+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b9e078f4-8427-4fdb-9b4c-b13cde033cbe
+      hippotranslation:locale: en
+      pactronics:introduction: Pactronics is a fairly new and growing organization.
+        Hence there is tremendous opportunity for everyone to grow and learn with
+        the organization. We are wholly open to untried and innovative ideas and genuinely
+        support people who dare to think different.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: Why join Pactronics ?
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Our people are our driving force, our lifeline. Our Brand ambassadors and warriors. People come here from varied walks of life but once here, they embrace our culture, our values, our vision. We are very proud of the fact that we have people from different parts of the country working together as one team for achieving a common goal. We celebrate this fact by dedicating one day of each month for a particular state������s traditional food and attire. Apart from making the office environment interesting this also reinforces our commitment to value all cultures and people.</p>
+
+          <p>We are a People's organization<br />
+          "Success is not in hitting the headlines. Success is in reaching the Heartlines."<br />
+          - Mr. Ironman</p>
+
+          <p>Empowerment in an energized environment<br />
+          "An empowered organization is one in which individuals have the knowledge, skill, desire, and opportunity to personally succeed in a way that leads to collective organizational success."</p>
+
+          <p>- Stephen Covey</p>
+
+          <p>We sincerely believe that the best can come from within only if the mind and spirit are free. We encourage people to break the status quo with bold &amp; innovative ideas and arm them with power to make a difference. There is no place here for the mundane.</p>
+
+          <p>At Pactronics you can get hands on experience and the real taste of retail by witnessing all the intricacies yourself. You will be a direct interface of the organization and you can touch, feel, and test the waters directly at the warfront. Learn to understand the customers, interact, and grow with the booming industry.</p>
+
+          <p>So come, be a part of this enthusiastic team which provides you with both wings and roots, wings to know your freedom and empower you and roots to hold on to your values.</p>
+
+          <h3>Endless opportunities and excitement</h3>
+
+          <p>If you like to dream big and share our passion for relentless pursuit of excellence, we will nurture your dreams and together we shall work to make them a reality. We promise to give you a flying start in your career. Our people values, wealth of experience and professional ethics will give you ample opportunities to blossom professionally and personally.</p>
+
+          <p>As an HR policy we strongly believe in promoting talent from within before looking outside. Thus, although just a year and a half old, we have already run an Assessment Center for our Store and Support Office personnel. As a result many deserving candidates at all levels got promoted and Individual Development Programs were identified for the rest. Extensive training programs are chalked out for our people to continually expand their talent base and skills. At Pactronics&nbsp;we believe that we must go hand in hand for exploring newer horizons....</p>
+    /careers[2]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: db5ef66d-cfaf-473c-9e96-1c208af7ea65
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-29T10:52:02.054+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-29T11:08:29.287+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b9e078f4-8427-4fdb-9b4c-b13cde033cbe
+      hippotranslation:locale: en
+      pactronics:introduction: Pactronics is a fairly new and growing organization.
+        Hence there is tremendous opportunity for everyone to grow and learn with
+        the organization. We are wholly open to untried and innovative ideas and genuinely
+        support people who dare to think different.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: Why join Pactronics ?
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Our people are our driving force, our lifeline. Our Brand ambassadors and warriors. People come here from varied walks of life but once here, they embrace our culture, our values, our vision. We are very proud of the fact that we have people from different parts of the country working together as one team for achieving a common goal. We celebrate this fact by dedicating one day of each month for a particular state������s traditional food and attire. Apart from making the office environment interesting this also reinforces our commitment to value all cultures and people.</p>
+
+          <p>We are a People's organization<br />
+          "Success is not in hitting the headlines. Success is in reaching the Heartlines."<br />
+          - Mr. Ironman</p>
+
+          <p>Empowerment in an energized environment<br />
+          "An empowered organization is one in which individuals have the knowledge, skill, desire, and opportunity to personally succeed in a way that leads to collective organizational success."</p>
+
+          <p>- Stephen Covey</p>
+
+          <p>We sincerely believe that the best can come from within only if the mind and spirit are free. We encourage people to break the status quo with bold &amp; innovative ideas and arm them with power to make a difference. There is no place here for the mundane.</p>
+
+          <p>At Pactronics you can get hands on experience and the real taste of retail by witnessing all the intricacies yourself. You will be a direct interface of the organization and you can touch, feel, and test the waters directly at the warfront. Learn to understand the customers, interact, and grow with the booming industry.</p>
+
+          <p>So come, be a part of this enthusiastic team which provides you with both wings and roots, wings to know your freedom and empower you and roots to hold on to your values.</p>
+
+          <h3>Endless opportunities and excitement</h3>
+
+          <p>If you like to dream big and share our passion for relentless pursuit of excellence, we will nurture your dreams and together we shall work to make them a reality. We promise to give you a flying start in your career. Our people values, wealth of experience and professional ethics will give you ample opportunities to blossom professionally and personally.</p>
+
+          <p>As an HR policy we strongly believe in promoting talent from within before looking outside. Thus, although just a year and a half old, we have already run an Assessment Center for our Store and Support Office personnel. As a result many deserving candidates at all levels got promoted and Individual Development Programs were identified for the rest. Extensive training programs are chalked out for our people to continually expand their talent base and skills. At Pactronics&nbsp;we believe that we must go hand in hand for exploring newer horizons....</p>
+    /careers[3]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4b5904df-637c-4c4a-8b7e-05b7a73866c7
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-29T10:52:02.054+05:30
+      hippostdpubwf:lastModificationDate: 2018-11-29T11:08:29.287+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-29T11:08:31.303+05:30
+      hippotranslation:id: b9e078f4-8427-4fdb-9b4c-b13cde033cbe
+      hippotranslation:locale: en
+      pactronics:introduction: Pactronics is a fairly new and growing organization.
+        Hence there is tremendous opportunity for everyone to grow and learn with
+        the organization. We are wholly open to untried and innovative ideas and genuinely
+        support people who dare to think different.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: Why join Pactronics ?
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Our people are our driving force, our lifeline. Our Brand ambassadors and warriors. People come here from varied walks of life but once here, they embrace our culture, our values, our vision. We are very proud of the fact that we have people from different parts of the country working together as one team for achieving a common goal. We celebrate this fact by dedicating one day of each month for a particular state������s traditional food and attire. Apart from making the office environment interesting this also reinforces our commitment to value all cultures and people.</p>
+
+          <p>We are a People's organization<br />
+          "Success is not in hitting the headlines. Success is in reaching the Heartlines."<br />
+          - Mr. Ironman</p>
+
+          <p>Empowerment in an energized environment<br />
+          "An empowered organization is one in which individuals have the knowledge, skill, desire, and opportunity to personally succeed in a way that leads to collective organizational success."</p>
+
+          <p>- Stephen Covey</p>
+
+          <p>We sincerely believe that the best can come from within only if the mind and spirit are free. We encourage people to break the status quo with bold &amp; innovative ideas and arm them with power to make a difference. There is no place here for the mundane.</p>
+
+          <p>At Pactronics you can get hands on experience and the real taste of retail by witnessing all the intricacies yourself. You will be a direct interface of the organization and you can touch, feel, and test the waters directly at the warfront. Learn to understand the customers, interact, and grow with the booming industry.</p>
+
+          <p>So come, be a part of this enthusiastic team which provides you with both wings and roots, wings to know your freedom and empower you and roots to hold on to your values.</p>
+
+          <h3>Endless opportunities and excitement</h3>
+
+          <p>If you like to dream big and share our passion for relentless pursuit of excellence, we will nurture your dreams and together we shall work to make them a reality. We promise to give you a flying start in your career. Our people values, wealth of experience and professional ethics will give you ample opportunities to blossom professionally and personally.</p>
+
+          <p>As an HR policy we strongly believe in promoting talent from within before looking outside. Thus, although just a year and a half old, we have already run an Assessment Center for our Store and Support Office personnel. As a result many deserving candidates at all levels got promoted and Individual Development Programs were identified for the rest. Extensive training programs are chalked out for our people to continually expand their talent base and skills. At Pactronics&nbsp;we believe that we must go hand in hand for exploring newer horizons....</p>
+  /contact-us:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 56ffae55-ae68-4191-9dbd-fd4aadd4d406
+    hippo:name: contact us
+    hippo:versionHistory: e2d72f16-f0ed-4cc9-8d51-c341785d6e4d
+    /contact-us[1]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 2f36d06a-b71a-42bc-8532-97c14de2675b
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:buttonlabel: Submit
+      eforms:formname: 'Connect with us:'
+      eforms:mailformdata: 'true'
+      eforms:storeformdata: 'true'
+      eforms:validationhelper: true
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-30T10:33:12.391+05:30
+      hippostdpubwf:lastModificationDate: 2019-04-29T13:37:56.827+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 01b42669-4fcc-4373-aa02-f32f4b2f7e71
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: e0856098-5091-41d6-8456-9551e5255e2c
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /field0:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 806bca43-a152-474a-9938-a16d54b54791
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9c8b8ee93e19799a
+          eforms:fieldname: name
+          eforms:hint: ''
+          eforms:label: Name
+          eforms:length: 25
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 32bff67e-4c69-457e-a363-75d6247e3bb0
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: ida369a064ccc88929
+          eforms:fieldname: email
+          eforms:hint: ''
+          eforms:label: Email
+          eforms:length: 25
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field2:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 2f91554e-f515-48fc-8d48-678652e3feaf
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idb3286c9343298997
+          eforms:fieldname: mobile
+          eforms:hint: ''
+          eforms:label: Mobile
+          eforms:length: 25
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field3:
+          jcr:primaryType: eforms:textarea
+          jcr:uuid: 993997cd-db7f-4293-9057-f256ee3c76c7
+          eforms:cols: 25
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:expandhint: false
+          eforms:fieldid: id81956fd6f2c7ce09
+          eforms:fieldname: message
+          eforms:hint: ''
+          eforms:label: Message
+          eforms:mandatory: false
+          eforms:rows: 10
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+    /contact-us[2]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 2c6b9915-4cdc-4ca2-8aa9-bfdc5c7170d3
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:buttonlabel: Submit
+      eforms:formname: 'Connect with us:'
+      eforms:mailformdata: 'true'
+      eforms:storeformdata: 'true'
+      eforms:validationhelper: true
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-30T10:33:12.391+05:30
+      hippostdpubwf:lastModificationDate: 2019-04-29T13:38:08.122+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 01b42669-4fcc-4373-aa02-f32f4b2f7e71
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 793de489-6db2-4180-b9a3-489ca8c15c1b
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /field0:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: cc1aaaaa-18ea-435a-afd2-de103450c0b6
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9c8b8ee93e19799a
+          eforms:fieldname: name
+          eforms:hint: ''
+          eforms:label: Name
+          eforms:length: 25
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 72fde91c-a7ba-4a7a-a530-04e80f289c71
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: ida369a064ccc88929
+          eforms:fieldname: email
+          eforms:hint: ''
+          eforms:label: Email
+          eforms:length: 25
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field2:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: a26d75e0-2c76-4838-8007-84e85bd2602e
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idb3286c9343298997
+          eforms:fieldname: mobile
+          eforms:hint: ''
+          eforms:label: Mobile
+          eforms:length: 25
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field3:
+          jcr:primaryType: eforms:textarea
+          jcr:uuid: 7616f351-7a40-4141-a2ce-7f3ec7c82bca
+          eforms:cols: 25
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:expandhint: false
+          eforms:fieldid: id81956fd6f2c7ce09
+          eforms:fieldname: message
+          eforms:hint: ''
+          eforms:label: Message
+          eforms:mandatory: false
+          eforms:rows: 10
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+    /contact-us[3]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 777d5513-01f9-45d1-8f80-c9e2ee4ddd2d
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:buttonlabel: Submit
+      eforms:formname: 'Connect with us:'
+      eforms:mailformdata: 'true'
+      eforms:storeformdata: 'true'
+      eforms:validationhelper: true
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-30T10:33:12.391+05:30
+      hippostdpubwf:lastModificationDate: 2019-04-29T13:38:08.122+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-29T13:38:11.902+02:00
+      hippotranslation:id: 01b42669-4fcc-4373-aa02-f32f4b2f7e71
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: a81526b6-b01f-4a86-a04f-e97d46aeec16
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /field0:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 505e66db-1bd6-4588-b89c-2380bb8b25f1
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9c8b8ee93e19799a
+          eforms:fieldname: name
+          eforms:hint: ''
+          eforms:label: Name
+          eforms:length: 25
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 4e4084ef-be36-48ff-bd66-88370590dc68
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: ida369a064ccc88929
+          eforms:fieldname: email
+          eforms:hint: ''
+          eforms:label: Email
+          eforms:length: 25
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field2:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: e4b0b672-1bf7-4d1e-94cd-5db75d90fd6b
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idb3286c9343298997
+          eforms:fieldname: mobile
+          eforms:hint: ''
+          eforms:label: Mobile
+          eforms:length: 25
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field3:
+          jcr:primaryType: eforms:textarea
+          jcr:uuid: 96e7b24f-75da-4e0c-b247-d3166e835f4f
+          eforms:cols: 25
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:expandhint: false
+          eforms:fieldid: id81956fd6f2c7ce09
+          eforms:fieldname: message
+          eforms:hint: ''
+          eforms:label: Message
+          eforms:mandatory: false
+          eforms:rows: 10
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+  /locations:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: ac33e58c-1d94-4ebc-9b59-05fca08f38e8
+    hippo:versionHistory: c4d08011-3fbd-4a2d-92a6-9c4d56436855
+    /locations[1]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 68524a8c-ddc1-44f4-8782-2c1480351995
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-13T14:44:14.649+05:30
+      hippostdpubwf:lastModificationDate: 2018-12-14T15:44:53.032+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: bf03ca1c-2700-48d8-b961-7dc396573ccb
+      hippotranslation:locale: en
+      pactronics:introduction: Pacific Electronics has a worldwide network of authorized
+        dealers. In order to ensure to buy a genuine product, please use our dealer
+        finder to find an outlet near to you.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: Find Nearest Store
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Please check stock of your preferred product with the
+          dealer before travelling.</p>
+    /locations[2]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: e3a227a7-6816-4bd4-bfeb-4621bed6ad3c
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-13T14:44:14.649+05:30
+      hippostdpubwf:lastModificationDate: 2018-12-14T15:45:02.041+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: bf03ca1c-2700-48d8-b961-7dc396573ccb
+      hippotranslation:locale: en
+      pactronics:introduction: Pacific Electronics has a worldwide network of authorized
+        dealers. In order to ensure to buy a genuine product, please use our dealer
+        finder to find an outlet near to you.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: Find Nearest Store
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Please check stock of your preferred product with the
+          dealer before travelling.</p>
+    /locations[3]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 47a53dcf-7c29-42dc-a09b-0e3bfb2eb467
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-13T14:44:14.649+05:30
+      hippostdpubwf:lastModificationDate: 2018-12-14T15:45:02.041+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-12-14T15:45:04.495+05:30
+      hippotranslation:id: bf03ca1c-2700-48d8-b961-7dc396573ccb
+      hippotranslation:locale: en
+      pactronics:introduction: Pacific Electronics has a worldwide network of authorized
+        dealers. In order to ensure to buy a genuine product, please use our dealer
+        finder to find an outlet near to you.
+      pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+      pactronics:title: Find Nearest Store
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Please check stock of your preferred product with the
+          dealer before travelling.</p>
+  /stores:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: a2ada2f0-e400-4157-8b04-fbbcdcbaff1a
+    hippo:versionHistory: d885be57-36d2-4299-8ff5-a8f3da83edbb
+    /stores[1]:
+      jcr:primaryType: pactronics:storelocations
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9ba7703c-5a53-4753-aaba-545289d106b8
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-14T16:04:03.316+05:30
+      hippostdpubwf:lastModificationDate: 2018-12-14T17:02:02.738+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 557d2fc0-f03d-4608-96e5-e94059cef5fc
+      hippotranslation:locale: en
+      pactronics:address1: BKN Ambaram Estates, 648/L, Swamy Vivekananda Rd, Binnamangala,
+        Hoysala Nagar, Indiranagar, Bengaluru, Karnataka 560038
+      pactronics:address2: Somewhere in Amsterdam
+      pactronics:address3: Somewhere in California
+      pactronics:address4: Somewhere in London
+      pactronics:content: Please check stock of your preferred product with the dealer
+        before travelling.
+      pactronics:introduction: Pacific Electronics has a worldwide network of authorized
+        dealers. In order to ensure to buy a genuine product, please use our dealer
+        finder to find an outlet near to you.
+      pactronics:location1: Bangalore, India
+      pactronics:location2: Amsterdam, Netherlands
+      pactronics:location3: Mountain View, US
+      pactronics:location4: London, UK
+      pactronics:title: Find Nearest Store
+      /pactronics:map1:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=30.234375000000004%2C-25.005972656239177%2C125.15625000000001%2C46.01222384063236&amp;layer=mapnik&amp;marker=12.940322128384627%2C77.6953125"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+      /pactronics:map2:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-42.5390625%2C22.187404991398786%2C52.3828125%2C70.37785394109227&amp;layer=mapnik&amp;marker=52.35946000012382%2C4.901667900000007"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+      /pactronics:map3:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-169.54101562500003%2C1.4939713066293239%2C-74.61914062500001%2C61.85614879566797&amp;layer=mapnik&amp;marker=37.389399650719945%2C-122.06710940000005"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+      /pactronics:map4:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-11.997070312500002%2C45.02695045318546%2C11.733398437500002%2C57.148160713298324&amp;layer=mapnik&amp;marker=51.48822432632349%2C-0.1318359375"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+    /stores[2]:
+      jcr:primaryType: pactronics:storelocations
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 8e5e92dd-88f2-4673-92b9-e41e58f1d905
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-14T16:04:03.316+05:30
+      hippostdpubwf:lastModificationDate: 2018-12-14T17:02:07.073+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 557d2fc0-f03d-4608-96e5-e94059cef5fc
+      hippotranslation:locale: en
+      pactronics:address1: BKN Ambaram Estates, 648/L, Swamy Vivekananda Rd, Binnamangala,
+        Hoysala Nagar, Indiranagar, Bengaluru, Karnataka 560038
+      pactronics:address2: Somewhere in Amsterdam
+      pactronics:address3: Somewhere in California
+      pactronics:address4: Somewhere in London
+      pactronics:content: Please check stock of your preferred product with the dealer
+        before travelling.
+      pactronics:introduction: Pacific Electronics has a worldwide network of authorized
+        dealers. In order to ensure to buy a genuine product, please use our dealer
+        finder to find an outlet near to you.
+      pactronics:location1: Bangalore, India
+      pactronics:location2: Amsterdam, Netherlands
+      pactronics:location3: Mountain View, US
+      pactronics:location4: London, UK
+      pactronics:title: Find Nearest Store
+      /pactronics:map1:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=30.234375000000004%2C-25.005972656239177%2C125.15625000000001%2C46.01222384063236&amp;layer=mapnik&amp;marker=12.940322128384627%2C77.6953125"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+      /pactronics:map2:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-42.5390625%2C22.187404991398786%2C52.3828125%2C70.37785394109227&amp;layer=mapnik&amp;marker=52.35946000012382%2C4.901667900000007"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+      /pactronics:map3:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-169.54101562500003%2C1.4939713066293239%2C-74.61914062500001%2C61.85614879566797&amp;layer=mapnik&amp;marker=37.389399650719945%2C-122.06710940000005"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+      /pactronics:map4:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-11.997070312500002%2C45.02695045318546%2C11.733398437500002%2C57.148160713298324&amp;layer=mapnik&amp;marker=51.48822432632349%2C-0.1318359375"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+    /stores[3]:
+      jcr:primaryType: pactronics:storelocations
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4d70a4d4-2aa1-46ca-bbe1-02b7e0dcdc98
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-14T16:04:03.316+05:30
+      hippostdpubwf:lastModificationDate: 2018-12-14T17:02:07.073+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-12-14T17:02:09.540+05:30
+      hippotranslation:id: 557d2fc0-f03d-4608-96e5-e94059cef5fc
+      hippotranslation:locale: en
+      pactronics:address1: BKN Ambaram Estates, 648/L, Swamy Vivekananda Rd, Binnamangala,
+        Hoysala Nagar, Indiranagar, Bengaluru, Karnataka 560038
+      pactronics:address2: Somewhere in Amsterdam
+      pactronics:address3: Somewhere in California
+      pactronics:address4: Somewhere in London
+      pactronics:content: Please check stock of your preferred product with the dealer
+        before travelling.
+      pactronics:introduction: Pacific Electronics has a worldwide network of authorized
+        dealers. In order to ensure to buy a genuine product, please use our dealer
+        finder to find an outlet near to you.
+      pactronics:location1: Bangalore, India
+      pactronics:location2: Amsterdam, Netherlands
+      pactronics:location3: Mountain View, US
+      pactronics:location4: London, UK
+      pactronics:title: Find Nearest Store
+      /pactronics:map1:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=30.234375000000004%2C-25.005972656239177%2C125.15625000000001%2C46.01222384063236&amp;layer=mapnik&amp;marker=12.940322128384627%2C77.6953125"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+      /pactronics:map2:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-42.5390625%2C22.187404991398786%2C52.3828125%2C70.37785394109227&amp;layer=mapnik&amp;marker=52.35946000012382%2C4.901667900000007"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+      /pactronics:map3:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-169.54101562500003%2C1.4939713066293239%2C-74.61914062500001%2C61.85614879566797&amp;layer=mapnik&amp;marker=37.389399650719945%2C-122.06710940000005"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+      /pactronics:map4:
+        jcr:primaryType: hippostd:html
+        hippostd:content: '<iframe scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-11.997070312500002%2C45.02695045318546%2C11.733398437500002%2C57.148160713298324&amp;layer=mapnik&amp;marker=51.48822432632349%2C-0.1318359375"
+          width="500" style="border: 1px solid black" frameborder="0" height="300"></iframe><br
+          />'
+  /googleresults1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 35fba1b6-1b05-4a97-8083-daf9a123173d
+    hippo:versionHistory: 7d57a31e-8f66-4d81-a566-b1028e8ce5c8
+    /googleresults1[1]:
+      jcr:primaryType: pactronics:googlesearch
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 426e9d9d-a8e0-4cf9-b7fe-103222bb19bb
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-16T08:51:45.820+05:30
+      hippostdpubwf:lastModificationDate: 2019-01-16T17:45:11.396+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0da90df0-c664-440a-a625-c864858c7b0c
+      hippotranslation:locale: en
+      pactronics:searchterm: smart watch
+      /pactronics:result1:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/search?_sq=smart+watch
+        pactronics:title: Sony Smart Watch SW2 for Android Phones
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>SONY SmartWatch 2 The SONY SmartWatch 2 is an Android
+            compatible SmartWatch with One-touch NFC. SmartWatch 2 comes with a black
+            wristband ...</p>
+      /pactronics:result2:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/products/p10522?_cc=bloomreach
+        pactronics:title: Ematic - ESW454W - Ematic SmartWatch - Digital - Quartz
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Ematic Smartwatch syncs with your smartphone and
+            displays notifications and messages, controls music playback, and more!
+            See messages and incoming ...</p>
+      /pactronics:result3:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: https://www.macys.com/shop/jewelry-watches/smart-watches?id=71570
+        pactronics:title: Smart Watches - Macy's
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Buy&nbsp;<em>Smart Watches</em>&nbsp;and fitness trackers
+            at Macy's and get FREE SHIPPING with $99 purchase! Track your steps, sleep
+            &amp; more with the latest fashion trackers.</p>
+      /pactronics:result[1]:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/search?_sq=smart+watch
+        pactronics:title: Sony Smart Watch SW2 for Android Phones
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>SONY SmartWatch 2 The SONY SmartWatch 2 is an Android
+            compatible SmartWatch with One-touch NFC. SmartWatch 2 comes with a black
+            wristband ...</p>
+      /pactronics:result[2]:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/products/p10522?_cc=bloomreach
+        pactronics:title: Ematic - ESW454W - Ematic SmartWatch - Digital - Quartz
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Ematic Smartwatch syncs with your smartphone and
+            displays notifications and messages, controls music playback, and more!
+            See messages and incoming ...</p>
+      /pactronics:result[3]:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: https://www.macys.com/shop/jewelry-watches/smart-watches?id=71570
+        pactronics:title: Smart Watches - Macy's
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Buy Smart Watches and fitness trackers at Macy's and
+            get FREE SHIPPING with $99 purchase! Track your steps, sleep &amp; more
+            with the latest fashion trackers.</p>
+    /googleresults1[2]:
+      jcr:primaryType: pactronics:googlesearch
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: e1c8d5ca-81e6-4658-8b23-6f0849fc1076
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-16T08:51:45.820+05:30
+      hippostdpubwf:lastModificationDate: 2019-01-16T17:46:45.115+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0da90df0-c664-440a-a625-c864858c7b0c
+      hippotranslation:locale: en
+      pactronics:searchterm: smart watch
+      /pactronics:result1:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/search?_sq=smart+watch
+        pactronics:title: Sony Smart Watch SW2 for Android Phones
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>SONY SmartWatch 2 The SONY SmartWatch 2 is an Android
+            compatible SmartWatch with One-touch NFC. SmartWatch 2 comes with a black
+            wristband ...</p>
+      /pactronics:result2:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/products/p10522?_cc=bloomreach
+        pactronics:title: Ematic - ESW454W - Ematic SmartWatch - Digital - Quartz
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Ematic Smartwatch syncs with your smartphone and
+            displays notifications and messages, controls music playback, and more!
+            See messages and incoming ...</p>
+      /pactronics:result3:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: https://www.macys.com/shop/jewelry-watches/smart-watches?id=71570
+        pactronics:title: Smart Watches - Macy's
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Buy&nbsp;<em>Smart Watches</em>&nbsp;and fitness trackers
+            at Macy's and get FREE SHIPPING with $99 purchase! Track your steps, sleep
+            &amp; more with the latest fashion trackers.</p>
+      /pactronics:result[1]:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/search?_sq=smart+watch
+        pactronics:title: Sony Smart Watch SW2 for Android Phones
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>SONY SmartWatch 2 The SONY SmartWatch 2 is an Android
+            compatible SmartWatch with One-touch NFC. SmartWatch 2 comes with a black
+            wristband ...</p>
+      /pactronics:result[2]:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/products/p10522?_cc=bloomreach
+        pactronics:title: Ematic - ESW454W - Ematic SmartWatch - Digital - Quartz
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Ematic Smartwatch syncs with your smartphone and
+            displays notifications and messages, controls music playback, and more!
+            See messages and incoming ...</p>
+      /pactronics:result[3]:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: https://www.macys.com/shop/jewelry-watches/smart-watches?id=71570
+        pactronics:title: Smart Watches - Macy's
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Buy Smart Watches and fitness trackers at Macy's and
+            get FREE SHIPPING with $99 purchase! Track your steps, sleep &amp; more
+            with the latest fashion trackers.</p>
+    /googleresults1[3]:
+      jcr:primaryType: pactronics:googlesearch
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 06e314f4-c5f7-4660-ab2a-c55d340b0c4b
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-01-16T08:51:45.820+05:30
+      hippostdpubwf:lastModificationDate: 2019-01-16T17:46:45.115+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-01-16T17:46:48.420+05:30
+      hippotranslation:id: 0da90df0-c664-440a-a625-c864858c7b0c
+      hippotranslation:locale: en
+      pactronics:searchterm: smart watch
+      /pactronics:result1:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/search?_sq=smart+watch
+        pactronics:title: Sony Smart Watch SW2 for Android Phones
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>SONY SmartWatch 2 The SONY SmartWatch 2 is an Android
+            compatible SmartWatch with One-touch NFC. SmartWatch 2 comes with a black
+            wristband ...</p>
+      /pactronics:result2:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/products/p10522?_cc=bloomreach
+        pactronics:title: Ematic - ESW454W - Ematic SmartWatch - Digital - Quartz
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Ematic Smartwatch syncs with your smartphone and
+            displays notifications and messages, controls music playback, and more!
+            See messages and incoming ...</p>
+      /pactronics:result3:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: https://www.macys.com/shop/jewelry-watches/smart-watches?id=71570
+        pactronics:title: Smart Watches - Macy's
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Buy&nbsp;<em>Smart Watches</em>&nbsp;and fitness trackers
+            at Macy's and get FREE SHIPPING with $99 purchase! Track your steps, sleep
+            &amp; more with the latest fashion trackers.</p>
+      /pactronics:result[1]:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/search?_sq=smart+watch
+        pactronics:title: Sony Smart Watch SW2 for Android Phones
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>SONY SmartWatch 2 The SONY SmartWatch 2 is an Android
+            compatible SmartWatch with One-touch NFC. SmartWatch 2 comes with a black
+            wristband ...</p>
+      /pactronics:result[2]:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: http://localhost:8080/site/products/p10522?_cc=bloomreach
+        pactronics:title: Ematic - ESW454W - Ematic SmartWatch - Digital - Quartz
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The Ematic Smartwatch syncs with your smartphone and
+            displays notifications and messages, controls music playback, and more!
+            See messages and incoming ...</p>
+      /pactronics:result[3]:
+        jcr:primaryType: pactronics:searchresult
+        pactronics:link: https://www.macys.com/shop/jewelry-watches/smart-watches?id=71570
+        pactronics:title: Smart Watches - Macy's
+        /pactronics:desc:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Buy Smart Watches and fitness trackers at Macy's and
+            get FREE SHIPPING with $99 purchase! Track your steps, sleep &amp; more
+            with the latest fashion trackers.</p>

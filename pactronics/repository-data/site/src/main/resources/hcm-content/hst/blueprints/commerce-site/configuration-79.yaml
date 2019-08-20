@@ -1,0 +1,4 @@
+/hst:hst/hst:blueprints/commerce-site/hst:configuration/hst:workspace/hst:sitemenus/main/home:
+  .meta:order-before: content
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: root

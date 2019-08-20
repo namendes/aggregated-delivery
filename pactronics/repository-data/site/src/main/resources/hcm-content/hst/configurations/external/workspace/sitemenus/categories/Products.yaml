@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemenus/categories/Products:
+  .meta:order-before: Brands
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: categories/electronics
+  hst:repobased: false

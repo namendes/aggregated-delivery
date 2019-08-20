@@ -1,0 +1,22 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:characteristics/commerceCategories:
+      jcr:primaryType: targeting:characteristic
+      targeting:collector: commerceCategories
+      targeting:scorerClassName: com.onehippo.cms7.targeting.scoring.VectorScorer
+      /smartwatch-1556019331730:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Smart Watch
+        targeting:propertynames: [smart watch]
+      /accessories-1556019349801:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Accessories
+        targeting:propertynames: [accessories]
+      /camera-1556019476439:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Camera
+        targeting:propertynames: [camera]
+      /smartglasses-1556019694878:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Smart Glasses
+        targeting:propertynames: [smart glasses]

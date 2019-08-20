@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemenus/main/Beauty:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: beauty
+  hst:repobased: false

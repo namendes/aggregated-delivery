@@ -1,0 +1,37 @@
+? /hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:pages/products-super-duper-smartwatch-productexperiencepage
+: jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2019-03-26T10:20:52.129+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-03-26T10:21:34.650+01:00
+    hst:xtype: hst.vbox
+    /ProductsHighlight:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+      hst:label: Products Highlight
+      hst:parameternames: [connectorComponent, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, page, locale, commands]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductDecoratorInfo
+      hst:parametervalues: [productDetail, 'off', products/smart-watch-one, '1', en,
+        'initContextCommand, cartCreateCommand, cartProductListCommand, cartProductAddCommand,
+          contentSingleDecoratorCommand']
+      hst:template: starterstore-productcontentenricher
+      hst:xtype: hst.item
+    /videocomponent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsVideoComponent
+      hst:iconpath: images/essentials/catalog-component-icons/video.png
+      hst:label: Video
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, width, org.hippoecm.hst.core.component.template, height]
+      hst:parametervalues: ['off', videos/video-example, '420', 'webfile:/freemarker/hstdefault/video-component.ftl',
+        '315']
+      hst:template: video-component
+      hst:xtype: hst.item

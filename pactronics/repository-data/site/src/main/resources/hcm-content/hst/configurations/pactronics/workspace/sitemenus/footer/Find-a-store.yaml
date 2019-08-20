@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:sitemenus/footer/Find a store:
+  .meta:order-before: Documentation
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: locations
+  hst:repobased: false

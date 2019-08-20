@@ -1,0 +1,130 @@
+<style>
+  .center-cropped {
+    max-width: 320px;
+    height: 150px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+</style>
+<div class="bloomreach row">
+
+  <ng-container *ngFor="let item of (response | async)?.docs; let i = index;" [attr.data-index]="i">
+    <div class="col-xs-12 col-sm-6 col-lg-4 col-md-6 search-card" *ngIf="i < pageSize">
+      <div class="thumbnail">
+        <div class="center-cropped" style="margin-left: auto; margin-right:auto;background-size: contain;background-position: center;background-repeat: no-repeat" [style.backgroundImage]="'url(' + item.thumb_image + ')'"></div>
+        <div class="caption details_card" style="height: 155px">
+          <a [routerLink]="['/products', item.pid]" [innerHTML]="item.title"></a>
+          <p class="quickview" (click)="openModal(item.pid)" [innerHTML]="'Quickview'"></p>
+          <p [innerHTML]="'No reviews available'"></p>
+          <p class="price">$ {{ item.price }}</p>
+          <!--<form style="float:right;margin-top:-33px;margin-right:-19px" action="/site/?_hn:type=action&amp;_hn:ref=r54_r1_r1_r6" id="cart" method="POST">-->
+            <!--<input type="hidden" id="_pid" name="_pid" [value]="item.pid">-->
+            <!--<input type="submit" style="width: 60px; height: 32px;" class="btn btn-primary" value="Buy">-->
+          <!--</form>-->
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <!--<div class="modal fade" id="p10510" tabindex="-1" role="dialog">-->
+      <!--<div class="modal-product-dialog" role="document">-->
+        <!--<div class="modal-product-content">-->
+          <!--<span class="modal-close" onclick="closeModal(p10510)">×</span>-->
+          <!--<div class="modal-product-body">-->
+            <!--<div class="col-md-4">-->
+              <!--<img src="https://images-na.ssl-images-amazon.com/images/I/41xeAcThg0L.jpg">-->
+            <!--</div>-->
+            <!--<div class="col-md-8">-->
+              <!--<h1 class="title">Samsung Galaxy Gear 2 Neo - Smart watch - 1.63 - 4 GB - Bluetooth - 1.9 oz - Charcoal Black</h1>-->
+              <!--<p>No reviews available</p>-->
+              <!--<p class="price">$ 199</p>-->
+              <!--<p class="light-text">Samsung Gear 2 Neo Smartwatch - Black</p>-->
+              <!--<a href="/site/products/p10510?_cc=bloomreach" class="more-detail-btn">More details</a>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+
+
+    <!--<div class="col-xs-12 col-sm-6 col-lg-4 col-md-6 search-card">-->
+      <!--<div class="thumbnail">-->
+        <!--<div class="center-cropped" style="margin-left:auto;margin-right:auto; background-image: url(https://images-na.ssl-images-amazon.com/images/I/41xeAcThg0L.jpg);">-->
+        <!--</div>-->
+        <!--<div class="caption details_card" style="height: 155px;">-->
+          <!--<a href="/site/products/p10534">-->
+            <!--Samsung Galaxy Gear 2 Neo SM-R381 4GB Mocha Grey Smart Watch-->
+          <!--</a>-->
+          <!--<p class="quickview" onclick="openModal(p10534); BrTrk.getTracker().logEvent('product', 'quickview', {'prod_id' : 'p10534','prod_name':'Samsung Galaxy Gear 2 Neo SM-R381 4GB Mocha Grey Smart Watch','sku':''});">Quickview</p>-->
+          <!--<p>No reviews available</p>-->
+          <!--<p class="price">$ 199-->
+          <!--</p><form style="float:right;margin-top:-33px;margin-right:-19px" action="/site/?_hn:type=action&amp;_hn:ref=r54_r1_r1_r6" id="cart" method="POST" onsubmit="BrTrk.getTracker().logEvent('cart', 'click-add', {'prod_id': 'p10534', 'sku' : ''});">-->
+          <!--<input type="hidden" id="_pid" name="_pid" value="p10534">-->
+          <!--<input type="submit" style="width: 60px; height: 32px;" class="btn btn-primary" value="Buy">-->
+        <!--</form>-->
+          <!--<p></p>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+    <!--<div class="modal fade" id="p10534" tabindex="-1" role="dialog">-->
+      <!--<div class="modal-product-dialog" role="document">-->
+        <!--<div class="modal-product-content">-->
+          <!--<span class="modal-close" onclick="closeModal(p10534)">×</span>-->
+          <!--<div class="modal-product-body">-->
+            <!--<div class="col-md-4">-->
+              <!--<img src="https://images-na.ssl-images-amazon.com/images/I/41xeAcThg0L.jpg">-->
+            <!--</div>-->
+            <!--<div class="col-md-8">-->
+              <!--<h1 class="title">Samsung Galaxy Gear 2 Neo SM-R381 4GB Mocha Grey Smart Watch</h1>-->
+              <!--<p>No reviews available</p>-->
+              <!--<p class="price">$ 199</p>-->
+              <!--<p class="light-text">Samsung Gear 2 Neo Smartwatch - Black</p>-->
+              <!--<a href="/site/products/p10534?_cc=bloomreach" class="more-detail-btn">More details</a>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="col-xs-12 col-sm-6 col-lg-4 col-md-6 search-card">-->
+      <!--<div class="thumbnail">-->
+        <!--<div class="center-cropped" style="margin-left:auto;margin-right:auto; background-image: url(https://images-na.ssl-images-amazon.com/images/I/31cMcjsZfLL.jpg);">-->
+        <!--</div>-->
+        <!--<div class="caption details_card" style="height: 155px;">-->
+          <!--<a href="/site/products/p10557">-->
+            <!--Genuine Samsung Smart Watch For Galaxy Note 3 Gear Fit Galaxy S5 S4-->
+          <!--</a>-->
+          <!--<p class="quickview" onclick="openModal(p10557); BrTrk.getTracker().logEvent('product', 'quickview', {'prod_id' : 'p10557','prod_name':'Genuine Samsung Smart Watch For Galaxy Note 3 Gear Fit Galaxy S5 S4','sku':''});">Quickview</p>-->
+          <!--<p>No reviews available</p>-->
+          <!--<p class="price">$ 199-->
+          <!--</p><form style="float:right;margin-top:-33px;margin-right:-19px" action="/site/?_hn:type=action&amp;_hn:ref=r54_r1_r1_r6" id="cart" method="POST" onsubmit="BrTrk.getTracker().logEvent('cart', 'click-add', {'prod_id': 'p10557', 'sku' : ''});">-->
+          <!--<input type="hidden" id="_pid" name="_pid" value="p10557">-->
+          <!--<input type="submit" style="width: 60px; height: 32px;" class="btn btn-primary" value="Buy">-->
+        <!--</form>-->
+          <!--<p></p>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+    <!--<div class="modal fade" id="p10557" tabindex="-1" role="dialog">-->
+      <!--<div class="modal-product-dialog" role="document">-->
+        <!--<div class="modal-product-content">-->
+          <!--<span class="modal-close" onclick="closeModal(p10557)">×</span>-->
+          <!--<div class="modal-product-body">-->
+            <!--<div class="col-md-4">-->
+              <!--<img src="https://images-na.ssl-images-amazon.com/images/I/31cMcjsZfLL.jpg">-->
+            <!--</div>-->
+            <!--<div class="col-md-8">-->
+              <!--<h1 class="title">Genuine Samsung Smart Watch For Galaxy Note 3 Gear Fit Galaxy S5 S4</h1>-->
+              <!--<p>No reviews available</p>-->
+              <!--<p class="price">$ 199</p>-->
+              <!--<p class="light-text">The Samsung Gear Fit is the first curved, Super AMOLED wearable device for active lifestyles. Empower your fitness with real-time coaching and heart rate monitoring without sacrificing style or connectivity. Wherever your day takes you, Gear Fit matches any occasion with interchangeable bands and screens so you can look and feel your best. Achieve your fitness goals and improve your overall wellness with smarter monitoring and motivation Interchangeable bands with multiple options. Always-on activity tracking keeps track of your activities throughout the day and is prepared for any adventure with its dust and water resistant protection. Light and durable with a curved Super AMOLED display.</p>-->
+              <!--<a href="/site/products/p10557?_cc=bloomreach" class="more-detail-btn">More details</a>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+
+  </ng-container>
+</div>
+

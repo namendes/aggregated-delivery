@@ -1,0 +1,760 @@
+/content/documents/pactronics/buying-guides:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 6002a1fb-e1db-4c30-a08c-d381b80665b2
+  hippo:name: buying guides
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 3b3cfcbf-9e21-454d-8d23-2b69fb7dd1e0
+  hippotranslation:locale: en
+  /smart-watch-buying-guide:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 6e5d9b1d-b427-47b7-85aa-19b8e23df611
+    hippo:name: Smart Watch Buying Guide
+    hippo:versionHistory: 438aea74-0352-4397-8404-cbbf45b80f12
+    /smart-watch-buying-guide[1]:
+      jcr:primaryType: pactronics:article
+      jcr:mixinTypes: ['hippostd:taggable', 'mix:referenceable']
+      jcr:uuid: e314e8c2-c69c-437e-9c3d-dd35055b98c7
+      hippo:availability: []
+      hippostd:state: draft
+      hippostd:tags: [Smart watch]
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-28T19:55:19.497Z
+      hippostdpubwf:lastModificationDate: 2019-06-05T15:35:46.168+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3d0ae945-0137-48ca-81f4-cffc4a102ffd
+      hippotranslation:locale: en
+      pactronics:categories: []
+      pactronics:date: 2019-04-03T13:33:00Z
+      pactronics:summary: A smartwatch can help you stay connected and multitask so
+        you never miss a beat. Whether you’d rather keep your phone stashed away or
+        you always find yourself missing important calls, smartwatches sync with your
+        smartphone so you can manage your digital life conveniently and discreetly.
+        Many even double as activity trackers, helping you monitor your health. Use
+        this guide to help you choose the best smartwatch for your needs.
+      pactronics:tags: [smart watch]
+      pactronics:title: Smart Watch Buying Guide
+      pactronics:topics: [watches]
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h1>What Can a Smartwatch Do?</h1>
+
+          <p>Smartwatches do much more than just keep time. They act as a companion to your smartphone by delivering alerts, notifications, apps and more right to your wrist. They can even double as activity trackers. In order to have full functionality, nearly all smartwatches must connect via Bluetooth and be within wireless range of an Android or iOS smartphone or tablet. However, a few connected smartwatches actually have 3G/LTE capabilities and can operate without a connection to another device.</p>
+
+          <p>As smartphones have become essential to staying connected and organized, smartwatches are truly designed for the world we live in today. Have you ever missed a call or text because you didn't hear your phone? Or been somewhere it wasn’t suitable to check your e-mail or social media? There are countless situations that call for hands-free, discreet access to your smartphone, and smartwatches provide that — subtly, conveniently and without the disruption that a phone can cause.</p>
+
+          <h1>Smartwatch Operating Systems</h1>
+
+          <p>Smartwatches require pairing to a smartphone for notification functionality. It’s important to understand that not all smartwatches will work with all smartphones.</p>
+
+          <p>Most smartwatches are compatible with an Android or iOS device, or, in some instances, both. Some have their own operating systems and will only work with specific devices of the same brand. Others might be compatible with a select variety of operating systems. Since smartwatches are devised to accompany your smartphone, you’ll want to be sure it’s compatible with your phone's existing operating system.</p>
+
+          <p>When choosing a smartwatch operating system, there are a few things to consider beyond basic compatibility. For the most part, Android Wear and Watch OS are more similar than not. Watch OS has a reputation for being quick, clean and consistent. Only apps that go through Apple's strict approval process get released. Android Wear uses an open-source model, creating many customization options.</p>
+
+          <p>Tizen is a newer operating system used by Samsung and is similar to Android Wear. It too is an open-source platform for smartwatches, smartphones, tablets and more. Tizen has its own applications and allows for a user experience that you can take from device to device.</p>
+
+          <p>The Microsoft Band 2 uses the Windows 10 operating system to deliver notifications, e-mail preview and calendar notifications. The Band will work with iOS, Android and Windows phone. When paired with Windows phone 8.1, Microsoft Band 2 also supports Cortana personal digital assistant functionality.</p>
+
+          <h1>Style and Display</h1>
+
+          <p>It’s important to choose a smartwatch that you’ll feel comfortable wearing every day.&nbsp;<br />
+          Do you like the way it looks on your wrist? Does the watch face display what you want? Here are a few considerations to think about:</p>
+
+          <h2>Watch bands</h2>
+
+          <p>Smartwatches come in a variety of styles and designs, and some are compatible with standard 16mm, 20mm and 22mm watch bands that you can change out to personalize the look of your device. Some straps have a quick release, making it even easier to change up your style with additional watch bands. If you prefer a classic style that resembles a traditional watch, you may want a device that has a leather or stainless-steel band. Other watches feature flexible silicone bands, which are a good choice if you plan on using it for outdoor or fitness-related activities. Some smartwatch brands sell additional band options. Or, for even more options, multiple 3rd-party brands sell their own watch band collections compatible with multiple smartwatch models.</p>
+
+          <h2>Display features</h2>
+
+          <h3 style="margin-left:40px"><strong>OLED and AMOLED</strong></h3>
+
+          <p style="margin-left:40px">OLED (organic light emitting diode) and AMOLED (active-matrix organic light emitting diode) displays work without a backlight, individually illuminating each pixel, producing deep blacks and high contrast ratios. Usually, they are also thinner and consume less power than other types of smartwatch displays. OLED screens can display single,&nbsp;<br />
+          multi- or full color, while AMOLED is always a full-color screen.</p>
+
+          <h3 style="margin-left:40px"><strong>LCD</strong></h3>
+
+          <p style="margin-left:40px">These displays use a backlight to produce images on the screen. LCD (liquid-crystal display) screens with reflective designs typically perform well in sunlight and other<br />
+          bright settings.</p>
+
+          <h3 style="margin-left:40px"><strong>Black-and-white</strong></h3>
+
+          <p style="margin-left:40px">These screens are known to save on battery life, often lasting longer between charges than color displays. Some black-and-white displays use E-Ink or E-Paper, which enables you to view your screen outdoors or in brightly lit environments without glare</p>
+
+          <h3 style="margin-left:40px"><strong>Display</strong></h3>
+
+          <p style="margin-left:40px">Some smartwatch displays are always on, while others are motion-activated to preserve battery life.</p>
+
+          <h3 style="margin-left:40px"><strong>Water-resistant/waterproof</strong></h3>
+
+          <p style="margin-left:40px">If you know you’ll be using your device for outdoor activities like running or biking, you may want to consider a smartwatch that’s water-resistant. You’ll want to check the specifications carefully for how much water your smartwatch can withstand.</p>
+
+          <h3 style="margin-left:40px"><strong>Chemically strengthened glass</strong></h3>
+
+          <p style="margin-left:40px">Watches with fortified glass, such as Corning Gorilla Glass, are built to handle the wear and tear of daily life so you don’t have to worry about scratches, dust or other damage.</p>
+
+          <h2>Interface</h2>
+
+          <p style="margin-left:40px"><strong>Touch screen</strong><br />
+          These displays are gesture-based and allow you to operate your device with a tap or swipe, for easy, intuitive scrolling and navigating.</p>
+
+          <h3 style="margin-left:40px"><strong>Buttons and bezels</strong></h3>
+
+          <p style="margin-left:40px">Interact with your device using buttons located on the watch face that allow you to do things like snap a photo, check in on social media and more. If you prefer a more traditional, simple approach to operating your device, this might be a good option. Some smartwatches are controlled with a rotating bezel around the display that allows you to navigate apps and systems menus. Some also have pushbuttons, as well as a bezel, for home and back commands.</p>
+
+          <h1>Notifications</h1>
+
+          <p>Smartwatches are capable of displaying a variety of notifications like incoming calls, missed calls, text messages, e-mails, social media posts, appointment reminders,&nbsp;<br />
+          alarms and much more.</p>
+
+          <p>Many watches are fully customizable, allowing you to choose what notifications you receive, what’s displayed on the home screen, background picture, widgets and more.&nbsp;<br />
+          Do you want to receive a basic notification and view the rest of the content on your&nbsp;<br />
+          phone, or do you want to receive the full message on your smartwatch? Some devices&nbsp;<br />
+          will simply alert you of a notification with an icon, beep or vibration, while others can display the full message.</p>
+
+          <p>Similar to Bluetooth headsets, a few smartwatches allow you to make and receive phone calls directly through your device rather than just receiving an alert (provided it’s within wireless range of your smartphone).</p>
+
+          <h1>Special Features</h1>
+
+          <p>Additional features will vary from device to device, so you’ll want to think about how you’ll be using your smartwatch in your daily life. Here are some features to consider:</p>
+
+          <h2>Activity trackers</h2>
+
+          <p>If you want a device that has health and fitness capabilities, look for a built-in pedometer (measures steps), accelerometer (measures intensity), heart rate monitor or other tracking technology. These features let you measure and track activity like steps taken, speed, calories burned and heart rate. Some smartwatches actually have their own, fully-integrated health experience that offer customized workouts or healthkits.</p>
+
+          <h2>Voice control</h2>
+
+          <p>Give voice commands, record memos, send and receive text messages, search the Web and much more, hands-free.</p>
+
+          <h2>Music</h2>
+
+          <p>Store music on your device’s internal memory for instant access to your media library.&nbsp;<br />
+          Or, download an app that lets you access music stored on your smartphone.</p>
+
+          <h2>Link alarm</h2>
+
+          <p>Provides an audible or vibrating alert when you are out of wireless range.</p>
+
+          <h2>GPS</h2>
+
+          <p>Some smartwatches also come with GPS, so you can track and map your run, or just find your way around town.</p>
+
+          <h1>Apps</h1>
+
+          <p>Do you often misplace your phone? Download a phone locator app, which sounds an alert on your missing phone if it’s within Bluetooth range. View real-time traffic cams to estimate your ETA. Or, customize your watch face by changing the colors, design, text and from analog to digital clocks for a smartwatch that’s uniquely yours.</p>
+
+          <p>Many popular smartphone apps are joining the smartwatch world, and the library of cool, new apps is growing rapidly. Many devices let you arrange widgets on your screen so the apps you use most are readily available. From social media feeds to fitness trackers and games, downloadable applications let you tailor your smartwatch to fit your needs.</p>
+
+          <h1>Shop Online or In Store</h1>
+
+          <p>Find a wide variety of smartwatches on BestBuy.com. Your local Best Buy store also&nbsp;<br />
+          has a selection of watches. Plus, our friendly Blue Shirts are there to answer questions and help with choosing the best smartwatch for your needs.</p>
+
+          <p><strong>Give your smartwatch a smooth start</strong><br />
+          Get started the right way with your new smartwatch purchased at Best Buy.&nbsp;<br />
+          Our Geek Squad® Agents can set up alert notifications, install purchased accessories,&nbsp;<br />
+          and provide tutorials on adding features, changing the battery and resizing the&nbsp;<br />
+          band — right in the store.</p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Protect your tech</strong><br />
+          Keep your smartwatch working like new with Geek Squad Protection, including product replacement, normal wear and tear, 24/7 claim support and more.</p>
+
+          <p>&nbsp;</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 2a28e663-1e31-4504-9402-3d83e0fe4dd3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:introduction:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>A smartwatch can help you stay connected and multitask
+          so you never miss a beat. Whether you’d rather keep your phone stashed away
+          or you always find yourself missing important calls, smartwatches sync with
+          your smartphone so you can manage your digital life conveniently and discreetly.
+          Many even double as activity trackers, helping you monitor your health.
+          Use this guide to help you choose the best smartwatch for your needs.</p>
+    /smart-watch-buying-guide[2]:
+      jcr:primaryType: pactronics:article
+      jcr:mixinTypes: ['hippostd:taggable', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 1db9e6cf-ac61-46dc-842b-c4f36e5654d0
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostd:tags: [Smart watch]
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-28T19:55:19.497Z
+      hippostdpubwf:lastModificationDate: 2019-04-18T12:13:02.252+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3d0ae945-0137-48ca-81f4-cffc4a102ffd
+      hippotranslation:locale: en
+      pactronics:categories: []
+      pactronics:date: 2019-04-03T13:33:00Z
+      pactronics:summary: A smartwatch can help you stay connected and multitask so
+        you never miss a beat. Whether you’d rather keep your phone stashed away or
+        you always find yourself missing important calls, smartwatches sync with your
+        smartphone so you can manage your digital life conveniently and discreetly.
+        Many even double as activity trackers, helping you monitor your health. Use
+        this guide to help you choose the best smartwatch for your needs.
+      pactronics:tags: [smart watch]
+      pactronics:title: Smart Watch Buying Guide
+      pactronics:topics: [watches]
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h1>What Can a Smartwatch Do?</h1>
+
+          <p>Smartwatches do much more than just keep time. They act as a companion to your smartphone by delivering alerts, notifications, apps and more right to your wrist. They can even double as activity trackers. In order to have full functionality, nearly all smartwatches must connect via Bluetooth and be within wireless range of an Android or iOS smartphone or tablet. However, a few connected smartwatches actually have 3G/LTE capabilities and can operate without a connection to another device.</p>
+
+          <p>As smartphones have become essential to staying connected and organized, smartwatches are truly designed for the world we live in today. Have you ever missed a call or text because you didn't hear your phone? Or been somewhere it wasn’t suitable to check your e-mail or social media? There are countless situations that call for hands-free, discreet access to your smartphone, and smartwatches provide that — subtly, conveniently and without the disruption that a phone can cause.</p>
+
+          <h1>Smartwatch Operating Systems</h1>
+
+          <p>Smartwatches require pairing to a smartphone for notification functionality. It’s important to understand that not all smartwatches will work with all smartphones.</p>
+
+          <p>Most smartwatches are compatible with an Android or iOS device, or, in some instances, both. Some have their own operating systems and will only work with specific devices of the same brand. Others might be compatible with a select variety of operating systems. Since smartwatches are devised to accompany your smartphone, you’ll want to be sure it’s compatible with your phone's existing operating system.</p>
+
+          <p>When choosing a smartwatch operating system, there are a few things to consider beyond basic compatibility. For the most part, Android Wear and Watch OS are more similar than not. Watch OS has a reputation for being quick, clean and consistent. Only apps that go through Apple's strict approval process get released. Android Wear uses an open-source model, creating many customization options.</p>
+
+          <p>Tizen is a newer operating system used by Samsung and is similar to Android Wear. It too is an open-source platform for smartwatches, smartphones, tablets and more. Tizen has its own applications and allows for a user experience that you can take from device to device.</p>
+
+          <p>The Microsoft Band 2 uses the Windows 10 operating system to deliver notifications, e-mail preview and calendar notifications. The Band will work with iOS, Android and Windows phone. When paired with Windows phone 8.1, Microsoft Band 2 also supports Cortana personal digital assistant functionality.</p>
+
+          <h1>Style and Display</h1>
+
+          <p>It’s important to choose a smartwatch that you’ll feel comfortable wearing every day.&nbsp;<br />
+          Do you like the way it looks on your wrist? Does the watch face display what you want? Here are a few considerations to think about:</p>
+
+          <h2>Watch bands</h2>
+
+          <p>Smartwatches come in a variety of styles and designs, and some are compatible with standard 16mm, 20mm and 22mm watch bands that you can change out to personalize the look of your device. Some straps have a quick release, making it even easier to change up your style with additional watch bands. If you prefer a classic style that resembles a traditional watch, you may want a device that has a leather or stainless-steel band. Other watches feature flexible silicone bands, which are a good choice if you plan on using it for outdoor or fitness-related activities. Some smartwatch brands sell additional band options. Or, for even more options, multiple 3rd-party brands sell their own watch band collections compatible with multiple smartwatch models.</p>
+
+          <h2>Display features</h2>
+
+          <h3 style="margin-left:40px"><strong>OLED and AMOLED</strong></h3>
+
+          <p style="margin-left:40px">OLED (organic light emitting diode) and AMOLED (active-matrix organic light emitting diode) displays work without a backlight, individually illuminating each pixel, producing deep blacks and high contrast ratios. Usually, they are also thinner and consume less power than other types of smartwatch displays. OLED screens can display single,&nbsp;<br />
+          multi- or full color, while AMOLED is always a full-color screen.</p>
+
+          <h3 style="margin-left:40px"><strong>LCD</strong></h3>
+
+          <p style="margin-left:40px">These displays use a backlight to produce images on the screen. LCD (liquid-crystal display) screens with reflective designs typically perform well in sunlight and other<br />
+          bright settings.</p>
+
+          <h3 style="margin-left:40px"><strong>Black-and-white</strong></h3>
+
+          <p style="margin-left:40px">These screens are known to save on battery life, often lasting longer between charges than color displays. Some black-and-white displays use E-Ink or E-Paper, which enables you to view your screen outdoors or in brightly lit environments without glare</p>
+
+          <h3 style="margin-left:40px"><strong>Display</strong></h3>
+
+          <p style="margin-left:40px">Some smartwatch displays are always on, while others are motion-activated to preserve battery life.</p>
+
+          <h3 style="margin-left:40px"><strong>Water-resistant/waterproof</strong></h3>
+
+          <p style="margin-left:40px">If you know you’ll be using your device for outdoor activities like running or biking, you may want to consider a smartwatch that’s water-resistant. You’ll want to check the specifications carefully for how much water your smartwatch can withstand.</p>
+
+          <h3 style="margin-left:40px"><strong>Chemically strengthened glass</strong></h3>
+
+          <p style="margin-left:40px">Watches with fortified glass, such as Corning Gorilla Glass, are built to handle the wear and tear of daily life so you don’t have to worry about scratches, dust or other damage.</p>
+
+          <h2>Interface</h2>
+
+          <p style="margin-left:40px"><strong>Touch screen</strong><br />
+          These displays are gesture-based and allow you to operate your device with a tap or swipe, for easy, intuitive scrolling and navigating.</p>
+
+          <h3 style="margin-left:40px"><strong>Buttons and bezels</strong></h3>
+
+          <p style="margin-left:40px">Interact with your device using buttons located on the watch face that allow you to do things like snap a photo, check in on social media and more. If you prefer a more traditional, simple approach to operating your device, this might be a good option. Some smartwatches are controlled with a rotating bezel around the display that allows you to navigate apps and systems menus. Some also have pushbuttons, as well as a bezel, for home and back commands.</p>
+
+          <h1>Notifications</h1>
+
+          <p>Smartwatches are capable of displaying a variety of notifications like incoming calls, missed calls, text messages, e-mails, social media posts, appointment reminders,&nbsp;<br />
+          alarms and much more.</p>
+
+          <p>Many watches are fully customizable, allowing you to choose what notifications you receive, what’s displayed on the home screen, background picture, widgets and more.&nbsp;<br />
+          Do you want to receive a basic notification and view the rest of the content on your&nbsp;<br />
+          phone, or do you want to receive the full message on your smartwatch? Some devices&nbsp;<br />
+          will simply alert you of a notification with an icon, beep or vibration, while others can display the full message.</p>
+
+          <p>Similar to Bluetooth headsets, a few smartwatches allow you to make and receive phone calls directly through your device rather than just receiving an alert (provided it’s within wireless range of your smartphone).</p>
+
+          <h1>Special Features</h1>
+
+          <p>Additional features will vary from device to device, so you’ll want to think about how you’ll be using your smartwatch in your daily life. Here are some features to consider:</p>
+
+          <h2>Activity trackers</h2>
+
+          <p>If you want a device that has health and fitness capabilities, look for a built-in pedometer (measures steps), accelerometer (measures intensity), heart rate monitor or other tracking technology. These features let you measure and track activity like steps taken, speed, calories burned and heart rate. Some smartwatches actually have their own, fully-integrated health experience that offer customized workouts or healthkits.</p>
+
+          <h2>Voice control</h2>
+
+          <p>Give voice commands, record memos, send and receive text messages, search the Web and much more, hands-free.</p>
+
+          <h2>Music</h2>
+
+          <p>Store music on your device’s internal memory for instant access to your media library.&nbsp;<br />
+          Or, download an app that lets you access music stored on your smartphone.</p>
+
+          <h2>Link alarm</h2>
+
+          <p>Provides an audible or vibrating alert when you are out of wireless range.</p>
+
+          <h2>GPS</h2>
+
+          <p>Some smartwatches also come with GPS, so you can track and map your run, or just find your way around town.</p>
+
+          <h1>Apps</h1>
+
+          <p>Do you often misplace your phone? Download a phone locator app, which sounds an alert on your missing phone if it’s within Bluetooth range. View real-time traffic cams to estimate your ETA. Or, customize your watch face by changing the colors, design, text and from analog to digital clocks for a smartwatch that’s uniquely yours.</p>
+
+          <p>Many popular smartphone apps are joining the smartwatch world, and the library of cool, new apps is growing rapidly. Many devices let you arrange widgets on your screen so the apps you use most are readily available. From social media feeds to fitness trackers and games, downloadable applications let you tailor your smartwatch to fit your needs.</p>
+
+          <h1>Shop Online or In Store</h1>
+
+          <p>Find a wide variety of smartwatches on BestBuy.com. Your local Best Buy store also&nbsp;<br />
+          has a selection of watches. Plus, our friendly Blue Shirts are there to answer questions and help with choosing the best smartwatch for your needs.</p>
+
+          <p><strong>Give your smartwatch a smooth start</strong><br />
+          Get started the right way with your new smartwatch purchased at Best Buy.&nbsp;<br />
+          Our Geek Squad® Agents can set up alert notifications, install purchased accessories,&nbsp;<br />
+          and provide tutorials on adding features, changing the battery and resizing the&nbsp;<br />
+          band — right in the store.</p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Protect your tech</strong><br />
+          Keep your smartwatch working like new with Geek Squad Protection, including product replacement, normal wear and tear, 24/7 claim support and more.</p>
+
+          <p>&nbsp;</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 2a28e663-1e31-4504-9402-3d83e0fe4dd3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:introduction:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>A smartwatch can help you stay connected and multitask
+          so you never miss a beat. Whether you’d rather keep your phone stashed away
+          or you always find yourself missing important calls, smartwatches sync with
+          your smartphone so you can manage your digital life conveniently and discreetly.
+          Many even double as activity trackers, helping you monitor your health.
+          Use this guide to help you choose the best smartwatch for your needs.</p>
+    /smart-watch-buying-guide[3]:
+      jcr:primaryType: pactronics:article
+      jcr:mixinTypes: ['hippostd:taggable', 'mix:referenceable']
+      jcr:uuid: a50d869a-d8dc-464e-8cfd-646849a20eab
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostd:tags: [Smart watch]
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-03-28T19:55:19.497Z
+      hippostdpubwf:lastModificationDate: 2019-04-18T12:13:02.252+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-18T12:13:08.475+02:00
+      hippotranslation:id: 3d0ae945-0137-48ca-81f4-cffc4a102ffd
+      hippotranslation:locale: en
+      pactronics:categories: []
+      pactronics:date: 2019-04-03T13:33:00Z
+      pactronics:summary: A smartwatch can help you stay connected and multitask so
+        you never miss a beat. Whether you’d rather keep your phone stashed away or
+        you always find yourself missing important calls, smartwatches sync with your
+        smartphone so you can manage your digital life conveniently and discreetly.
+        Many even double as activity trackers, helping you monitor your health. Use
+        this guide to help you choose the best smartwatch for your needs.
+      pactronics:tags: [smart watch]
+      pactronics:title: Smart Watch Buying Guide
+      pactronics:topics: [watches]
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h1>What Can a Smartwatch Do?</h1>
+
+          <p>Smartwatches do much more than just keep time. They act as a companion to your smartphone by delivering alerts, notifications, apps and more right to your wrist. They can even double as activity trackers. In order to have full functionality, nearly all smartwatches must connect via Bluetooth and be within wireless range of an Android or iOS smartphone or tablet. However, a few connected smartwatches actually have 3G/LTE capabilities and can operate without a connection to another device.</p>
+
+          <p>As smartphones have become essential to staying connected and organized, smartwatches are truly designed for the world we live in today. Have you ever missed a call or text because you didn't hear your phone? Or been somewhere it wasn’t suitable to check your e-mail or social media? There are countless situations that call for hands-free, discreet access to your smartphone, and smartwatches provide that — subtly, conveniently and without the disruption that a phone can cause.</p>
+
+          <h1>Smartwatch Operating Systems</h1>
+
+          <p>Smartwatches require pairing to a smartphone for notification functionality. It’s important to understand that not all smartwatches will work with all smartphones.</p>
+
+          <p>Most smartwatches are compatible with an Android or iOS device, or, in some instances, both. Some have their own operating systems and will only work with specific devices of the same brand. Others might be compatible with a select variety of operating systems. Since smartwatches are devised to accompany your smartphone, you’ll want to be sure it’s compatible with your phone's existing operating system.</p>
+
+          <p>When choosing a smartwatch operating system, there are a few things to consider beyond basic compatibility. For the most part, Android Wear and Watch OS are more similar than not. Watch OS has a reputation for being quick, clean and consistent. Only apps that go through Apple's strict approval process get released. Android Wear uses an open-source model, creating many customization options.</p>
+
+          <p>Tizen is a newer operating system used by Samsung and is similar to Android Wear. It too is an open-source platform for smartwatches, smartphones, tablets and more. Tizen has its own applications and allows for a user experience that you can take from device to device.</p>
+
+          <p>The Microsoft Band 2 uses the Windows 10 operating system to deliver notifications, e-mail preview and calendar notifications. The Band will work with iOS, Android and Windows phone. When paired with Windows phone 8.1, Microsoft Band 2 also supports Cortana personal digital assistant functionality.</p>
+
+          <h1>Style and Display</h1>
+
+          <p>It’s important to choose a smartwatch that you’ll feel comfortable wearing every day.&nbsp;<br />
+          Do you like the way it looks on your wrist? Does the watch face display what you want? Here are a few considerations to think about:</p>
+
+          <h2>Watch bands</h2>
+
+          <p>Smartwatches come in a variety of styles and designs, and some are compatible with standard 16mm, 20mm and 22mm watch bands that you can change out to personalize the look of your device. Some straps have a quick release, making it even easier to change up your style with additional watch bands. If you prefer a classic style that resembles a traditional watch, you may want a device that has a leather or stainless-steel band. Other watches feature flexible silicone bands, which are a good choice if you plan on using it for outdoor or fitness-related activities. Some smartwatch brands sell additional band options. Or, for even more options, multiple 3rd-party brands sell their own watch band collections compatible with multiple smartwatch models.</p>
+
+          <h2>Display features</h2>
+
+          <h3 style="margin-left:40px"><strong>OLED and AMOLED</strong></h3>
+
+          <p style="margin-left:40px">OLED (organic light emitting diode) and AMOLED (active-matrix organic light emitting diode) displays work without a backlight, individually illuminating each pixel, producing deep blacks and high contrast ratios. Usually, they are also thinner and consume less power than other types of smartwatch displays. OLED screens can display single,&nbsp;<br />
+          multi- or full color, while AMOLED is always a full-color screen.</p>
+
+          <h3 style="margin-left:40px"><strong>LCD</strong></h3>
+
+          <p style="margin-left:40px">These displays use a backlight to produce images on the screen. LCD (liquid-crystal display) screens with reflective designs typically perform well in sunlight and other<br />
+          bright settings.</p>
+
+          <h3 style="margin-left:40px"><strong>Black-and-white</strong></h3>
+
+          <p style="margin-left:40px">These screens are known to save on battery life, often lasting longer between charges than color displays. Some black-and-white displays use E-Ink or E-Paper, which enables you to view your screen outdoors or in brightly lit environments without glare</p>
+
+          <h3 style="margin-left:40px"><strong>Display</strong></h3>
+
+          <p style="margin-left:40px">Some smartwatch displays are always on, while others are motion-activated to preserve battery life.</p>
+
+          <h3 style="margin-left:40px"><strong>Water-resistant/waterproof</strong></h3>
+
+          <p style="margin-left:40px">If you know you’ll be using your device for outdoor activities like running or biking, you may want to consider a smartwatch that’s water-resistant. You’ll want to check the specifications carefully for how much water your smartwatch can withstand.</p>
+
+          <h3 style="margin-left:40px"><strong>Chemically strengthened glass</strong></h3>
+
+          <p style="margin-left:40px">Watches with fortified glass, such as Corning Gorilla Glass, are built to handle the wear and tear of daily life so you don’t have to worry about scratches, dust or other damage.</p>
+
+          <h2>Interface</h2>
+
+          <p style="margin-left:40px"><strong>Touch screen</strong><br />
+          These displays are gesture-based and allow you to operate your device with a tap or swipe, for easy, intuitive scrolling and navigating.</p>
+
+          <h3 style="margin-left:40px"><strong>Buttons and bezels</strong></h3>
+
+          <p style="margin-left:40px">Interact with your device using buttons located on the watch face that allow you to do things like snap a photo, check in on social media and more. If you prefer a more traditional, simple approach to operating your device, this might be a good option. Some smartwatches are controlled with a rotating bezel around the display that allows you to navigate apps and systems menus. Some also have pushbuttons, as well as a bezel, for home and back commands.</p>
+
+          <h1>Notifications</h1>
+
+          <p>Smartwatches are capable of displaying a variety of notifications like incoming calls, missed calls, text messages, e-mails, social media posts, appointment reminders,&nbsp;<br />
+          alarms and much more.</p>
+
+          <p>Many watches are fully customizable, allowing you to choose what notifications you receive, what’s displayed on the home screen, background picture, widgets and more.&nbsp;<br />
+          Do you want to receive a basic notification and view the rest of the content on your&nbsp;<br />
+          phone, or do you want to receive the full message on your smartwatch? Some devices&nbsp;<br />
+          will simply alert you of a notification with an icon, beep or vibration, while others can display the full message.</p>
+
+          <p>Similar to Bluetooth headsets, a few smartwatches allow you to make and receive phone calls directly through your device rather than just receiving an alert (provided it’s within wireless range of your smartphone).</p>
+
+          <h1>Special Features</h1>
+
+          <p>Additional features will vary from device to device, so you’ll want to think about how you’ll be using your smartwatch in your daily life. Here are some features to consider:</p>
+
+          <h2>Activity trackers</h2>
+
+          <p>If you want a device that has health and fitness capabilities, look for a built-in pedometer (measures steps), accelerometer (measures intensity), heart rate monitor or other tracking technology. These features let you measure and track activity like steps taken, speed, calories burned and heart rate. Some smartwatches actually have their own, fully-integrated health experience that offer customized workouts or healthkits.</p>
+
+          <h2>Voice control</h2>
+
+          <p>Give voice commands, record memos, send and receive text messages, search the Web and much more, hands-free.</p>
+
+          <h2>Music</h2>
+
+          <p>Store music on your device’s internal memory for instant access to your media library.&nbsp;<br />
+          Or, download an app that lets you access music stored on your smartphone.</p>
+
+          <h2>Link alarm</h2>
+
+          <p>Provides an audible or vibrating alert when you are out of wireless range.</p>
+
+          <h2>GPS</h2>
+
+          <p>Some smartwatches also come with GPS, so you can track and map your run, or just find your way around town.</p>
+
+          <h1>Apps</h1>
+
+          <p>Do you often misplace your phone? Download a phone locator app, which sounds an alert on your missing phone if it’s within Bluetooth range. View real-time traffic cams to estimate your ETA. Or, customize your watch face by changing the colors, design, text and from analog to digital clocks for a smartwatch that’s uniquely yours.</p>
+
+          <p>Many popular smartphone apps are joining the smartwatch world, and the library of cool, new apps is growing rapidly. Many devices let you arrange widgets on your screen so the apps you use most are readily available. From social media feeds to fitness trackers and games, downloadable applications let you tailor your smartwatch to fit your needs.</p>
+
+          <h1>Shop Online or In Store</h1>
+
+          <p>Find a wide variety of smartwatches on BestBuy.com. Your local Best Buy store also&nbsp;<br />
+          has a selection of watches. Plus, our friendly Blue Shirts are there to answer questions and help with choosing the best smartwatch for your needs.</p>
+
+          <p><strong>Give your smartwatch a smooth start</strong><br />
+          Get started the right way with your new smartwatch purchased at Best Buy.&nbsp;<br />
+          Our Geek Squad® Agents can set up alert notifications, install purchased accessories,&nbsp;<br />
+          and provide tutorials on adding features, changing the battery and resizing the&nbsp;<br />
+          band — right in the store.</p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Protect your tech</strong><br />
+          Keep your smartwatch working like new with Geek Squad Protection, including product replacement, normal wear and tear, 24/7 claim support and more.</p>
+
+          <p>&nbsp;</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 2a28e663-1e31-4504-9402-3d83e0fe4dd3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:introduction:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>A smartwatch can help you stay connected and multitask
+          so you never miss a beat. Whether you’d rather keep your phone stashed away
+          or you always find yourself missing important calls, smartwatches sync with
+          your smartphone so you can manage your digital life conveniently and discreetly.
+          Many even double as activity trackers, helping you monitor your health.
+          Use this guide to help you choose the best smartwatch for your needs.</p>
+  /sony-smartwatch-2-v-3:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 16a2ed8d-fd8c-47f0-a368-8ec20c140dff
+    hippo:name: Sony Smartwatch 2 v 3
+    hippo:versionHistory: 3135dd0e-83b1-423e-8eb6-f8e7936c44d8
+    /sony-smartwatch-2-v-3[1]:
+      jcr:primaryType: pactronics:article
+      jcr:mixinTypes: ['hippostd:taggable', 'mix:referenceable']
+      jcr:uuid: 47dcb96b-4072-4de7-b9c7-143a3f5d459a
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-04T23:29:29.700Z
+      hippostdpubwf:lastModificationDate: 2019-06-05T15:27:21.075+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 629311e4-88d1-4171-a04a-3ba7a36df97e
+      hippotranslation:locale: en
+      pactronics:categories: []
+      pactronics:date: 2018-10-11T00:00:00+02:00
+      pactronics:summary: ''
+      pactronics:title: 'Smartwatch Comparisons: Sony SmartWatch 2 vs Sony SmartWatch
+        3'
+      pactronics:topics: []
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h1>Introduction</h1>
+
+          <p>We have a good one for you today as we take a look at the&nbsp;<a href="https://www.androidheadlines.com/2014/02/featured-review-sony-smartwatch-2.html" target="_blank">Sony SmartWatch 2</a>&nbsp;(SW2) and compare it to the Sony SmartWatch 3 (SW3).&nbsp; Just how much has the next generation SmartWatch improved, or did it take a step backwards?&nbsp; Possibly in the looks category, one could really argue that the SmartWatch 2 is a better looking wearable - it looks more like a real watch and a finer piece of jewelry...but looks is always so subjective.</p>
+
+          <p>When it comes to specifications, about the only thing that stayed the same is the 1.60-inch TFT LCD display size.&nbsp; Neither one has room for internal storage expansion nor does either one have a camera.&nbsp; The price has gone up quite a bit, but so have the specifications, but do they justify the increase?</p>
+
+          <p>Please take a look over the detailed specifications listed below and you can see how much each category has changed for the better.&nbsp; After that we will take a quick look at each individual SmartWatch and determine the winner of this comparison.</p>
+
+          <h1>Specifications</h1>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/12/Sony-SmartWatch-3-vs-Sony-SmartWatch-2-Specs.jpg" width="600px" /></p>
+
+          <h1>Sony SmartWatch 2</h1>
+
+          <p>&nbsp;</p>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/02/AH-Smartwatch2-Review-41-e1392916751335.jpg" /></p>
+
+          <p>The Sony SmartWatch 2 has a steel casing with a standard 24mm band so you can put on pretty much any style that you want.&nbsp; The design feels study and with its IP57 rating you can take a quick shower without any fear, but do not venture into the pool.&nbsp; It certainly looks nice on your wrist and you would not be out of place wearing it at a dinner party.</p>
+
+          <p>&nbsp;</p>
+
+          <p>As I mentioned earlier, the displays are both 1.60-inches in size and use the TFT LCD display technology - but the SW2 has a display resolution of only 220 x 176 or&nbsp;144 pixels-per-inch (PPI) versus about the 320 x 320 pixel resolution and 278 PPI on the SW3.&nbsp; The processor on the SW2 is an ARM-Cortex M4 single core clocked at only 180MHz...it simply does not compare to the Quad ARM 7 clocked at 1.2GHz.&nbsp; The SW2 only has 64MB of RAM and 256MB of storage versus 512MB of RAM and 4GB of internal storage found on the SW3.</p>
+
+          <p>Connectivity and features have all improved on the SW3 - from the Bluetooth 3.0 to the newer 4.0 and the SW3 is even Wi-Fi ready.&nbsp; The software before was a Sony proprietary Linux-Based that had very few apps and was a little less user friendly.&nbsp; The non-removable battery in the SW2 is only 225mAh and it jumps all the way to 420mAh in the SW3 - although the days to recharge drop from 3-4 to about 2 days on the SW3.</p>
+
+          <p>The SW2 could be purchased at Amazon, Best Buy, Newegg, etc. and would cost somewhere between $150 - $200, although discounts are galore now that the SW3 has been released.</p>
+
+          <h1>Sony SmartWatch 3</h1>
+
+          <p>&nbsp;</p>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/09/05_SmartWatch_3_Lime.jpg" />When Sony set out to make their new SmartWatch 3 (SW3), it looks like they started from scratch and worked from the ground up.&nbsp; They kept the squared off shape and built a detachable 'core' that can snap into interchangeable straps - from a conservative black to a festive white to a wild yellow, with more to come.&nbsp; Built this way, you could even wear it as a pocket watch or necklace.</p>
+
+          <p>The SW3 has an upgraded display - from 141 PPI all the way to 278 PPI - almost double the resolution.&nbsp; The processor jump from the stone ages to a Quad ARM 7 clocked at 1.2GHz, the RAM jumped from only 64MB to 512MB and the internal storage went from 256MB to 4GB.</p>
+
+          <p>The connectivity on the Bluetooth jumped to the 4.0 to use less energy and it is also Wi-Fi ready.&nbsp; GPS was also added so you can leave your smartphone at home and the SW3 will still be able to track your course.&nbsp; The Waterproofing jumped way up and a microphone was added for the Google Now software found in the new Android Wear O/S.&nbsp; The battery is a respectable 420mAh to power this device and should give you almost 2 days of usage before it needs a charge.</p>
+
+          <p>&nbsp;</p>
+
+          <p>Both SmartWatches have the same array of sensors - accelerometer, ambient light sensor and gyro.&nbsp; One thing Sony is really pushing with the SW3 is called their 'Lifelogger' app that collects fitness and lifestyle information from various linked devices to provide you with an overall 'picture of your life,' including major activities, goals and milestones.&nbsp; That replaces separate SW2 apps like Walkmate and Runtastic - the Lifelogger rolls all of those apps into one app that can pair with your phone and computer for a more comprehensive look.&nbsp; The Sony SmartWatch 3 can be purchased in the Google Play Store for $249.99.</p>
+
+          <h1>...And The Winner Is...</h1>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/11/sony-smartwatch-3.jpg" /></p>
+
+          <h1>Summary</h1>
+
+          <p>&nbsp;</p>
+
+          <p>I don't think it was a surprise after reading the title of the article - the Sony SmartWatch 3 has just been improved in all areas, except maybe the looks...that SmartWatch 2 was pretty sweet looking and more 'jewelry-like' than the SmartWatch 3.&nbsp; While looks is a subjective thing, the upgrades made on the SmartWatch 3 are not.&nbsp; The display is better, it has gone from water resistant (IP57) to waterproof (IP68), much more RAM and storage, the processor is better, as is the jump to Android Wear and the rest of its software. If you are afraid to take the first step and pay $250 for the SW3, you might find a great deal on the SW2 for $100 - $150 less than the SW3.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d477cb07-b4b3-47ec-9a91-cb7bae5d2e62
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:introduction:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /sony-smartwatch-2-v-3[2]:
+      jcr:primaryType: pactronics:article
+      jcr:mixinTypes: ['hippostd:taggable', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 6bb4de95-ed7f-40ae-bb78-ea82c330ba3b
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-04T23:29:29.700Z
+      hippostdpubwf:lastModificationDate: 2019-06-05T15:27:34.538+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 629311e4-88d1-4171-a04a-3ba7a36df97e
+      hippotranslation:locale: en
+      pactronics:categories: []
+      pactronics:date: 2018-10-11T00:00:00+02:00
+      pactronics:summary: ''
+      pactronics:title: 'Smartwatch Comparisons: Sony SmartWatch 2 vs Sony SmartWatch
+        3'
+      pactronics:topics: []
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h1>Introduction</h1>
+
+          <p>We have a good one for you today as we take a look at the&nbsp;<a href="https://www.androidheadlines.com/2014/02/featured-review-sony-smartwatch-2.html" target="_blank">Sony SmartWatch 2</a>&nbsp;(SW2) and compare it to the Sony SmartWatch 3 (SW3).&nbsp; Just how much has the next generation SmartWatch improved, or did it take a step backwards?&nbsp; Possibly in the looks category, one could really argue that the SmartWatch 2 is a better looking wearable - it looks more like a real watch and a finer piece of jewelry...but looks is always so subjective.</p>
+
+          <p>When it comes to specifications, about the only thing that stayed the same is the 1.60-inch TFT LCD display size.&nbsp; Neither one has room for internal storage expansion nor does either one have a camera.&nbsp; The price has gone up quite a bit, but so have the specifications, but do they justify the increase?</p>
+
+          <p>Please take a look over the detailed specifications listed below and you can see how much each category has changed for the better.&nbsp; After that we will take a quick look at each individual SmartWatch and determine the winner of this comparison.</p>
+
+          <h1>Specifications</h1>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/12/Sony-SmartWatch-3-vs-Sony-SmartWatch-2-Specs.jpg" width="600px" /></p>
+
+          <h1>Sony SmartWatch 2</h1>
+
+          <p>&nbsp;</p>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/02/AH-Smartwatch2-Review-41-e1392916751335.jpg" /></p>
+
+          <p>The Sony SmartWatch 2 has a steel casing with a standard 24mm band so you can put on pretty much any style that you want.&nbsp; The design feels study and with its IP57 rating you can take a quick shower without any fear, but do not venture into the pool.&nbsp; It certainly looks nice on your wrist and you would not be out of place wearing it at a dinner party.</p>
+
+          <p>&nbsp;</p>
+
+          <p>As I mentioned earlier, the displays are both 1.60-inches in size and use the TFT LCD display technology - but the SW2 has a display resolution of only 220 x 176 or&nbsp;144 pixels-per-inch (PPI) versus about the 320 x 320 pixel resolution and 278 PPI on the SW3.&nbsp; The processor on the SW2 is an ARM-Cortex M4 single core clocked at only 180MHz...it simply does not compare to the Quad ARM 7 clocked at 1.2GHz.&nbsp; The SW2 only has 64MB of RAM and 256MB of storage versus 512MB of RAM and 4GB of internal storage found on the SW3.</p>
+
+          <p>Connectivity and features have all improved on the SW3 - from the Bluetooth 3.0 to the newer 4.0 and the SW3 is even Wi-Fi ready.&nbsp; The software before was a Sony proprietary Linux-Based that had very few apps and was a little less user friendly.&nbsp; The non-removable battery in the SW2 is only 225mAh and it jumps all the way to 420mAh in the SW3 - although the days to recharge drop from 3-4 to about 2 days on the SW3.</p>
+
+          <p>The SW2 could be purchased at Amazon, Best Buy, Newegg, etc. and would cost somewhere between $150 - $200, although discounts are galore now that the SW3 has been released.</p>
+
+          <h1>Sony SmartWatch 3</h1>
+
+          <p>&nbsp;</p>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/09/05_SmartWatch_3_Lime.jpg" />When Sony set out to make their new SmartWatch 3 (SW3), it looks like they started from scratch and worked from the ground up.&nbsp; They kept the squared off shape and built a detachable 'core' that can snap into interchangeable straps - from a conservative black to a festive white to a wild yellow, with more to come.&nbsp; Built this way, you could even wear it as a pocket watch or necklace.</p>
+
+          <p>The SW3 has an upgraded display - from 141 PPI all the way to 278 PPI - almost double the resolution.&nbsp; The processor jump from the stone ages to a Quad ARM 7 clocked at 1.2GHz, the RAM jumped from only 64MB to 512MB and the internal storage went from 256MB to 4GB.</p>
+
+          <p>The connectivity on the Bluetooth jumped to the 4.0 to use less energy and it is also Wi-Fi ready.&nbsp; GPS was also added so you can leave your smartphone at home and the SW3 will still be able to track your course.&nbsp; The Waterproofing jumped way up and a microphone was added for the Google Now software found in the new Android Wear O/S.&nbsp; The battery is a respectable 420mAh to power this device and should give you almost 2 days of usage before it needs a charge.</p>
+
+          <p>&nbsp;</p>
+
+          <p>Both SmartWatches have the same array of sensors - accelerometer, ambient light sensor and gyro.&nbsp; One thing Sony is really pushing with the SW3 is called their 'Lifelogger' app that collects fitness and lifestyle information from various linked devices to provide you with an overall 'picture of your life,' including major activities, goals and milestones.&nbsp; That replaces separate SW2 apps like Walkmate and Runtastic - the Lifelogger rolls all of those apps into one app that can pair with your phone and computer for a more comprehensive look.&nbsp; The Sony SmartWatch 3 can be purchased in the Google Play Store for $249.99.</p>
+
+          <h1>...And The Winner Is...</h1>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/11/sony-smartwatch-3.jpg" /></p>
+
+          <h1>Summary</h1>
+
+          <p>&nbsp;</p>
+
+          <p>I don't think it was a surprise after reading the title of the article - the Sony SmartWatch 3 has just been improved in all areas, except maybe the looks...that SmartWatch 2 was pretty sweet looking and more 'jewelry-like' than the SmartWatch 3.&nbsp; While looks is a subjective thing, the upgrades made on the SmartWatch 3 are not.&nbsp; The display is better, it has gone from water resistant (IP57) to waterproof (IP68), much more RAM and storage, the processor is better, as is the jump to Android Wear and the rest of its software. If you are afraid to take the first step and pay $250 for the SW3, you might find a great deal on the SW2 for $100 - $150 less than the SW3.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d477cb07-b4b3-47ec-9a91-cb7bae5d2e62
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:introduction:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /sony-smartwatch-2-v-3[3]:
+      jcr:primaryType: pactronics:article
+      jcr:mixinTypes: ['hippostd:taggable', 'mix:referenceable']
+      jcr:uuid: 8a60c660-d83b-4ed3-8f6d-09793b43bbdc
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-04T23:29:29.700Z
+      hippostdpubwf:lastModificationDate: 2019-06-05T15:27:34.538+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-06-05T15:27:36.543+02:00
+      hippotranslation:id: 629311e4-88d1-4171-a04a-3ba7a36df97e
+      hippotranslation:locale: en
+      pactronics:categories: []
+      pactronics:date: 2018-10-11T00:00:00+02:00
+      pactronics:summary: ''
+      pactronics:title: 'Smartwatch Comparisons: Sony SmartWatch 2 vs Sony SmartWatch
+        3'
+      pactronics:topics: []
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <h1>Introduction</h1>
+
+          <p>We have a good one for you today as we take a look at the&nbsp;<a href="https://www.androidheadlines.com/2014/02/featured-review-sony-smartwatch-2.html" target="_blank">Sony SmartWatch 2</a>&nbsp;(SW2) and compare it to the Sony SmartWatch 3 (SW3).&nbsp; Just how much has the next generation SmartWatch improved, or did it take a step backwards?&nbsp; Possibly in the looks category, one could really argue that the SmartWatch 2 is a better looking wearable - it looks more like a real watch and a finer piece of jewelry...but looks is always so subjective.</p>
+
+          <p>When it comes to specifications, about the only thing that stayed the same is the 1.60-inch TFT LCD display size.&nbsp; Neither one has room for internal storage expansion nor does either one have a camera.&nbsp; The price has gone up quite a bit, but so have the specifications, but do they justify the increase?</p>
+
+          <p>Please take a look over the detailed specifications listed below and you can see how much each category has changed for the better.&nbsp; After that we will take a quick look at each individual SmartWatch and determine the winner of this comparison.</p>
+
+          <h1>Specifications</h1>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/12/Sony-SmartWatch-3-vs-Sony-SmartWatch-2-Specs.jpg" width="600px" /></p>
+
+          <h1>Sony SmartWatch 2</h1>
+
+          <p>&nbsp;</p>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/02/AH-Smartwatch2-Review-41-e1392916751335.jpg" /></p>
+
+          <p>The Sony SmartWatch 2 has a steel casing with a standard 24mm band so you can put on pretty much any style that you want.&nbsp; The design feels study and with its IP57 rating you can take a quick shower without any fear, but do not venture into the pool.&nbsp; It certainly looks nice on your wrist and you would not be out of place wearing it at a dinner party.</p>
+
+          <p>&nbsp;</p>
+
+          <p>As I mentioned earlier, the displays are both 1.60-inches in size and use the TFT LCD display technology - but the SW2 has a display resolution of only 220 x 176 or&nbsp;144 pixels-per-inch (PPI) versus about the 320 x 320 pixel resolution and 278 PPI on the SW3.&nbsp; The processor on the SW2 is an ARM-Cortex M4 single core clocked at only 180MHz...it simply does not compare to the Quad ARM 7 clocked at 1.2GHz.&nbsp; The SW2 only has 64MB of RAM and 256MB of storage versus 512MB of RAM and 4GB of internal storage found on the SW3.</p>
+
+          <p>Connectivity and features have all improved on the SW3 - from the Bluetooth 3.0 to the newer 4.0 and the SW3 is even Wi-Fi ready.&nbsp; The software before was a Sony proprietary Linux-Based that had very few apps and was a little less user friendly.&nbsp; The non-removable battery in the SW2 is only 225mAh and it jumps all the way to 420mAh in the SW3 - although the days to recharge drop from 3-4 to about 2 days on the SW3.</p>
+
+          <p>The SW2 could be purchased at Amazon, Best Buy, Newegg, etc. and would cost somewhere between $150 - $200, although discounts are galore now that the SW3 has been released.</p>
+
+          <h1>Sony SmartWatch 3</h1>
+
+          <p>&nbsp;</p>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/09/05_SmartWatch_3_Lime.jpg" />When Sony set out to make their new SmartWatch 3 (SW3), it looks like they started from scratch and worked from the ground up.&nbsp; They kept the squared off shape and built a detachable 'core' that can snap into interchangeable straps - from a conservative black to a festive white to a wild yellow, with more to come.&nbsp; Built this way, you could even wear it as a pocket watch or necklace.</p>
+
+          <p>The SW3 has an upgraded display - from 141 PPI all the way to 278 PPI - almost double the resolution.&nbsp; The processor jump from the stone ages to a Quad ARM 7 clocked at 1.2GHz, the RAM jumped from only 64MB to 512MB and the internal storage went from 256MB to 4GB.</p>
+
+          <p>The connectivity on the Bluetooth jumped to the 4.0 to use less energy and it is also Wi-Fi ready.&nbsp; GPS was also added so you can leave your smartphone at home and the SW3 will still be able to track your course.&nbsp; The Waterproofing jumped way up and a microphone was added for the Google Now software found in the new Android Wear O/S.&nbsp; The battery is a respectable 420mAh to power this device and should give you almost 2 days of usage before it needs a charge.</p>
+
+          <p>&nbsp;</p>
+
+          <p>Both SmartWatches have the same array of sensors - accelerometer, ambient light sensor and gyro.&nbsp; One thing Sony is really pushing with the SW3 is called their 'Lifelogger' app that collects fitness and lifestyle information from various linked devices to provide you with an overall 'picture of your life,' including major activities, goals and milestones.&nbsp; That replaces separate SW2 apps like Walkmate and Runtastic - the Lifelogger rolls all of those apps into one app that can pair with your phone and computer for a more comprehensive look.&nbsp; The Sony SmartWatch 3 can be purchased in the Google Play Store for $249.99.</p>
+
+          <h1>...And The Winner Is...</h1>
+
+          <p style="text-align:center"><img src="https://cdn.androidheadlines.com/wp-content/uploads/2014/11/sony-smartwatch-3.jpg" /></p>
+
+          <h1>Summary</h1>
+
+          <p>&nbsp;</p>
+
+          <p>I don't think it was a surprise after reading the title of the article - the Sony SmartWatch 3 has just been improved in all areas, except maybe the looks...that SmartWatch 2 was pretty sweet looking and more 'jewelry-like' than the SmartWatch 3.&nbsp; While looks is a subjective thing, the upgrades made on the SmartWatch 3 are not.&nbsp; The display is better, it has gone from water resistant (IP57) to waterproof (IP68), much more RAM and storage, the processor is better, as is the jump to Android Wear and the rest of its software. If you are afraid to take the first step and pay $250 for the SW3, you might find a great deal on the SW2 for $100 - $150 less than the SW3.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d477cb07-b4b3-47ec-9a91-cb7bae5d2e62
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:introduction:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''

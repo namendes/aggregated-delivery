@@ -1,0 +1,20 @@
+/targeting:targeting/targeting:personas/unnamed-1555319301975:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1555319301975-alterego
+  targeting:avatar: image-1556290391211
+  targeting:description: ''
+  targeting:name: Lee
+  targeting:quote: ''
+  targeting:segmentDescription: ''
+  targeting:segmentName: Samsung
+  /targeting:expression:
+    jcr:primaryType: targeting:rule
+    targeting:targetgroup: commerceBrands/interestedinsamsung-1555319167481
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p2.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1555319301975/avatar/p2.png
+    jcr:lastModified: 2019-04-26T16:53:11.211+02:00
+    jcr:mimeType: image/png

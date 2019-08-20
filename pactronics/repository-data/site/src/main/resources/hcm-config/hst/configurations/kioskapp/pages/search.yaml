@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kioskapp/hst:pages/search:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base

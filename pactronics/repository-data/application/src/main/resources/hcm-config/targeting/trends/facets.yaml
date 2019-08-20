@@ -1,0 +1,19 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:trends/targeting:facets:
+      jcr:primaryType: targeting:facets
+      /weekday:
+        jcr:primaryType: targeting:facet
+        targeting:esField: requests.collectorData.dayofweek
+        targeting:facetName: dayofweek
+        targeting:filterName: visits on day of week
+      /categories:
+        jcr:primaryType: targeting:facet
+        targeting:esField: requests.collectorData.commerceCategories.terms
+        targeting:facetName: categories
+        targeting:filterName: commerce categories
+      /brands:
+        jcr:primaryType: targeting:facet
+        targeting:esField: requests.collectorData.commerceBrands.terms
+        targeting:facetName: brands
+        targeting:filterName: commerce brands

@@ -1,0 +1,42 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:characteristics/commerceBrands:
+      jcr:primaryType: targeting:characteristic
+      targeting:collector: commerceBrands
+      targeting:scorerClassName: com.onehippo.cms7.targeting.scoring.VectorScorer
+      /interestedinsony-1555319069444:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Sony
+        targeting:propertynames: [sony]
+      /interestedinsamsung-1555319167481:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Samsung
+        targeting:propertynames: [samsung]
+      /interestedincasio-1555319180308:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Casio
+        targeting:propertynames: [casio]
+      /interestedinpolar-1555319190004:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Polar
+        targeting:propertynames: [polar]
+      /garmin-1556019518187:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Garmin
+        targeting:propertynames: [garmin]
+      /gopro-1556019525016:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Go Pro
+        targeting:propertynames: [gopro]
+      /microsoft-1556019713644:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Microsoft
+        targeting:propertynames: [microsoft]
+      /motorola-1556019755549:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Motorola
+        targeting:propertynames: [motorola]
+      /google-1556019809567:
+        jcr:primaryType: targeting:targetgroup
+        targeting:name: Google
+        targeting:propertynames: [google]

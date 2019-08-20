@@ -1,0 +1,16 @@
+definitions:
+  config:
+    /hst:platform/hst:hosts/pactronics-poc:
+      jcr:primaryType: hst:virtualhostgroup
+      /io:
+        jcr:primaryType: hst:virtualhost
+        hst:scheme: https
+        hst:showcontextpath: true
+        /onehippo:
+          jcr:primaryType: hst:virtualhost
+          /${od2_nightly_environment}:
+            jcr:primaryType: hst:virtualhost
+            /hst:root:
+              jcr:primaryType: hst:mount
+              hst:ismapped: false
+              hst:namedpipeline: WebApplicationInvokingPipeline

@@ -1,0 +1,71 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:pages/samsung-brand-page-contentpage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2019-04-04T22:28:23.993Z
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-04-12T21:58:17.661Z
+    hst:xtype: hst.vbox
+    /banner:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Banner
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', banners/brands/samsung/samsung-smart-watches, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+      hst:template: essentials-banner
+      hst:xtype: hst.item
+    /simplecontent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+      hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+      hst:label: Simple Content
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', content/brands/samsung/brand-center-highlight,
+        'webfile:/freemarker/hstdefault/contentpage-main.ftl']
+      hst:template: contentpage-main
+      hst:xtype: hst.item
+    /imagecomponent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsImageComponent
+      hst:iconpath: images/essentials/catalog-component-icons/image.png
+      hst:label: Image
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', /content/gallery/pactronics/banners/brand-related/samsung/samsung-experience-center.png,
+        'webfile:/freemarker/pactronics/image-component.ftl']
+      hst:template: image-component
+      hst:xtype: hst.item
+    /simplecontent1:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+      hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+      hst:label: Simple Content
+      hst:parameternames: [document]
+      hst:parametervalues: [content/highlights/samsung-smart-watch-sale-highlight]
+      hst:template: contentpage-main
+      hst:xtype: hst.item
+    /ProductsGrid:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+      hst:label: Products Grid
+      hst:parameternames: [connectorComponent, starterstoreQueryParam_query, starterstoreQueryParam_currentPage,
+        showFacets, connector, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        widgetId, showPagination, locale, starterstoreQueryParam_pageSize, commands]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+      hst:parametervalues: [productSearch, '', '1', 'off', '', 'off', '38', 'off',
+        en, '6', 'customInitContextCommand,cartCreateCommand, cartProductListCommand, cartProductAddCommand,
+          personalizationCallCommand, commerceCallCommand, pageableCommand']
+      hst:template: starterstore-productlist
+      hst:xtype: hst.item

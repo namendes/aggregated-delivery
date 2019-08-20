@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:pages/careers-contentpage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2018-11-29T10:49:52.616+05:30
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2018-11-29T10:50:00.203+05:30
+    hst:xtype: hst.vbox

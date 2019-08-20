@@ -1,0 +1,65 @@
+/content/urlrewriter/sample-rules/frontend-preview-all:
+  .meta:order-before: frontend-preview
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: e7db6313-18cf-4598-8d8f-96e1356c1672
+  hippo:name: frontend (preview) (all)
+  hippo:versionHistory: 251a0a94-8618-4fe5-aa67-2873b5826654
+  /frontend-preview-all[1]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 3b160f63-b42b-4172-89b2-28813b276a76
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-04-29T12:32:44.788+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-14T12:42:00.363+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>Assets\
+      \ preview</name> \r\n<from>^/_cmsinternal(.*)</from> \r\n<to type=\"proxy\"\
+      \ last=\"true\" qsappend=\"true\">http://localhost:3000$1</to> \r\n<condition\
+      \ type=\"request-uri\" operator=\"equal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|svg|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>\r\n\r\n<rule> \r\n  <from>^/_cmsinternal/(resourceapi|binaries)(.*)$</from>\
+      \ \r\n  <to last=\"true\">-</to> \r\n</rule>\r\n<rule> \r\n  <from>^/_cmsinternal.*\\\
+      ./.+$</from> \r\n  <to last=\"true\">-</to>\r\n</rule>\r\n<rule> \r\n  <from>^/_cmsinternal.*?_hn:.*$</from>\
+      \ \r\n  <to last=\"true\">-</to>\r\n</rule>\r\n<rule> \r\n  <from>^/_cmsinternal(.*)$</from>\
+      \ \r\n  <to type=\"proxy\">http://localhost:3000$1</to> \r\n</rule>"
+  /frontend-preview-all[2]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0ba1670e-949d-4ce7-9bfc-2f96a66d6ae1
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-04-29T12:32:44.788+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-14T12:41:56.515+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>Assets\
+      \ preview</name> \r\n<from>^/_cmsinternal(.*)</from> \r\n<to type=\"proxy\"\
+      \ last=\"true\" qsappend=\"true\">http://localhost:3000$1</to> \r\n<condition\
+      \ type=\"request-uri\" operator=\"equal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|svg|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>\r\n\r\n<rule> \r\n  <from>^/_cmsinternal/(resourceapi|binaries)(.*)$</from>\
+      \ \r\n  <to last=\"true\">-</to> \r\n</rule>\r\n<rule> \r\n  <from>^/_cmsinternal.*\\\
+      ./.+$</from> \r\n  <to last=\"true\">-</to>\r\n</rule>\r\n<rule> \r\n  <from>^/_cmsinternal.*?_hn:.*$</from>\
+      \ \r\n  <to last=\"true\">-</to>\r\n</rule>\r\n<rule> \r\n  <from>^/_cmsinternal(.*)$</from>\
+      \ \r\n  <to type=\"proxy\">http://localhost:3000$1</to> \r\n</rule>"
+  /frontend-preview-all[3]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 2329f165-994a-4f50-9cca-0d6098e800df
+    hippo:availability: []
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-04-29T12:32:44.788+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-14T12:42:00.363+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-06-14T12:42:01.533+02:00
+    urlrewriter:rule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>Assets\
+      \ preview</name> \r\n<from>^/_cmsinternal(.*)</from> \r\n<to type=\"proxy\"\
+      \ last=\"true\" qsappend=\"true\">http://localhost:3000$1</to> \r\n<condition\
+      \ type=\"request-uri\" operator=\"equal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|svg|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>\r\n\r\n<rule> \r\n  <from>^/_cmsinternal/(resourceapi|binaries)(.*)$</from>\
+      \ \r\n  <to last=\"true\">-</to> \r\n</rule>\r\n<rule> \r\n  <from>^/_cmsinternal.*\\\
+      ./.+$</from> \r\n  <to last=\"true\">-</to>\r\n</rule>\r\n<rule> \r\n  <from>^/_cmsinternal.*?_hn:.*$</from>\
+      \ \r\n  <to last=\"true\">-</to>\r\n</rule>\r\n<rule> \r\n  <from>^/_cmsinternal(.*)$</from>\
+      \ \r\n  <to type=\"proxy\">http://localhost:3000$1</to> \r\n</rule>"

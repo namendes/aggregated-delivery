@@ -1,0 +1,20 @@
+/targeting:targeting/targeting:personas/unnamed-1555319315786:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1555319315786-alterego
+  targeting:avatar: image-1556291238651
+  targeting:description: ''
+  targeting:name: Yuri
+  targeting:quote: ''
+  targeting:segmentDescription: ''
+  targeting:segmentName: Casio
+  /targeting:expression:
+    jcr:primaryType: targeting:rule
+    targeting:targetgroup: commerceBrands/interestedincasio-1555319180308
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p12.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1555319315786/avatar/p12.png
+    jcr:lastModified: 2019-04-26T17:07:18.651+02:00
+    jcr:mimeType: image/png

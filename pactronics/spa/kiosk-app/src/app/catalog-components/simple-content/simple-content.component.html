@@ -1,0 +1,12 @@
+<section id="{{configuration.id}}" class="kiosk-{{configuration.name}}">
+  <div class="has-edit-button" *ngIf="hasContent(); else configureComponentBlock">
+    <bre-cms-edit-button *ngIf="hasContent()" [configuration]="content[0]"></bre-cms-edit-button>
+    <h3 *ngIf="content[0].title" class="banner-title" [innerHTML]="content[0].title"
+        style="color:#337ab7;"></h3>
+    <p *ngIf="content[0].introduction"><b><i>{{ content[0].introduction }}</i></b></p>
+    <div *ngIf="content[0].content.value" [innerHTML]="content[0].content.value"></div>
+  </div>
+  <ng-template #configureComponentBlock>
+    <p>Click to configure {{ configuration.label }}</p>
+  </ng-template>
+</section>

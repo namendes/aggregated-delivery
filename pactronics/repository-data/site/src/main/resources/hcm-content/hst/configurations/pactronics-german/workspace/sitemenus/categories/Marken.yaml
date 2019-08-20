@@ -1,0 +1,15 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:sitemenus/categories/Marken:
+  .meta:order-before: Führungen
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:repobased: false
+  /Samsung:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:referencesitemapitem: samsung-brand-page
+    hst:repobased: false
+  /Sony:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:referencesitemapitem: sony-brand-page
+    hst:repobased: false

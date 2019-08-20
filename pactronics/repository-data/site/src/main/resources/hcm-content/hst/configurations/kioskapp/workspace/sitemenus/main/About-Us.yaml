@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/kioskapp/hst:workspace/hst:sitemenus/main/About Us:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: about-us
+  hst:repobased: false

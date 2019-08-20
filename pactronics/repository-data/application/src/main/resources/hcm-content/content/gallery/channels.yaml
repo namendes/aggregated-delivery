@@ -1,0 +1,8 @@
+/content/gallery/channels:
+  .meta:order-before: beauty-products.jpg
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 43c91eb5-0f2c-46da-a95a-1492f77a76cf
+  hippo:name: Channels
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

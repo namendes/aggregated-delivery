@@ -1,0 +1,10 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kioskapp/hst:templates:
+      jcr:primaryType: hst:templates
+      /base-layout:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kioskapp/base-layout.ftl
+      /base-component:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/kioskapp/base-component.ftl

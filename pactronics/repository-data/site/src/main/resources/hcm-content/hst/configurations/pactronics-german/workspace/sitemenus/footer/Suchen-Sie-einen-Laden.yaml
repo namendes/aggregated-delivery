@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:sitemenus/footer/Suchen Sie einen Laden:
+  .meta:order-before: Arbeit mit Pactronics
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: locations
+  hst:repobased: false

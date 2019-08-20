@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/hippowpm/readwrite:
+      hipposys:groups: [ecomm, editor, webmaster]

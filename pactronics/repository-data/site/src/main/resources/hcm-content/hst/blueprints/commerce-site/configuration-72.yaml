@@ -1,0 +1,5 @@
+/hst:hst/hst:blueprints/commerce-site/hst:configuration/hst:workspace/hst:sitemenus/footer/Find a store:
+  .meta:order-before: Documentation
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: locations
+  hst:repobased: false

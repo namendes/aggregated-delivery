@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/locations:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/locations
+  hst:lastmodified: 2018-12-13T14:40:26.700+05:30
+  hst:pagetitle: locations
+  hst:relativecontentpath: services/stores

@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/checkout:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: starterstore-main-onecolumn
+        /list:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.CheckoutComponent
+          hst:template: checkout
+          /container:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: cart/checkout

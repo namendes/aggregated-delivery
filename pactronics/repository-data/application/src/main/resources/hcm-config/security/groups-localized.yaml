@@ -1,0 +1,28 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:groups:
+      /English:
+        jcr:primaryType: hipposys:group
+        hipposys:members: [English-author, English-editor]
+        hipposys:securityprovider: internal
+      /English-author:
+        jcr:primaryType: hipposys:group
+        hipposys:members: [English-author]
+        hipposys:securityprovider: internal
+      /English-editor:
+        jcr:primaryType: hipposys:group
+        hipposys:members: [English-editor]
+        hipposys:securityprovider: internal
+      /German:
+        jcr:primaryType: hipposys:group
+        hipposys:members: [German-author, German-editor]
+        hipposys:securityprovider: internal
+      /German-author:
+          jcr:primaryType: hipposys:group
+          hipposys:members: [German-author]
+          hipposys:securityprovider: internal
+      /German-editor:
+          jcr:primaryType: hipposys:group
+          hipposys:members: [German-editor]
+          hipposys:securityprovider: internal
+

@@ -1,0 +1,55 @@
+/content/urlrewriter/proxy/exception-full-page:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: ef42cc60-9d47-4135-98d0-1626eba23cd6
+  hippo:name: exception (full page)
+  hippo:versionHistory: 154b90d5-dffa-4122-8640-be38937f7cd1
+  /exception-full-page[1]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 5a854bc3-b8a5-446a-851d-dc88465173d5
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:04:02.865+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-20T16:18:29.934+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule> \r\n<name>BEFullPage</name> \r\n<from>^.*([a-z]+).*$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n<condition type=\"query-string\" operator=\"\
+      equal\">(skip=true).*</condition> \r\n</rule>\r\n<rule> \r\n<name>partial preview\
+      \ hn</name> \r\n<from>^/_cmsinternal(.*)$</from> \r\n <condition type=\"query-string\"\
+      \ operator=\"equal\">_hn:*(([a-z]|-|&amp;|_|:|=|[0-9]*)*)</condition>\r\n  <to\
+      \ last=\"true\">-</to>\r\n</rule>"
+  /exception-full-page[2]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: a9eab7be-0a23-45c6-8336-f6db9c5b2ba5
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:04:02.865+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-20T16:18:14.728+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule> \r\n<name>BEFullPage</name> \r\n<from>^.*([a-z]+).*$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n<condition type=\"query-string\" operator=\"\
+      equal\">(skip=true).*</condition> \r\n</rule>\r\n<rule> \r\n<name>partial preview\
+      \ hn</name> \r\n<from>^/_cmsinternal(.*)$</from> \r\n <condition type=\"query-string\"\
+      \ operator=\"equal\">_hn:*(([a-z]|-|&amp;|_|:|=|[0-9]*)*)</condition>\r\n  <to\
+      \ last=\"true\">-</to>\r\n</rule>"
+  /exception-full-page[3]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d52e5de1-c5a4-4a58-bccd-29a7987bbcf6
+    hippo:availability: []
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:04:02.865+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-20T16:18:29.934+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-06-20T16:18:31.638+02:00
+    urlrewriter:rule: "<rule> \r\n<name>BEFullPage</name> \r\n<from>^.*([a-z]+).*$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n<condition type=\"query-string\" operator=\"\
+      equal\">(skip=true).*</condition> \r\n</rule>\r\n<rule> \r\n<name>partial preview\
+      \ hn</name> \r\n<from>^/_cmsinternal(.*)$</from> \r\n <condition type=\"query-string\"\
+      \ operator=\"equal\">_hn:*(([a-z]|-|&amp;|_|:|=|[0-9]*)*)</condition>\r\n  <to\
+      \ last=\"true\">-</to>\r\n</rule>"

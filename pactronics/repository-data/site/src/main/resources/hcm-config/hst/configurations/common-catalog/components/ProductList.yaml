@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-catalog/hst:components/ProductList:
+      .meta:order-before: ProductDetail
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:template: starterstore-productlist

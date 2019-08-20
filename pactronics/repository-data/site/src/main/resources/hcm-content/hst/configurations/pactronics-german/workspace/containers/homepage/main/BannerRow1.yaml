@@ -1,0 +1,12 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:containers/homepage/main/BannerRow1:
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.BannerRowComponent
+  hst:iconpath: images/essentials/catalog-component-icons/banner.png
+  hst:label: Banner Row
+  hst:parameternames: [document3, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    document2, document1, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: [banners/top-categories/cameras, 'off', banners/top-categories/smart-watches,
+    banners/top-categories/smart-glasses, 'webfile:/freemarker/pactronics/bannerrow.ftl']
+  hst:template: bannerrow
+  hst:xtype: hst.item

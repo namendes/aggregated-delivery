@@ -1,0 +1,21 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:pages/orders-contentpage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2018-11-07T15:51:37.915+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2018-12-27T11:09:43.165+01:00
+    hst:xtype: hst.vbox
+    /Order:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+      hst:label: Order
+      hst:parameternames: [commands, connectorComponent]
+      hst:parametervalues: ['initContextCommand, crispCommand', orderQuery]
+      hst:template: starterstore-orderslist
+      hst:xtype: hst.item

@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/pactronics:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cdce80d8-a2ef-4554-8073-c08a2409059c

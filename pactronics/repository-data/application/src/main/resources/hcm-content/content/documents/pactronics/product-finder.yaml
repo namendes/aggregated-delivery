@@ -1,0 +1,186 @@
+/content/documents/pactronics/product-finder:
+  .meta:order-before: buying-guides
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: c9cea25e-f9e1-4ce7-afb2-8a2419c0b352
+  hippo:name: product finder
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 52d1ea5f-8851-4d77-9b44-ec85a1ab11d7
+  hippotranslation:locale: en
+  /labels:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 22250929-acc7-42ed-961c-0801ed31a09c
+    hippo:versionHistory: 1050325c-412d-425d-8520-97f2018472fe
+    /labels[1]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f8a3ccdc-a8b6-4646-959e-d7c8a4d166a3
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-05T13:15:40.296+01:00
+      hippostdpubwf:lastModificationDate: 2018-12-14T13:31:12.882+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-12-14T13:31:14.968+01:00
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', "Image source: Product-finder\
+          \ folder. \r\n!CASE SENSITIVE! Please use the node name", 'Image source:
+          Product-finder folder', 'Image source: Product-finder folder', 'Image source:
+          Product-finder folder']
+      resourcebundle:id: product.finder
+      resourcebundle:keys: [tab1.name, tab2.name, tab3.name, tab4.name, tab1.heading,
+        tab1.option1.text, tab1.option2.text, tab1.option3.text, tab2.heading, tab2.option1.text,
+        tab2.option2.text, tab2.option3.text, tab3.heading, tab3.option1.text, tab3.option2.text,
+        tab3.option3.text, tab4.heading, tab4.option1.text, tab4.option2.text, tab4.option3.text,
+        tab1.option1.category, tab1.option2.category, tab1.option3.category, tab2.option1.category,
+        tab2.option2.category, tab2.option3.category, tab3.option1.category, tab3.option2.category,
+        tab3.option3.category, tab1.option1.value, tab1.option2.value, tab1.option3.value,
+        tab2.option1.value, tab2.option2.value, tab2.option3.value, tab3.option1.value,
+        tab3.option2.value, tab3.option3.value, tab4.option1.category, tab4.option2.category,
+        tab4.option3.category, tab4.option1.value, tab4.option2.value, tab4.option3.value,
+        tab1.image, tab2.image, tab3.image, tab4.image]
+      resourcebundle:messages: [Screen Size, Price Range, Battery, Purpose, 'What
+          screen size do you want ?', No Preference, '10 to 13 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', 'What
+          screen size do you want ?', No Preference, '10 to 12 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', 'What
+          screen size do you want ?', No Preference, '10 to 12 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', 'What
+          screen size do you want ?', No Preference, '10 to 12 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', screen_size,
+        screen_size, screen_size, price_range, price_range, price_range, battery_life,
+        battery_life, battery_life, '0', 10-12, 15+, '0', 100-500, 500+, '0', 1-10h,
+        10h+, purpose, purpose, purpose, no preference, work, games, hot_watch_smart_watch_from_kickstarter_01-1.jpg,
+        handwatch.jpeg, smartwatch-guy-1.jpeg, smartwatch.jpeg]
+    /labels[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: a77624b3-c1de-42b2-8692-a10f822ab094
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-05T13:15:40.296+01:00
+      hippostdpubwf:lastModificationDate: 2018-12-14T13:31:12.882+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', "Image source: Product-finder\
+          \ folder. \r\n!CASE SENSITIVE! Please use the node name", 'Image source:
+          Product-finder folder', 'Image source: Product-finder folder', 'Image source:
+          Product-finder folder']
+      resourcebundle:id: product.finder
+      resourcebundle:keys: [tab1.name, tab2.name, tab3.name, tab4.name, tab1.heading,
+        tab1.option1.text, tab1.option2.text, tab1.option3.text, tab2.heading, tab2.option1.text,
+        tab2.option2.text, tab2.option3.text, tab3.heading, tab3.option1.text, tab3.option2.text,
+        tab3.option3.text, tab4.heading, tab4.option1.text, tab4.option2.text, tab4.option3.text,
+        tab1.option1.category, tab1.option2.category, tab1.option3.category, tab2.option1.category,
+        tab2.option2.category, tab2.option3.category, tab3.option1.category, tab3.option2.category,
+        tab3.option3.category, tab1.option1.value, tab1.option2.value, tab1.option3.value,
+        tab2.option1.value, tab2.option2.value, tab2.option3.value, tab3.option1.value,
+        tab3.option2.value, tab3.option3.value, tab4.option1.category, tab4.option2.category,
+        tab4.option3.category, tab4.option1.value, tab4.option2.value, tab4.option3.value,
+        tab1.image, tab2.image, tab3.image, tab4.image]
+      resourcebundle:messages: [Screen Size, Price Range, Battery, Purpose, 'What
+          screen size do you want ?', No Preference, '10 to 13 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', 'What
+          screen size do you want ?', No Preference, '10 to 12 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', 'What
+          screen size do you want ?', No Preference, '10 to 12 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', 'What
+          screen size do you want ?', No Preference, '10 to 12 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', screen_size,
+        screen_size, screen_size, price_range, price_range, price_range, battery_life,
+        battery_life, battery_life, '0', 10-12, 15+, '0', 100-500, 500+, '0', 1-10h,
+        10h+, purpose, purpose, purpose, no preference, work, games, hot_watch_smart_watch_from_kickstarter_01-1.jpg,
+        handwatch.jpeg, smartwatch-guy-1.jpeg, smartwatch.jpeg]
+    /labels[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e10d8a65-ecba-4677-9681-c4fd3bcece60
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-05T13:15:40.296+01:00
+      hippostdpubwf:lastModificationDate: 2018-12-14T13:30:51.756+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', "Image source: Product-finder\
+          \ folder. \r\n!CASE SENSITIVE! Please use the node name", 'Image source:
+          Product-finder folder', 'Image source: Product-finder folder', 'Image source:
+          Product-finder folder']
+      resourcebundle:id: product.finder
+      resourcebundle:keys: [tab1.name, tab2.name, tab3.name, tab4.name, tab1.heading,
+        tab1.option1.text, tab1.option2.text, tab1.option3.text, tab2.heading, tab2.option1.text,
+        tab2.option2.text, tab2.option3.text, tab3.heading, tab3.option1.text, tab3.option2.text,
+        tab3.option3.text, tab4.heading, tab4.option1.text, tab4.option2.text, tab4.option3.text,
+        tab1.option1.category, tab1.option2.category, tab1.option3.category, tab2.option1.category,
+        tab2.option2.category, tab2.option3.category, tab3.option1.category, tab3.option2.category,
+        tab3.option3.category, tab1.option1.value, tab1.option2.value, tab1.option3.value,
+        tab2.option1.value, tab2.option2.value, tab2.option3.value, tab3.option1.value,
+        tab3.option2.value, tab3.option3.value, tab4.option1.category, tab4.option2.category,
+        tab4.option3.category, tab4.option1.value, tab4.option2.value, tab4.option3.value,
+        tab1.image, tab2.image, tab3.image, tab4.image]
+      resourcebundle:messages: [Screen Size, Price Range, Battery, Purpose, 'What
+          screen size do you want ?', No Preference, '10 to 13 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', 'What
+          screen size do you want ?', No Preference, '10 to 12 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', 'What
+          screen size do you want ?', No Preference, '10 to 12 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', 'What
+          screen size do you want ?', No Preference, '10 to 12 inches: The thinnest
+          and lightest notebooks around have 10 to 12-inch screens. However, you may
+          sacrifice keyboard size for portability. Many laptops in this class double
+          as tablets', '15 inches: The most popular size, 15-inch laptops are the
+          least expensive and provide plenty of desktop real estate. While most 15-inchers
+          are easy to take from room to room, some are on the bulky side.', screen_size,
+        screen_size, screen_size, price_range, price_range, price_range, battery_life,
+        battery_life, battery_life, '0', 10-12, 15+, '0', 100-500, 500+, '0', 1-10h,
+        10h+, purpose, purpose, purpose, no preference, work, games, hot_watch_smart_watch_from_kickstarter_01-1.jpg,
+        handwatch.jpeg, smartwatch-guy-1.jpeg, smartwatch.jpeg]

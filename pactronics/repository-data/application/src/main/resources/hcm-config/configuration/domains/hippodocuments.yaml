@@ -1,0 +1,16 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/hippodocuments/hippo-document/hide-english-content:
+      jcr:primaryType: hipposys:facetrule
+      hipposys:equals: false
+      hipposys:facet: jcr:path
+      hipposys:filter: false
+      hipposys:type: Reference
+      hipposys:value: /content/documents/pactronics
+    /hippo:configuration/hippo:domains/hippodocuments/hippo-document/hide-german-content:
+      jcr:primaryType: hipposys:facetrule
+      hipposys:equals: false
+      hipposys:facet: jcr:path
+      hipposys:filter: false
+      hipposys:type: Reference
+      hipposys:value: /content/documents/pactronics-german

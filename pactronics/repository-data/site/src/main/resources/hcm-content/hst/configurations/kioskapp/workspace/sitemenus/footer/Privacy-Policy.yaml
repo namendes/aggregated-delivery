@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/kioskapp/hst:workspace/hst:sitemenus/footer/Privacy Policy:
+  .meta:order-before: Documentation
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: privacy
+  hst:repobased: false

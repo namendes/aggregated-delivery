@@ -1,0 +1,23 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:sitemap/articles:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/articles-overview
+  hst:lastmodified: 2018-11-09T16:40:05.126+01:00
+  hst:pagetitle: Articles
+  hst:relativecontentpath: articlefacets
+  /_any_.html:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/articlepage
+    hst:relativecontentpath: buying guides/${1}
+  /the-history-of-smart-watches:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/articles-the-history-of-smart-watches-articlepage
+    hst:lastmodified: 2018-11-29T11:11:00.165+01:00
+    hst:pagetitle: The History of Smart Watches
+  /_any_:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/articlepage
+    hst:relativecontentpath: buying-guides/${1}

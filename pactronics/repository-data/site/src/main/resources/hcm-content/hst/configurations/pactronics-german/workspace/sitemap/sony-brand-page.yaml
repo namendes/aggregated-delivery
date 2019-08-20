@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:sitemap/sony-brand-page:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/sony-brand-page-contentpage
+  hst:lastmodified: 2019-04-05T01:39:56.386Z
+  hst:pagetitle: Sony Brand Page

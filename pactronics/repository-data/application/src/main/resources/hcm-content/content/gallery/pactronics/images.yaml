@@ -1,0 +1,1337 @@
+/content/gallery/pactronics/images:
+  .meta:order-before: articles
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: b4a8757f-9687-446d-8623-ed3465d9de14
+  hippostd:foldertype: [new-pactronics-pactronics-folder]
+  hippostd:gallerytype: ['pactronics:pactronics']
+  /miscelleneous:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: cf33635d-b598-4f39-b601-10cd9df6bfec
+    hippo:name: MIscelleneous
+    hippostd:foldertype: [new-pactronics-pactronics-folder]
+    hippostd:gallerytype: ['pactronics:pactronics']
+    /001.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 82da7c6e-5932-4911-b4fd-35573f9b517f
+      /001.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: 001.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: 001.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/001.jpg/001.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2018-11-20T14:41:54.460+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/001.jpg/001.jpg/original/original.jpg
+          jcr:lastModified: 2018-11-20T14:41:54.460+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/001.jpg/001.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:10.090+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/001.jpg/001.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:10.115+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 400
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/001.jpg/001.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:10.139+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 266
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/001.jpg/001.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:10.176+02:00
+          jcr:mimeType: image/jpeg
+    /002.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1f693df2-9d40-4f0d-a5fd-defb51983046
+      /002.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: 002.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: 002.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/002.jpg/002.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2018-11-20T14:41:54.888+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/002.jpg/002.jpg/original/original.jpg
+          jcr:lastModified: 2018-11-20T14:41:54.888+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/002.jpg/002.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.007+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/002.jpg/002.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.028+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 400
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/002.jpg/002.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.047+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 266
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/002.jpg/002.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.079+02:00
+          jcr:mimeType: image/jpeg
+    /003.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c9286bda-9575-4ef3-8f8e-67274db22480
+      /003.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: 003.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: 003.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/003.jpg/003.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2018-11-20T14:41:55.001+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/003.jpg/003.jpg/original/original.jpg
+          jcr:lastModified: 2018-11-20T14:41:55.001+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/003.jpg/003.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:09.801+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/003.jpg/003.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:09.823+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 400
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/003.jpg/003.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:09.844+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 266
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/003.jpg/003.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:09.879+02:00
+          jcr:mimeType: image/jpeg
+    /004.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 67c03951-64ca-4daa-a72a-649aa8e48801
+      /004.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: 004.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: 004.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/004.jpg/004.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2018-11-20T14:41:55.088+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/004.jpg/004.jpg/original/original.jpg
+          jcr:lastModified: 2018-11-20T14:41:55.088+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/004.jpg/004.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:10.197+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/004.jpg/004.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:10.219+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 400
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/004.jpg/004.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:10.240+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 266
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/004.jpg/004.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:10.277+02:00
+          jcr:mimeType: image/jpeg
+    /005.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 11c236c5-207b-494e-b370-9187aab6a06f
+      /005.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: 005.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: 005.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/005.jpg/005.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2018-11-20T14:41:55.177+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/005.jpg/005.jpg/original/original.jpg
+          jcr:lastModified: 2018-11-20T14:41:55.177+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/005.jpg/005.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.571+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/005.jpg/005.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.592+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 400
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/005.jpg/005.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.613+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 266
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/005.jpg/005.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.647+02:00
+          jcr:mimeType: image/jpeg
+    /nl-feature-engineered-to-endure-111729427.jpeg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2322d6e6-4146-4472-9f6a-efcb65cf1267
+      /nl-feature-engineered-to-endure-111729427.jpeg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: nl-feature-engineered-to-endure-111729427.jpeg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: nl-feature-engineered-to-endure-111729427.jpeg
+          hippogallery:height: 33
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/nl-feature-engineered-to-endure-111729427.jpeg/nl-feature-engineered-to-endure-111729427.jpeg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2018-12-06T15:53:24.311+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 810
+          hippogallery:width: 1440
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/nl-feature-engineered-to-endure-111729427.jpeg/nl-feature-engineered-to-endure-111729427.jpeg/original/original.jpg
+          jcr:lastModified: 2018-12-06T15:53:24.311+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 562
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/nl-feature-engineered-to-endure-111729427.jpeg/nl-feature-engineered-to-endure-111729427.jpeg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.099+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 450
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/nl-feature-engineered-to-endure-111729427.jpeg/nl-feature-engineered-to-endure-111729427.jpeg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.161+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 337
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/nl-feature-engineered-to-endure-111729427.jpeg/nl-feature-engineered-to-endure-111729427.jpeg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.208+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 225
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/miscelleneous/nl-feature-engineered-to-endure-111729427.jpeg/nl-feature-engineered-to-endure-111729427.jpeg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:06.252+02:00
+          jcr:mimeType: image/jpeg
+  /product:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 55dc8cc3-4e08-4683-86fc-87cfdecec5a7
+    hippo:name: Product
+    hippostd:foldertype: [new-pactronics-pactronics-folder]
+    hippostd:gallerytype: ['pactronics:pactronics']
+    /smartwatch:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+      jcr:uuid: e15e415c-dcac-4636-93b2-e5cd9887ec86
+      hippo:name: Smartwatch
+      hippostd:foldertype: [new-pactronics-pactronics-folder]
+      hippostd:gallerytype: ['pactronics:pactronics']
+      /sony-smartwatch-comparison.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: e91474d2-1e67-44f7-b5a8-7f33d028265d
+        hippo:name: Sony Smartwatch Comparison.PNG
+        /sony-smartwatch-comparison.png:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:description: ''
+          hippogallery:filename: Sony Smartwatch Comparison.PNG
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: Sony Smartwatch Comparison.PNG
+            hippogallery:height: 43
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-comparison.png/sony-smartwatch-comparison.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2019-04-04T23:31:14.004Z
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 843
+            hippogallery:width: 1165
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-comparison.png/sony-smartwatch-comparison.png/original/original.png
+            jcr:lastModified: 2019-04-04T23:31:14.004Z
+            jcr:mimeType: image/png
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 723
+            hippogallery:width: 1000
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-comparison.png/sony-smartwatch-comparison.png/desktop/desktop.png
+            jcr:lastModified: 2019-04-26T12:37:09.316+02:00
+            jcr:mimeType: image/png
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 578
+            hippogallery:width: 800
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-comparison.png/sony-smartwatch-comparison.png/laptop/laptop.png
+            jcr:lastModified: 2019-04-26T12:37:09.513+02:00
+            jcr:mimeType: image/png
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 434
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-comparison.png/sony-smartwatch-comparison.png/tablet/tablet.png
+            jcr:lastModified: 2019-04-26T12:37:09.651+02:00
+            jcr:mimeType: image/png
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 400
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-comparison.png/sony-smartwatch-comparison.png/mobile/mobile.png
+            jcr:lastModified: 2019-04-26T13:04:07.865+02:00
+            jcr:mimeType: image/png
+      /nl-feature-lengthy-battery-life-111729441.jpeg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e38398ee-7d18-4907-bd8e-66b26d11db7b
+        /nl-feature-lengthy-battery-life-111729441.jpeg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: nl-feature-lengthy-battery-life-111729441.jpeg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: nl-feature-lengthy-battery-life-111729441.jpeg
+            hippogallery:height: 60
+            hippogallery:width: 57
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-lengthy-battery-life-111729441.jpeg/nl-feature-lengthy-battery-life-111729441.jpeg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2018-12-06T15:53:24.422+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 752
+            hippogallery:width: 720
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-lengthy-battery-life-111729441.jpeg/nl-feature-lengthy-battery-life-111729441.jpeg/original/original.jpg
+            jcr:lastModified: 2018-12-06T15:53:24.422+01:00
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 752
+            hippogallery:width: 720
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-lengthy-battery-life-111729441.jpeg/nl-feature-lengthy-battery-life-111729441.jpeg/desktop/desktop.jpg
+            jcr:lastModified: 2019-04-26T12:37:06.289+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 752
+            hippogallery:width: 720
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-lengthy-battery-life-111729441.jpeg/nl-feature-lengthy-battery-life-111729441.jpeg/laptop/laptop.jpg
+            jcr:lastModified: 2019-04-26T12:37:06.318+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 626
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-lengthy-battery-life-111729441.jpeg/nl-feature-lengthy-battery-life-111729441.jpeg/tablet/tablet.jpg
+            jcr:lastModified: 2019-04-26T12:37:06.348+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 400
+            hippogallery:width: 382
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-lengthy-battery-life-111729441.jpeg/nl-feature-lengthy-battery-life-111729441.jpeg/mobile/mobile.jpg
+            jcr:lastModified: 2019-04-26T12:37:06.405+02:00
+            jcr:mimeType: image/jpeg
+      /nl-feature-now-your-music-goes-with-you-111729429.jpeg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 02d8bdad-a4bc-4b8a-a349-f82bc03b2a98
+        /nl-feature-now-your-music-goes-with-you-111729429.jpeg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: nl-feature-now-your-music-goes-with-you-111729429.jpeg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: nl-feature-now-your-music-goes-with-you-111729429.jpeg
+            hippogallery:height: 60
+            hippogallery:width: 57
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-now-your-music-goes-with-you-111729429.jpeg/nl-feature-now-your-music-goes-with-you-111729429.jpeg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2018-12-06T15:53:24.516+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 752
+            hippogallery:width: 720
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-now-your-music-goes-with-you-111729429.jpeg/nl-feature-now-your-music-goes-with-you-111729429.jpeg/original/original.jpg
+            jcr:lastModified: 2018-12-06T15:53:24.516+01:00
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 752
+            hippogallery:width: 720
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-now-your-music-goes-with-you-111729429.jpeg/nl-feature-now-your-music-goes-with-you-111729429.jpeg/desktop/desktop.jpg
+            jcr:lastModified: 2019-04-26T12:37:09.089+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 752
+            hippogallery:width: 720
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-now-your-music-goes-with-you-111729429.jpeg/nl-feature-now-your-music-goes-with-you-111729429.jpeg/laptop/laptop.jpg
+            jcr:lastModified: 2019-04-26T12:37:09.160+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 626
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-now-your-music-goes-with-you-111729429.jpeg/nl-feature-now-your-music-goes-with-you-111729429.jpeg/tablet/tablet.jpg
+            jcr:lastModified: 2019-04-26T12:37:09.195+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 400
+            hippogallery:width: 382
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-now-your-music-goes-with-you-111729429.jpeg/nl-feature-now-your-music-goes-with-you-111729429.jpeg/mobile/mobile.jpg
+            jcr:lastModified: 2019-04-26T12:37:09.249+02:00
+            jcr:mimeType: image/jpeg
+      /nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c932e3fd-f8c5-4f90-8350-aa5c9acb198b
+        /nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2018-12-06T15:53:24.603+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 810
+            hippogallery:width: 1440
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/original/original.jpg
+            jcr:lastModified: 2018-12-06T15:53:24.603+01:00
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 562
+            hippogallery:width: 1000
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/desktop/desktop.jpg
+            jcr:lastModified: 2019-04-26T12:37:07.774+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 450
+            hippogallery:width: 800
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/laptop/laptop.jpg
+            jcr:lastModified: 2019-04-26T12:37:07.854+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 337
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/tablet/tablet.jpg
+            jcr:lastModified: 2019-04-26T12:37:07.912+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 225
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg/mobile/mobile.jpg
+            jcr:lastModified: 2019-04-26T12:37:07.964+02:00
+            jcr:mimeType: image/jpeg
+      /nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 43ae513d-6de0-4683-bed0-3d39c379a645
+        hippo:name: nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg
+        /nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: nl-feature-plot-your-course-for-what-lies-ahead-111729467.jpeg
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2018-12-06T15:53:24.603+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 810
+            hippogallery:width: 1440
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/original/original.jpg
+            jcr:lastModified: 2018-12-06T15:53:24.603+01:00
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 562
+            hippogallery:width: 1000
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/desktop/desktop.jpg
+            jcr:lastModified: 2019-04-26T12:37:10.298+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 450
+            hippogallery:width: 800
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/laptop/laptop.jpg
+            jcr:lastModified: 2019-04-26T12:37:10.395+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 337
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/tablet/tablet.jpg
+            jcr:lastModified: 2019-04-26T12:37:10.482+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 225
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/nl-feature-plot-your-course-for-what-lies-ahead-111729468.jpeg/mobile/mobile.jpg
+            jcr:lastModified: 2019-04-26T12:37:10.554+02:00
+            jcr:mimeType: image/jpeg
+      /smartwatch-guy.jpeg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 9c760465-1e94-460b-963d-3266a57de25d
+        /smartwatch-guy.jpeg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: smartwatch-guy.jpeg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: smartwatch-guy.jpeg
+            hippogallery:height: 60
+            hippogallery:width: 57
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/smartwatch-guy.jpeg/smartwatch-guy.jpeg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2018-12-06T14:46:49.841+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 752
+            hippogallery:width: 720
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/smartwatch-guy.jpeg/smartwatch-guy.jpeg/original/original.jpg
+            jcr:lastModified: 2018-12-06T14:46:49.841+01:00
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 752
+            hippogallery:width: 720
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/smartwatch-guy.jpeg/smartwatch-guy.jpeg/desktop/desktop.jpg
+            jcr:lastModified: 2019-04-26T12:37:06.433+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 752
+            hippogallery:width: 720
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/smartwatch-guy.jpeg/smartwatch-guy.jpeg/laptop/laptop.jpg
+            jcr:lastModified: 2019-04-26T12:37:06.464+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 626
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/smartwatch-guy.jpeg/smartwatch-guy.jpeg/tablet/tablet.jpg
+            jcr:lastModified: 2019-04-26T12:37:06.494+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 400
+            hippogallery:width: 382
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/smartwatch-guy.jpeg/smartwatch-guy.jpeg/mobile/mobile.jpg
+            jcr:lastModified: 2019-04-26T12:37:06.544+02:00
+            jcr:mimeType: image/jpeg
+      /lg-watch-sport-android-wear-app-drawer2.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 70683567-d387-4c7d-afa9-4e84e89883aa
+        /lg-watch-sport-android-wear-app-drawer2.jpg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:description: ''
+          hippogallery:filename: lg-watch-sport-android-wear-app-drawer2.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: lg-watch-sport-android-wear-app-drawer2.jpg
+            hippogallery:height: 45
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/lg-watch-sport-android-wear-app-drawer2.jpg/lg-watch-sport-android-wear-app-drawer2.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2019-04-19T11:33:20.416+02:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 1200
+            hippogallery:width: 1600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/lg-watch-sport-android-wear-app-drawer2.jpg/lg-watch-sport-android-wear-app-drawer2.jpg/original/original.jpg
+            jcr:lastModified: 2019-04-19T11:33:20.416+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 727
+            hippogallery:width: 1000
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/lg-watch-sport-android-wear-app-drawer2.jpg/lg-watch-sport-android-wear-app-drawer2.jpg/desktop/desktop.jpg
+            jcr:lastModified: 2019-04-26T15:56:12.920+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 600
+            hippogallery:width: 800
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/lg-watch-sport-android-wear-app-drawer2.jpg/lg-watch-sport-android-wear-app-drawer2.jpg/laptop/laptop.jpg
+            jcr:lastModified: 2019-04-26T12:37:06.961+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 450
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/lg-watch-sport-android-wear-app-drawer2.jpg/lg-watch-sport-android-wear-app-drawer2.jpg/tablet/tablet.jpg
+            jcr:lastModified: 2019-04-26T12:37:07.265+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 300
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/lg-watch-sport-android-wear-app-drawer2.jpg/lg-watch-sport-android-wear-app-drawer2.jpg/mobile/mobile.jpg
+            jcr:lastModified: 2019-04-26T12:37:07.530+02:00
+            jcr:mimeType: image/jpeg
+      /best-smartwatches-header-1539268353.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b7999c1b-bc09-4513-a05e-12d9b36786be
+        /best-smartwatches-header-1539268353.jpg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: best-smartwatches-header-1539268353.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: best-smartwatches-header-1539268353.jpg
+            hippogallery:height: 30
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/best-smartwatches-header-1539268353.jpg/best-smartwatches-header-1539268353.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2019-04-19T11:34:17.716+02:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 240
+            hippogallery:width: 480
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/best-smartwatches-header-1539268353.jpg/best-smartwatches-header-1539268353.jpg/original/original.jpg
+            jcr:lastModified: 2019-04-19T11:34:17.716+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 240
+            hippogallery:width: 480
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/best-smartwatches-header-1539268353.jpg/best-smartwatches-header-1539268353.jpg/desktop/desktop.jpg
+            jcr:lastModified: 2019-04-26T12:37:09.284+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 240
+            hippogallery:width: 480
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/best-smartwatches-header-1539268353.jpg/best-smartwatches-header-1539268353.jpg/laptop/laptop.jpg
+            jcr:lastModified: 2019-04-26T12:37:09.291+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 240
+            hippogallery:width: 480
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/best-smartwatches-header-1539268353.jpg/best-smartwatches-header-1539268353.jpg/tablet/tablet.jpg
+            jcr:lastModified: 2019-04-26T12:37:09.298+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 200
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/best-smartwatches-header-1539268353.jpg/best-smartwatches-header-1539268353.jpg/mobile/mobile.jpg
+            jcr:lastModified: 2019-04-26T12:37:09.305+02:00
+            jcr:mimeType: image/jpeg
+      /samsung.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: dcaf6046-6a80-499c-8ca5-d0e1f977b08c
+        hippo:name: Samsung.jpg
+        /samsung.jpg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: Samsung.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: Samsung.jpg
+            hippogallery:height: 29
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/samsung.jpg/samsung.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2019-04-26T16:25:55.280+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 290
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/samsung.jpg/samsung.jpg/tablet/tablet.jpg
+            jcr:lastModified: 2019-04-26T16:25:55.280+02:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 581
+            hippogallery:width: 1200
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/samsung.jpg/samsung.jpg/original/original.jpg
+            jcr:lastModified: 2019-04-26T16:25:55.280+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 484
+            hippogallery:width: 1000
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/samsung.jpg/samsung.jpg/desktop/desktop.jpg
+            jcr:lastModified: 2019-04-26T16:25:55.280+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 193
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/samsung.jpg/samsung.jpg/mobile/mobile.jpg
+            jcr:lastModified: 2019-04-26T16:25:55.280+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 387
+            hippogallery:width: 800
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/samsung.jpg/samsung.jpg/laptop/laptop.jpg
+            jcr:lastModified: 2019-04-26T16:25:55.280+02:00
+            jcr:mimeType: image/jpeg
+      /sony-smartwatch-2-3.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: d477cb07-b4b3-47ec-9a91-cb7bae5d2e62
+        hippo:name: Sony Smartwatch 2-3.png
+        /sony-smartwatch-2-3.png:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: Sony Smartwatch 2-3.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: Sony Smartwatch 2-3.png
+            hippogallery:height: 30
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-2-3.png/sony-smartwatch-2-3.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2019-06-05T15:27:29.132+02:00
+            jcr:mimeType: image/png
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 309
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-2-3.png/sony-smartwatch-2-3.png/tablet/tablet.png
+            jcr:lastModified: 2019-06-05T15:27:29.132+02:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 340
+            hippogallery:width: 660
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-2-3.png/sony-smartwatch-2-3.png/original/original.png
+            jcr:lastModified: 2019-06-05T15:27:29.132+02:00
+            jcr:mimeType: image/png
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 340
+            hippogallery:width: 660
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-2-3.png/sony-smartwatch-2-3.png/desktop/desktop.png
+            jcr:lastModified: 2019-06-05T15:27:29.132+02:00
+            jcr:mimeType: image/png
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 206
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-2-3.png/sony-smartwatch-2-3.png/mobile/mobile.png
+            jcr:lastModified: 2019-06-05T15:27:29.132+02:00
+            jcr:mimeType: image/png
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 340
+            hippogallery:width: 660
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/smartwatch/sony-smartwatch-2-3.png/sony-smartwatch-2-3.png/laptop/laptop.png
+            jcr:lastModified: 2019-06-05T15:27:29.132+02:00
+            jcr:mimeType: image/png
+    /camera:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+      jcr:uuid: 998ed5ec-17e0-48fd-b8ca-b5a762059d13
+      hippo:name: Camera
+      hippostd:foldertype: [new-pactronics-pactronics-folder]
+      hippostd:gallerytype: ['pactronics:pactronics']
+      /surf-camera.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: eae11ea4-4d0a-4a0d-a94d-7e5260b8d8cb
+        /surf-camera.jpg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: surf-camera.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: surf-camera.jpg
+            hippogallery:height: 30
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/camera/surf-camera.jpg/surf-camera.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2019-06-05T15:13:48.276+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 309
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/camera/surf-camera.jpg/surf-camera.jpg/tablet/tablet.jpg
+            jcr:lastModified: 2019-06-05T15:13:48.276+02:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 340
+            hippogallery:width: 660
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/camera/surf-camera.jpg/surf-camera.jpg/original/original.jpg
+            jcr:lastModified: 2019-06-05T15:13:48.276+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 340
+            hippogallery:width: 660
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/camera/surf-camera.jpg/surf-camera.jpg/desktop/desktop.jpg
+            jcr:lastModified: 2019-06-05T15:13:48.276+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 206
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/camera/surf-camera.jpg/surf-camera.jpg/mobile/mobile.jpg
+            jcr:lastModified: 2019-06-05T15:13:48.276+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 340
+            hippogallery:width: 660
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/product/camera/surf-camera.jpg/surf-camera.jpg/laptop/laptop.jpg
+            jcr:lastModified: 2019-06-05T15:13:48.276+02:00
+            jcr:mimeType: image/jpeg
+  /brand:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: d5ad523a-fc00-4dac-8d16-28fd5ae8b2e5
+    hippo:name: Brand
+    hippostd:foldertype: [new-pactronics-pactronics-folder]
+    hippostd:gallerytype: ['pactronics:pactronics']
+    /samsung:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+      jcr:uuid: 7507b431-5d50-4a38-8328-7b4524c5f641
+      hippo:name: Samsung
+      hippostd:foldertype: [new-pactronics-pactronics-folder]
+      hippostd:gallerytype: ['pactronics:pactronics']
+    /sony:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+      jcr:uuid: 0cf5ad3a-d8ab-4ace-a1db-327b59229cb5
+      hippo:name: Sony
+      hippostd:foldertype: [new-pactronics-pactronics-folder]
+      hippostd:gallerytype: ['pactronics:pactronics']
+      /sony-camera-and-watch.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: d3f2a72b-5a41-4994-977f-f598d710712b
+        hippo:name: sony-camera and watch.jpg
+        /sony-camera-and-watch.jpg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: sony-camera and watch.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: sony-camera and watch.jpg
+            hippogallery:height: 30
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/brand/sony/sony-camera-and-watch.jpg/sony-camera-and-watch.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2019-06-05T15:49:46.920+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 309
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/brand/sony/sony-camera-and-watch.jpg/sony-camera-and-watch.jpg/tablet/tablet.jpg
+            jcr:lastModified: 2019-06-05T15:49:46.920+02:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 340
+            hippogallery:width: 660
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/brand/sony/sony-camera-and-watch.jpg/sony-camera-and-watch.jpg/original/original.jpg
+            jcr:lastModified: 2019-06-05T15:49:46.920+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 340
+            hippogallery:width: 660
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/brand/sony/sony-camera-and-watch.jpg/sony-camera-and-watch.jpg/desktop/desktop.jpg
+            jcr:lastModified: 2019-06-05T15:49:46.920+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 206
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/brand/sony/sony-camera-and-watch.jpg/sony-camera-and-watch.jpg/mobile/mobile.jpg
+            jcr:lastModified: 2019-06-05T15:49:46.920+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 340
+            hippogallery:width: 660
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/images/brand/sony/sony-camera-and-watch.jpg/sony-camera-and-watch.jpg/laptop/laptop.jpg
+            jcr:lastModified: 2019-06-05T15:49:46.920+02:00
+            jcr:mimeType: image/jpeg
+    /gopro:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+      jcr:uuid: 836d9e83-ed1c-44e3-8661-3b1306cab5ac
+      hippo:name: GoPro
+      hippostd:foldertype: [new-pactronics-pactronics-folder]
+      hippostd:gallerytype: ['pactronics:pactronics']
+  /space-theme:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: ba181de5-864c-45a9-8cc0-e45459cd7fb5
+    hippo:name: Space Theme
+    hippostd:foldertype: [new-pactronics-pactronics-folder]
+    hippostd:gallerytype: ['pactronics:pactronics']
+    /martian-head.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b08ae94c-af17-42d8-aa86-a1b6056837dc
+      /martian-head.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: martian-head.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: martian-head.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/martian-head.jpg/martian-head.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T01:00:43.766+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/martian-head.jpg/martian-head.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T01:00:43.766+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/martian-head.jpg/martian-head.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:09.899+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/martian-head.jpg/martian-head.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:09.904+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/martian-head.jpg/martian-head.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:09.909+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 266
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/martian-head.jpg/martian-head.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:09.915+02:00
+          jcr:mimeType: image/jpeg
+    /something-profound.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9321ebbb-8be2-4c9e-b149-b24083f599f2
+      /something-profound.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: something-profound.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: something-profound.jpg
+          hippogallery:height: 27
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/something-profound.jpg/something-profound.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T01:55:43.968+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/something-profound.jpg/something-profound.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T01:55:43.968+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 454
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/something-profound.jpg/something-profound.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:09.929+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 363
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/something-profound.jpg/something-profound.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:09.989+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 272
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/something-profound.jpg/something-profound.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:10.032+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/images/space-theme/something-profound.jpg/something-profound.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:10.063+02:00
+          jcr:mimeType: image/jpeg

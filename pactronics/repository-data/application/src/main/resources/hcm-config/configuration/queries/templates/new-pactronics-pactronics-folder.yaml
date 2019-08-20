@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-pactronics-pactronics-folder:
+      jcr:primaryType: hippostd:templatequery
+      hippostd:modify: [./_name, $name]
+      jcr:language: xpath
+      jcr:statement: /jcr:root/hippo:configuration/hippo:queries/hippo:templates/new-pactronics-pactronics-folder/hippostd:templates/node()
+      /hippostd:templates:
+        jcr:primaryType: hippostd:templates
+        /image gallery:
+          jcr:primaryType: hippogallery:stdImageGallery
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: c6d9eb1c-d7d7-466b-b222-68487304776b
+          hippostd:foldertype: [new-pactronics-pactronics-folder]
+          hippostd:gallerytype: ['pactronics:pactronics']

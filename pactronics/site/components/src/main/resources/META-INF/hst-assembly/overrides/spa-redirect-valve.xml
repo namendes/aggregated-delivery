@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <import resource="classpath:/org/hippoecm/hst/site/container/SpringComponentManager-pipelines.xml"/>
+  
+  <bean id="spaRedirectValve" class="com.bloomreach.commercedxp.demo.pactronics.container.SpaSSOHandshakeRedirectValve">
+    <property name="valveName" value="spaRedirectValve" />
+    <property name="afterValves" value="securityValve, subjectBasedSessionValve" />
+    <property name="beforeValves" value="pageCachingValve"/>
+  </bean>
+
+  <bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+    <property name="targetObject">
+      <bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+        <property name="targetObject" ref="org.hippoecm.hst.core.container.Pipelines" />
+        <property name="targetMethod" value="getPipeline" />
+        <property name="arguments">
+          <value>DefaultSitePipeline</value>
+        </property>
+      </bean>
+    </property>
+    <property name="targetMethod" value="addProcessingValve" />
+    <property name="arguments">
+      <ref bean="spaRedirectValve" />
+    </property>
+  </bean>
+
+</beans>

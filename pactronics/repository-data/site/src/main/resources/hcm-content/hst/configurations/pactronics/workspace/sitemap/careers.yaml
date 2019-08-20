@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:sitemap/careers:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/careers
+  hst:lastmodified: 2018-11-29T10:49:52.616+05:30
+  hst:pagetitle: careers
+  hst:relativecontentpath: services/careers

@@ -1,0 +1,312 @@
+/content/documents/administration/mappings:
+  .meta:order-before: email
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 7a0fd004-9f78-4c38-97d3-08eb7d9ceb58
+  hippostd:foldertype: [new-resource-bundle, new-untranslated-folder]
+  /commercetools:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 1dec17fa-7fdc-41ea-b7da-49b0d174881b
+    hippo:name: Commercetools
+    hippo:versionHistory: 7b18bfff-f48c-40a9-823d-33a56b7d5c59
+    /commercetools[1]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: eea658ef-9fba-4d13-af59-1461263ed222
+      hippo:availability: []
+      hippo:related___pathreference: mappings/commercetools/commercetools[3]
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-09-04T15:38:41.298+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:58:05.891+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '']
+      resourcebundle:id: starterstore.mapping.commercetools
+      resourcebundle:keys: [product.name, product.image, product.category, productlist,
+        product.id, product.description, productlist.total, facets, facet.name, facet.values,
+        facet.value.name, facet.total, facet.value.count, facet.param.name, connector,
+        categorydecorator.results, categorydecorator.id, categorydecorator.title,
+        categorydecorator.description, list, list.item.id, list.item.references, list.item.name,
+        productdecorator.results, productdecorator.description, productdecorator.id,
+        productdecorator.title, productdecorator.icon, product.price, product.currency,
+        product.priceprecision, facet.value.id, facet.attribute.name, cart.currency,
+        cart.id, cart.productlist, cart.version, cart.item.id, cart.item.quantity,
+        country, cart.product.id, cart.update.label, cart.remove.label, cart.intro.label,
+        orders, order.id, order.state, order.creation, order.shippingstate, order.paymentstate,
+        order.creation.label, order.id.label, order.paymentstate.label, order.shippingstate.label,
+        order.state.label, order.totalprice.label, cart.empty.label, cart.amount,
+        cart.customerId, product.code, product.reviews, product.reviewscount]
+      resourcebundle:messages: ['masterData/current/name/en, name/en', 'masterData/current/masterVariant/images[1]/url,
+          masterVariant/images[1]/url, variant/images[1]/url', 'masterData/current/categories[1]/id',
+        results, id, 'masterData/current/description/en, description/en', total, facets,
+        name, terms, term, total, count, _sfq, commercetools, results, id, name/en,
+        description/en, results, id, ancestors, name/en, results, description/en,
+        id, name/en, 'masterVariant/images[1]/url', 'masterData/current/masterVariant/prices[1]/value/centAmount,
+          masterVariant/prices[1]/value/centAmount, variant/prices[1]/value/centAmount,
+          totalPrice/centAmount', 'masterData/current/masterVariant/prices[1]/value/currencyCode,
+          masterVariant/prices[1]/value/currencyCode, variant/prices[1]/value/currencyCode,
+          totalPrice/currencyCode', '100', term, filter, USD, id, lineItems, version,
+        id, quantity, US, productId, Set, Remove, Your cart, results, id, orderState,
+        createdAt, shippingState, paymentState, Created On, Order Number, Payment
+          Status, Shipping Status, Order Status, Total Price, Your cart is empty,
+        totalPrice/centAmount, customerId, id, 'response/docs[1]/reviews, reviews',
+        'response/docs[1]/reviews_count, reviews_count']
+    /commercetools[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: ea5d2c7c-64a1-44c1-bba1-fe3942a944af
+      hippo:availability: [preview]
+      hippo:related___pathreference: mappings/commercetools/commercetools[3]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-09-04T15:38:41.298+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:58:48.545+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '']
+      resourcebundle:id: starterstore.mapping.commercetools
+      resourcebundle:keys: [product.name, product.image, product.category, productlist,
+        product.id, product.description, productlist.total, facets, facet.name, facet.values,
+        facet.value.name, facet.total, facet.value.count, facet.param.name, connector,
+        categorydecorator.results, categorydecorator.id, categorydecorator.title,
+        categorydecorator.description, list, list.item.id, list.item.references, list.item.name,
+        productdecorator.results, productdecorator.description, productdecorator.id,
+        productdecorator.title, productdecorator.icon, product.price, product.currency,
+        product.priceprecision, facet.value.id, facet.attribute.name, cart.currency,
+        cart.id, cart.productlist, cart.version, cart.item.id, cart.item.quantity,
+        country, cart.product.id, cart.update.label, cart.remove.label, cart.intro.label,
+        orders, order.id, order.state, order.creation, order.shippingstate, order.paymentstate,
+        order.creation.label, order.id.label, order.paymentstate.label, order.shippingstate.label,
+        order.state.label, order.totalprice.label, cart.empty.label, cart.amount,
+        cart.customerId, product.code, product.reviews, product.reviewscount]
+      resourcebundle:messages: ['masterData/current/name/en, name/en', 'masterData/current/masterVariant/images[1]/url,
+          masterVariant/images[1]/url, variant/images[1]/url', 'masterData/current/categories[1]/id',
+        results, id, 'masterData/current/description/en, description/en', total, facets,
+        name, terms, term, total, count, _sfq, commercetools, results, id, name/en,
+        description/en, results, id, ancestors, name/en, results, description/en,
+        id, name/en, 'masterVariant/images[1]/url', 'masterData/current/masterVariant/prices[1]/value/centAmount,
+          masterVariant/prices[1]/value/centAmount, variant/prices[1]/value/centAmount,
+          totalPrice/centAmount', 'masterData/current/masterVariant/prices[1]/value/currencyCode,
+          masterVariant/prices[1]/value/currencyCode, variant/prices[1]/value/currencyCode,
+          totalPrice/currencyCode', '100', term, filter, USD, id, lineItems, version,
+        id, quantity, US, productId, Set, Remove, Your cart, results, id, orderState,
+        createdAt, shippingState, paymentState, Created On, Order Number, Payment
+          Status, Shipping Status, Order Status, Total Price, Your cart is empty,
+        totalPrice/centAmount, customerId, id, 'response/docs[1]/reviews, reviews',
+        'response/docs[1]/reviews_count, reviews_count']
+    /commercetools[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6fa5b4ac-7bb8-480a-a83e-21d9fbfc8cd7
+      hippo:availability: [live]
+      hippo:related___pathreference: mappings/commercetools/commercetools[3]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-09-04T15:38:41.298+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-24T10:58:48.545+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-24T10:58:53.316+02:00
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '']
+      resourcebundle:id: starterstore.mapping.commercetools
+      resourcebundle:keys: [product.name, product.image, product.category, productlist,
+        product.id, product.description, productlist.total, facets, facet.name, facet.values,
+        facet.value.name, facet.total, facet.value.count, facet.param.name, connector,
+        categorydecorator.results, categorydecorator.id, categorydecorator.title,
+        categorydecorator.description, list, list.item.id, list.item.references, list.item.name,
+        productdecorator.results, productdecorator.description, productdecorator.id,
+        productdecorator.title, productdecorator.icon, product.price, product.currency,
+        product.priceprecision, facet.value.id, facet.attribute.name, cart.currency,
+        cart.id, cart.productlist, cart.version, cart.item.id, cart.item.quantity,
+        country, cart.product.id, cart.update.label, cart.remove.label, cart.intro.label,
+        orders, order.id, order.state, order.creation, order.shippingstate, order.paymentstate,
+        order.creation.label, order.id.label, order.paymentstate.label, order.shippingstate.label,
+        order.state.label, order.totalprice.label, cart.empty.label, cart.amount,
+        cart.customerId, product.code, product.reviews, product.reviewscount]
+      resourcebundle:messages: ['masterData/current/name/en, name/en', 'masterData/current/masterVariant/images[1]/url,
+          masterVariant/images[1]/url, variant/images[1]/url', 'masterData/current/categories[1]/id',
+        results, id, 'masterData/current/description/en, description/en', total, facets,
+        name, terms, term, total, count, _sfq, commercetools, results, id, name/en,
+        description/en, results, id, ancestors, name/en, results, description/en,
+        id, name/en, 'masterVariant/images[1]/url', 'masterData/current/masterVariant/prices[1]/value/centAmount,
+          masterVariant/prices[1]/value/centAmount, variant/prices[1]/value/centAmount,
+          totalPrice/centAmount', 'masterData/current/masterVariant/prices[1]/value/currencyCode,
+          masterVariant/prices[1]/value/currencyCode, variant/prices[1]/value/currencyCode,
+          totalPrice/currencyCode', '100', term, filter, USD, id, lineItems, version,
+        id, quantity, US, productId, Set, Remove, Your cart, results, id, orderState,
+        createdAt, shippingState, paymentState, Created On, Order Number, Payment
+          Status, Shipping Status, Order Status, Total Price, Your cart is empty,
+        totalPrice/centAmount, customerId, id, 'response/docs[1]/reviews, reviews',
+        'response/docs[1]/reviews_count, reviews_count']
+  /bloomreach:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 7b8ecdfc-7e45-473a-8fbb-55dd9a2c2eb4
+    hippo:name: Bloomreach
+    hippo:versionHistory: ae84ceab-44ad-4466-880e-6855adf2e1c2
+    /bloomreach[1]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: c948524d-5878-49ad-ba29-11ee8f66fbea
+      hippo:availability: [preview]
+      hippo:related___pathreference: mappings/commercetools/commercetools[3]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-09-04T15:38:41.298+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-09T15:56:33.154+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '']
+      resourcebundle:id: starterstore.mapping.bloomreach
+      resourcebundle:keys: [product.name, product.image, product.category, productlist,
+        product.id, product.description, productlist.total, facets, facet.name, facet.values,
+        facet.value.name, facet.total, facet.value.count, facet.param.name, facet.value.id,
+        connector, categorydecorator.results, categorydecorator.id, categorydecorator.title,
+        list.item.id, list.item.name, list.item.references, list, productdecorator.id,
+        productdecorator.results, productdecorator.title, productdecorator.icon, productdecorator.description,
+        product.price, product.priceprecision, product.currency, facet.attribute.name,
+        pixel.categories, product.code, reviews, reviews.start, reviews.end, reviews.count,
+        product.reviews, product.reviewscount, cart.version]
+      resourcebundle:messages: ['title,response/docs[1]/title', 'thumb_image,response/docs[1]/thumb_image',
+        'masterData/current/categories[1]/id', response/docs, pid, 'description,response/docs[1]/description',
+        response/numFound, facet_counts/facet_fields, name, '', 'name, cat_name',
+        total, count, _sfq, cat_id, bloomreach, facet_counts/facet_fields/category,
+        cat_id, cat_name, cat_id, cat_name, crumb, facet_counts/facet_fields/category,
+        pid, response/docs, title, thumb_image, description, 'response/docs[1]/price,
+          price', '1', USD, fq, facet_counts/facet_fields/category, pid, facet_counts/facet_ranges/reviews,
+        start, end, count, 'response/docs[1]/reviews, reviews', 'response/docs[1]/reviews_count,
+          reviews_count', version]
+    /bloomreach[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 911eaa48-0419-47d6-83cb-f879122bef3e
+      hippo:availability: []
+      hippo:related___pathreference: mappings/commercetools/commercetools[3]
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-09-04T15:38:41.298+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-09T15:54:16.607+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '']
+      resourcebundle:id: starterstore.mapping.bloomreach
+      resourcebundle:keys: [product.name, product.image, product.category, productlist,
+        product.id, product.description, productlist.total, facets, facet.name, facet.values,
+        facet.value.name, facet.total, facet.value.count, facet.param.name, facet.value.id,
+        connector, categorydecorator.results, categorydecorator.id, categorydecorator.title,
+        list.item.id, list.item.name, list.item.references, list, productdecorator.id,
+        productdecorator.results, productdecorator.title, productdecorator.icon, productdecorator.description,
+        product.price, product.priceprecision, product.currency, facet.attribute.name,
+        pixel.categories, product.code, reviews, reviews.start, reviews.end, reviews.count,
+        product.reviews, product.reviewscount, cart.version]
+      resourcebundle:messages: ['title,response/docs[1]/title', 'thumb_image,response/docs[1]/thumb_image',
+        'masterData/current/categories[1]/id', response/docs, pid, 'description,response/docs[1]/description',
+        response/numFound, facet_counts/facet_fields, name, '', 'name, cat_name',
+        total, count, _sfq, cat_id, bloomreach, facet_counts/facet_fields/category,
+        cat_id, cat_name, cat_id, cat_name, crumb, facet_counts/facet_fields/category,
+        pid, response/docs, title, thumb_image, description, 'response/docs[1]/price,
+          price', '1', USD, fq, facet_counts/facet_fields/category, pid, facet_counts/facet_ranges/reviews,
+        start, end, count, 'response/docs[1]/reviews, reviews', 'response/docs[1]/reviews_count,
+          reviews_count', version]
+    /bloomreach[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 19b5f727-6ada-4024-ab1c-39f90094f6c8
+      hippo:availability: [live]
+      hippo:related___pathreference: mappings/commercetools/commercetools[3]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-09-04T15:38:41.298+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-09T15:56:33.154+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-09T15:56:40.013+02:00
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '', '', '']
+      resourcebundle:id: starterstore.mapping.bloomreach
+      resourcebundle:keys: [product.name, product.image, product.category, productlist,
+        product.id, product.description, productlist.total, facets, facet.name, facet.values,
+        facet.value.name, facet.total, facet.value.count, facet.param.name, facet.value.id,
+        connector, categorydecorator.results, categorydecorator.id, categorydecorator.title,
+        list.item.id, list.item.name, list.item.references, list, productdecorator.id,
+        productdecorator.results, productdecorator.title, productdecorator.icon, productdecorator.description,
+        product.price, product.priceprecision, product.currency, facet.attribute.name,
+        pixel.categories, product.code, reviews, reviews.start, reviews.end, reviews.count,
+        product.reviews, product.reviewscount, cart.version]
+      resourcebundle:messages: ['title,response/docs[1]/title', 'thumb_image,response/docs[1]/thumb_image',
+        'masterData/current/categories[1]/id', response/docs, pid, 'description,response/docs[1]/description',
+        response/numFound, facet_counts/facet_fields, name, '', 'name, cat_name',
+        total, count, _sfq, cat_id, bloomreach, facet_counts/facet_fields/category,
+        cat_id, cat_name, cat_id, cat_name, crumb, facet_counts/facet_fields/category,
+        pid, response/docs, title, thumb_image, description, 'response/docs[1]/price,
+          price', '1', USD, fq, facet_counts/facet_fields/category, pid, facet_counts/facet_ranges/reviews,
+        start, end, count, 'response/docs[1]/reviews, reviews', 'response/docs[1]/reviews_count,
+          reviews_count', version]
+  /bloomreach_autosuggestions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: d8196b40-c302-4cc1-a57f-34bc08017f83
+    hippo:name: Bloomreach Autosuggestions
+    hippo:versionHistory: ce8ad563-26fd-4d55-8c61-352f956dfe39
+    /bloomreach_autosuggestions[1]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 78cdb4ba-dd48-4a17-8668-5c0e3832da40
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-26T11:52:34.613+01:00
+      hippostdpubwf:lastModificationDate: 2018-12-24T23:25:19.167+09:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '']
+      resourcebundle:id: starterstore.mapping.bloomreach_autosuggest
+      resourcebundle:keys: [autosuggestions.suggestions, autosuggestions.products,
+        autosuggestions.suggestions.query, autosuggestions.products.title, autosuggestions.products.image,
+        autosuggestions.products.price, autosuggestions.products.id, autosuggestions.products.price.currency]
+      resourcebundle:messages: [response/suggestions, response/products, q, title,
+        thumb_image, sale_price, pid, £]
+    /bloomreach_autosuggestions[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: ff52d640-c85f-4c3b-85bb-5707c9b73409
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-26T11:52:34.613+01:00
+      hippostdpubwf:lastModificationDate: 2018-12-24T23:25:26.831+09:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '']
+      resourcebundle:id: starterstore.mapping.bloomreach_autosuggest
+      resourcebundle:keys: [autosuggestions.suggestions, autosuggestions.products,
+        autosuggestions.suggestions.query, autosuggestions.products.title, autosuggestions.products.image,
+        autosuggestions.products.price, autosuggestions.products.id, autosuggestions.products.price.currency]
+      resourcebundle:messages: [response/suggestions, response/products, q, title,
+        thumb_image, sale_price, pid, £]
+    /bloomreach_autosuggestions[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 541e7029-30ef-4222-ae18-f9356a62e58f
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-26T11:52:34.613+01:00
+      hippostdpubwf:lastModificationDate: 2018-12-24T23:25:26.831+09:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-12-24T23:25:29.203+09:00
+      resourcebundle:descriptions: ['', '', '', '', '', '', '', '']
+      resourcebundle:id: starterstore.mapping.bloomreach_autosuggest
+      resourcebundle:keys: [autosuggestions.suggestions, autosuggestions.products,
+        autosuggestions.suggestions.query, autosuggestions.products.title, autosuggestions.products.image,
+        autosuggestions.products.price, autosuggestions.products.id, autosuggestions.products.price.currency]
+      resourcebundle:messages: [response/suggestions, response/products, q, title,
+        thumb_image, sale_price, pid, USD]

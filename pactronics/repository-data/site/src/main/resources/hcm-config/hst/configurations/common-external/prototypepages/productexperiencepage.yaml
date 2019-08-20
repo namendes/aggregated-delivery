@@ -1,0 +1,24 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:prototypepages/productexperiencepage:
+      jcr:primaryType: hst:component
+      jcr:mixinTypes: ['hst:prototypemeta']
+      hst:displayname: Product Experience Page
+      hst:primarycontainer: main
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:containercomponent
+        hst:label: Content Page Main
+        hst:xtype: hst.vbox
+        /ProductsHighlight:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+          hst:label: Products Highlight
+          hst:parameternames: [connectorComponent, commands, page, locale]
+          hst:parametersinfoclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductDecoratorInfo
+          hst:parametervalues: [productDetail, 'initContextCommand, cartCreateCommand,
+              cartProductListCommand, cartProductAddCommand, contentSingleDecoratorCommand',
+            '1', en]
+          hst:template: starterstore-productcontentenricher
+          hst:xtype: hst.item

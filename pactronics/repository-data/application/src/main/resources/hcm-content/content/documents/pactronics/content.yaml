@@ -1,0 +1,745 @@
+/content/documents/pactronics/content:
+  .meta:order-before: buying-guides
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 017a50de-f52e-401b-8f2a-0dff90b88b1b
+  hippostd:foldertype: [new-content-document, new-content-folder]
+  hippotranslation:id: 26917d5f-ed72-42b2-b635-dd5856c17bf8
+  hippotranslation:locale: en
+  /no-results-found:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 59d783de-cfae-47fe-b83d-7f44de537fc7
+    hippo:name: no results found
+    hippo:versionHistory: 8fb3d169-91c3-4449-a4a0-ec0e9da75385
+    /no-results-found[1]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cdd8d989-379b-4949-af64-042bfe5dc2ba
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-14T10:17:00.702+01:00
+      hippostdpubwf:lastModificationDate: 2018-12-17T14:00:08.846+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a33d80c8-f077-4cec-aba8-69f3a1c3aa63
+      hippotranslation:locale: en
+      pactronics:introduction: ''
+      pactronics:publicationdate: 2018-12-14T10:23:00+01:00
+      pactronics:title: No results found
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Maybe these will interest you?</p>
+    /no-results-found[2]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: da431368-77c5-4572-8109-600554bc78eb
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-14T10:17:00.702+01:00
+      hippostdpubwf:lastModificationDate: 2018-12-14T10:23:52.684+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a33d80c8-f077-4cec-aba8-69f3a1c3aa63
+      hippotranslation:locale: en
+      pactronics:introduction: ''
+      pactronics:publicationdate: 2018-12-14T10:23:00+01:00
+      pactronics:title: No results found
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Maybe these will interest you?</p>
+    /no-results-found[3]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3db73cf9-9b64-4934-97c1-e1817f7849a5
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-14T10:17:00.702+01:00
+      hippostdpubwf:lastModificationDate: 2018-12-14T10:23:52.684+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-12-14T10:23:57.005+01:00
+      hippotranslation:id: a33d80c8-f077-4cec-aba8-69f3a1c3aa63
+      hippotranslation:locale: en
+      pactronics:introduction: ''
+      pactronics:publicationdate: 2018-12-14T10:23:00+01:00
+      pactronics:title: No results found
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Maybe these will interest you?</p>
+  /email-campaign:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 6ea4792c-2848-4848-b643-fe96ad59c1de
+    hippo:name: Email Campaign
+    hippostd:foldertype: [new-content-document, new-content-folder]
+    hippotranslation:id: 9cbc7ac1-29f8-47c7-9190-908e0e9801ba
+    hippotranslation:locale: en
+    /email-campaign-1:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 5ddebcc8-211d-43a6-8f8f-6d46845b162c
+      hippo:branches: [master]
+      hippo:name: Email Campaign 1
+      hippo:versionHistory: 62cba453-547e-47d8-8050-17b11ab2f70d
+      /email-campaign-1[1]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7f98f610-c762-4307-a484-03c133cc477d
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-01-02T20:00:01.139+01:00
+        hippostdpubwf:lastModificationDate: 2019-01-02T20:00:01.139+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b3de9b05-1ff7-4e90-879e-60f94851a8e8
+        hippotranslation:locale: en
+        pactronics:introduction: This is a piece fo content that I'm creating as part
+          of my email campaign project
+        pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+        pactronics:title: Email Campaign 1
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>here is a bunch of content...</p>
+
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+      /email-campaign-1[2]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: c3189959-0c4e-4c97-ac4c-5f3a2841f79f
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-01-02T20:00:01.139+01:00
+        hippostdpubwf:lastModificationDate: 2019-01-02T20:02:27.187+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b3de9b05-1ff7-4e90-879e-60f94851a8e8
+        hippotranslation:locale: en
+        pactronics:introduction: This is a piece fo content that I'm creating as part
+          of my email campaign project
+        pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+        pactronics:title: Email Campaign 1
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>here is a bunch of content...</p>
+
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+      /email-campaign-1[3]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bdd8f161-1d7c-4f1a-b78f-e0e371caf049
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-01-02T20:00:01.139+01:00
+        hippostdpubwf:lastModificationDate: 2019-01-02T20:02:27.187+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-18T11:59:46.819+02:00
+        hippotranslation:id: b3de9b05-1ff7-4e90-879e-60f94851a8e8
+        hippotranslation:locale: en
+        pactronics:introduction: This is a piece fo content that I'm creating as part
+          of my email campaign project
+        pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+        pactronics:title: Email Campaign 1
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>here is a bunch of content...</p>
+
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+  /documentation:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 3401e4cd-7193-478e-b03f-a41b159837b6
+    hippo:name: Documentation
+    hippo:versionHistory: 47b3a83d-1e39-4110-b3c6-68256a1ab331
+    /documentation[1]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: eb467d11-e865-4ce4-945f-4818058163cd
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-08T14:31:56.922+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-08T15:31:54.586+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 58abe730-3813-48b3-bd6a-0ecd9a4f7c3a
+      hippotranslation:locale: en
+      pactronics:introduction: ''
+      pactronics:title: Demo Instructions
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p><strong>Login information</strong></p>
+
+          <p>Email: <a href="mailto:bloomreach@myemail.com">bloomreach@myemail.com</a></p>
+
+          <p>Password: brxdemo</p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Channel configuration</strong></p>
+
+          <p>Comerce connector :<strong>&nbsp;</strong><a href="https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/introduction.html">https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/introduction.html</a></p>
+
+          <p>Universal pixel configuration:&nbsp;<a href="https://documentation.bloomreach.com/library/enterprise/enterprise-features/universal-pixel-integration/configuration.html">https://documentation.bloomreach.com/library/enterprise/enterprise-features/universal-pixel-integration/configuration.html</a></p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Connector configuration</strong></p>
+
+          <p>Commerce connector:&nbsp;<a href="https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/commerce-connector-set-model.html">https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/commerce-connector-set-model.html</a></p>
+
+          <p>&nbsp;</p>
+
+          <p>&nbsp;</p>
+    /documentation[2]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: f2e753ba-379f-46ed-b44d-18c45eed5856
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-08T14:31:56.922+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-08T15:36:05.795+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 58abe730-3813-48b3-bd6a-0ecd9a4f7c3a
+      hippotranslation:locale: en
+      pactronics:introduction: ''
+      pactronics:title: Demo Instructions
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p><strong>Login information</strong></p>
+
+          <p>Email: <a href="mailto:bloomreach@myemail.com">bloomreach@myemail.com</a></p>
+
+          <p>Password: brxdemo</p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Channel configuration</strong></p>
+
+          <p>Comerce connector :<strong>&nbsp;</strong><a href="https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/introduction.html">https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/introduction.html</a></p>
+
+          <p>Universal pixel configuration:&nbsp;<a href="https://documentation.bloomreach.com/library/enterprise/enterprise-features/universal-pixel-integration/configuration.html">https://documentation.bloomreach.com/library/enterprise/enterprise-features/universal-pixel-integration/configuration.html</a></p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Connector configuration</strong></p>
+
+          <p>Commerce connector:&nbsp;<a href="https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/commerce-connector-set-model.html">https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/commerce-connector-set-model.html</a></p>
+
+          <p>&nbsp;</p>
+
+          <p>&nbsp;</p>
+    /documentation[3]:
+      jcr:primaryType: pactronics:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4e759f2b-4348-4b79-a7f6-d4abce818201
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-04-08T14:31:56.922+02:00
+      hippostdpubwf:lastModificationDate: 2019-04-08T15:36:05.795+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-08T15:36:07.298+02:00
+      hippotranslation:id: 58abe730-3813-48b3-bd6a-0ecd9a4f7c3a
+      hippotranslation:locale: en
+      pactronics:introduction: ''
+      pactronics:title: Demo Instructions
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p><strong>Login information</strong></p>
+
+          <p>Email: <a href="mailto:bloomreach@myemail.com">bloomreach@myemail.com</a></p>
+
+          <p>Password: brxdemo</p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Channel configuration</strong></p>
+
+          <p>Comerce connector :<strong>&nbsp;</strong><a href="https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/introduction.html">https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/introduction.html</a></p>
+
+          <p>Universal pixel configuration:&nbsp;<a href="https://documentation.bloomreach.com/library/enterprise/enterprise-features/universal-pixel-integration/configuration.html">https://documentation.bloomreach.com/library/enterprise/enterprise-features/universal-pixel-integration/configuration.html</a></p>
+
+          <p>&nbsp;</p>
+
+          <p><strong>Connector configuration</strong></p>
+
+          <p>Commerce connector:&nbsp;<a href="https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/commerce-connector-set-model.html">https://documentation.bloomreach.com/library/solutions/commerce-starterstore/connector-configuration/commerce-connector-set-model.html</a></p>
+
+          <p>&nbsp;</p>
+
+          <p>&nbsp;</p>
+  /highlights:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 2538186d-bff4-4467-ba9b-52482af0cbde
+    hippo:name: Highlights
+    hippostd:foldertype: [new-content-document, new-content-folder]
+    hippotranslation:id: 8345754f-b1cd-4bed-99ed-2e3a152d59a3
+    hippotranslation:locale: en
+    /samsung-smart-watch-sale-highlight:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: bf40189f-c24a-4566-b809-deb91d1524e6
+      hippo:name: Samsung Smart Watch Sale Highlight
+      hippo:versionHistory: ca71c402-4d5e-4666-9366-485d634654f3
+      /samsung-smart-watch-sale-highlight[1]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7d662ca2-c8d4-404d-a3e4-693a552d707b
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T18:29:22.229Z
+        hippostdpubwf:lastModificationDate: 2019-03-28T23:48:33.892Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6e6ddec9-09d4-425b-ac2d-2adba0604d80
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center"><strong>Great Samsung Smart
+            Watches on sale now!</strong></h1>
+      /samsung-smart-watch-sale-highlight[2]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: d43ed49f-fea4-4ee4-a422-8607f8b52a3c
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T18:29:22.229Z
+        hippostdpubwf:lastModificationDate: 2019-03-28T18:30:37.033Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6e6ddec9-09d4-425b-ac2d-2adba0604d80
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center"><strong>Great Samsung Smart
+            Watches on sale now!</strong></h1>
+      /samsung-smart-watch-sale-highlight[3]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0e204bfd-3a2f-4a86-a38e-c969bd8cd9b4
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T18:29:22.229Z
+        hippostdpubwf:lastModificationDate: 2019-03-28T18:30:37.033Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-18T11:59:45.160+02:00
+        hippotranslation:id: 6e6ddec9-09d4-425b-ac2d-2adba0604d80
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center"><strong>Great Samsung Smart
+            Watches on sale now!</strong></h1>
+    /recommendations-capabilities-highlight:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 1b15e963-947b-4aac-8dd5-7dd8d7403bac
+      hippo:name: Recommendations Capabilities Highlight
+      hippo:versionHistory: 005e8e5c-7c8e-4941-940f-3cbc2a8c6c18
+      /recommendations-capabilities-highlight[1]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bb2d3db0-822a-4f88-957b-2147f6c78e9d
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T18:32:37.858Z
+        hippostdpubwf:lastModificationDate: 2019-07-09T17:15:14.577+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 46a75060-0c7a-4e5d-be1b-e7f6fb1bccbf
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center"><strong>Recommendations&nbsp;Capabilities</strong></h1>
+      /recommendations-capabilities-highlight[2]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 03c52c6e-e2e8-4f46-be36-cda3409e86b9
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T18:32:37.858Z
+        hippostdpubwf:lastModificationDate: 2019-03-28T18:33:20.386Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 46a75060-0c7a-4e5d-be1b-e7f6fb1bccbf
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center"><strong>Recommendations&nbsp;Capabilities</strong></h1>
+      /recommendations-capabilities-highlight[3]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 1f41875e-2da1-4d88-8933-404a5235fc93
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T18:32:37.858Z
+        hippostdpubwf:lastModificationDate: 2019-03-28T18:33:20.386Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-18T11:59:46.152+02:00
+        hippotranslation:id: 46a75060-0c7a-4e5d-be1b-e7f6fb1bccbf
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center"><strong>Recommendations&nbsp;Capabilities</strong></h1>
+    /top-categories-highlight:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: d590cb5b-983c-499a-8e36-f2db0c7ae5bb
+      hippo:name: Top Categories Highlight
+      hippo:versionHistory: 7ac751af-84a4-4b08-9b5f-baaa93f94a48
+      /top-categories-highlight[1]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0ff9b72c-736a-4261-b179-43fa1c6cf4a2
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:47:48.454Z
+        hippostdpubwf:lastModificationDate: 2019-04-12T20:59:47.912Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 40663b27-df5e-4725-b1be-954a5f700ced
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center"><strong>Check out our top
+            categories for this demo...</strong></h1>
+      /top-categories-highlight[2]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 573fd5df-e1e4-4c03-b973-55f69aecfce7
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:47:48.454Z
+        hippostdpubwf:lastModificationDate: 2019-04-04T15:18:39.520Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 40663b27-df5e-4725-b1be-954a5f700ced
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center"><strong>Check out our top
+            categories for this demo...</strong></h1>
+      /top-categories-highlight[3]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5128208e-b9a5-448b-861c-d719af6e00f8
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:47:48.454Z
+        hippostdpubwf:lastModificationDate: 2019-04-04T15:18:39.520Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-18T11:59:46.374+02:00
+        hippotranslation:id: 40663b27-df5e-4725-b1be-954a5f700ced
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center"><strong>Check out our top
+            categories for this demo...</strong></h1>
+    /buying-guide-highlights:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: ebdc94a6-1c64-4a25-a5de-f5f99b2325e7
+      hippo:name: Buying Guide Highlights
+      hippo:versionHistory: 866f00cd-fb9d-4f86-a192-f86384e69678
+      /buying-guide-highlights[1]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2ac59418-beec-4af7-8eb8-03ad49f94bab
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-11T19:48:27.682Z
+        hippostdpubwf:lastModificationDate: 2019-04-11T19:50:40.915Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b4aad215-187c-4d13-84ff-495128264fd8
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center">Let us help you find the
+            right product...</h1>
+      /buying-guide-highlights[2]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: c66edcae-7930-41c2-b45a-7e9ed66dfd89
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-11T19:48:27.682Z
+        hippostdpubwf:lastModificationDate: 2019-04-11T19:50:40.860Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: b4aad215-187c-4d13-84ff-495128264fd8
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center">Let us help you find the
+            right product...</h1>
+      /buying-guide-highlights[3]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 8e7022fa-f60b-45e3-a6ef-b657b8ec4171
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-11T19:48:27.682Z
+        hippostdpubwf:lastModificationDate: 2019-04-11T19:50:40.860Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-18T11:59:44.678+02:00
+        hippotranslation:id: b4aad215-187c-4d13-84ff-495128264fd8
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:publicationdate: 0001-01-01T12:00:00Z
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <h1 style="text-align:center">Let us help you find the
+            right product...</h1>
+  /brands:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 09a269b1-92b8-44c4-8ce2-0d58a4a96061
+    hippo:name: Brands
+    hippostd:foldertype: [new-content-document, new-content-folder]
+    hippotranslation:id: 0b83275c-67c1-4171-8d7b-10b56e815e99
+    hippotranslation:locale: en
+    /samsung:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: da3b66c8-bc4c-4bb4-89f4-beaf19f093db
+      hippo:name: Samsung
+      hippostd:foldertype: [new-content-document, new-content-folder]
+      hippotranslation:id: 2214a3b8-d973-43dd-85d2-d3a0b97046e7
+      hippotranslation:locale: en
+      /brand-center-highlight:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 57738554-4a95-4438-b30b-a5635335d9c2
+        hippo:name: Brand Center Highlight
+        hippo:versionHistory: e6661ad2-4c31-45d0-b4cd-cc73611edfea
+        /brand-center-highlight[1]:
+          jcr:primaryType: pactronics:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: ee83c564-b564-4184-9dfb-ab047150f108
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-04T23:11:34.854Z
+          hippostdpubwf:lastModificationDate: 2019-04-04T23:11:34.854Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 1f435d6d-3513-4e5a-b70e-e9c36fc2fccb
+          hippotranslation:locale: en
+          pactronics:introduction: ''
+          pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+          pactronics:title: ''
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <h1 style="text-align:center">Come Explore the New Samsung Experience Shop</h1>
+
+              <p style="text-align:center">&nbsp;</p>
+
+              <h2 style="text-align:center">Try out the new Smart Watches and other wearables</h2>
+
+              <p>&nbsp;</p>
+
+              <h3 style="text-align:center">Experience now at these locations:</h3>
+
+              <p style="text-align:center">West L.A. 11301 W. Pico Blvd., Los Angeles, CA 90064&nbsp;&nbsp;|&nbsp;&nbsp;529 5th Ave., New York, NY 10017&nbsp;<br />
+              62nd &amp; Broadway, New York, NY 10023&nbsp;&nbsp;|&nbsp;&nbsp; Galleria, 5133 Richmond Ave., Houston, TX 77056<br />
+              Aventura Mall, 21035 Biscayne Blvd., Aventura, FL 33180</p>
+        /brand-center-highlight[2]:
+          jcr:primaryType: pactronics:contentdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: a57dcb73-a94d-432f-ba11-7e6c6552eaca
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-04T23:11:34.854Z
+          hippostdpubwf:lastModificationDate: 2019-04-04T23:13:08.029Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 1f435d6d-3513-4e5a-b70e-e9c36fc2fccb
+          hippotranslation:locale: en
+          pactronics:introduction: ''
+          pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+          pactronics:title: ''
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <h1 style="text-align:center">Come Explore the New Samsung Experience Shop</h1>
+
+              <p style="text-align:center">&nbsp;</p>
+
+              <h2 style="text-align:center">Try out the new Smart Watches and other wearables</h2>
+
+              <p>&nbsp;</p>
+
+              <h3 style="text-align:center">Experience now at these locations:</h3>
+
+              <p style="text-align:center">West L.A. 11301 W. Pico Blvd., Los Angeles, CA 90064&nbsp;&nbsp;|&nbsp;&nbsp;529 5th Ave., New York, NY 10017&nbsp;<br />
+              62nd &amp; Broadway, New York, NY 10023&nbsp;&nbsp;|&nbsp;&nbsp; Galleria, 5133 Richmond Ave., Houston, TX 77056<br />
+              Aventura Mall, 21035 Biscayne Blvd., Aventura, FL 33180</p>
+        /brand-center-highlight[3]:
+          jcr:primaryType: pactronics:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f7e069b9-228a-49f0-996a-76ba03abf72f
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-04T23:11:34.854Z
+          hippostdpubwf:lastModificationDate: 2019-04-04T23:13:08.029Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-04-18T11:59:44.888+02:00
+          hippotranslation:id: 1f435d6d-3513-4e5a-b70e-e9c36fc2fccb
+          hippotranslation:locale: en
+          pactronics:introduction: ''
+          pactronics:publicationdate: 0001-01-01T13:00:00+01:00
+          pactronics:title: ''
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <h1 style="text-align:center">Come Explore the New Samsung Experience Shop</h1>
+
+              <p style="text-align:center">&nbsp;</p>
+
+              <h2 style="text-align:center">Try out the new Smart Watches and other wearables</h2>
+
+              <p>&nbsp;</p>
+
+              <h3 style="text-align:center">Experience now at these locations:</h3>
+
+              <p style="text-align:center">West L.A. 11301 W. Pico Blvd., Los Angeles, CA 90064&nbsp;&nbsp;|&nbsp;&nbsp;529 5th Ave., New York, NY 10017&nbsp;<br />
+              62nd &amp; Broadway, New York, NY 10023&nbsp;&nbsp;|&nbsp;&nbsp; Galleria, 5133 Richmond Ave., Houston, TX 77056<br />
+              Aventura Mall, 21035 Biscayne Blvd., Aventura, FL 33180</p>
+  /general:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: cc954ea5-8b5f-4fcb-ae54-ce5aba2fa332
+    hippo:name: General
+    hippostd:foldertype: [new-content-document, new-content-folder]
+    hippotranslation:id: 347b0edc-e9ae-4dff-a74d-9477e73d1778
+    hippotranslation:locale: en
+    /page-not-found:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 3742768c-5dae-432b-8d0b-fbf84627ba0c
+      hippo:name: page not found
+      hippo:versionHistory: 29218728-44c5-48d4-b3a5-815abc7c58b1
+      /page-not-found[1]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ee71a86e-68f4-4212-a00a-539d8f0529f7
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-26T05:46:41.510+02:00
+        hippostdpubwf:lastModificationDate: 2019-04-26T05:46:41.510+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6bf4268c-9ef8-4408-a6aa-7df23aace535
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:title: 404 - Page Not Found
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The page you requested could not be found. Check the
+            URL and try your request again.</p>
+      /page-not-found[2]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 73e3dd66-1eeb-4af4-a20f-f15464394f3a
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-26T05:46:41.510+02:00
+        hippostdpubwf:lastModificationDate: 2019-04-26T05:49:01.484+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6bf4268c-9ef8-4408-a6aa-7df23aace535
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:title: 404 - Page Not Found
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The page you requested could not be found. Check the
+            URL and try your request again.</p>
+      /page-not-found[3]:
+        jcr:primaryType: pactronics:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5b9e21f4-c4a3-4b0e-8b53-1a05a842ff41
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-26T05:46:41.510+02:00
+        hippostdpubwf:lastModificationDate: 2019-04-26T05:49:01.484+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-26T05:49:04.545+02:00
+        hippotranslation:id: 6bf4268c-9ef8-4408-a6aa-7df23aace535
+        hippotranslation:locale: en
+        pactronics:introduction: ''
+        pactronics:title: 404 - Page Not Found
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>The page you requested could not be found. Check the
+            URL and try your request again.</p>

@@ -1,0 +1,5 @@
+/content/gallery/where-to-donate-beauty-products-2.jpg:
+  .meta:order-before: etos-promo.jpg
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: a716e692-ebce-4289-9de1-b4d258e68008

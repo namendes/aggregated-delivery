@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:sitemap/the-ultimate-moon-jumping-smartwatch:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/the-ultimate-moon-jumping-smartwatch-productexperiencepage
+  hst:lastmodified: 2019-01-10T08:44:55.666+01:00
+  hst:pagetitle: The Ultimate Moon Jumping Smartwatch

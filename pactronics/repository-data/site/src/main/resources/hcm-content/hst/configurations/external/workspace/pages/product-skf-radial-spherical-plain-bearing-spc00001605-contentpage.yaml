@@ -1,0 +1,26 @@
+? /hst:hst/hst:configurations/external/hst:workspace/hst:pages/product-skf-radial-spherical-plain-bearing-spc00001605-contentpage
+: jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2019-08-13T11:40:52.746+02:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable', 'hippostd:relaxed']
+    hst:lastmodified: 2019-08-13T11:56:00.042+02:00
+    hst:xtype: HST.vBox
+    mode: top
+    selector: body > div.tab-content.specifications
+    /ProductsGrid:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+      hst:label: Products Grid
+      hst:parameternames: [connectorComponent, commands, starterstoreQueryParam_currentPage,
+        locale]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+      hst:parametervalues: [productSearch, 'customInitContextCommand,cartCreateCommand,
+          cartProductListCommand, cartProductAddCommand, personalizationCallCommand,
+          commerceCallCommand, pageableCommand', '1', en]
+      hst:template: starterstore-productlist
+      hst:xtype: hst.item

@@ -1,0 +1,53 @@
+/content/urlrewriter/sample-rules/frontend-site:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 4b2d6c80-1c6f-4298-8287-0ba4ba6c2f2a
+  hippo:name: frontend (site)
+  hippo:versionHistory: b76a7fcd-8e64-4777-8a33-106cc4ac724f
+  /frontend-site[1]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 3b992ce7-cc75-484f-9385-6eacf6626901
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-04-29T12:32:44.788+02:00
+    hippostdpubwf:lastModificationDate: 2019-05-02T22:36:23.177+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2008-03-26T12:03:00+01:00
+    urlrewriter:rule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>BEAssets\
+      \ Site</name> \r\n<from>^/(.*)</from> \r\n<to type=\"proxy\" last=\"true\" qsappend=\"\
+      true\">http://localhost:8181/store/$1</to> \r\n<condition type=\"request-uri\"\
+      \ operator=\"equal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|svg|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>"
+  /frontend-site[2]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 5386c241-307b-4b32-9f12-bb8e64286f08
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-04-29T12:32:44.788+02:00
+    hippostdpubwf:lastModificationDate: 2019-05-02T22:36:30.279+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>BEAssets\
+      \ Site</name> \r\n<from>^/(.*)</from> \r\n<to type=\"proxy\" last=\"true\" qsappend=\"\
+      true\">http://localhost:8181/store/$1</to> \r\n<condition type=\"request-uri\"\
+      \ operator=\"equal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|svg|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>"
+  /frontend-site[3]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: b058ff5f-e1e7-4fee-936a-59df23578dd1
+    hippo:availability: []
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-04-29T12:32:44.788+02:00
+    hippostdpubwf:lastModificationDate: 2019-05-02T22:36:30.279+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-06-13T16:17:29.777+02:00
+    urlrewriter:rule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>BEAssets\
+      \ Site</name> \r\n<from>^/(.*)</from> \r\n<to type=\"proxy\" last=\"true\" qsappend=\"\
+      true\">http://localhost:8181/store/$1</to> \r\n<condition type=\"request-uri\"\
+      \ operator=\"equal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|svg|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>"

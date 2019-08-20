@@ -1,0 +1,86 @@
+definitions:
+  config:
+    /hippo:namespaces/siteproxy/rule:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: e0941a61-8288-47ad-8b02-4eb8ab55e1e7
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2ec87079-6b85-4f2b-bb49-41b16e984986
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 478dc24e-ba1f-4394-9a8a-2e86eabb647d
+          hipposysedit:node: true
+          hipposysedit:supertype: ['siteproxy:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          hipposysedit:uri: http://www.onehippo.org/siteproxy/nt/1.0
+          /rule:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: siteproxy:xmlRule
+            hipposysedit:primary: false
+            hipposysedit:type: Text
+          /channels:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: siteproxy:channels
+            hipposysedit:primary: false
+            hipposysedit:type: siteproxy:channel
+            hipposysedit:validators: [required]
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: siteproxy:rule
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7c3d8225-d6a7-46c2-aa11-0ec08c07bc03
+          hippostdpubwf:lastModificationDate: 2019-06-21T11:07:57.392+02:00
+          hippostdpubwf:creationDate: 2019-06-21T11:07:57.392+02:00
+          siteproxy:xmlRule: ''
+          /siteproxy:channels:
+            jcr:primaryType: siteproxy:channel
+            siteproxy:contextPath: ''
+            siteproxy:rooted: false
+            siteproxy:url: ''
+            siteproxy:serverUrl: ''
+            siteproxy:isRoot: false
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /channels:
+            jcr:primaryType: frontend:plugin
+            caption: Channel configuration
+            field: channels
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /xmlRule:
+            jcr:primaryType: frontend:plugin
+            caption: External app rewrite rule
+            field: rule
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              rows: '30'

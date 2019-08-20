@@ -1,0 +1,20 @@
+/targeting:targeting/targeting:personas/unnamed-1556020002170:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1556020002170-alterego
+  targeting:avatar: image-1556290502410
+  targeting:description: ''
+  targeting:name: Monica
+  targeting:quote: ''
+  targeting:segmentDescription: ''
+  targeting:segmentName: Smart watches
+  /targeting:expression:
+    jcr:primaryType: targeting:rule
+    targeting:targetgroup: commerceCategories/smartwatch-1556019331730
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p3.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1556020002170/avatar/p3.png
+    jcr:lastModified: 2019-04-26T16:55:02.410+02:00
+    jcr:mimeType: image/png

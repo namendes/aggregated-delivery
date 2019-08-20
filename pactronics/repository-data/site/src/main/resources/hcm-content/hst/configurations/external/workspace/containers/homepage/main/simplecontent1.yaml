@@ -1,0 +1,13 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:containers/homepage/main/simplecontent1:
+  .meta:order-before: MoreLikeThis
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+  hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+  hst:label: Simple Content
+  hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide, document,
+    org.hippoecm.hst.core.component.template]
+  hst:parametervalues: ['off', content/highlights/recommendations-capabilities-highlight,
+    'webfile:/freemarker/hstdefault/contentpage-main.ftl']
+  hst:template: contentpage-main
+  hst:xtype: hst.item

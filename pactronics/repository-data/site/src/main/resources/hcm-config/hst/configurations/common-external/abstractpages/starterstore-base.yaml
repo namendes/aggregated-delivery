@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:abstractpages/starterstore-base:
+      jcr:primaryType: hst:component
+      hst:template: base-layout

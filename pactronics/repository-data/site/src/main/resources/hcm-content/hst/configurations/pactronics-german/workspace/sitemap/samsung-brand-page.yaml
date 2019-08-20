@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:sitemap/samsung-brand-page:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/samsung-brand-page-contentpage
+  hst:lastmodified: 2019-04-04T22:28:23.993Z
+  hst:pagetitle: Samsung Brand Page

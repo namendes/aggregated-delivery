@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/siteproxy:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 578d21bf-27db-4d28-92a8-36378da454f1

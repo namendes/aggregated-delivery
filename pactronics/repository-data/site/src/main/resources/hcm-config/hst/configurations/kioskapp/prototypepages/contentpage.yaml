@@ -1,0 +1,22 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kioskapp/hst:prototypepages/contentpage:
+      jcr:primaryType: hst:component
+      jcr:mixinTypes: ['hst:prototypemeta']
+      hst:displayname: Simple Content Page
+      hst:primarycontainer: main
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        /intro:
+          jcr:primaryType: hst:containercomponent
+          hst:label: Intro
+          hst:xtype: hst.vbox
+        /body:
+          jcr:primaryType: hst:containercomponent
+          hst:label: Body
+          hst:xtype: hst.vbox
+        /closing:
+          jcr:primaryType: hst:containercomponent
+          hst:label: Closing
+          hst:xtype: hst.vbox

@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:sitemap/orders:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/orders-contentpage
+  hst:lastmodified: 2018-11-07T15:51:37.915+01:00
+  hst:pagetitle: orders

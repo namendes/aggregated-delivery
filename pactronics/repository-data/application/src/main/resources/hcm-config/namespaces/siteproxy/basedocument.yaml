@@ -1,0 +1,26 @@
+definitions:
+  config:
+    /hippo:namespaces/siteproxy/basedocument:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c0bf99dc-3823-4c52-b631-7bea2d8138a5
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: dee9c381-dab6-4012-9693-863bd5d8e3ed
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['hipposysedit:remodel']
+          hipposysedit:supertype: ['hippo:document', 'hippostdpubwf:document', 'hippostd:publishableSummary']
+          hipposysedit:uri: http://www.onehippo.org/siteproxy/nt/1.0
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: siteproxy:basedocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e167e16c-7c9c-4125-bdc7-d6b1da27a02d
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2019-06-21T10:59:01.420+02:00
+          hippostdpubwf:lastModificationDate: 2019-06-21T10:59:01.420+02:00
+          hippostdpubwf:lastModifiedBy: ''

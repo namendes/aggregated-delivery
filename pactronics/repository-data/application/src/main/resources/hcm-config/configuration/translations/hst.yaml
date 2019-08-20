@@ -1,0 +1,21 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:hst/componentparameters:
+      jcr:primaryType: hipposys:resourcebundles
+      /com:
+        jcr:primaryType: hipposys:resourcebundles
+        /bloomreach:
+          jcr:primaryType: hipposys:resourcebundles
+          /commercedxp:
+            jcr:primaryType: hipposys:resourcebundles
+            /starterstore:
+              jcr:primaryType: hipposys:resourcebundles
+              /components:
+                jcr:primaryType: hipposys:resourcebundles
+                /info:
+                  jcr:primaryType: hipposys:resourcebundles
+                  /MoreLikeThisComponentInfo:
+                    jcr:primaryType: hipposys:resourcebundles
+                    /en:
+                      jcr:primaryType: hipposys:resourcebundle
+                      group.morelikethis: Parameters

@@ -1,0 +1,146 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+  /*padding-top: 70px; !* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. *!*/
+}
+
+.slide-image {
+  width: 100%;
+}
+
+.carousel-holder {
+  margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+  border-radius: 4px;
+}
+
+.caption {
+  height: 130px;
+  overflow: hidden;
+}
+
+.caption h4 {
+  white-space: nowrap;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.ratings {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #d17581;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.navbar-nav {
+  float: left;
+}
+
+#search-form{
+  width: 600px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  position: absolute;
+  top:55px;
+  right:15px;
+}
+
+#search-form input {
+  height: 60px;
+  padding: 10px;
+  width: 600px;
+  font-size: 18px;
+  border-bottom: 0px;
+  border-radius: 0px;
+  outline:0px;
+  padding-left: 40px;
+}
+
+#search-form input:focus{
+  outline:0px;
+  border: 1px solid #E5E5E5;
+}
+
+.d-none{
+  display:none;
+}
+
+.typeahead__list {
+  width:600px;
+  padding:0px;
+  margin:0px;
+  border-top:0px;
+}
+
+.typeahead__list>li {
+  border:0px;
+}
+
+
+.typeahead__group-suggestions{
+  background-color: #F5F6F5;
+  border:0px;
+}
+
+/*.typeahead__group-products .search-box-image {*/
+  /*with:75px;*/
+  /*height: 75px;*/
+  /*overflow:hidden;*/
+  /*display:block;*/
+/*}*/
+
+.typeahead__container.cancel:not(.loading) .typeahead__cancel-button {
+  width:24px;
+  height:24px;
+  top:20px;
+  text-indent: -9999px;
+}
+
+.center-cropped {
+  max-width: 320px;
+  height: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.starterstore-form label.customer-name {
+  padding-left: 0px;
+}
+
+.starterstore-form div.customer-name {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+div.tab-content div.tab-pane[role='tabpanel'] {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0 0 4px 4px;
+  border-top-color: transparent;
+  padding: 15px;
+}
+
+

@@ -1,0 +1,20 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kioskapp/hst:abstractpages/base:
+      jcr:primaryType: hst:component
+      hst:template: base-layout
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.RequestInfoComponent
+      /footer:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+        hst:parameternames: [menu]
+        hst:parametervalues: [footer]
+        hst:template: base-footer
+      /header:
+        jcr:primaryType: hst:component
+        /left:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: base/header/left
+        /right:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: base/header/right

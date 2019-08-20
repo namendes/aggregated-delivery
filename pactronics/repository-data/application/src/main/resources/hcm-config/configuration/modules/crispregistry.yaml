@@ -1,0 +1,157 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/crispregistry/hippo:moduleconfig/crisp:resourceresolvercontainer/productsResource:
+      .meta:order-before: commercetools
+      jcr:primaryType: crisp:resourceresolver
+      crisp:beandefinition: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<beans\
+        \ xmlns=\"http://www.springframework.org/schema/beans\"\r\n       xmlns:xsi=\"\
+        http://www.w3.org/2001/XMLSchema-instance\"\r\n       xsi:schemaLocation=\"\
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd\"\
+        >\r\n\r\n  <bean parent=\"abstractCrispSimpleJacksonRestTemplateResourceResolver\"\
+        \ class=\"com.bloomreach.commercedxp.starterstore.crisp.resource.RequestIdAwareSimpleJacksonRestTemplateResourceResolver\"\
+        >\r\n    <property name=\"baseUri\" value=\"${api.base.url}\"/>\r\n    <property\
+        \ name=\"cacheEnabled\" value=\"${cache.enabled}\" />\r\n    <property name=\"\
+        restTemplate\">\r\n      <bean class=\"org.springframework.web.client.RestTemplate\"\
+        >\r\n        <property name=\"requestFactory\" ref=\"org.springframework.http.client.ClientHttpRequestFactory\"\
+        />\r\n      </bean>\r\n    </property>\r\n    <property name=\"resourceDataCache\"\
+        >\r\n      <bean class=\"org.onehippo.cms7.crisp.core.resource.SpringResourceDataCache\"\
+        >\r\n        <constructor-arg>\r\n          <bean class=\"org.springframework.cache.ehcache.EhCacheCache\"\
+        >\r\n            <constructor-arg>\r\n              <bean parent=\"abstractCrispResourceEhCache\"\
+        >\r\n                <property name=\"cacheName\" value=\"bloomreachCache\"\
+        />\r\n                <property name=\"maxEntriesLocalHeap\" value=\"100\"\
+        />\r\n                <property name=\"maxEntriesLocalDisk\" value=\"100\"\
+        />\r\n                <property name=\"timeToLiveSeconds\" value=\"100\"/>\r\
+        \n                <property name=\"timeToIdleSeconds\" value=\"100\"/>\r\n\
+        \              </bean>\r\n            </constructor-arg>\r\n          </bean>\r\
+        \n        </constructor-arg>\r\n      </bean>\r\n    </property>\r\n  </bean>\r\
+        \n\r\n</beans>"
+      crisp:propnames: [api.base.url, cache.enabled]
+      crisp:propvalues: ['${bloomreach.api.base.url}', '${bloomreach.cache.enabled:-true}']
+    /hippo:configuration/hippo:modules/crispregistry/hippo:moduleconfig/crisp:resourceresolvercontainer/commercetools:
+      .meta:order-before: bloomreach_autosuggestions
+      jcr:primaryType: crisp:resourceresolver
+      crisp:beandefinition: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<beans\
+        \ xmlns=\"http://www.springframework.org/schema/beans\"\r\n       xmlns:xsi=\"\
+        http://www.w3.org/2001/XMLSchema-instance\"\r\n       xsi:schemaLocation=\"\
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd\"\
+        >\r\n\r\n  <bean parent=\"abstractCrispSimpleJacksonRestTemplateResourceResolver\"\
+        \r\n        class=\"org.onehippo.cms7.crisp.core.resource.jackson.SimpleJacksonRestTemplateResourceResolver\"\
+        >\r\n    <property name=\"cacheEnabled\" value=\"${cache.enabled}\" />\r\n\
+        \    <property name=\"baseUri\" value=\"${api.base.url}\" />\r\n    <property\
+        \ name=\"restTemplate\">\r\n      <bean class=\"org.springframework.security.oauth2.client.OAuth2RestTemplate\"\
+        >\r\n        <constructor-arg>\r\n          <bean class=\"org.springframework.security.oauth2.client.token.grant.password.ResourceOwnerPasswordResourceDetails\"\
+        >\r\n            <property name=\"grantType\" value=\"client_credentials\"\
+        \ />\r\n            <property name=\"accessTokenUri\" value=\"${accessTokenUri}\"\
+        \ />\r\n            <property name=\"clientId\" value=\"${clientId}\" />\r\
+        \n            <property name=\"clientSecret\" value=\"${clientSecret}\" />\r\
+        \n            <property name=\"username\" value=\"${username}\" />\r\n   \
+        \         <property name=\"password\" value=\"${password}\" />\r\n       \
+        \   </bean>\r\n        </constructor-arg>\r\n        <constructor-arg>\r\n\
+        \          <bean class=\"org.springframework.security.oauth2.client.DefaultOAuth2ClientContext\"\
+        >\r\n            <constructor-arg>\r\n              <bean class=\"org.springframework.security.oauth2.client.token.DefaultAccessTokenRequest\"\
+        >\r\n              </bean>\r\n            </constructor-arg>\r\n         \
+        \ </bean> \r\n        </constructor-arg>\r\n        <property name=\"requestFactory\"\
+        \ ref=\"org.springframework.http.client.ClientHttpRequestFactory\" />\r\n\
+        \        <property name=\"accessTokenProvider\">\r\n          <bean class=\"\
+        org.springframework.security.oauth2.client.token.grant.password.ResourceOwnerPasswordAccessTokenProvider\"\
+        >\r\n          </bean> \r\n        </property> \r\n        <property name=\"\
+        authenticator\">\r\n          <bean class=\"org.onehippo.cms7.crisp.core.security.oauth2.client.CaseSensitiveBearerDelegatingOAuth2RequestAuthenticator\"\
+        >\r\n            <constructor-arg>\r\n              <bean class=\"org.springframework.security.oauth2.client.DefaultOAuth2RequestAuthenticator\"\
+        >\r\n              </bean>\r\n            </constructor-arg>\r\n         \
+        \ </bean> \r\n        </property> \r\n      </bean>\r\n    </property>\r\n\
+        \    <property name=\"resourceLinkResolver\">\r\n      <bean class=\"org.onehippo.cms7.crisp.core.resource.FreemarkerTemplateResourceLinkResolver\"\
+        >\r\n        <property name=\"templateSource\">\r\n          <value>http://www.example.com/products/current/sku/unknown/overview.html</value>\r\
+        \n        </property>\r\n      </bean>\r\n    </property>\r\n    <property\
+        \ name=\"resourceDataCache\">\r\n      <bean class=\"org.onehippo.cms7.crisp.core.resource.SpringResourceDataCache\"\
+        >\r\n        <constructor-arg>\r\n          <bean class=\"org.springframework.cache.ehcache.EhCacheCache\"\
+        >\r\n            <constructor-arg>\r\n              <bean parent=\"abstractCrispResourceEhCache\"\
+        >\r\n                <property name=\"cacheName\" value=\"demoProductCatalogsCache\"\
+        \ />\r\n                <property name=\"maxEntriesLocalHeap\" value=\"1000\"\
+        \ />\r\n                <property name=\"maxEntriesLocalDisk\" value=\"0\"\
+        \ />\r\n                <property name=\"timeToLiveSeconds\" value=\"60\"\
+        \ />\r\n                <property name=\"timeToIdleSeconds\" value=\"60\"\
+        \ />\r\n              </bean>\r\n            </constructor-arg>\r\n      \
+        \    </bean>\r\n        </constructor-arg>\r\n      </bean>\r\n    </property>\r\
+        \n  </bean>\r\n\r\n\r\n  \r\n</beans>"
+      crisp:propnames: [cache.enabled, api.base.url, accessTokenUri, clientId, clientSecret,
+        username, password]
+      crisp:propvalues: ['${commercetools.cache.enabled:-true}', '${commercetools.baseUrl}',
+        '${commercetools.accessTokenUri}', '${commercetools.clientId}', '${commercetools.clientSecret}',
+        '${commercetools.username}', '${commercetools.password}']
+    /hippo:configuration/hippo:modules/crispregistry/hippo:moduleconfig/crisp:resourceresolvercontainer/elasticpath:
+      .meta:order-before: bloomreach_autosuggestions
+      jcr:primaryType: crisp:resourceresolver
+      crisp:beandefinition: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<beans\
+        \ xmlns=\"http://www.springframework.org/schema/beans\"\r\n       xmlns:xsi=\"\
+        http://www.w3.org/2001/XMLSchema-instance\"\r\n       xsi:schemaLocation=\"\
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd\"\
+        >\r\n\r\n  <bean parent=\"abstractCrispSimpleJacksonRestTemplateResourceResolver\"\
+        \r\n        class=\"org.onehippo.cms7.crisp.core.resource.jackson.SimpleJacksonRestTemplateResourceResolver\"\
+        >\r\n    <property name=\"cacheEnabled\" value=\"${cache.enabled}\" />\r\n\
+        \    <property name=\"baseUri\" value=\"${api.base.url}\" />\r\n    <property\
+        \ name=\"restTemplate\">\r\n      <bean class=\"org.springframework.security.oauth2.client.OAuth2RestTemplate\"\
+        >\r\n        <constructor-arg>\r\n          <bean class=\"org.springframework.security.oauth2.client.token.grant.password.ResourceOwnerPasswordResourceDetails\"\
+        >\r\n            <property name=\"clientAuthenticationScheme\" value=\"form\"\
+        \ />\r\n            <property name=\"accessTokenUri\" value=\"${accessTokenUri}\"\
+        \ />\r\n            <property name=\"grantType\" value=\"password\" />\r\n\
+        \            <property name=\"username\" value=\"${username}\" />\r\n    \
+        \        <property name=\"password\" value=\"${password}\" />\r\n        \
+        \    <property name=\"scope\">\r\n              <list>\r\n               \
+        \ <value>${scope}</value>\r\n              </list>\r\n            </property>\r\
+        \n          </bean>\r\n        </constructor-arg>\r\n        <constructor-arg>\r\
+        \n          <bean class=\"com.bloomreach.commercedxp.container.connector.elasticpath.spring.security.oauth2.EPDelegatingVisitorOAuth2ClientContext\"\
+        >\r\n            <constructor-arg>\r\n              <bean class=\"org.springframework.security.oauth2.client.token.DefaultAccessTokenRequest\"\
+        >\r\n                <constructor-arg>\r\n                  <map>\r\n    \
+        \                <entry key=\"role\">\r\n                      <array value-type=\"\
+        java.lang.String\">\r\n                        <value>${role}</value>\r\n\
+        \                      </array>\r\n                    </entry>\r\n      \
+        \            </map>\r\n                </constructor-arg>\r\n            \
+        \  </bean>\r\n            </constructor-arg>\r\n          </bean>\r\n    \
+        \    </constructor-arg>\r\n        <property name=\"requestFactory\" ref=\"\
+        org.springframework.http.client.ClientHttpRequestFactory\" />\r\n        <property\
+        \ name=\"authenticator\">\r\n          <bean class=\"com.bloomreach.commercedxp.container.connector.elasticpath.spring.security.oauth2.EPDelegatingOAuth2RequestAuthenticator\"\
+        >\r\n          </bean>\r\n        </property>\r\n      </bean>\r\n    </property>\r\
+        \n    <property name=\"resourceDataCache\">\r\n      <bean class=\"org.onehippo.cms7.crisp.core.resource.SpringResourceDataCache\"\
+        >\r\n        <constructor-arg>\r\n          <bean class=\"org.springframework.cache.ehcache.EhCacheCache\"\
+        >\r\n            <constructor-arg>\r\n              <bean parent=\"abstractCrispResourceEhCache\"\
+        >\r\n                <property name=\"cacheName\" value=\"elasticPathResourcesCache\"\
+        \ />\r\n                <property name=\"maxEntriesLocalHeap\" value=\"1000\"\
+        \ />\r\n                <property name=\"maxEntriesLocalDisk\" value=\"0\"\
+        \ />\r\n                <property name=\"timeToLiveSeconds\" value=\"60\"\
+        \ />\r\n                <property name=\"timeToIdleSeconds\" value=\"60\"\
+        \ />\r\n              </bean>\r\n            </constructor-arg>\r\n      \
+        \    </bean>\r\n        </constructor-arg>\r\n      </bean>\r\n    </property>\r\
+        \n  </bean>\r\n\r\n</beans>"
+      crisp:propnames: [cache.enabled, api.base.url, accessTokenUri, username, password,
+        scope, role]
+      crisp:propvalues: ['${elasticpath.cache.enabled:-true}', '${elasticpath.baseUrl}',
+        '${elasticpath.accessTokenUri}', '${elasticpath.username:-}', '${elasticpath.password:-}',
+        '${elasticpath.scope}', '${elasticpath.role:-PUBLIC}']
+    ? /hippo:configuration/hippo:modules/crispregistry/hippo:moduleconfig/crisp:resourceresolvercontainer/bloomreach_autosuggestions
+    : jcr:primaryType: crisp:resourceresolver
+      crisp:beandefinition: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<!--\r\n\
+        \  Copyright 2017 Hippo B.V. (http://www.onehippo.com)\r\n  -->\r\n\r\n<beans\
+        \ xmlns=\"http://www.springframework.org/schema/beans\"\r\n       xmlns:xsi=\"\
+        http://www.w3.org/2001/XMLSchema-instance\"\r\n       xsi:schemaLocation=\"\
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd\"\
+        >\r\n\r\n  <bean parent=\"abstractCrispSimpleJacksonRestTemplateResourceResolver\"\
+        \ class=\"com.bloomreach.commercedxp.starterstore.crisp.resource.RequestIdAwareSimpleJacksonRestTemplateResourceResolver\"\
+        >\r\n    <property name=\"baseUri\" value=\"${api.base.url}\" />\r\n    <property\
+        \ name=\"cacheEnabled\" value=\"${cache.enabled}\" />\r\n    <property name=\"\
+        restTemplate\">\r\n      <bean class=\"org.springframework.web.client.RestTemplate\"\
+        >\r\n        <property name=\"requestFactory\" ref=\"org.springframework.http.client.ClientHttpRequestFactory\"\
+        />\r\n      </bean>\r\n    </property>\r\n    <property name=\"resourceDataCache\"\
+        >\r\n      <bean class=\"org.onehippo.cms7.crisp.core.resource.SpringResourceDataCache\"\
+        >\r\n        <constructor-arg>\r\n          <bean class=\"org.springframework.cache.ehcache.EhCacheCache\"\
+        >\r\n            <constructor-arg>\r\n              <bean parent=\"abstractCrispResourceEhCache\"\
+        >\r\n                <property name=\"cacheName\" value=\"bloomreachCache\"\
+        />\r\n                <property name=\"maxEntriesLocalHeap\" value=\"100\"\
+        />\r\n                <property name=\"maxEntriesLocalDisk\" value=\"100\"\
+        />\r\n                <property name=\"timeToLiveSeconds\" value=\"100\"/>\r\
+        \n                <property name=\"timeToIdleSeconds\" value=\"100\"/>\r\n\
+        \              </bean>\r\n            </constructor-arg>\r\n          </bean>\r\
+        \n        </constructor-arg>\r\n      </bean>\r\n    </property>\r\n  </bean>\r\
+        \n\r\n</beans>"
+      crisp:propnames: [api.base.url, account.id, domain.key, cache.enabled, auth.key]
+      crisp:propvalues: ['http://suggest.dxpapi.com/api/v1/', '6212', pactronics,
+        'true', 7k08qh6wzqzdcru2]

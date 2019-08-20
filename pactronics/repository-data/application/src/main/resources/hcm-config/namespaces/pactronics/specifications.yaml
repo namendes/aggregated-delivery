@@ -1,0 +1,147 @@
+definitions:
+  config:
+    /hippo:namespaces/pactronics/specifications:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: ae382b4d-e008-452b-8b69-a10ea22a49f7
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c2028ea4-c900-43d6-9019-42f896a67a10
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 4e484598-7cf9-4cba-a11d-4622f64d372e
+          hipposysedit:node: true
+          hipposysedit:supertype: ['hippo:compound', 'hippostd:relaxed']
+          hipposysedit:uri: http://www.onehippo.org/pactronics/nt/1.0
+          /dimensions:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:dimensions
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /storage:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:storage
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /display:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:display
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /battery:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:battery
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /memory:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:memory
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /graphics:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: pactronics:graphics
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: pactronics:specifications
+          /pactronics:dimensions:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:storage:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:display:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:battery:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:memory:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:graphics:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /dimensions:
+            jcr:primaryType: frontend:plugin
+            caption: Dimensions
+            field: dimensions
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /storage:
+            jcr:primaryType: frontend:plugin
+            caption: Storage
+            field: storage
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /display:
+            jcr:primaryType: frontend:plugin
+            caption: Display
+            field: display
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /battery:
+            jcr:primaryType: frontend:plugin
+            caption: Battery Life
+            field: battery
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /memory:
+            jcr:primaryType: frontend:plugin
+            caption: Memory
+            field: memory
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /graphics:
+            jcr:primaryType: frontend:plugin
+            caption: Graphics
+            field: graphics
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

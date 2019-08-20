@@ -1,0 +1,20 @@
+/targeting:targeting/targeting:personas/unnamed-1556019910614:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1556019910614-alterego
+  targeting:avatar: image-1556289882135
+  targeting:description: ''
+  targeting:name: Larry
+  targeting:quote: You never lose a dream. It just incubates as a hobby
+  targeting:segmentDescription: ''
+  targeting:segmentName: Google
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p1.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1556019910614/avatar/p1.png
+    jcr:lastModified: 2019-04-26T16:44:42.135+02:00
+    jcr:mimeType: image/png
+  /targeting:expression:
+    jcr:primaryType: targeting:rule
+    targeting:targetgroup: commerceBrands/google-1556019809567

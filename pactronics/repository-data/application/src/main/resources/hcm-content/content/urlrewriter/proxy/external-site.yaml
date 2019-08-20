@@ -1,0 +1,118 @@
+/content/urlrewriter/proxy/external-site:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: cb746c90-1986-4ed7-b1ea-e74f543c9850
+  hippo:name: External Site
+  hippo:versionHistory: b6cf0d9b-0160-4b72-aa30-a627a9fc15be
+  /external-site[1]:
+    jcr:primaryType: siteproxy:rule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 654c318b-f6b0-48fa-850c-5002d3fa9a94
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-06-21T13:54:17.961+02:00
+    hippostdpubwf:lastModificationDate: 2019-08-09T17:59:13.771+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: document-type-locale-id
+    hippotranslation:locale: document-type-locale
+    siteproxy:xmlRule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>SVG\
+      \ Assets preview </name> \r\n<from>^/##contextPath##(.*)</from> \r\n<to type=\"\
+      proxy\" last=\"true\" qsappend=\"true\">##url####rootContextPath##$1</to> \r\
+      \n<condition type=\"request-uri\" operator=\"equal\">\\.svg</condition> \r\n\
+      <set type=\"response-header\" name=\"Content-Type\">image/svg+xml</set> \r\n\
+      </rule>\r\n<rule> \r\n<name>cmsinternal preview </name> \r\n<from>^/_cmsinternal/##contextPath##(.*)$</from>\
+      \ \r\n<to type=\"proxy\" qsappend=\"true\">##url####rootContextPath##$1</to>\
+      \ \r\n</rule> \r\n<rule> \r\n<name>site live </name> \r\n<from>^/##contextPath##(.*)$</from>\
+      \ \r\n<to type=\"proxy\" qsappend=\"true\">##url####rootContextPath##$1</to>\
+      \ \r\n</rule>\r\n<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>ROOT\
+      \ Assets live</name> \r\n<from>^/##contextPath##(.*)</from> \r\n<to type=\"\
+      proxy\" last=\"true\" qsappend=\"true\">##url##$1</to> \r\n</rule>\r\n<rule\
+      \ enabled=\"false\" match-type=\"regex\"> \r\n<name>ROOT Assets live2</name>\
+      \ \r\n<from>^/##contextPath##(.*)</from> \r\n<to type=\"proxy\" last=\"true\"\
+      \ qsappend=\"true\">##url##$1</to> \r\n<condition type=\"request-uri\" operator=\"\
+      equal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>"
+    /siteproxy:channels:
+      jcr:primaryType: siteproxy:channel
+      siteproxy:contextPath: external
+      siteproxy:isRoot: true
+      siteproxy:rootPath: ''
+      siteproxy:rooted: false
+      siteproxy:serverUrl: http://localhost:3001/
+      siteproxy:url: ''
+  /external-site[2]:
+    jcr:primaryType: siteproxy:rule
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 139ad56c-ce34-433b-9663-55313d5f4b2e
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-06-21T13:54:17.961+02:00
+    hippostdpubwf:lastModificationDate: 2019-08-09T17:59:17.170+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: document-type-locale-id
+    hippotranslation:locale: document-type-locale
+    siteproxy:xmlRule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>SVG\
+      \ Assets preview </name> \r\n<from>^/##contextPath##(.*)</from> \r\n<to type=\"\
+      proxy\" last=\"true\" qsappend=\"true\">##url####rootContextPath##$1</to> \r\
+      \n<condition type=\"request-uri\" operator=\"equal\">\\.svg</condition> \r\n\
+      <set type=\"response-header\" name=\"Content-Type\">image/svg+xml</set> \r\n\
+      </rule>\r\n<rule> \r\n<name>cmsinternal preview </name> \r\n<from>^/_cmsinternal/##contextPath##(.*)$</from>\
+      \ \r\n<to type=\"proxy\" qsappend=\"true\">##url####rootContextPath##$1</to>\
+      \ \r\n</rule> \r\n<rule> \r\n<name>site live </name> \r\n<from>^/##contextPath##(.*)$</from>\
+      \ \r\n<to type=\"proxy\" qsappend=\"true\">##url####rootContextPath##$1</to>\
+      \ \r\n</rule>\r\n<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>ROOT\
+      \ Assets live</name> \r\n<from>^/##contextPath##(.*)</from> \r\n<to type=\"\
+      proxy\" last=\"true\" qsappend=\"true\">##url##$1</to> \r\n</rule>\r\n<rule\
+      \ enabled=\"false\" match-type=\"regex\"> \r\n<name>ROOT Assets live2</name>\
+      \ \r\n<from>^/##contextPath##(.*)</from> \r\n<to type=\"proxy\" last=\"true\"\
+      \ qsappend=\"true\">##url##$1</to> \r\n<condition type=\"request-uri\" operator=\"\
+      equal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>"
+    /siteproxy:channels:
+      jcr:primaryType: siteproxy:channel
+      siteproxy:contextPath: external
+      siteproxy:isRoot: true
+      siteproxy:rootPath: ''
+      siteproxy:rooted: false
+      siteproxy:serverUrl: http://localhost:3001/
+      siteproxy:url: ''
+  /external-site[3]:
+    jcr:primaryType: siteproxy:rule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 1d92e865-9ad1-4422-941f-8e0eed769cee
+    hippo:availability: []
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-06-21T13:54:17.961+02:00
+    hippostdpubwf:lastModificationDate: 2019-08-09T17:59:17.170+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-08-09T17:59:21.511+02:00
+    hippotranslation:id: document-type-locale-id
+    hippotranslation:locale: document-type-locale
+    siteproxy:xmlRule: "<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>SVG\
+      \ Assets preview </name> \r\n<from>^/##contextPath##(.*)</from> \r\n<to type=\"\
+      proxy\" last=\"true\" qsappend=\"true\">##url####rootContextPath##$1</to> \r\
+      \n<condition type=\"request-uri\" operator=\"equal\">\\.svg</condition> \r\n\
+      <set type=\"response-header\" name=\"Content-Type\">image/svg+xml</set> \r\n\
+      </rule>\r\n<rule> \r\n<name>cmsinternal preview </name> \r\n<from>^/_cmsinternal/##contextPath##(.*)$</from>\
+      \ \r\n<to type=\"proxy\" qsappend=\"true\">##url####rootContextPath##$1</to>\
+      \ \r\n</rule> \r\n<rule> \r\n<name>site live </name> \r\n<from>^/##contextPath##(.*)$</from>\
+      \ \r\n<to type=\"proxy\" qsappend=\"true\">##url####rootContextPath##$1</to>\
+      \ \r\n</rule>\r\n<rule enabled=\"true\" match-type=\"regex\"> \r\n<name>ROOT\
+      \ Assets live</name> \r\n<from>^/##contextPath##(.*)</from> \r\n<to type=\"\
+      proxy\" last=\"true\" qsappend=\"true\">##url##$1</to> \r\n</rule>\r\n<rule\
+      \ enabled=\"false\" match-type=\"regex\"> \r\n<name>ROOT Assets live2</name>\
+      \ \r\n<from>^/##contextPath##(.*)</from> \r\n<to type=\"proxy\" last=\"true\"\
+      \ qsappend=\"true\">##url##$1</to> \r\n<condition type=\"request-uri\" operator=\"\
+      equal\">\\.(images|gif|jpeg|png|css|js|pdf|doc|ico|jsp|jpg|eos|woff|gif|ttf|woff2|map)$</condition>\
+      \ \r\n</rule>"
+    /siteproxy:channels:
+      jcr:primaryType: siteproxy:channel
+      siteproxy:contextPath: external
+      siteproxy:isRoot: true
+      siteproxy:rootPath: ''
+      siteproxy:rooted: false
+      siteproxy:serverUrl: http://localhost:3001/
+      siteproxy:url: ''

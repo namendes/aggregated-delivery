@@ -1,0 +1,4 @@
+/targeting:targeting/targeting:characteristics/pageviews/localhosthomepage-1556019092666:
+  jcr:primaryType: targeting:targetgroup
+  targeting:name: localhost homepage
+  targeting:propertynames: ['http://localhost:8080/site/']

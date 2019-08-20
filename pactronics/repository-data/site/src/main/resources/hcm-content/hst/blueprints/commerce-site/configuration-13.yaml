@@ -1,0 +1,11 @@
+/hst:hst/hst:blueprints/commerce-site/hst:configuration/hst:workspace/hst:containers/no-results-page/main/JustForYou:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+  hst:iconpath: images/essentials/catalog-component-icons/just-for-you.png
+  hst:label: Just For You
+  hst:parameternames: [connectorComponent, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    starterstoreQueryParam_pageSize, commands]
+  hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.JustForYouComponentInfo
+  hst:parametervalues: [justForYou, 'off', '3', 'initContextCommand, personalizationCallCommand']
+  hst:template: justforyou
+  hst:xtype: hst.item

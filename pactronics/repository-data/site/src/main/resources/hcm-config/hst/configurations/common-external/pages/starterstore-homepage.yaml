@@ -1,0 +1,17 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/starterstore-homepage:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: starterstore-homepage-main
+        /main-top:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: starterstore-homepage/main-top
+        /container-left:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: starterstore-homepage/main-left
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: starterstore-homepage/main

@@ -1,0 +1,10 @@
+<ng-container *ngIf="hasContent(); else configureComponentBlock" [ngSwitch]="template">
+  <app-menu-navbar *ngSwitchCase="'navbar'" [configuration]="configuration" [content]="content" [template]="template"></app-menu-navbar>
+  <app-starterstore-categories-menu *ngSwitchCase="'starterstore-categories-menu'" [configuration]="configuration" [content]="content" [template]="template"></app-starterstore-categories-menu>
+  <app-starterstore-menu *ngSwitchCase="'starterstore-menu'" [configuration]="configuration" [content]="content" [template]="template"></app-starterstore-menu>
+  <app-vertical *ngSwitchCase="'vertical'" [configuration]="configuration" [content]="content" [template]="template"></app-vertical>
+  <app-menu-default *ngSwitchDefault [configuration]="configuration" [content]="content" [template]="template"></app-menu-default>
+</ng-container>
+<ng-template #configureComponentBlock>
+  <div><p>Click to configure {{configuration.label}}</p></div>
+</ng-template>

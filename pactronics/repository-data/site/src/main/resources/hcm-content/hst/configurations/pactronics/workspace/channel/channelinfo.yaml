@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:channel/hst:channelinfo:
+  jcr:primaryType: hst:channelinfo
+  jcr:mixinTypes: ['dxphst:mergeable']
+  bloomReachApisEnabled: true
+  defaultConnector: commercetools
+  projectNamespace: pactronics
+  universalpixel:acct_id: ${bloomreach.account.id}
+  universalpixel:defaultchannelpixelvars: /content/documents/administration/pixel/default-pixel-variables
+  universalpixel:disabledinpreview: true
+  universalpixel:domain_key: ${bloomreach.domain.key}
+  universalpixel:enabled: true

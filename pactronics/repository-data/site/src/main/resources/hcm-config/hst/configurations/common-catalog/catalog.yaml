@@ -1,0 +1,208 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-catalog/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /pactronics-catalog:
+        jcr:primaryType: hst:containeritempackage
+        /featureteaser:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductFeatureComponent
+          hst:iconpath: images/essentials/catalog-component-icons/banner.png
+          hst:label: Product Feature
+          hst:template: product-feature
+          hst:xtype: hst.item
+        /productspecs:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductSpecsComponent
+          hst:iconpath: images/essentials/catalog-component-icons/banner.png
+          hst:label: Product Specifications
+          hst:template: product-specs
+          hst:xtype: hst.item
+        /articlefacets:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsFacetsComponent
+          hst:iconpath: images/essentials/catalog-component-icons/generic-list.png
+          hst:label: Article Facets
+          hst:template: article-facets
+          hst:xtype: hst.item
+        /simpletext:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.SimpleTextComponent
+          hst:iconpath: images/essentials/catalog-component-icons/banner.png
+          hst:label: Simple Text
+          hst:template: simple-text-component
+          hst:xtype: hst.item
+      /commerce-dxp:
+        jcr:primaryType: hst:containeritempackage
+        /LoginStatus:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.LoginStatusComponent
+          hst:iconpath: images/essentials/catalog-component-icons/login-status.png
+          hst:label: Login status
+          hst:parameternames: [connectorComponent]
+          hst:parametervalues: [getCustomer]
+          hst:template: starterstore-login-status
+          hst:xtype: hst.item
+        /ProductDetail:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/product.png
+          hst:label: Product Detail
+          hst:parameternames: [commands, connectorComponent]
+          hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.DetailComponentInfo
+          hst:parametervalues: ['initContextCommand, crispCommand, contentEnricherCommand',
+            productDetail]
+          hst:template: starterstore-productdecorator
+          hst:xtype: hst.item
+        /SearchBox:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+          hst:label: Search box
+          hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.GenericCommandChainComponentInfo
+          hst:template: starterstore-searchbox
+          hst:xtype: hst.item
+        /ProductsGrid:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+          hst:label: Products Grid
+          hst:parameternames: [connectorComponent, commands, starterstoreQueryParam_currentPage,
+            locale]
+          hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+          hst:parametervalues: [productSearch, 'customInitContextCommand,cartCreateCommand,
+              cartProductListCommand, cartProductAddCommand, personalizationCallCommand,
+              commerceCallCommand, pageableCommand', '1', en]
+          hst:template: starterstore-productlist
+          hst:xtype: hst.item
+        /CategoriesEnricher:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/category-highlight.png
+          hst:label: Categories List
+          hst:parameternames: [connectorComponent, commands, page, locale]
+          hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.ListPickerComponentInfo
+          hst:parametervalues: [categoriesList, 'crispCommand, contentEnricherCommand',
+            '1', en]
+          hst:template: starterstore-contentenricher
+          hst:xtype: hst.item
+        /CartProductList:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+          hst:label: Cart
+          hst:parameternames: [commands]
+          hst:parametervalues: ['initContextCommand, cartCreateCommand, cartProductListCommand,
+              cartProductUpdateCommand, cartProductRemoveCommand']
+          hst:template: starterstore-cartproductlist
+          hst:xtype: hst.item
+        /Order:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+          hst:label: Order
+          hst:parameternames: [commands, connectorComponent]
+          hst:parametervalues: ['initContextCommand, crispCommand', orderQuery]
+          hst:template: starterstore-orderslist
+          hst:xtype: hst.item
+        /ProductsHighlight:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/product-highlight.png
+          hst:label: Products Highlight
+          hst:parameternames: [connectorComponent, commands, page, locale]
+          hst:parametersinfoclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductDecoratorInfo
+          hst:parametervalues: [productDetail, 'initContextCommand, cartCreateCommand,
+              cartProductListCommand, cartProductAddCommand, contentSingleDecoratorCommand',
+            '1', en]
+          hst:template: starterstore-productcontentenricher
+          hst:xtype: hst.item
+        /BannerRow:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.BannerRowComponent
+          hst:iconpath: images/essentials/catalog-component-icons/banner.png
+          hst:label: Banner Row
+          hst:template: bannerrow
+          hst:xtype: hst.item
+        /JustForYou:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/just-for-you.png
+          hst:label: Just For You
+          hst:parameternames: [connectorComponent, commands, starterstoreQueryParam_pageSize]
+          hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.JustForYouComponentInfo
+          hst:parametervalues: [justForYou, 'initContextCommand, cartCreateCommand,
+              cartProductListCommand, cartProductAddCommand, personalizationCallCommand',
+            '1']
+          hst:template: justforyou
+          hst:xtype: hst.item
+        /MoreLikeThis:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/more-like-this.png
+          hst:label: More Like This
+          hst:parameternames: [connectorComponent, commands, starterstoreQueryParam_offset,
+            locale, starterstoreQueryParam_pageSize]
+          hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.MoreLikeThisComponentInfo
+          hst:parametervalues: [moreLikeThis, 'initContextCommand, cartCreateCommand,
+              cartProductListCommand, cartProductAddCommand, personalizationCallCommand,
+              pageableCommand', '1', en, '10']
+          hst:template: morelikethis
+          hst:xtype: hst.item
+        /CategoryMenu:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+          hst:iconpath: images/essentials/catalog-component-icons/category-menu.png
+          hst:label: Category Menu
+          hst:parameternames: [connectorComponent, commands, page, locale]
+          hst:parametersinfoclassname: org.onehippo.cms7.essentials.components.info.EssentialsMenuComponentInfo
+          hst:parametervalues: [categoriesList, 'initContextCommand, hstMenuCommand',
+            '1', en]
+          hst:template: essentials-menu
+          hst:xtype: hst.item
+      /essentials-catalog:
+        jcr:primaryType: hst:containeritempackage
+        /faq:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:iconpath: images/essentials/catalog-component-icons/faq.png
+          hst:label: FAQ
+          hst:template: faqlist-main
+          hst:xtype: hst.item
+        /imagecomponent:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsImageComponent
+          hst:iconpath: images/essentials/catalog-component-icons/image.png
+          hst:label: Image
+          hst:template: image-component
+          hst:xtype: hst.item
+        /list:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/generic-list.png
+          hst:label: Generic List
+          hst:template: list-component
+          hst:xtype: hst.item
+        /videocomponent:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsVideoComponent
+          hst:iconpath: images/essentials/catalog-component-icons/video.png
+          hst:label: Video
+          hst:template: video-component
+          hst:xtype: hst.item
+        /article:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+          hst:label: Article
+          hst:template: article-detail
+          hst:xtype: hst.item
+        /menu:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+          hst:iconpath: images/essentials/catalog-component-icons/menu.png
+          hst:label: Menu
+          hst:parameternames: [menu]
+          hst:parametervalues: [main]
+          hst:template: essentials-menu
+          hst:xtype: hst.item

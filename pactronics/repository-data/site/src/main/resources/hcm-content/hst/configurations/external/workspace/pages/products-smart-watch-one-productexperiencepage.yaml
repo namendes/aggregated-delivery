@@ -1,0 +1,157 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:pages/products-smart-watch-one-productexperiencepage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2018-11-29T10:29:52.971+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-04-24T18:35:58.220+02:00
+    hst:xtype: hst.vbox
+    /videocomponent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsVideoComponent
+      hst:iconpath: images/essentials/catalog-component-icons/video.png
+      hst:label: Video
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, width, org.hippoecm.hst.core.component.template, height]
+      hst:parametervalues: ['off', videos/best-smartwatches-2018, '1100', 'webfile:/freemarker/hstdefault/video-component/bare.ftl',
+        '800']
+      hst:template: video-component
+      hst:xtype: hst.item
+    /ProductsHighlight:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+      hst:label: Products Highlight
+      hst:parameternames: [connectorComponent, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, page, locale, commands]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductDecoratorInfo
+      hst:parametervalues: [productDetail, 'off', products/martial-watches, '1', en,
+        'initContextCommand, cartCreateCommand, cartProductListCommand, cartProductAddCommand,
+          contentSingleDecoratorCommand']
+      hst:template: starterstore-productcontentenricher
+      hst:xtype: hst.item
+    /simpletext2:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.SimpleTextComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Simple Text
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        text, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', This watch does not waste time, 'webfile:/freemarker/pactronics/simple-text-component/simple-text-component-title.ftl']
+      hst:template: simple-text-component
+      hst:xtype: hst.item
+    /featureteaser2:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductFeatureComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Product Feature
+      hst:parameternames: [Product Feature Document, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        org.hippoecm.hst.core.component.template]
+      hst:parametervalues: [product-experience/product-features/musicfeature, 'off',
+        'webfile:/freemarker/pactronics/product-feature/product-feature-two-column-square.ftl']
+      hst:template: product-feature
+      hst:xtype: hst.item
+    /simpletext3:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.SimpleTextComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Simple Text
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        text, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', Endorsed Globally, 'webfile:/freemarker/pactronics/simple-text-component.ftl']
+      hst:template: simple-text-component
+      hst:xtype: hst.item
+    /simpletext:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.SimpleTextComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Simple Text
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        text, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', Features, 'webfile:/freemarker/pactronics/simple-text-component.ftl']
+      hst:template: simple-text-component
+      hst:xtype: hst.item
+    /featureteaser3:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductFeatureComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Product Feature
+      hst:parameternames: [Product Feature Document, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        org.hippoecm.hst.core.component.template]
+      hst:parametervalues: [product-experience/product-features/batteryfeature, 'off',
+        'webfile:/freemarker/pactronics/product-feature/product-feature-two-column-l.ftl']
+      hst:template: product-feature
+      hst:xtype: hst.item
+    /featureteaser1:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductFeatureComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Product Feature
+      hst:parameternames: [Product Feature Document, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        org.hippoecm.hst.core.component.template]
+      hst:parametervalues: [product-experience/product-features/alwayson, 'off', 'webfile:/freemarker/pactronics/product-feature/product-feature-two-column.ftl']
+      hst:template: product-feature
+      hst:xtype: hst.item
+    /banner2:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Banner
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', product-experience/banners/waterproof, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+      hst:template: essentials-banner
+      hst:xtype: hst.item
+    /productspecs:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductSpecsComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Product Specifications
+      hst:parameternames: [memory, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        display, storage, graphics, battery, dimensions]
+      hst:parametervalues: [4GB, 'off', '2", 2 1/2"', '', 'Super AMOLED, 360x360',
+        13.5 hours, Medium/Large]
+      hst:template: product-specs
+      hst:xtype: hst.item
+    /MoreLikeThis:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+      hst:label: More Like This
+      hst:parameternames: [connectorComponent, productId, starterstoreQueryParam_offset,
+        com.onehippo.cms7.targeting.TargetingParameterUtil.hide, showPagination, locale,
+        starterstoreQueryParam_pageSize, commands, org.hippoecm.hst.core.component.template]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.MoreLikeThisComponentInfo
+      hst:parametervalues: [moreLikeThis, p10456, '1', 'off', 'off', en, '4', 'initContextCommand,
+          cartCreateCommand, cartProductListCommand, cartProductAddCommand, personalizationCallCommand,
+          pageableCommand', 'webfile:/freemarker/pactronics/morelikethis/withoutcaption.ftl']
+      hst:template: morelikethis
+      hst:xtype: hst.item
+    /ProductsGrid:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+      hst:label: Products Grid
+      hst:parameternames: [connectorComponent, commands, starterstoreQueryParam_currentPage,
+        locale]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+      hst:parametervalues: [productSearch, 'customInitContextCommand,cartCreateCommand,
+          cartProductListCommand, cartProductAddCommand, personalizationCallCommand,
+          commerceCallCommand, pageableCommand', '1', en]
+      hst:template: starterstore-productlist
+      hst:xtype: hst.item

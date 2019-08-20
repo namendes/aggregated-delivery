@@ -1,0 +1,14 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemenus/categories/Brands:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:repobased: false
+  /Samsung:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:referencesitemapitem: samsung-brand-page
+    hst:repobased: false
+  /Sony:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:referencesitemapitem: sony-brand-page
+    hst:repobased: false

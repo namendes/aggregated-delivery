@@ -1,0 +1,20 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:abstractpages/starterstore-base:
+      jcr:primaryType: hst:component
+      hst:template: starterstore-base-layout
+      /top:
+        jcr:primaryType: hst:component
+        hst:template: starterstore-header
+        /left:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: starterstore-base/logo
+        /right:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: starterstore-base/search
+      /footer:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+        hst:parameternames: [menu]
+        hst:parametervalues: [footer]
+        hst:template: base-footer

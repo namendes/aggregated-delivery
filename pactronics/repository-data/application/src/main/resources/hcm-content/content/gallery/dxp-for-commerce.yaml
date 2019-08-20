@@ -1,0 +1,8 @@
+/content/gallery/dxp-for-commerce:
+  .meta:order-before: channels
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 8d15c4a6-f608-4bb5-b0fe-1888ec8307f1
+  hippo:name: DXP For Commerce
+  hippostd:foldertype: [new-pactronics-pactronics-folder]
+  hippostd:gallerytype: ['pactronics:pactronics']

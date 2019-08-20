@@ -1,0 +1,17 @@
+/hst:hst/hst:configurations/kioskapp/hst:workspace/hst:sitemenus/main/content:
+  .meta:order-before: Articles
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: content
+  /Content A:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:externallink: https://www.google.com
+  /Content B:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:referencesitemapitem: cart
+    /Content B1:
+      jcr:primaryType: hst:sitemenuitem
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:externallink: https://www.bloomreach.com

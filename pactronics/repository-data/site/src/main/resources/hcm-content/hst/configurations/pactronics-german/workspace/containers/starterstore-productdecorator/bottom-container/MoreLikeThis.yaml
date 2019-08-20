@@ -1,0 +1,14 @@
+? /hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:containers/starterstore-productdecorator/bottom-container/MoreLikeThis
+: jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+  hst:iconpath: images/essentials/catalog-component-icons/more-like-this.png
+  hst:label: More Like This
+  hst:parameternames: [connectorComponent, productId, starterstoreQueryParam_offset,
+    showPagination, locale, starterstoreQueryParam_pageSize, commands, org.hippoecm.hst.core.component.template]
+  hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.MoreLikeThisComponentInfo
+  hst:parametervalues: [moreLikeThis, '', '1', 'off', en, '3', 'initContextCommand,
+      cartCreateCommand, cartProductListCommand, cartProductAddCommand, personalizationCallCommand,
+      pageableCommand', 'webfile:/freemarker/pactronics/morelikethis.ftl']
+  hst:template: morelikethis
+  hst:xtype: hst.item

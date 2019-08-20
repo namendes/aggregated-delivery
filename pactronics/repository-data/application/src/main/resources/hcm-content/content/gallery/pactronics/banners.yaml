@@ -1,0 +1,3061 @@
+/content/gallery/pactronics/banners:
+  .meta:order-before: articles
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 889e1e98-6bc5-4320-8d0b-31c8fedd9c5c
+  hippostd:foldertype: [new-pactronics-pactronics-folder]
+  hippostd:gallerytype: ['pactronics:pactronics']
+  /gettyimages-565403441-170667a.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 9a6a101d-0054-4a79-980d-1da8c903b315
+    /gettyimages-565403441-170667a.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: gettyimages-565403441-170667a.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: gettyimages-565403441-170667a.jpg
+        hippogallery:height: 41
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-565403441-170667a.jpg/gettyimages-565403441-170667a.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-11-29T09:42:52.369+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 345
+        hippogallery:width: 499
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-565403441-170667a.jpg/gettyimages-565403441-170667a.jpg/original/original.jpg
+        jcr:lastModified: 2018-11-29T09:42:52.369+01:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 345
+        hippogallery:width: 499
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-565403441-170667a.jpg/gettyimages-565403441-170667a.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:36:55.896+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 345
+        hippogallery:width: 499
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-565403441-170667a.jpg/gettyimages-565403441-170667a.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:36:55.906+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 345
+        hippogallery:width: 499
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-565403441-170667a.jpg/gettyimages-565403441-170667a.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:36:55.917+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 276
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-565403441-170667a.jpg/gettyimages-565403441-170667a.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:36:55.927+02:00
+        jcr:mimeType: image/jpeg
+  /gettyimages-815196676-170667a.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 54517f2a-4299-4f31-af14-5bd8cb53721c
+    /gettyimages-815196676-170667a.jpg:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: gettyimages-815196676-170667a.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: gettyimages-815196676-170667a.jpg
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-815196676-170667a.jpg/gettyimages-815196676-170667a.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-11-29T09:42:52.762+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 339
+        hippogallery:width: 508
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-815196676-170667a.jpg/gettyimages-815196676-170667a.jpg/original/original.jpg
+        jcr:lastModified: 2018-11-29T09:42:52.762+01:00
+        jcr:mimeType: image/jpeg
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 339
+        hippogallery:width: 508
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-815196676-170667a.jpg/gettyimages-815196676-170667a.jpg/desktop/desktop.jpg
+        jcr:lastModified: 2019-04-26T12:37:01.290+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 339
+        hippogallery:width: 508
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-815196676-170667a.jpg/gettyimages-815196676-170667a.jpg/laptop/laptop.jpg
+        jcr:lastModified: 2019-04-26T12:37:01.302+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 339
+        hippogallery:width: 508
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-815196676-170667a.jpg/gettyimages-815196676-170667a.jpg/tablet/tablet.jpg
+        jcr:lastModified: 2019-04-26T12:37:01.315+02:00
+        jcr:mimeType: image/jpeg
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 266
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/gettyimages-815196676-170667a.jpg/gettyimages-815196676-170667a.jpg/mobile/mobile.jpg
+        jcr:lastModified: 2019-04-26T12:37:01.328+02:00
+        jcr:mimeType: image/jpeg
+  /ultimate-zero-g-watch.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 24fc5dab-aeef-4b66-9782-c247d248bc22
+    /ultimate-zero-g-watch.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: ultimate-zero-g-watch.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: ultimate-zero-g-watch.png
+        hippogallery:height: 60
+        hippogallery:width: 46
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch.png/ultimate-zero-g-watch.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-01-10T08:32:04.451+01:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 552
+        hippogallery:width: 428
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch.png/ultimate-zero-g-watch.png/original/original.png
+        jcr:lastModified: 2019-01-10T08:32:04.451+01:00
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 552
+        hippogallery:width: 428
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch.png/ultimate-zero-g-watch.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T12:36:54.629+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 552
+        hippogallery:width: 428
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch.png/ultimate-zero-g-watch.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T12:36:54.696+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 552
+        hippogallery:width: 428
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch.png/ultimate-zero-g-watch.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T12:36:54.752+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 310
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch.png/ultimate-zero-g-watch.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T12:36:54.809+02:00
+        jcr:mimeType: image/png
+  /ultimate-zero-g-watch-small.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 7c92ad2c-b927-43e3-865a-76dfe195aa2e
+    /ultimate-zero-g-watch-small.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: ultimate-zero-g-watch-small.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: ultimate-zero-g-watch-small.png
+        hippogallery:height: 60
+        hippogallery:width: 46
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch-small.png/ultimate-zero-g-watch-small.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-01-10T08:33:31.499+01:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 130
+        hippogallery:width: 101
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch-small.png/ultimate-zero-g-watch-small.png/original/original.png
+        jcr:lastModified: 2019-01-10T08:33:31.499+01:00
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 130
+        hippogallery:width: 101
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch-small.png/ultimate-zero-g-watch-small.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T12:36:54.858+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 130
+        hippogallery:width: 101
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch-small.png/ultimate-zero-g-watch-small.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T12:36:54.864+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 130
+        hippogallery:width: 101
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch-small.png/ultimate-zero-g-watch-small.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T12:36:54.870+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 310
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/banners/ultimate-zero-g-watch-small.png/ultimate-zero-g-watch-small.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T12:36:54.875+02:00
+        jcr:mimeType: image/png
+  /space-theme:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 577c7b10-2c48-4d45-98cc-ef157880d394
+    hippo:name: Space Theme
+    hippostd:foldertype: [new-pactronics-pactronics-folder]
+    hippostd:gallerytype: ['pactronics:pactronics']
+    /timpeake.jpeg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 8d77a880-e1b8-4d9a-83b9-92e88cf9f71c
+      hippo:name: Astro.jpeg
+      /timpeake.jpeg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: TimPeake.jpeg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: TimPeake.jpeg
+          hippogallery:height: 39
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/timpeake.jpeg/timpeake.jpeg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-04-02T15:25:57.212Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 183
+          hippogallery:width: 275
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/timpeake.jpeg/timpeake.jpeg/original/original.jpg
+          jcr:lastModified: 2019-04-02T15:25:57.212Z
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 183
+          hippogallery:width: 275
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/timpeake.jpeg/timpeake.jpeg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.734+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 183
+          hippogallery:width: 275
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/timpeake.jpeg/timpeake.jpeg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.738+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 183
+          hippogallery:width: 275
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/timpeake.jpeg/timpeake.jpeg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.742+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 266
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/timpeake.jpeg/timpeake.jpeg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.746+02:00
+          jcr:mimeType: image/jpeg
+    /big-picture-big.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: bdd4a8df-03c6-442c-919d-9c7fc12dad83
+      hippo:name: big-picture-BIG.jpg
+      /big-picture-big.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: big-picture-BIG.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: big-picture-BIG.jpg
+          hippogallery:height: 27
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture-big.jpg/big-picture-big.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T01:12:10.892+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture-big.jpg/big-picture-big.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T01:12:10.892+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 454
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture-big.jpg/big-picture-big.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.119+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 363
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture-big.jpg/big-picture-big.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.184+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 272
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture-big.jpg/big-picture-big.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.232+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture-big.jpg/big-picture-big.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.263+02:00
+          jcr:mimeType: image/jpeg
+    /big-picture.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e2b10144-1006-4abb-874d-45ff922a7699
+      /big-picture.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: big-picture.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: big-picture.jpg
+          hippogallery:height: 32
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture.jpg/big-picture.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T00:44:03.924+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 394
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture.jpg/big-picture.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T00:44:03.924+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 394
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture.jpg/big-picture.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.363+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 394
+          hippogallery:width: 720
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture.jpg/big-picture.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.385+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 328
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture.jpg/big-picture.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.408+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 218
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/big-picture.jpg/big-picture.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.440+02:00
+          jcr:mimeType: image/jpeg
+    /cameras.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7c1eb487-a58e-4535-9834-8afacd38f707
+      /cameras.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: cameras.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: cameras.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/cameras.jpg/cameras.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T01:03:05.029+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/cameras.jpg/cameras.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T01:03:05.029+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/cameras.jpg/cameras.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.760+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/cameras.jpg/cameras.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.766+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/cameras.jpg/cameras.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.771+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 266
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/cameras.jpg/cameras.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.776+02:00
+          jcr:mimeType: image/jpeg
+    /earth-from-moon-banner-2.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 58d5f276-08d2-4f67-88c0-e993fada8f6f
+      /earth-from-moon-banner-2.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: earth-from-moon-banner-2.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: earth-from-moon-banner-2.jpg
+          hippogallery:height: 16
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner-2.jpg/earth-from-moon-banner-2.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T07:26:03.335+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 305
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner-2.jpg/earth-from-moon-banner-2.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T07:26:03.335+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 277
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner-2.jpg/earth-from-moon-banner-2.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.543+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 221
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner-2.jpg/earth-from-moon-banner-2.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.572+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 166
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner-2.jpg/earth-from-moon-banner-2.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.593+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 110
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner-2.jpg/earth-from-moon-banner-2.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.607+02:00
+          jcr:mimeType: image/jpeg
+    /earth-from-moon-banner.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 01550e70-ca3f-4d5f-a605-93b887255cf2
+      /earth-from-moon-banner.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: earth-from-moon-banner.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: earth-from-moon-banner.jpg
+          hippogallery:height: 27
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner.jpg/earth-from-moon-banner.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-08T01:42:11.922+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner.jpg/earth-from-moon-banner.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-08T01:42:11.922+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 454
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner.jpg/earth-from-moon-banner.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:55.762+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 363
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner.jpg/earth-from-moon-banner.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:55.813+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 272
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner.jpg/earth-from-moon-banner.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:55.849+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/earth-from-moon-banner.jpg/earth-from-moon-banner.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:55.873+02:00
+          jcr:mimeType: image/jpeg
+    /fit-for-mars.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9a1f4836-dada-4970-abb2-b5c2b851fb5f
+      /fit-for-mars.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: fit-for-mars.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: fit-for-mars.jpg
+          hippogallery:height: 27
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/fit-for-mars.jpg/fit-for-mars.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-08T01:53:31.250+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/fit-for-mars.jpg/fit-for-mars.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-08T01:53:31.250+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 454
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/fit-for-mars.jpg/fit-for-mars.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:56.286+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 363
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/fit-for-mars.jpg/fit-for-mars.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:56.349+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 272
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/fit-for-mars.jpg/fit-for-mars.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:56.395+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/fit-for-mars.jpg/fit-for-mars.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:56.426+02:00
+          jcr:mimeType: image/jpeg
+    /kuipers-selfie-2.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 68c3f769-b387-45f2-aaee-90dfcfb4bd99
+      /kuipers-selfie-2.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: kuipers-selfie-2.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: kuipers-selfie-2.jpg
+          hippogallery:height: 27
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie-2.jpg/kuipers-selfie-2.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T01:45:21.062+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie-2.jpg/kuipers-selfie-2.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T01:45:21.062+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 454
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie-2.jpg/kuipers-selfie-2.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:53.193+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 363
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie-2.jpg/kuipers-selfie-2.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:53.272+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 272
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie-2.jpg/kuipers-selfie-2.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:53.319+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie-2.jpg/kuipers-selfie-2.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:53.350+02:00
+          jcr:mimeType: image/jpeg
+    /kuipers-selfie.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 76d9a9f6-69d4-4d4f-b195-0cb996418b22
+      /kuipers-selfie.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: kuipers-selfie.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: kuipers-selfie.jpg
+          hippogallery:height: 39
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie.jpg/kuipers-selfie.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T01:42:26.720+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 728
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie.jpg/kuipers-selfie.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T01:42:26.720+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 661
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie.jpg/kuipers-selfie.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.294+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 529
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie.jpg/kuipers-selfie.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.379+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 397
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie.jpg/kuipers-selfie.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.440+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 264
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-selfie.jpg/kuipers-selfie.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.507+02:00
+          jcr:mimeType: image/jpeg
+    /kuipers-wave.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bd3e7189-e959-41e3-91e9-6d5d30eabc26
+      /kuipers-wave.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: kuipers-wave.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: kuipers-wave.jpg
+          hippogallery:height: 35
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-wave.jpg/kuipers-wave.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T01:40:50.799+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 645
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-wave.jpg/kuipers-wave.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T01:40:50.799+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 586
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-wave.jpg/kuipers-wave.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.922+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 469
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-wave.jpg/kuipers-wave.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:53.008+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 351
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-wave.jpg/kuipers-wave.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:53.072+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 234
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/kuipers-wave.jpg/kuipers-wave.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:53.129+02:00
+          jcr:mimeType: image/jpeg
+    /martian-banner.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8ad92ab7-13d4-48ce-b26a-a382dc2cf215
+      /martian-banner.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: martian-banner.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: martian-banner.jpg
+          hippogallery:height: 27
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/martian-banner.jpg/martian-banner.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-08T01:05:55.205+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/martian-banner.jpg/martian-banner.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-08T01:05:55.205+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 454
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/martian-banner.jpg/martian-banner.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.727+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 363
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/martian-banner.jpg/martian-banner.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.782+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 272
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/martian-banner.jpg/martian-banner.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.822+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/martian-banner.jpg/martian-banner.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.861+02:00
+          jcr:mimeType: image/jpeg
+    /matching-colors.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: b56b3bc2-69dc-4bb6-b4ba-cc1730a6c2c0
+      hippo:name: matching colors.jpg
+      /matching-colors.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: matching colors.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: matching colors.jpg
+          hippogallery:height: 10
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors.jpg/matching-colors.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T09:02:14.379+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors.jpg/matching-colors.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T09:02:14.379+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors.jpg/matching-colors.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.695+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 145
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors.jpg/matching-colors.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.720+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 109
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors.jpg/matching-colors.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.737+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 72
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors.jpg/matching-colors.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.750+02:00
+          jcr:mimeType: image/jpeg
+    /matching-colors_800.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 1cb7b240-d4aa-4411-9195-c24baa5b97d8
+      hippo:name: matching colors_800.jpg
+      /matching-colors_800.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: matching colors_800.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: matching colors_800.jpg
+          hippogallery:height: 10
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors_800.jpg/matching-colors_800.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-16T22:41:42.484+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 145
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors_800.jpg/matching-colors_800.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-16T22:41:42.484+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 145
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors_800.jpg/matching-colors_800.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:54.536+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 145
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors_800.jpg/matching-colors_800.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:54.559+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 108
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors_800.jpg/matching-colors_800.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:54.582+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 72
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/matching-colors_800.jpg/matching-colors_800.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:54.607+02:00
+          jcr:mimeType: image/jpeg
+    /moon-jump-1100-2.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 879afd06-6672-4d03-a7b0-fabf8dfb3376
+      /moon-jump-1100-2.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: moon-jump-1100-2.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: moon-jump-1100-2.jpg
+          hippogallery:height: 27
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100-2.jpg/moon-jump-1100-2.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T08:36:38.203+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100-2.jpg/moon-jump-1100-2.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T08:36:38.203+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 454
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100-2.jpg/moon-jump-1100-2.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.885+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 363
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100-2.jpg/moon-jump-1100-2.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.933+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 272
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100-2.jpg/moon-jump-1100-2.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.967+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100-2.jpg/moon-jump-1100-2.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.990+02:00
+          jcr:mimeType: image/jpeg
+    /moon-jump-1100.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a86f40d3-0a33-4b16-b484-cd0d2e973044
+      /moon-jump-1100.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: moon-jump-1100.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: moon-jump-1100.jpg
+          hippogallery:height: 26
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100.jpg/moon-jump-1100.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T08:27:05.651+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1140
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100.jpg/moon-jump-1100.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T08:27:05.651+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 438
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100.jpg/moon-jump-1100.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:59.055+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 350
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100.jpg/moon-jump-1100.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:59.104+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 263
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100.jpg/moon-jump-1100.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:59.138+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 175
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump-1100.jpg/moon-jump-1100.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:59.162+02:00
+          jcr:mimeType: image/jpeg
+    /moon-jump.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f2ae6135-55bf-429d-9120-346c19a1e1a5
+      /moon-jump.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: moon-jump.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: moon-jump.jpg
+          hippogallery:height: 31
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump.jpg/moon-jump.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T07:20:46.176+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 910
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump.jpg/moon-jump.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T07:20:46.176+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 480
+          hippogallery:width: 910
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump.jpg/moon-jump.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.790+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 421
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump.jpg/moon-jump.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.813+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 316
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump.jpg/moon-jump.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.852+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 210
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/moon-jump.jpg/moon-jump.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.877+02:00
+          jcr:mimeType: image/jpeg
+    /selfies-in-space.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e708ba5d-4819-4597-94a0-f6318c6c368f
+      /selfies-in-space.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: selfies-in-space.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: selfies-in-space.jpg
+          hippogallery:height: 27
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/selfies-in-space.jpg/selfies-in-space.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-08T01:42:59.866+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/selfies-in-space.jpg/selfies-in-space.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-08T01:42:59.866+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 454
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/selfies-in-space.jpg/selfies-in-space.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.127+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 363
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/selfies-in-space.jpg/selfies-in-space.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.190+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 272
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/selfies-in-space.jpg/selfies-in-space.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.235+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/selfies-in-space.jpg/selfies-in-space.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:04.267+02:00
+          jcr:mimeType: image/jpeg
+    /sony-for-space.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3b8e2860-9c63-43e6-9da0-b7a9a74f5506
+      /sony-for-space.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: sony-for-space.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: sony-for-space.jpg
+          hippogallery:height: 27
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/sony-for-space.jpg/sony-for-space.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-08T01:19:56.384+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/sony-for-space.jpg/sony-for-space.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-08T01:19:56.384+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 454
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/sony-for-space.jpg/sony-for-space.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.349+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 363
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/sony-for-space.jpg/sony-for-space.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.411+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 272
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/sony-for-space.jpg/sony-for-space.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.456+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/sony-for-space.jpg/sony-for-space.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.486+02:00
+          jcr:mimeType: image/jpeg
+    /tablet-banner.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 5ee9ea0c-f0fb-430d-bd40-ba9796d9bcec
+      hippo:name: tablet banner.png
+      /tablet-banner.png:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: tablet banner.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: tablet banner.png
+          hippogallery:height: 22
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tablet-banner.png/tablet-banner.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2018-11-30T12:27:27.648+01:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 435
+          hippogallery:width: 1163
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tablet-banner.png/tablet-banner.png/original/original.png
+          jcr:lastModified: 2018-11-30T12:27:27.648+01:00
+          jcr:mimeType: image/png
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 374
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tablet-banner.png/tablet-banner.png/desktop/desktop.png
+          jcr:lastModified: 2019-04-26T12:36:55.943+02:00
+          jcr:mimeType: image/png
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 299
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tablet-banner.png/tablet-banner.png/laptop/laptop.png
+          jcr:lastModified: 2019-04-26T12:36:56.080+02:00
+          jcr:mimeType: image/png
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 224
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tablet-banner.png/tablet-banner.png/tablet/tablet.png
+          jcr:lastModified: 2019-04-26T12:36:56.182+02:00
+          jcr:mimeType: image/png
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 149
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tablet-banner.png/tablet-banner.png/mobile/mobile.png
+          jcr:lastModified: 2019-04-26T12:36:56.245+02:00
+          jcr:mimeType: image/png
+    /tesla2.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 628e679c-b63c-4b57-8835-afea1a1f447c
+      /tesla2.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: tesla2.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: tesla2.jpg
+          hippogallery:height: 30
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla2.jpg/tesla2.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-04-03T12:35:16.053Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 600
+          hippogallery:width: 1200
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla2.jpg/tesla2.jpg/original/original.jpg
+          jcr:lastModified: 2019-04-03T12:35:16.053Z
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla2.jpg/tesla2.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.481+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 400
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla2.jpg/tesla2.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.613+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 300
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla2.jpg/tesla2.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.746+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla2.jpg/tesla2.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.838+02:00
+          jcr:mimeType: image/jpeg
+    /tesla.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9746b6cb-e404-4166-88a9-a6c35ec96983
+      /tesla.png:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: tesla.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: tesla.png
+          hippogallery:height: 30
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla.png/tesla.png/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-04-03T12:35:15.298Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 600
+          hippogallery:width: 1200
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla.png/tesla.png/original/original.jpg
+          jcr:lastModified: 2019-04-03T12:35:15.298Z
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla.png/tesla.png/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:02.990+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 400
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla.png/tesla.png/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.088+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 300
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla.png/tesla.png/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.135+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/tesla.png/tesla.png/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.169+02:00
+          jcr:mimeType: image/jpeg
+    /watches-in-space.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fbc046e6-1706-402a-8120-53a3a9249243
+      /watches-in-space.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: watches-in-space.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: watches-in-space.jpg
+          hippogallery:height: 27
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/watches-in-space.jpg/watches-in-space.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-08T00:57:28.404+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1100
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/watches-in-space.jpg/watches-in-space.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-08T00:57:28.404+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 454
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/watches-in-space.jpg/watches-in-space.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.966+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 363
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/watches-in-space.jpg/watches-in-space.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.024+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 272
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/watches-in-space.jpg/watches-in-space.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.065+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 181
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/space-theme/watches-in-space.jpg/watches-in-space.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.094+02:00
+          jcr:mimeType: image/jpeg
+  /miscelleneous:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 7ac51ee7-c347-4a6c-b004-5cbea580ab7d
+    hippo:name: Miscelleneous
+    hippostd:foldertype: [new-pactronics-pactronics-folder]
+    hippostd:gallerytype: ['pactronics:pactronics']
+    /banner-1.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+      /banner-1.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: banner-1.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: banner-1.jpg
+          hippogallery:height: 12
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-1.jpg/banner-1.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 250
+          hippogallery:width: 1170
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-1.jpg/banner-1.jpg/original/original.jpg
+          jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 213
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-1.jpg/banner-1.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:55.540+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 170
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-1.jpg/banner-1.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:55.609+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 128
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-1.jpg/banner-1.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:55.666+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 85
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-1.jpg/banner-1.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:55.715+02:00
+          jcr:mimeType: image/jpeg
+    /banner-2.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: dc6c2247-d3f4-4be0-976e-749b69927eee
+      /banner-2.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: banner-2.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: banner-2.jpg
+          hippogallery:height: 12
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-2.jpg/banner-2.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 250
+          hippogallery:width: 1170
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-2.jpg/banner-2.jpg/original/original.jpg
+          jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 213
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-2.jpg/banner-2.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.528+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 170
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-2.jpg/banner-2.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.563+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 128
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-2.jpg/banner-2.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.589+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 85
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/banner-2.jpg/banner-2.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.607+02:00
+          jcr:mimeType: image/jpeg
+    /space-watchs-gear-patrol-lead-full.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: ce1c6a3d-82d3-41af-8ae7-414e8cffdf8b
+      hippo:name: Space-Watchs-Gear-Patrol-Lead-Full.jpg
+      /space-watchs-gear-patrol-lead-full.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: Space-Watchs-Gear-Patrol-Lead-Full.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Space-Watchs-Gear-Patrol-Lead-Full.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/space-watchs-gear-patrol-lead-full.jpg/space-watchs-gear-patrol-lead-full.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-08T00:46:15.349+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 650
+          hippogallery:width: 970
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/space-watchs-gear-patrol-lead-full.jpg/space-watchs-gear-patrol-lead-full.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-08T00:46:15.349+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 650
+          hippogallery:width: 970
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/space-watchs-gear-patrol-lead-full.jpg/space-watchs-gear-patrol-lead-full.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.198+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 536
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/space-watchs-gear-patrol-lead-full.jpg/space-watchs-gear-patrol-lead-full.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.273+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 402
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/space-watchs-gear-patrol-lead-full.jpg/space-watchs-gear-patrol-lead-full.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.371+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 268
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/space-watchs-gear-patrol-lead-full.jpg/space-watchs-gear-patrol-lead-full.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.452+02:00
+          jcr:mimeType: image/jpeg
+    /trusted-by-buzz.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d1202492-4a87-4928-a032-9747078be946
+      /trusted-by-buzz.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: trusted-by-buzz.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: trusted-by-buzz.jpg
+          hippogallery:height: 40
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/trusted-by-buzz.jpg/trusted-by-buzz.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-01-10T01:04:56.780+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/trusted-by-buzz.jpg/trusted-by-buzz.jpg/original/original.jpg
+          jcr:lastModified: 2019-01-10T01:04:56.780+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/trusted-by-buzz.jpg/trusted-by-buzz.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:54.458+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/trusted-by-buzz.jpg/trusted-by-buzz.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:54.483+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 300
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/trusted-by-buzz.jpg/trusted-by-buzz.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:54.501+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 266
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/trusted-by-buzz.jpg/trusted-by-buzz.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:54.515+02:00
+          jcr:mimeType: image/jpeg
+    /rugged-smartwatches.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ce54ac37-eddc-4fd8-bc89-3fce451d3910
+      /rugged-smartwatches.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: rugged-smartwatches.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: rugged-smartwatches.jpg
+          hippogallery:height: 36
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/rugged-smartwatches.jpg/rugged-smartwatches.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-04-19T11:36:36.637+02:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 347
+          hippogallery:width: 570
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/rugged-smartwatches.jpg/rugged-smartwatches.jpg/original/original.jpg
+          jcr:lastModified: 2019-04-19T11:36:36.637+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 347
+          hippogallery:width: 570
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/rugged-smartwatches.jpg/rugged-smartwatches.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.345+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 347
+          hippogallery:width: 570
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/rugged-smartwatches.jpg/rugged-smartwatches.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.378+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 347
+          hippogallery:width: 570
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/rugged-smartwatches.jpg/rugged-smartwatches.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.411+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 243
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/miscelleneous/rugged-smartwatches.jpg/rugged-smartwatches.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:01.444+02:00
+          jcr:mimeType: image/jpeg
+  /product-related:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 2eca2104-a441-474b-aaa7-f1c2401f54df
+    hippo:name: Product Related
+    hippostd:foldertype: [new-pactronics-pactronics-folder]
+    hippostd:gallerytype: ['pactronics:pactronics']
+    /gopro-hero4-vs-hero3plus.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d8d1ed3f-ea30-4813-8246-c1908265a9ad
+      /gopro-hero4-vs-hero3plus.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: gopro-hero4-vs-hero3plus.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: gopro-hero4-vs-hero3plus.jpg
+          hippogallery:height: 33
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-hero4-vs-hero3plus.jpg/gopro-hero4-vs-hero3plus.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-03-28T20:56:44.006Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 347
+          hippogallery:width: 616
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-hero4-vs-hero3plus.jpg/gopro-hero4-vs-hero3plus.jpg/original/original.jpg
+          jcr:lastModified: 2019-03-28T20:56:44.006Z
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 347
+          hippogallery:width: 616
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-hero4-vs-hero3plus.jpg/gopro-hero4-vs-hero3plus.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.789+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 347
+          hippogallery:width: 616
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-hero4-vs-hero3plus.jpg/gopro-hero4-vs-hero3plus.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.813+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 337
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-hero4-vs-hero3plus.jpg/gopro-hero4-vs-hero3plus.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.836+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 225
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-hero4-vs-hero3plus.jpg/gopro-hero4-vs-hero3plus.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.875+02:00
+          jcr:mimeType: image/jpeg
+    /gopro-sport.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 57b759bd-4f70-4234-8808-88b3701bb68c
+      hippo:name: GoPro Sport.jpg
+      /gopro-sport.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: GoPro Sport.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: GoPro Sport.jpg
+          hippogallery:height: 30
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-sport.jpg/gopro-sport.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-04-03T12:59:21.795Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 600
+          hippogallery:width: 1200
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-sport.jpg/gopro-sport.jpg/original/original.jpg
+          jcr:lastModified: 2019-04-03T12:59:21.795Z
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 500
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-sport.jpg/gopro-sport.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.514+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 400
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-sport.jpg/gopro-sport.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.608+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 300
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-sport.jpg/gopro-sport.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.682+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 200
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/gopro-sport.jpg/gopro-sport.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:52.737+02:00
+          jcr:mimeType: image/jpeg
+    /product-banner.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: ac0b8a68-453c-4e82-8200-a94cd0f025ac
+      hippo:name: product banner.png
+      /product-banner.png:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: product banner.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: product banner.png
+          hippogallery:height: 22
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/product-banner.png/product-banner.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2018-11-26T13:28:50.999+01:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 721
+          hippogallery:width: 1920
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/product-banner.png/product-banner.png/original/original.png
+          jcr:lastModified: 2018-11-26T13:28:50.999+01:00
+          jcr:mimeType: image/png
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 375
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/product-banner.png/product-banner.png/desktop/desktop.png
+          jcr:lastModified: 2019-04-26T12:36:54.910+02:00
+          jcr:mimeType: image/png
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 300
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/product-banner.png/product-banner.png/laptop/laptop.png
+          jcr:lastModified: 2019-04-26T12:36:55.088+02:00
+          jcr:mimeType: image/png
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 225
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/product-banner.png/product-banner.png/tablet/tablet.png
+          jcr:lastModified: 2019-04-26T12:36:55.247+02:00
+          jcr:mimeType: image/png
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 150
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/product-banner.png/product-banner.png/mobile/mobile.png
+          jcr:lastModified: 2019-04-26T12:36:55.362+02:00
+          jcr:mimeType: image/png
+    /samsung-watch-banner.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 6125280b-cfb1-41c6-8129-e9437bf7e079
+      hippo:name: Samsung Watch Banner.PNG
+      /samsung-watch-banner.png:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: Samsung Watch Banner.PNG
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Samsung Watch Banner.PNG
+          hippogallery:height: 22
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watch-banner.png/samsung-watch-banner.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2019-04-04T22:24:46.832Z
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 715
+          hippogallery:width: 1919
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watch-banner.png/samsung-watch-banner.png/original/original.png
+          jcr:lastModified: 2019-04-04T22:24:46.832Z
+          jcr:mimeType: image/png
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 372
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watch-banner.png/samsung-watch-banner.png/desktop/desktop.png
+          jcr:lastModified: 2019-04-26T12:37:03.742+02:00
+          jcr:mimeType: image/png
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 298
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watch-banner.png/samsung-watch-banner.png/laptop/laptop.png
+          jcr:lastModified: 2019-04-26T12:37:03.863+02:00
+          jcr:mimeType: image/png
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 223
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watch-banner.png/samsung-watch-banner.png/tablet/tablet.png
+          jcr:lastModified: 2019-04-26T12:37:03.974+02:00
+          jcr:mimeType: image/png
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 149
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watch-banner.png/samsung-watch-banner.png/mobile/mobile.png
+          jcr:lastModified: 2019-04-26T12:37:04.060+02:00
+          jcr:mimeType: image/png
+    /samsung-galaxy-watch-tmobile-offer-notext.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: d71233b2-a76d-4dc0-87a8-18faaccc778f
+      hippo:name: Samsung-Galaxy-Watch-TMobile-offer-notext.jpg
+      /samsung-galaxy-watch-tmobile-offer-notext.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:description: Offer banner images with just products, not text
+        hippogallery:filename: Samsung-Galaxy-Watch-TMobile-offer-notext.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Samsung-Galaxy-Watch-TMobile-offer-notext.jpg
+          hippogallery:height: 29
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-galaxy-watch-tmobile-offer-notext.jpg/samsung-galaxy-watch-tmobile-offer-notext.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-03-28T19:26:27.466Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 485
+          hippogallery:width: 984
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-galaxy-watch-tmobile-offer-notext.jpg/samsung-galaxy-watch-tmobile-offer-notext.jpg/original/original.jpg
+          jcr:lastModified: 2019-03-28T19:26:27.466Z
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 485
+          hippogallery:width: 984
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-galaxy-watch-tmobile-offer-notext.jpg/samsung-galaxy-watch-tmobile-offer-notext.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.258+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 394
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-galaxy-watch-tmobile-offer-notext.jpg/samsung-galaxy-watch-tmobile-offer-notext.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.283+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 295
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-galaxy-watch-tmobile-offer-notext.jpg/samsung-galaxy-watch-tmobile-offer-notext.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.317+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 197
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-galaxy-watch-tmobile-offer-notext.jpg/samsung-galaxy-watch-tmobile-offer-notext.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:00.341+02:00
+          jcr:mimeType: image/jpeg
+    /smartwatch-buying-guide-notext.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 2a28e663-1e31-4504-9402-3d83e0fe4dd3
+      hippo:name: Smartwatch-buying guide-notext.jpg
+      /smartwatch-buying-guide-notext.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: Smartwatch-buying guide-notext.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Smartwatch-buying guide-notext.jpg
+          hippogallery:height: 31
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatch-buying-guide-notext.jpg/smartwatch-buying-guide-notext.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-03-28T19:50:55.411Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 342
+          hippogallery:width: 661
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatch-buying-guide-notext.jpg/smartwatch-buying-guide-notext.jpg/original/original.jpg
+          jcr:lastModified: 2019-03-28T19:50:55.411Z
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 342
+          hippogallery:width: 661
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatch-buying-guide-notext.jpg/smartwatch-buying-guide-notext.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:14.534+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 342
+          hippogallery:width: 661
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatch-buying-guide-notext.jpg/smartwatch-buying-guide-notext.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:14.605+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 310
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatch-buying-guide-notext.jpg/smartwatch-buying-guide-notext.jpg/tablet/tablet.jpg
+          jcr:encoding: UTF-8
+          jcr:lastModified: 2019-04-26T12:37:14.635+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 400
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatch-buying-guide-notext.jpg/smartwatch-buying-guide-notext.jpg/mobile/mobile.jpg
+          jcr:encoding: UTF-8
+          jcr:lastModified: 2019-04-26T12:44:19.394+02:00
+          jcr:mimeType: image/jpeg
+    /smartwatches.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1215f75b-98ae-412a-9649-1455cf455ca0
+      /smartwatches.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: smartwatches.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: smartwatches.jpg
+          hippogallery:height: 33
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatches.jpg/smartwatches.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2018-12-17T13:29:39.435+01:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 545
+          hippogallery:width: 970
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatches.jpg/smartwatches.jpg/original/original.jpg
+          jcr:lastModified: 2018-12-17T13:29:39.435+01:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 545
+          hippogallery:width: 970
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatches.jpg/smartwatches.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.528+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 449
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatches.jpg/smartwatches.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.600+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 337
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatches.jpg/smartwatches.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.648+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 224
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/smartwatches.jpg/smartwatches.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.679+02:00
+          jcr:mimeType: image/jpeg
+    /samsung-watchs-top-banner-1.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: f5ec54c0-cc8f-4a0c-abd0-29e42e106f33
+      hippo:name: Samsung Watchs top banner (1).PNG
+      /samsung-watchs-top-banner-1.png:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: Samsung Watchs top banner (1).PNG
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Samsung Watchs top banner (1).PNG
+          hippogallery:height: 33
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watchs-top-banner-1.png/samsung-watchs-top-banner-1.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2019-04-26T16:27:36.559+02:00
+          jcr:mimeType: image/png
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 339
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watchs-top-banner-1.png/samsung-watchs-top-banner-1.png/tablet/tablet.png
+          jcr:lastModified: 2019-04-26T16:27:36.559+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 715
+          hippogallery:width: 1263
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watchs-top-banner-1.png/samsung-watchs-top-banner-1.png/original/original.png
+          jcr:lastModified: 2019-04-26T16:27:36.559+02:00
+          jcr:mimeType: image/png
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 566
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watchs-top-banner-1.png/samsung-watchs-top-banner-1.png/desktop/desktop.png
+          jcr:lastModified: 2019-04-26T16:27:36.559+02:00
+          jcr:mimeType: image/png
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 226
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watchs-top-banner-1.png/samsung-watchs-top-banner-1.png/mobile/mobile.png
+          jcr:lastModified: 2019-04-26T16:27:36.559+02:00
+          jcr:mimeType: image/png
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 452
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/product-related/samsung-watchs-top-banner-1.png/samsung-watchs-top-banner-1.png/laptop/laptop.png
+          jcr:lastModified: 2019-04-26T16:27:36.559+02:00
+          jcr:mimeType: image/png
+  /brand-related:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 8c4de289-4882-4bfb-971d-be2afa3adbbf
+    hippo:name: Brand Related
+    hippostd:foldertype: [new-pactronics-pactronics-folder]
+    hippostd:gallerytype: ['pactronics:pactronics']
+    /gopro:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+      jcr:uuid: ee3cbc96-e6f4-42fc-b68a-e00eac968ac9
+      hippo:name: GoPro
+      hippostd:foldertype: [new-pactronics-pactronics-folder]
+      hippostd:gallerytype: ['pactronics:pactronics']
+      /helmet.jpeg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0917082b-b1b5-43e0-bb7a-1eca777d56ff
+        /helmet.jpeg:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: helmet.jpeg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: helmet.jpeg
+            hippogallery:height: 30
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/gopro/helmet.jpeg/helmet.jpeg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2019-04-03T12:35:14.816Z
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 159
+            hippogallery:width: 318
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/gopro/helmet.jpeg/helmet.jpeg/original/original.jpg
+            jcr:lastModified: 2019-04-03T12:35:14.816Z
+            jcr:mimeType: image/jpeg
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 159
+            hippogallery:width: 318
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/gopro/helmet.jpeg/helmet.jpeg/desktop/desktop.jpg
+            jcr:lastModified: 2019-04-26T12:36:52.898+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 159
+            hippogallery:width: 318
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/gopro/helmet.jpeg/helmet.jpeg/laptop/laptop.jpg
+            jcr:lastModified: 2019-04-26T12:36:52.902+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 159
+            hippogallery:width: 318
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/gopro/helmet.jpeg/helmet.jpeg/tablet/tablet.jpg
+            jcr:lastModified: 2019-04-26T12:36:52.906+02:00
+            jcr:mimeType: image/jpeg
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 200
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/gopro/helmet.jpeg/helmet.jpeg/mobile/mobile.jpg
+            jcr:lastModified: 2019-04-26T12:36:52.910+02:00
+            jcr:mimeType: image/jpeg
+    /samsung:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+      jcr:uuid: 314d8b29-0e47-42c0-be81-e045c32d37e4
+      hippo:name: Samsung
+      hippostd:foldertype: [new-pactronics-pactronics-folder]
+      hippostd:gallerytype: ['pactronics:pactronics']
+      /samsung-experience-center.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 574d584b-3792-49c4-a503-e80e75ad7d58
+        hippo:name: Samsung Experience Center.PNG
+        /samsung-experience-center.png:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:description: ''
+          hippogallery:filename: Samsung Experience Center.PNG
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: Samsung Experience Center.PNG
+            hippogallery:height: 37
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/samsung/samsung-experience-center.png/samsung-experience-center.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2019-04-18T15:38:48.508+02:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 977
+            hippogallery:width: 1572
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/samsung/samsung-experience-center.png/samsung-experience-center.png/original/original.png
+            jcr:lastModified: 2019-04-18T15:38:48.508+02:00
+            jcr:mimeType: image/png
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 621
+            hippogallery:width: 1000
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/samsung/samsung-experience-center.png/samsung-experience-center.png/desktop/desktop.png
+            jcr:lastModified: 2019-04-26T12:36:58.011+02:00
+            jcr:mimeType: image/png
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 497
+            hippogallery:width: 800
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/samsung/samsung-experience-center.png/samsung-experience-center.png/laptop/laptop.png
+            jcr:lastModified: 2019-04-26T12:36:58.238+02:00
+            jcr:mimeType: image/png
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 372
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/samsung/samsung-experience-center.png/samsung-experience-center.png/tablet/tablet.png
+            jcr:lastModified: 2019-04-26T12:36:58.411+02:00
+            jcr:mimeType: image/png
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 248
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/samsung/samsung-experience-center.png/samsung-experience-center.png/mobile/mobile.png
+            jcr:lastModified: 2019-04-26T12:36:58.574+02:00
+            jcr:mimeType: image/png
+    /sony:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+      jcr:uuid: 45188ca2-8f5d-48ca-8705-4e7fb381c768
+      hippo:name: Sony
+      hippostd:foldertype: [new-pactronics-pactronics-folder]
+      hippostd:gallerytype: ['pactronics:pactronics']
+      /sony-cameras.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 47ea5800-b96c-41b2-9fe7-8ad8a31e423a
+        hippo:name: Sony Cameras.png
+        /sony-cameras.png:
+          jcr:primaryType: pactronics:pactronics
+          hippo:availability: [live, preview]
+          hippogallery:filename: Sony Cameras.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippo:filename: Sony Cameras.png
+            hippogallery:height: 26
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/sony/sony-cameras.png/sony-cameras.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2019-04-05T01:37:25.102Z
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 673
+            hippogallery:width: 1496
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/sony/sony-cameras.png/sony-cameras.png/original/original.png
+            jcr:lastModified: 2019-04-05T01:37:25.102Z
+            jcr:mimeType: image/png
+          /pactronics:desktop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 449
+            hippogallery:width: 1000
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/sony/sony-cameras.png/sony-cameras.png/desktop/desktop.png
+            jcr:lastModified: 2019-04-26T12:37:00.459+02:00
+            jcr:mimeType: image/png
+          /pactronics:laptop:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 359
+            hippogallery:width: 800
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/sony/sony-cameras.png/sony-cameras.png/laptop/laptop.png
+            jcr:lastModified: 2019-04-26T12:37:00.549+02:00
+            jcr:mimeType: image/png
+          /pactronics:tablet:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 269
+            hippogallery:width: 600
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/sony/sony-cameras.png/sony-cameras.png/tablet/tablet.png
+            jcr:lastModified: 2019-04-26T12:37:00.627+02:00
+            jcr:mimeType: image/png
+          /pactronics:mobile:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 179
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/pactronics/banners/brand-related/sony/sony-cameras.png/sony-cameras.png/mobile/mobile.png
+            jcr:lastModified: 2019-04-26T12:37:00.685+02:00
+            jcr:mimeType: image/png
+  /offers:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: cde75b9e-3dce-4d9f-b0a8-68faf5d2ca24
+    hippo:name: Offers
+    hippostd:foldertype: [new-pactronics-pactronics-folder]
+    hippostd:gallerytype: ['pactronics:pactronics']
+    /samsung-galaxy-watch-tmobile-offer-000.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: e8821189-bfe9-4017-85d6-e3bd96a1946d
+      hippo:name: Samsung-Galaxy-Watch-TMobile-offer-000.jpg
+      /samsung-galaxy-watch-tmobile-offer-000.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: Samsung-Galaxy-Watch-TMobile-offer-000.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Samsung-Galaxy-Watch-TMobile-offer-000.jpg
+          hippogallery:height: 29
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-000.jpg/samsung-galaxy-watch-tmobile-offer-000.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-03-28T19:04:13.739Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 485
+          hippogallery:width: 984
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-000.jpg/samsung-galaxy-watch-tmobile-offer-000.jpg/original/original.jpg
+          jcr:lastModified: 2019-03-28T19:04:13.739Z
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 485
+          hippogallery:width: 984
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-000.jpg/samsung-galaxy-watch-tmobile-offer-000.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.623+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 394
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-000.jpg/samsung-galaxy-watch-tmobile-offer-000.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.649+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 295
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-000.jpg/samsung-galaxy-watch-tmobile-offer-000.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.689+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 197
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-000.jpg/samsung-galaxy-watch-tmobile-offer-000.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:37:03.716+02:00
+          jcr:mimeType: image/jpeg
+    /samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 564e83f2-4b83-412f-bbcf-e7784a03347f
+      hippo:name: Samsung-Galaxy-Watch-TMobile-offer-headlineincluded.jpg
+      /samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: Samsung-Galaxy-Watch-TMobile-offer-headlineincluded.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Samsung-Galaxy-Watch-TMobile-offer-headlineincluded.jpg
+          hippogallery:height: 29
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-03-28T21:51:01.244Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 485
+          hippogallery:width: 984
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/original/original.jpg
+          jcr:lastModified: 2019-03-28T21:51:01.244Z
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 485
+          hippogallery:width: 984
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.901+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 394
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:58.931+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 295
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:59.007+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 197
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:59.033+02:00
+          jcr:mimeType: image/jpeg
+    /samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 36258a64-5f0e-4776-ba4c-6c853e13304e
+      hippo:name: Samsung-Galaxy-Watch-TMobile-offer-headlineincluded-wide.jpg
+      /samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: Samsung-Galaxy-Watch-TMobile-offer-headlineincluded-wide.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Samsung-Galaxy-Watch-TMobile-offer-headlineincluded-wide.jpg
+          hippogallery:height: 26
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-04-10T23:09:17.019Z
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 485
+          hippogallery:width: 1085
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/original/original.jpg
+          jcr:lastModified: 2019-04-10T23:09:17.019Z
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 447
+          hippogallery:width: 1000
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.760+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 357
+          hippogallery:width: 800
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.806+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 268
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.839+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 178
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/offers/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/samsung-galaxy-watch-tmobile-offer-headlineincluded-wide.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-04-26T12:36:57.865+02:00
+          jcr:mimeType: image/jpeg
+  /article-banners:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+    jcr:uuid: 11bca17a-43af-424e-82f6-666bc64e7a5d
+    hippo:name: Article Banners
+    hippostd:foldertype: [new-pactronics-pactronics-folder]
+    hippostd:gallerytype: ['pactronics:pactronics']
+    /sony-smartwatch-comparison---article-banner.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 9db90763-07b3-4c27-bde1-3813b64b976b
+      hippo:name: Sony Smartwatch Comparison - article banner.png
+      /sony-smartwatch-comparison---article-banner.png:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:description: ''
+        hippogallery:filename: Sony Smartwatch Comparison - article banner.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: Sony Smartwatch Comparison - article banner.png
+          hippogallery:height: 31
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/sony-smartwatch-comparison---article-banner.png/sony-smartwatch-comparison---article-banner.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2019-04-12T21:57:16.413Z
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 182
+          hippogallery:width: 348
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/sony-smartwatch-comparison---article-banner.png/sony-smartwatch-comparison---article-banner.png/original/original.png
+          jcr:lastModified: 2019-04-12T21:57:16.413Z
+          jcr:mimeType: image/png
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 182
+          hippogallery:width: 348
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/sony-smartwatch-comparison---article-banner.png/sony-smartwatch-comparison---article-banner.png/desktop/desktop.png
+          jcr:lastModified: 2019-04-26T12:37:00.886+02:00
+          jcr:mimeType: image/png
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 182
+          hippogallery:width: 348
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/sony-smartwatch-comparison---article-banner.png/sony-smartwatch-comparison---article-banner.png/laptop/laptop.png
+          jcr:lastModified: 2019-04-26T12:37:00.907+02:00
+          jcr:mimeType: image/png
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 182
+          hippogallery:width: 348
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/sony-smartwatch-comparison---article-banner.png/sony-smartwatch-comparison---article-banner.png/tablet/tablet.png
+          jcr:lastModified: 2019-04-26T12:37:00.924+02:00
+          jcr:mimeType: image/png
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 400
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/sony-smartwatch-comparison---article-banner.png/sony-smartwatch-comparison---article-banner.png/mobile/mobile.png
+          jcr:lastModified: 2019-04-26T12:59:35.853+02:00
+          jcr:mimeType: image/png
+    /smartwatch-comparison.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ad03e089-6368-4bfe-b2c6-365a2d54daea
+      /smartwatch-comparison.jpg:
+        jcr:primaryType: pactronics:pactronics
+        hippo:availability: [live, preview]
+        hippogallery:filename: smartwatch-comparison.jpg
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: smartwatch-comparison.jpg
+          hippogallery:height: 30
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/smartwatch-comparison.jpg/smartwatch-comparison.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2019-06-05T15:17:21.209+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:tablet:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 309
+          hippogallery:width: 600
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/smartwatch-comparison.jpg/smartwatch-comparison.jpg/tablet/tablet.jpg
+          jcr:lastModified: 2019-06-05T15:17:21.209+02:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 340
+          hippogallery:width: 660
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/smartwatch-comparison.jpg/smartwatch-comparison.jpg/original/original.jpg
+          jcr:lastModified: 2019-06-05T15:17:21.209+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:desktop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 340
+          hippogallery:width: 660
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/smartwatch-comparison.jpg/smartwatch-comparison.jpg/desktop/desktop.jpg
+          jcr:lastModified: 2019-06-05T15:17:21.209+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:mobile:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 206
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/smartwatch-comparison.jpg/smartwatch-comparison.jpg/mobile/mobile.jpg
+          jcr:lastModified: 2019-06-05T15:17:21.209+02:00
+          jcr:mimeType: image/jpeg
+        /pactronics:laptop:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 340
+          hippogallery:width: 660
+          jcr:data:
+            type: binary
+            resource: /content/gallery/pactronics/banners/article-banners/smartwatch-comparison.jpg/smartwatch-comparison.jpg/laptop/laptop.jpg
+          jcr:lastModified: 2019-06-05T15:17:21.209+02:00
+          jcr:mimeType: image/jpeg

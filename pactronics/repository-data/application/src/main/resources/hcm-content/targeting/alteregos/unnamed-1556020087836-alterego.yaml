@@ -1,0 +1,4 @@
+/targeting:targeting/targeting:alteregos/unnamed-1556020087836-alterego:
+  jcr:primaryType: targeting:alterego
+  targeting:targetingdata: '{"targetingData":{"commerceCategories":{"collectorId":"commerceCategories","termFreq":{"smart
+    watch":1,"sunglasses":1},"size":100}}}'

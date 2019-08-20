@@ -1,0 +1,35 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:pages/catalog-4393-parts-catalogue-contentpage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2019-08-13T11:51:27.147+02:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable', 'hippostd:relaxed']
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-08-13T11:52:33.778+02:00
+    hst:xtype: hst.vbox
+    mode: bottom
+    selector: body > div.wrapper > div > div.category-page.v2
+    /banner:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Banner
+      hst:template: essentials-banner
+      hst:xtype: hst.item
+    /ProductsGrid:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+      hst:label: Products Grid
+      hst:parameternames: [connectorComponent, commands, starterstoreQueryParam_currentPage,
+        locale]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+      hst:parametervalues: [productSearch, 'customInitContextCommand,cartCreateCommand,
+          cartProductListCommand, cartProductAddCommand, personalizationCallCommand,
+          commerceCallCommand, pageableCommand', '1', en]
+      hst:template: starterstore-productlist
+      hst:xtype: hst.item

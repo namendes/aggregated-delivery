@@ -1,0 +1,59 @@
+/content/gallery/where-to-donate-beauty-products-2.jpg/where-to-donate-beauty-products-2.jpg:
+  jcr:primaryType: pactronics:pactronics
+  hippo:availability: [live, preview]
+  hippogallery:filename: where-to-donate-beauty-products-2.jpg
+  /hippogallery:thumbnail:
+    jcr:primaryType: hippogallery:image
+    hippo:filename: where-to-donate-beauty-products-2.jpg
+    hippogallery:height: 29
+    hippogallery:width: 60
+    jcr:data:
+      type: binary
+      resource: /content/gallery/where-to-donate-beauty-products-2.jpg/where-to-donate-beauty-products-2.jpg/thumbnail/thumbnail.jpg
+    jcr:lastModified: 2019-08-12T12:33:05.784+02:00
+    jcr:mimeType: image/jpeg
+  /pactronics:tablet:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 296
+    hippogallery:width: 600
+    jcr:data:
+      type: binary
+      resource: /content/gallery/where-to-donate-beauty-products-2.jpg/where-to-donate-beauty-products-2.jpg/tablet/tablet.jpg
+    jcr:lastModified: 2019-08-12T12:33:05.784+02:00
+    jcr:mimeType: image/jpeg
+  /hippogallery:original:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 343
+    hippogallery:width: 693
+    jcr:data:
+      type: binary
+      resource: /content/gallery/where-to-donate-beauty-products-2.jpg/where-to-donate-beauty-products-2.jpg/original/original.jpg
+    jcr:lastModified: 2019-08-12T12:33:05.784+02:00
+    jcr:mimeType: image/jpeg
+  /pactronics:desktop:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 343
+    hippogallery:width: 693
+    jcr:data:
+      type: binary
+      resource: /content/gallery/where-to-donate-beauty-products-2.jpg/where-to-donate-beauty-products-2.jpg/desktop/desktop.jpg
+    jcr:lastModified: 2019-08-12T12:33:05.784+02:00
+    jcr:mimeType: image/jpeg
+  /pactronics:mobile:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 197
+    hippogallery:width: 399
+    jcr:data:
+      type: binary
+      resource: /content/gallery/where-to-donate-beauty-products-2.jpg/where-to-donate-beauty-products-2.jpg/mobile/mobile.jpg
+    jcr:lastModified: 2019-08-12T12:33:05.784+02:00
+    jcr:mimeType: image/jpeg
+  /pactronics:laptop:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 343
+    hippogallery:width: 693
+    jcr:data:
+      type: binary
+      resource: /content/gallery/where-to-donate-beauty-products-2.jpg/where-to-donate-beauty-products-2.jpg/laptop/laptop.jpg
+    jcr:lastModified: 2019-08-12T12:33:05.784+02:00
+    jcr:mimeType: image/jpeg

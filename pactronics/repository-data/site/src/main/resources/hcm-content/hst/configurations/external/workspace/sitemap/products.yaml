@@ -1,0 +1,36 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/products:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/starterstore-productsearch
+  hst:refId: product
+  hst:relativecontentpath: products
+  /_default_:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/starterstore-productdecorator
+    hst:parameternames: [externalReferenceId]
+    hst:parametervalues: ['${1}']
+  /stylish-and-ergonomic-laptop-tables:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/stylish-and-ergonomic-laptop-tables-productexperiencepage
+    hst:lastmodified: 2018-11-22T13:52:29.397+01:00
+    hst:pagetitle: Stylish and Ergonomic Laptop Tables
+  /smart-watch-1s:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/products-smart-watch-1s-productexperiencepage
+    hst:lastmodified: 2018-11-29T10:30:34.495+01:00
+    hst:pagetitle: Smart Watch 1S
+  /smart-watch-one:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/products-smart-watch-one-productexperiencepage
+    hst:lastmodified: 2019-04-24T18:06:37.420+02:00
+    hst:pagetitle: sony watch
+  /the-ultimate-moon-jumping-smartwatch:
+    jcr:primaryType: hst:sitemapitem
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentconfigurationid: hst:pages/the-ultimate-moon-jumping-smartwatch-productexperiencepage
+    hst:lastmodified: 2019-05-02T09:39:14.388+02:00
+    hst:pagetitle: The Ultimate Moon Jumping Smartwatch

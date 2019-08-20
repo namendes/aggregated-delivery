@@ -1,0 +1,12 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:containers/starterstore-base/logo/CategoriesMenu:
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+  hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+  hst:label: Categories Menu
+  hst:parameternames: [connectorComponent, page, locale, menu, commands, org.hippoecm.hst.core.component.template]
+  hst:parametersinfoclassname: org.onehippo.cms7.essentials.components.info.EssentialsMenuComponentInfo
+  hst:parametervalues: [categoriesList, '1', en, categories, 'initContextCommand,
+      hstMenuCommand', 'webfile:/freemarker/hstdefault/essentials-menu/starterstore-categories-menu.ftl']
+  hst:template: essentials-menu
+  hst:xtype: hst.item

@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:trends:
+      jcr:primaryType: targeting:trends
+    /targeting:targeting/targeting:dataflow:
+      targeting:bootstrapReferenceTime: 2019-04-17T12:27:15.008+02:00
+      targeting:bootstrapEnabled: true

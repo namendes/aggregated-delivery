@@ -1,0 +1,2019 @@
+/content/documents/administration/commerce-connectors:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 7def8aa6-7bc1-4cbc-9b0b-821ed236fac1
+  hippostd:foldertype: [new-folder, new-connectordoc-document]
+  /commercetools:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 3fec0e0b-155f-44cd-a8d1-ca7b060a57e5
+    hippo:versionHistory: 42c7c28a-bccc-4630-9d72-f4fc2d8d39e7
+    /commercetools[1]:
+      jcr:primaryType: starterstore:connectordoc
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 03f5a9a3-3579-4ffb-8af0-404044fe3d47
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-02-15T14:27:44.180-05:00
+      hippostdpubwf:lastModificationDate: 2019-03-05T11:21:16.693+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-03-05T11:21:21.104+01:00
+      starterstore:id: commercetools
+      starterstore:moduleName: ''
+      starterstore:resourceSpace: commercetools
+      /starterstore:connectorcomponent[1]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productDetail
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products/${externalReferenceId}
+      /starterstore:connectorcomponent[2]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productList
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products
+      /starterstore:connectorcomponent[3]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: facetList
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?limit=0&text.${locale}="${starterstoreQueryParam_query}"&facet=variants.attributes.color&facet=variants.attributes.size
+      /starterstore:connectorcomponent[4]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearch
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?limit=${starterstoreQueryParam_pageSize}&offset=${starterstoreQueryParam_offset}&text.${locale}="${starterstoreQueryParam_query!""}"${starterstoreQueryParam_facetQuery?has_content?then("&filter="+starterstoreQueryParam_facetQuery,
+          "")}${categories?has_content?then("&filter="+categories, "")}&facet=variants.attributes.color&facet=variants.attributes.size
+      /starterstore:connectorcomponent[5]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearchByCategory
+        starterstore:methodType: GET
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?limit=${starterstoreQueryParam_pageSize}&offset=${starterstoreQueryParam_offset}&filter=categories.id:subtree("${externalReferenceId!starterstoreQueryParam_query!""}")${starterstoreQueryParam_facetQuery?has_content?then("&filter="+starterstoreQueryParam_facetQuery,
+          "")}
+      /starterstore:connectorcomponent[6]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categoriesList
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?limit=100
+      /starterstore:connectorcomponent[7]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categoryDetail
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories/${externalReferenceId}
+      /starterstore:connectorcomponent[8]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categorydecorator
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?limit=100
+      /starterstore:connectorcomponent[9]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productdecorator
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?<#if starterstoreQueryParam_query?has_content>text.en="${starterstoreQueryParam_query}"<#else>filter=id:"${id!}"</#if>
+      /starterstore:connectorcomponent[10]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: createCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"email\": \"${customer.email}\",\r\n  \
+          \ \"password\": \"${customer.password}\",\r\n  <#if customer.title?has_content>\"\
+          title\": \"${customer.title}\",</#if>\r\n  <#if customer.anonymousCartId?has_content>\"\
+          anonymousCartId\": \"${customer.anonymousCartId}\",</#if>\r\n  \"firstName\"\
+          : \"${customer.firstName}\",\r\n  <#if customer.middleName?has_content>\"\
+          middleName\": \"${customer.middleName}\",</#if>\r\n  \"lastName\": \"${customer.lastName}\"\
+          \r\n}"
+        starterstore:serviceBaseUrl: customers
+      /starterstore:connectorcomponent[11]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: getCustomer
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: customers/${storeUser.id}
+      /starterstore:connectorcomponent[12]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: updateCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#if customer.email?has_content\
+          \ && customer.email != customerInBackend.email!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"changeEmail\",\r\n        \"email\": \"${customer.email}\"\
+          \r\n      }\r\n      <#assign hasActions = true />\r\n    </#if>\r\n   \
+          \ <#if customer.firstName?has_content && customer.firstName != customerInBackend.firstName!>\r\
+          \n      <#if hasActions>,</#if>{\r\n        \"action\": \"setFirstName\"\
+          ,\r\n        \"firstName\": \"${customer.firstName}\"\r\n      }\r\n   \
+          \   <#assign hasActions = true />\r\n    </#if>\r\n    <#if customer.lastName?has_content\
+          \ && customer.lastName != customerInBackend.lastName!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"setLastName\",\r\n        \"lastName\": \"${customer.lastName}\"\
+          \r\n      }\r\n      <#assign hasActions = true />\r\n    </#if>\r\n   \
+          \ <#if customer.middleName! != customerInBackend.middleName!>\r\n      <#if\
+          \ hasActions>,</#if>{\r\n        \"action\": \"setMiddleName\",\r\n    \
+          \    \"middleName\": \"${customer.middleName!}\"\r\n      }\r\n      <#assign\
+          \ hasActions = true />\r\n    </#if>\r\n    <#if customer.dateOfBirth! !=\
+          \ customerInBackend.dateOfBirth!>\r\n      <#if hasActions>,</#if>{\r\n\
+          \        \"action\": \"setDateOfBirth\",\r\n        \"dateOfBirth\": \"\
+          ${customer.dateOfBirth!}\"\r\n      }\r\n      <#assign hasActions = true\
+          \ />\r\n    </#if>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[13]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: deleteCustomer
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: customers/${customerId}
+      /starterstore:connectorcomponent[14]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "currency" : "${cartCurrency!}",  "country"
+          : "${country!}"  <#if storeUser??>,"customerId": "${storeUser.name}" </#if>
+          }'
+        starterstore:serviceBaseUrl: /carts
+      /starterstore:connectorcomponent[15]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartDelete
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[16]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductList
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[17]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductAdd
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "addLineItem",    "sku":"${cartProductId!}" }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[18]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "changeLineItemQuantity",    "lineItemId":"${cartItemId!}", "quantity":
+          ${cartItemQuantity!1}  }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[19]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductRemove
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "removeLineItem",    "lineItemId":"${cartItemId!}"    }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[20]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartCustomerUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "setCustomerId",    "customerId":"${storeUser.name!}"    }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[21]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: authenticateCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"email\": \"${customer.email}\",\r\n  \"\
+          password\": \"${customer.password}\"\r\n  <#if anonymousCartId??>\r\n  \
+          \  ,\"anonymousCartId\": \"${anonymousCartId}\",\r\n    \"anonymousCartSignInMode\"\
+          \ : \"UseAsNewActiveCustomerCart\"\r\n  </#if>\r\n}"
+        starterstore:serviceBaseUrl: login
+      /starterstore:connectorcomponent[22]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: orderQuery
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: orders?where=customerId="<#if storeUser??>${storeUser.id}</#if>"
+      /starterstore:connectorcomponent[23]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: changeCustomerPassword
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"id\": \"${customer.id}\",\r\n  \"currentPassword\": \"${customer.password}\"\
+          ,\r\n  \"newPassword\": \"${customer.newPassword}\"\r\n}"
+        starterstore:serviceBaseUrl: customers/password/
+      /starterstore:connectorcomponent[24]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: updateCustomerAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#list customer.addresses\
+          \ as address>\r\n      <#if hasActions>,</#if>{\r\n        <#if address.id?has_content>\r\
+          \n          \"action\": \"changeAddress\",\r\n          \"addressId\": \"\
+          ${address.id!}\",\r\n        <#else>\r\n          \"action\": \"addAddress\"\
+          ,\r\n        </#if>\r\n        \"address\": {\r\n          \"id\": \"${utils.randomUUIDString()}\"\
+          ,\r\n          \"streetName\": \"${address.streetName!}\",\r\n         \
+          \ \"streetNumber\": \"${address.streetNumber!}\",\r\n          \"additionalStreetInfo\"\
+          : \"${address.additionalStreetInfo!}\",\r\n          \"postalCode\": \"\
+          ${address.postalCode!}\",\r\n          \"city\": \"${address.city!}\",\r\
+          \n          \"state\": \"${address.state!}\",\r\n          \"country\":\
+          \ \"${address.country!}\",\r\n          \"phone\": \"${address.phone!}\"\
+          ,\r\n          \"mobile\": \"${address.mobile!}\",\r\n          \"fax\"\
+          : \"${address.fax!}\"\r\n        }\r\n      }\r\n      <#assign hasActions\
+          \ = true />\r\n    </#list>\r\n    <#list customer.addresses as address>\r\
+          \n      <#if !address.removalRequested && address.id?has_content>\r\n  \
+          \      <#if address.shippingAddress && !customerInBackend.hasShippingAddressId(address.id!)>\r\
+          \n          <#if hasActions>,</#if>{\r\n            \"action\": \"addShippingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        <#elseif !address.shippingAddress\
+          \ && customerInBackend.hasShippingAddressId(address.id!)>\r\n          <#if\
+          \ hasActions>,</#if>{\r\n            \"action\": \"removeShippingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        </#if>\r\n        <#if\
+          \ address.billingAddress && !customerInBackend.hasBillingAddressId(address.id!)>\r\
+          \n          <#if hasActions>,</#if>{\r\n            \"action\": \"addBillingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        <#elseif !address.billingAddress\
+          \ && customerInBackend.hasBillingAddressId(address.id!)>\r\n          <#if\
+          \ hasActions>,</#if>{\r\n            \"action\": \"removeBillingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        </#if>\r\n      </#if>\r\
+          \n    </#list>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[25]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: updateCustomerDefaultAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#if customer.defaultShippingAddressId!\
+          \ != customerInBackend.defaultShippingAddressId!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"setDefaultShippingAddress\"\r\n        <#if customer.defaultShippingAddressId?has_content>,\"\
+          addressId\": \"${customer.defaultShippingAddressId!}\"</#if>\r\n      }\r\
+          \n      <#assign hasActions = true />\r\n    </#if>\r\n    <#if customer.defaultBillingAddressId!\
+          \ != customerInBackend.defaultBillingAddressId!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"setDefaultBillingAddress\"\r\n        <#if customer.defaultBillingAddressId?has_content>,\"\
+          addressId\": \"${customer.defaultBillingAddressId!}\"</#if>\r\n      }\r\
+          \n      <#assign hasActions = true />\r\n    </#if>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[26]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: removeCustomerAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#list customer.addresses\
+          \ as address>\r\n      <#if address.removalRequested>\r\n        <#if hasActions>,</#if>{\r\
+          \n          \"action\": \"removeAddress\",\r\n          \"addressId\": \"\
+          ${address.id!}\"\r\n        }\r\n        <#assign hasActions = true />\r\
+          \n      </#if>\r\n    </#list>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[27]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: paymentCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"key\": \"${cartId}\",\r\n  \"amountPlanned\"\
+          : {\r\n    \"currencyCode\": \"${cartCurrency}\",\r\n    \"centAmount\"\
+          : ${cartAmount?c}\r\n   }\r\n}"
+        starterstore:serviceBaseUrl: payments
+      /starterstore:connectorcomponent[28]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: orderCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"id\": \"${cartId}\",\r\n  \"version\"\
+          : ${cartVersion}\r\n}"
+        starterstore:serviceBaseUrl: orders
+      /starterstore:connectorcomponent[29]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartShipmentMethodUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${cartVersion},\r\n  \"actions\"\
+          : [{    \r\n    \"action\": \"setShippingMethod\",\r\n    \"shippingMethod\"\
+          : {\r\n      \"typeId\": \"shipping-method\",\r\n      \"id\" : \"${shippingMethodReference!}\"\
+          \ \r\n    }\r\n  }]\r\n}"
+        starterstore:serviceBaseUrl: carts/${cartId}
+      /starterstore:connectorcomponent[30]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartShipmentAddressUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${cartVersion},\r\n  \"actions\"\
+          : [{    \r\n    \"action\": \"setShippingAddress\",\r\n    \"address\":\
+          \ {\r\n          \"id\": \"${utils.randomUUIDString()}\",\r\n          \"\
+          streetName\": \"${address.streetName!}\",\r\n          \"streetNumber\"\
+          : \"${address.streetNumber!}\",\r\n          \"additionalStreetInfo\": \"\
+          ${address.additionalStreetInfo!}\",\r\n          \"postalCode\": \"${address.postalCode!}\"\
+          ,\r\n          \"city\": \"${address.city!}\",\r\n          \"state\": \"\
+          ${address.state!}\",\r\n          \"country\": \"${address.country!}\",\r\
+          \n          \"phone\": \"${address.phone!}\",\r\n          \"mobile\": \"\
+          ${address.mobile!}\",\r\n          \"fax\": \"${address.fax!}\"\r\n    \
+          \    }\r\n  }]\r\n}"
+        starterstore:serviceBaseUrl: carts/${cartId}
+    /commercetools[2]:
+      jcr:primaryType: starterstore:connectordoc
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 6cb08ed6-acb9-49f8-a94a-607d4f58646c
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-02-15T14:27:44.180-05:00
+      hippostdpubwf:lastModificationDate: 2019-03-05T11:21:16.693+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      starterstore:id: commercetools
+      starterstore:moduleName: ''
+      starterstore:resourceSpace: commercetools
+      /starterstore:connectorcomponent[1]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productDetail
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products/${externalReferenceId}
+      /starterstore:connectorcomponent[2]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productList
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products
+      /starterstore:connectorcomponent[3]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: facetList
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?limit=0&text.${locale}="${starterstoreQueryParam_query}"&facet=variants.attributes.color&facet=variants.attributes.size
+      /starterstore:connectorcomponent[4]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearch
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?limit=${starterstoreQueryParam_pageSize}&offset=${starterstoreQueryParam_offset}&text.${locale}="${starterstoreQueryParam_query!""}"${starterstoreQueryParam_facetQuery?has_content?then("&filter="+starterstoreQueryParam_facetQuery,
+          "")}${categories?has_content?then("&filter="+categories, "")}&facet=variants.attributes.color&facet=variants.attributes.size
+      /starterstore:connectorcomponent[5]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearchByCategory
+        starterstore:methodType: GET
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?limit=${starterstoreQueryParam_pageSize}&offset=${starterstoreQueryParam_offset}&filter=categories.id:subtree("${externalReferenceId!starterstoreQueryParam_query!""}")${starterstoreQueryParam_facetQuery?has_content?then("&filter="+starterstoreQueryParam_facetQuery,
+          "")}
+      /starterstore:connectorcomponent[6]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categoriesList
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?limit=100
+      /starterstore:connectorcomponent[7]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categoryDetail
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories/${externalReferenceId}
+      /starterstore:connectorcomponent[8]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categorydecorator
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?limit=100
+      /starterstore:connectorcomponent[9]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productdecorator
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?<#if starterstoreQueryParam_query?has_content>text.en="${starterstoreQueryParam_query}"<#else>filter=id:"${id!}"</#if>
+      /starterstore:connectorcomponent[10]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: createCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"email\": \"${customer.email}\",\r\n  \
+          \ \"password\": \"${customer.password}\",\r\n  <#if customer.title?has_content>\"\
+          title\": \"${customer.title}\",</#if>\r\n  <#if customer.anonymousCartId?has_content>\"\
+          anonymousCartId\": \"${customer.anonymousCartId}\",</#if>\r\n  \"firstName\"\
+          : \"${customer.firstName}\",\r\n  <#if customer.middleName?has_content>\"\
+          middleName\": \"${customer.middleName}\",</#if>\r\n  \"lastName\": \"${customer.lastName}\"\
+          \r\n}"
+        starterstore:serviceBaseUrl: customers
+      /starterstore:connectorcomponent[11]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: getCustomer
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: customers/${storeUser.id}
+      /starterstore:connectorcomponent[12]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: updateCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#if customer.email?has_content\
+          \ && customer.email != customerInBackend.email!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"changeEmail\",\r\n        \"email\": \"${customer.email}\"\
+          \r\n      }\r\n      <#assign hasActions = true />\r\n    </#if>\r\n   \
+          \ <#if customer.firstName?has_content && customer.firstName != customerInBackend.firstName!>\r\
+          \n      <#if hasActions>,</#if>{\r\n        \"action\": \"setFirstName\"\
+          ,\r\n        \"firstName\": \"${customer.firstName}\"\r\n      }\r\n   \
+          \   <#assign hasActions = true />\r\n    </#if>\r\n    <#if customer.lastName?has_content\
+          \ && customer.lastName != customerInBackend.lastName!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"setLastName\",\r\n        \"lastName\": \"${customer.lastName}\"\
+          \r\n      }\r\n      <#assign hasActions = true />\r\n    </#if>\r\n   \
+          \ <#if customer.middleName! != customerInBackend.middleName!>\r\n      <#if\
+          \ hasActions>,</#if>{\r\n        \"action\": \"setMiddleName\",\r\n    \
+          \    \"middleName\": \"${customer.middleName!}\"\r\n      }\r\n      <#assign\
+          \ hasActions = true />\r\n    </#if>\r\n    <#if customer.dateOfBirth! !=\
+          \ customerInBackend.dateOfBirth!>\r\n      <#if hasActions>,</#if>{\r\n\
+          \        \"action\": \"setDateOfBirth\",\r\n        \"dateOfBirth\": \"\
+          ${customer.dateOfBirth!}\"\r\n      }\r\n      <#assign hasActions = true\
+          \ />\r\n    </#if>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[13]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: deleteCustomer
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: customers/${customerId}
+      /starterstore:connectorcomponent[14]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "currency" : "${cartCurrency!}",  "country"
+          : "${country!}"  <#if storeUser??>,"customerId": "${storeUser.name}" </#if>
+          }'
+        starterstore:serviceBaseUrl: /carts
+      /starterstore:connectorcomponent[15]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartDelete
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[16]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductList
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[17]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductAdd
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "addLineItem",    "productId":"${cartProductId!}" }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[18]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "changeLineItemQuantity",    "lineItemId":"${cartItemId!}", "quantity":
+          ${cartItemQuantity!1}  }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[19]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductRemove
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "removeLineItem",    "lineItemId":"${cartItemId!}"    }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[20]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartCustomerUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "setCustomerId",    "customerId":"${storeUser.name!}"    }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[21]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: authenticateCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"email\": \"${customer.email}\",\r\n  \"\
+          password\": \"${customer.password}\"\r\n  <#if anonymousCartId??>\r\n  \
+          \  ,\"anonymousCartId\": \"${anonymousCartId}\",\r\n    \"anonymousCartSignInMode\"\
+          \ : \"UseAsNewActiveCustomerCart\"\r\n  </#if>\r\n}"
+        starterstore:serviceBaseUrl: login
+      /starterstore:connectorcomponent[22]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: orderQuery
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: orders?where=customerId="<#if storeUser??>${storeUser.id}</#if>"
+      /starterstore:connectorcomponent[23]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: changeCustomerPassword
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"id\": \"${customer.id}\",\r\n  \"currentPassword\": \"${customer.password}\"\
+          ,\r\n  \"newPassword\": \"${customer.newPassword}\"\r\n}"
+        starterstore:serviceBaseUrl: customers/password/
+      /starterstore:connectorcomponent[24]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: updateCustomerAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#list customer.addresses\
+          \ as address>\r\n      <#if hasActions>,</#if>{\r\n        <#if address.id?has_content>\r\
+          \n          \"action\": \"changeAddress\",\r\n          \"addressId\": \"\
+          ${address.id!}\",\r\n        <#else>\r\n          \"action\": \"addAddress\"\
+          ,\r\n        </#if>\r\n        \"address\": {\r\n          \"id\": \"${utils.randomUUIDString()}\"\
+          ,\r\n          \"streetName\": \"${address.streetName!}\",\r\n         \
+          \ \"streetNumber\": \"${address.streetNumber!}\",\r\n          \"additionalStreetInfo\"\
+          : \"${address.additionalStreetInfo!}\",\r\n          \"postalCode\": \"\
+          ${address.postalCode!}\",\r\n          \"city\": \"${address.city!}\",\r\
+          \n          \"state\": \"${address.state!}\",\r\n          \"country\":\
+          \ \"${address.country!}\",\r\n          \"phone\": \"${address.phone!}\"\
+          ,\r\n          \"mobile\": \"${address.mobile!}\",\r\n          \"fax\"\
+          : \"${address.fax!}\"\r\n        }\r\n      }\r\n      <#assign hasActions\
+          \ = true />\r\n    </#list>\r\n    <#list customer.addresses as address>\r\
+          \n      <#if !address.removalRequested && address.id?has_content>\r\n  \
+          \      <#if address.shippingAddress && !customerInBackend.hasShippingAddressId(address.id!)>\r\
+          \n          <#if hasActions>,</#if>{\r\n            \"action\": \"addShippingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        <#elseif !address.shippingAddress\
+          \ && customerInBackend.hasShippingAddressId(address.id!)>\r\n          <#if\
+          \ hasActions>,</#if>{\r\n            \"action\": \"removeShippingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        </#if>\r\n        <#if\
+          \ address.billingAddress && !customerInBackend.hasBillingAddressId(address.id!)>\r\
+          \n          <#if hasActions>,</#if>{\r\n            \"action\": \"addBillingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        <#elseif !address.billingAddress\
+          \ && customerInBackend.hasBillingAddressId(address.id!)>\r\n          <#if\
+          \ hasActions>,</#if>{\r\n            \"action\": \"removeBillingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        </#if>\r\n      </#if>\r\
+          \n    </#list>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[25]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: updateCustomerDefaultAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#if customer.defaultShippingAddressId!\
+          \ != customerInBackend.defaultShippingAddressId!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"setDefaultShippingAddress\"\r\n        <#if customer.defaultShippingAddressId?has_content>,\"\
+          addressId\": \"${customer.defaultShippingAddressId!}\"</#if>\r\n      }\r\
+          \n      <#assign hasActions = true />\r\n    </#if>\r\n    <#if customer.defaultBillingAddressId!\
+          \ != customerInBackend.defaultBillingAddressId!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"setDefaultBillingAddress\"\r\n        <#if customer.defaultBillingAddressId?has_content>,\"\
+          addressId\": \"${customer.defaultBillingAddressId!}\"</#if>\r\n      }\r\
+          \n      <#assign hasActions = true />\r\n    </#if>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[26]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: removeCustomerAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#list customer.addresses\
+          \ as address>\r\n      <#if address.removalRequested>\r\n        <#if hasActions>,</#if>{\r\
+          \n          \"action\": \"removeAddress\",\r\n          \"addressId\": \"\
+          ${address.id!}\"\r\n        }\r\n        <#assign hasActions = true />\r\
+          \n      </#if>\r\n    </#list>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[27]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: paymentCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"key\": \"${cartId}\",\r\n  \"amountPlanned\"\
+          : {\r\n    \"currencyCode\": \"${cartCurrency}\",\r\n    \"centAmount\"\
+          : ${cartAmount?c}\r\n   }\r\n}"
+        starterstore:serviceBaseUrl: payments
+      /starterstore:connectorcomponent[28]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: orderCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"id\": \"${cartId}\",\r\n  \"version\"\
+          : ${cartVersion}\r\n}"
+        starterstore:serviceBaseUrl: orders
+      /starterstore:connectorcomponent[29]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartShipmentMethodUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${cartVersion},\r\n  \"actions\"\
+          : [{    \r\n    \"action\": \"setShippingMethod\",\r\n    \"shippingMethod\"\
+          : {\r\n      \"typeId\": \"shipping-method\",\r\n      \"id\" : \"${shippingMethodReference!}\"\
+          \ \r\n    }\r\n  }]\r\n}"
+        starterstore:serviceBaseUrl: carts/${cartId}
+      /starterstore:connectorcomponent[30]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartShipmentAddressUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${cartVersion},\r\n  \"actions\"\
+          : [{    \r\n    \"action\": \"setShippingAddress\",\r\n    \"address\":\
+          \ {\r\n          \"id\": \"${utils.randomUUIDString()}\",\r\n          \"\
+          streetName\": \"${address.streetName!}\",\r\n          \"streetNumber\"\
+          : \"${address.streetNumber!}\",\r\n          \"additionalStreetInfo\": \"\
+          ${address.additionalStreetInfo!}\",\r\n          \"postalCode\": \"${address.postalCode!}\"\
+          ,\r\n          \"city\": \"${address.city!}\",\r\n          \"state\": \"\
+          ${address.state!}\",\r\n          \"country\": \"${address.country!}\",\r\
+          \n          \"phone\": \"${address.phone!}\",\r\n          \"mobile\": \"\
+          ${address.mobile!}\",\r\n          \"fax\": \"${address.fax!}\"\r\n    \
+          \    }\r\n  }]\r\n}"
+        starterstore:serviceBaseUrl: carts/${cartId}
+    /commercetools[3]:
+      jcr:primaryType: starterstore:connectordoc
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8d1441a0-e6f2-4607-bc5e-fc7cfc26d67d
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-02-15T14:27:44.180-05:00
+      hippostdpubwf:lastModificationDate: 2019-03-18T10:09:45.311+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      starterstore:id: commercetools
+      starterstore:moduleName: ''
+      starterstore:resourceSpace: commercetools
+      /starterstore:connectorcomponent[1]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productDetail
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products/${externalReferenceId}
+      /starterstore:connectorcomponent[2]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productList
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products
+      /starterstore:connectorcomponent[3]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: facetList
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?limit=0&text.${locale}="${starterstoreQueryParam_query}"&facet=variants.attributes.color&facet=variants.attributes.size
+      /starterstore:connectorcomponent[4]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearch
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?limit=${starterstoreQueryParam_pageSize}&offset=${starterstoreQueryParam_offset}&text.${locale}="${starterstoreQueryParam_query!""}"${starterstoreQueryParam_facetQuery?has_content?then("&filter="+starterstoreQueryParam_facetQuery,
+          "")}${categories?has_content?then("&filter="+categories, "")}&facet=variants.attributes.color&facet=variants.attributes.size
+      /starterstore:connectorcomponent[5]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearchByCategory
+        starterstore:methodType: GET
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?limit=${starterstoreQueryParam_pageSize}&offset=${starterstoreQueryParam_offset}&filter=categories.id:subtree("${externalReferenceId!starterstoreQueryParam_query!""}")${starterstoreQueryParam_facetQuery?has_content?then("&filter="+starterstoreQueryParam_facetQuery,
+          "")}
+      /starterstore:connectorcomponent[6]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categoriesList
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?limit=100
+      /starterstore:connectorcomponent[7]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categoryDetail
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories/${externalReferenceId}
+      /starterstore:connectorcomponent[8]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categorydecorator
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?limit=100
+      /starterstore:connectorcomponent[9]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productdecorator
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: product-projections/search?<#if starterstoreQueryParam_query?has_content>text.en="${starterstoreQueryParam_query}"<#else>filter=id:"${id!}"</#if>
+      /starterstore:connectorcomponent[10]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: createCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"email\": \"${customer.email}\",\r\n  \
+          \ \"password\": \"${customer.password}\",\r\n  <#if customer.title?has_content>\"\
+          title\": \"${customer.title}\",</#if>\r\n  <#if customer.anonymousCartId?has_content>\"\
+          anonymousCartId\": \"${customer.anonymousCartId}\",</#if>\r\n  \"firstName\"\
+          : \"${customer.firstName}\",\r\n  <#if customer.middleName?has_content>\"\
+          middleName\": \"${customer.middleName}\",</#if>\r\n  \"lastName\": \"${customer.lastName}\"\
+          \r\n}"
+        starterstore:serviceBaseUrl: customers
+      /starterstore:connectorcomponent[11]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: getCustomer
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: customers/${storeUser.id}
+      /starterstore:connectorcomponent[12]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: updateCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#if customer.email?has_content\
+          \ && customer.email != customerInBackend.email!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"changeEmail\",\r\n        \"email\": \"${customer.email}\"\
+          \r\n      }\r\n      <#assign hasActions = true />\r\n    </#if>\r\n   \
+          \ <#if customer.firstName?has_content && customer.firstName != customerInBackend.firstName!>\r\
+          \n      <#if hasActions>,</#if>{\r\n        \"action\": \"setFirstName\"\
+          ,\r\n        \"firstName\": \"${customer.firstName}\"\r\n      }\r\n   \
+          \   <#assign hasActions = true />\r\n    </#if>\r\n    <#if customer.lastName?has_content\
+          \ && customer.lastName != customerInBackend.lastName!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"setLastName\",\r\n        \"lastName\": \"${customer.lastName}\"\
+          \r\n      }\r\n      <#assign hasActions = true />\r\n    </#if>\r\n   \
+          \ <#if customer.middleName! != customerInBackend.middleName!>\r\n      <#if\
+          \ hasActions>,</#if>{\r\n        \"action\": \"setMiddleName\",\r\n    \
+          \    \"middleName\": \"${customer.middleName!}\"\r\n      }\r\n      <#assign\
+          \ hasActions = true />\r\n    </#if>\r\n    <#if customer.dateOfBirth! !=\
+          \ customerInBackend.dateOfBirth!>\r\n      <#if hasActions>,</#if>{\r\n\
+          \        \"action\": \"setDateOfBirth\",\r\n        \"dateOfBirth\": \"\
+          ${customer.dateOfBirth!}\"\r\n      }\r\n      <#assign hasActions = true\
+          \ />\r\n    </#if>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[13]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: deleteCustomer
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: customers/${customerId}
+      /starterstore:connectorcomponent[14]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "currency" : "${cartCurrency!}",  "country"
+          : "${country!}"  <#if storeUser??>,"customerId": "${storeUser.name}" </#if>
+          }'
+        starterstore:serviceBaseUrl: /carts
+      /starterstore:connectorcomponent[15]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartDelete
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[16]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductList
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[17]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductAdd
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "addLineItem",    "productId":"${cartProductId!}" }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[18]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "changeLineItemQuantity",    "lineItemId":"${cartItemId!}", "quantity":
+          ${cartItemQuantity!1}  }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[19]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductRemove
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "removeLineItem",    "lineItemId":"${cartItemId!}"    }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[20]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartCustomerUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: '{  "version": ${cartVersion},  "actions": [{    "action":
+          "setCustomerId",    "customerId":"${storeUser.name!}"    }]}'
+        starterstore:serviceBaseUrl: /carts/${cartId}
+      /starterstore:connectorcomponent[21]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: authenticateCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"email\": \"${customer.email}\",\r\n  \"\
+          password\": \"${customer.password}\"\r\n  <#if anonymousCartId??>\r\n  \
+          \  ,\"anonymousCartId\": \"${anonymousCartId}\",\r\n    \"anonymousCartSignInMode\"\
+          \ : \"UseAsNewActiveCustomerCart\"\r\n  </#if>\r\n}"
+        starterstore:serviceBaseUrl: login
+      /starterstore:connectorcomponent[22]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: orderQuery
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: orders?where=customerId="<#if storeUser??>${storeUser.id}</#if>"
+      /starterstore:connectorcomponent[23]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: changeCustomerPassword
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"id\": \"${customer.id}\",\r\n  \"currentPassword\": \"${customer.password}\"\
+          ,\r\n  \"newPassword\": \"${customer.newPassword}\"\r\n}"
+        starterstore:serviceBaseUrl: customers/password/
+      /starterstore:connectorcomponent[24]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: updateCustomerAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#list customer.addresses\
+          \ as address>\r\n      <#if hasActions>,</#if>{\r\n        <#if address.id?has_content>\r\
+          \n          \"action\": \"changeAddress\",\r\n          \"addressId\": \"\
+          ${address.id!}\",\r\n        <#else>\r\n          \"action\": \"addAddress\"\
+          ,\r\n        </#if>\r\n        \"address\": {\r\n          \"id\": \"${utils.randomUUIDString()}\"\
+          ,\r\n          \"streetName\": \"${address.streetName!}\",\r\n         \
+          \ \"streetNumber\": \"${address.streetNumber!}\",\r\n          \"additionalStreetInfo\"\
+          : \"${address.additionalStreetInfo!}\",\r\n          \"postalCode\": \"\
+          ${address.postalCode!}\",\r\n          \"city\": \"${address.city!}\",\r\
+          \n          \"state\": \"${address.state!}\",\r\n          \"country\":\
+          \ \"${address.country!}\",\r\n          \"phone\": \"${address.phone!}\"\
+          ,\r\n          \"mobile\": \"${address.mobile!}\",\r\n          \"fax\"\
+          : \"${address.fax!}\"\r\n        }\r\n      }\r\n      <#assign hasActions\
+          \ = true />\r\n    </#list>\r\n    <#list customer.addresses as address>\r\
+          \n      <#if !address.removalRequested && address.id?has_content>\r\n  \
+          \      <#if address.shippingAddress && !customerInBackend.hasShippingAddressId(address.id!)>\r\
+          \n          <#if hasActions>,</#if>{\r\n            \"action\": \"addShippingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        <#elseif !address.shippingAddress\
+          \ && customerInBackend.hasShippingAddressId(address.id!)>\r\n          <#if\
+          \ hasActions>,</#if>{\r\n            \"action\": \"removeShippingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        </#if>\r\n        <#if\
+          \ address.billingAddress && !customerInBackend.hasBillingAddressId(address.id!)>\r\
+          \n          <#if hasActions>,</#if>{\r\n            \"action\": \"addBillingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        <#elseif !address.billingAddress\
+          \ && customerInBackend.hasBillingAddressId(address.id!)>\r\n          <#if\
+          \ hasActions>,</#if>{\r\n            \"action\": \"removeBillingAddressId\"\
+          ,\r\n            \"addressId\": \"${address.id!}\"\r\n          }\r\n  \
+          \        <#assign hasActions = true />\r\n        </#if>\r\n      </#if>\r\
+          \n    </#list>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[25]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: updateCustomerDefaultAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#if customer.defaultShippingAddressId!\
+          \ != customerInBackend.defaultShippingAddressId!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"setDefaultShippingAddress\"\r\n        <#if customer.defaultShippingAddressId?has_content>,\"\
+          addressId\": \"${customer.defaultShippingAddressId!}\"</#if>\r\n      }\r\
+          \n      <#assign hasActions = true />\r\n    </#if>\r\n    <#if customer.defaultBillingAddressId!\
+          \ != customerInBackend.defaultBillingAddressId!>\r\n      <#if hasActions>,</#if>{\r\
+          \n        \"action\": \"setDefaultBillingAddress\"\r\n        <#if customer.defaultBillingAddressId?has_content>,\"\
+          addressId\": \"${customer.defaultBillingAddressId!}\"</#if>\r\n      }\r\
+          \n      <#assign hasActions = true />\r\n    </#if>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[26]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: removeCustomerAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${customerInBackend.version},\r\
+          \n  \"actions\": [\r\n    <#assign hasActions = false />\r\n    <#list customer.addresses\
+          \ as address>\r\n      <#if address.removalRequested>\r\n        <#if hasActions>,</#if>{\r\
+          \n          \"action\": \"removeAddress\",\r\n          \"addressId\": \"\
+          ${address.id!}\"\r\n        }\r\n        <#assign hasActions = true />\r\
+          \n      </#if>\r\n    </#list>\r\n  ]\r\n}"
+        starterstore:serviceBaseUrl: customers/${customer.id}
+      /starterstore:connectorcomponent[27]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: paymentCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"key\": \"${cartId}\",\r\n  \"amountPlanned\"\
+          : {\r\n    \"currencyCode\": \"${cartCurrency}\",\r\n    \"centAmount\"\
+          : ${cartAmount?c}\r\n   }\r\n}"
+        starterstore:serviceBaseUrl: payments
+      /starterstore:connectorcomponent[28]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: orderCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"id\": \"${cartId}\",\r\n  \"version\"\
+          : ${cartVersion}\r\n}"
+        starterstore:serviceBaseUrl: orders
+      /starterstore:connectorcomponent[29]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartShipmentMethodUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${cartVersion},\r\n  \"actions\"\
+          : [{    \r\n    \"action\": \"setShippingMethod\",\r\n    \"shippingMethod\"\
+          : {\r\n      \"typeId\": \"shipping-method\",\r\n      \"id\" : \"${shippingMethodReference!}\"\
+          \ \r\n    }\r\n  }]\r\n}"
+        starterstore:serviceBaseUrl: carts/${cartId}
+      /starterstore:connectorcomponent[30]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartShipmentAddressUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: "{\r\n  \"version\": ${cartVersion},\r\n  \"actions\"\
+          : [{    \r\n    \"action\": \"setShippingAddress\",\r\n    \"address\":\
+          \ {\r\n          \"id\": \"${utils.randomUUIDString()}\",\r\n          \"\
+          streetName\": \"${address.streetName!}\",\r\n          \"streetNumber\"\
+          : \"${address.streetNumber!}\",\r\n          \"additionalStreetInfo\": \"\
+          ${address.additionalStreetInfo!}\",\r\n          \"postalCode\": \"${address.postalCode!}\"\
+          ,\r\n          \"city\": \"${address.city!}\",\r\n          \"state\": \"\
+          ${address.state!}\",\r\n          \"country\": \"${address.country!}\",\r\
+          \n          \"phone\": \"${address.phone!}\",\r\n          \"mobile\": \"\
+          ${address.mobile!}\",\r\n          \"fax\": \"${address.fax!}\"\r\n    \
+          \    }\r\n  }]\r\n}"
+        starterstore:serviceBaseUrl: carts/${cartId}
+  /bloomreach:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: d8f34b0b-ef62-46fa-83be-659751be36a2
+    hippo:versionHistory: 14f581db-df53-4351-9913-3d35c65f0d8a
+    /bloomreach[1]:
+      jcr:primaryType: starterstore:connectordoc
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d099839f-3df2-4acb-b357-24cc52296b9a
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-02-15T14:28:13.505-05:00
+      hippostdpubwf:lastModificationDate: 2019-03-27T12:00:32.622+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-03-27T12:00:38.046+01:00
+      starterstore:id: bloomreach
+      starterstore:moduleName: ''
+      starterstore:resourceSpace: productsResource
+      /starterstore:connectorcomponent[1]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productList
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 10', 'start: 0', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[2]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearch
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: ${starterstoreQueryParam_pageSize}', 'start: ${starterstoreQueryParam_offset}',
+          'q: ${starterstoreQueryParam_query!""}', 'fq: ${starterstoreQueryParam_facetQuery!""}',
+          'widget_id: ${widgetId!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fq={fq}&widget_id={widget_id}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[3]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: widget
+        starterstore:methodType: GET
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'start: ${starterstoreQueryParam_offset}', 'rows: ${starterstoreQueryParam_pageSize}',
+          'q: ${starterstoreQueryParam_query}', 'widget_id: ${widgetId!""}', 'fl:
+            pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&widget_id={widget_id}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[4]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearchByCategory
+        starterstore:pathVariables: ['request_type: search', 'search_type: category',
+          'rows: ${starterstoreQueryParam_pageSize}', 'start: ${starterstoreQueryParam_offset}',
+          'q: ${externalReferenceId!starterstoreQueryParam_query!""}', 'fq: ${starterstoreQueryParam_facetQuery!""}',
+          'widget_id: ${widgetId!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fq={fq}&widget_id={widget_id}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[5]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: facetList
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 0', 'start: 0', 'q: ${starterstoreQueryParam_query!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[6]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: moreLikeThis
+        starterstore:pathVariables: ['request_type: mlt', 'pid: <#if productId?? &&
+            productId?has_content>${productId}<#else>${externalReferenceId!""}</#if>',
+          'rows: ${starterstoreQueryParam_pageSize}', 'start: ${starterstoreQueryParam_offset}',
+          '_br_uid_2: ${pixelData.bloomreachUid!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&pid={pid}&rows={rows}&start={start}&_br_uid_2={_br_uid_2}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[7]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: justForYou
+        starterstore:pathVariables: ['request_type: jfy', 'rows: ${starterstoreQueryParam_pageSize}',
+          '_br_uid_2: ${pixelData.bloomreachUid!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&rows={rows}&_br_uid_2={_br_uid_2}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[8]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categoriesList
+        starterstore:pathVariables: ['request_type: search', 'search_type: category',
+          'rows: 200', 'start: 0', 'q: ${externalReferenceId!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[9]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categorydecorator
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 10', 'start: 0', 'q: ${starterstoreQueryParam_query}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?account_id=${.data_model['account.id']!}&domain_key=${.data_model['domain.key']!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[10]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productdecorator
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 200', 'start: 0', 'q: ${starterstoreQueryParam_query}', 'pid: ${id}',
+          'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${.data_model['account.id']!}&domain_key=${.data_model['domain.key']!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&pid={pid}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[11]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productDetail
+        starterstore:pathVariables: ['q: ${externalReferenceId}', 'rows: 1', 'start:
+            0', 'request_type: search', 'search_type: keyword', 'pid: ${externalReferenceId}',
+          'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&pid={pid}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+    /bloomreach[2]:
+      jcr:primaryType: starterstore:connectordoc
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d67d93f0-aa85-4035-a664-56473ac92309
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-02-15T14:28:13.505-05:00
+      hippostdpubwf:lastModificationDate: 2019-03-27T12:00:32.622+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      starterstore:id: bloomreach
+      starterstore:moduleName: ''
+      starterstore:resourceSpace: productsResource
+      /starterstore:connectorcomponent[1]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productList
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 10', 'start: 0', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[2]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearch
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: ${starterstoreQueryParam_pageSize}', 'start: ${starterstoreQueryParam_offset}',
+          'q: ${starterstoreQueryParam_query!""}', 'fq: ${starterstoreQueryParam_facetQuery!""}',
+          'widget_id: ${widgetId!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fq={fq}&widget_id={widget_id}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[3]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: widget
+        starterstore:methodType: GET
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'start: ${starterstoreQueryParam_offset}', 'rows: ${starterstoreQueryParam_pageSize}',
+          'q: ${starterstoreQueryParam_query}', 'widget_id: ${widgetId!""}', 'fl:
+            pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&widget_id={widget_id}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[4]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearchByCategory
+        starterstore:pathVariables: ['request_type: search', 'search_type: category',
+          'rows: ${starterstoreQueryParam_pageSize}', 'start: ${starterstoreQueryParam_offset}',
+          'q: ${externalReferenceId!starterstoreQueryParam_query!""}', 'fq: ${starterstoreQueryParam_facetQuery!""}',
+          'widget_id: ${widgetId!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fq={fq}&widget_id={widget_id}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[5]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: facetList
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 0', 'start: 0', 'q: ${starterstoreQueryParam_query!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[6]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: moreLikeThis
+        starterstore:pathVariables: ['request_type: mlt', 'pid: <#if productId?? &&
+            productId?has_content>${productId}<#else>${externalReferenceId!""}</#if>',
+          'rows: ${starterstoreQueryParam_pageSize}', 'start: ${starterstoreQueryParam_offset}',
+          '_br_uid_2: ${pixelData.bloomreachUid!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&pid={pid}&rows={rows}&start={start}&_br_uid_2={_br_uid_2}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[7]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: justForYou
+        starterstore:pathVariables: ['request_type: jfy', 'rows: ${starterstoreQueryParam_pageSize}',
+          '_br_uid_2: ${pixelData.bloomreachUid!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&rows={rows}&_br_uid_2={_br_uid_2}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[8]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categoriesList
+        starterstore:pathVariables: ['request_type: search', 'search_type: category',
+          'rows: 200', 'start: 0', 'q: ${externalReferenceId!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[9]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categorydecorator
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 10', 'start: 0', 'q: ${starterstoreQueryParam_query}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?account_id=${.data_model['account.id']!}&domain_key=${.data_model['domain.key']!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[10]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productdecorator
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 200', 'start: 0', 'q: ${starterstoreQueryParam_query}', 'pid: ${id}',
+          'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${.data_model['account.id']!}&domain_key=${.data_model['domain.key']!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&pid={pid}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[11]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productDetail
+        starterstore:pathVariables: ['q: ${externalReferenceId}', 'rows: 1', 'start:
+            0', 'request_type: search', 'search_type: keyword', 'pid: ${externalReferenceId}',
+          'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&pid={pid}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+    /bloomreach[3]:
+      jcr:primaryType: starterstore:connectordoc
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 51aaf6bb-cfa7-4261-b472-67c8cadd149f
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-02-15T14:28:13.505-05:00
+      hippostdpubwf:lastModificationDate: 2019-03-27T12:00:00.945+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      starterstore:id: bloomreach
+      starterstore:moduleName: ''
+      starterstore:resourceSpace: productsResource
+      /starterstore:connectorcomponent[1]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productList
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 10', 'start: 0', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[2]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearch
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: ${starterstoreQueryParam_pageSize}', 'start: ${starterstoreQueryParam_offset}',
+          'q: ${starterstoreQueryParam_query!""}', 'fq: ${starterstoreQueryParam_facetQuery!""}',
+          'widget_id: ${widgetId!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fq={fq}&widget_id={widget_id}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[3]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: widget
+        starterstore:methodType: GET
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'start: ${starterstoreQueryParam_offset}', 'rows: ${starterstoreQueryParam_pageSize}',
+          'q: ${starterstoreQueryParam_query}', 'widget_id: ${widgetId!""}', 'fl:
+            pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&widget_id={widget_id}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[4]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productSearchByCategory
+        starterstore:pathVariables: ['request_type: search', 'search_type: category',
+          'rows: ${starterstoreQueryParam_pageSize}', 'start: ${starterstoreQueryParam_offset}',
+          'q: ${externalReferenceId!starterstoreQueryParam_query!""}', 'fq: ${starterstoreQueryParam_facetQuery!""}',
+          'widget_id: ${widgetId!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fq={fq}&widget_id={widget_id}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[5]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: facetList
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 0', 'start: 0', 'q: ${starterstoreQueryParam_query!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[6]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: moreLikeThis
+        starterstore:pathVariables: ['request_type: mlt', 'pid: <#if productId?? &&
+            productId?has_content>${productId}<#else>${externalReferenceId!""}</#if>',
+          'rows: ${starterstoreQueryParam_pageSize}', 'start: ${starterstoreQueryParam_offset}',
+          '_br_uid_2: ${pixelData.bloomreachUid!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&pid={pid}&rows={rows}&start={start}&_br_uid_2={_br_uid_2}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[7]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: justForYou
+        starterstore:pathVariables: ['request_type: jfy', 'rows: ${starterstoreQueryParam_pageSize}',
+          '_br_uid_2: ${pixelData.bloomreachUid!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&rows={rows}&_br_uid_2={_br_uid_2}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[8]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categoriesList
+        starterstore:pathVariables: ['request_type: search', 'search_type: category',
+          'rows: 200', 'start: 0', 'q: ${externalReferenceId!""}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[9]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: categorydecorator
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 10', 'start: 0', 'q: ${starterstoreQueryParam_query}', 'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: categories?account_id=${.data_model['account.id']!}&domain_key=${.data_model['domain.key']!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[10]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productdecorator
+        starterstore:pathVariables: ['request_type: search', 'search_type: keyword',
+          'rows: 200', 'start: 0', 'q: ${starterstoreQueryParam_query}', 'pid: ${id}',
+          'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${.data_model['account.id']!}&domain_key=${.data_model['domain.key']!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&pid={pid}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+      /starterstore:connectorcomponent[11]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:id: productDetail
+        starterstore:pathVariables: ['q: ${externalReferenceId}', 'rows: 1', 'start:
+            0', 'request_type: search', 'search_type: keyword', 'pid: ${externalReferenceId}',
+          'fl: pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: products?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&search_type={search_type}&rows={rows}&start={start}&q={q}&pid={pid}&fl={fl}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+  /bloomreach_autosuggest:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 64a0c6e2-067b-44b1-95a0-419aa2d19078
+    hippo:versionHistory: b3c6ffa6-f285-4660-99f8-b7f881e0c367
+    /bloomreach_autosuggest:
+      jcr:primaryType: starterstore:connectordoc
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 04e39f7d-8ad0-4247-8d4f-6f3e0c17e3ae
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-02-15T14:28:40.369-05:00
+      hippostdpubwf:lastModificationDate: 2019-02-15T14:28:44.292-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-02-15T14:28:46.094-05:00
+      starterstore:id: bloomreach_autosuggest
+      starterstore:resourceSpace: bloomreach_autosuggestions
+      /starterstore:connectorcomponent:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: autosuggest
+        starterstore:methodType: GET
+        starterstore:pathVariables: ['request_type: suggest', 'q: ${starterstoreQueryParam_query}',
+          'rsp_fmt: v2']
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: suggest/?account_id=${channelInfo.accountId!}&domain_key=${channelInfo.domainKey!}&realm=prod&auth_key=&fl=pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,score,sale_price&ref_url=refurl&request_id=${.now?long?c}&request_type={request_type}&rsp_fmt={rsp_fmt}&q={q}&url=http://brm-core-0.brsrvr.com/api/v1/core/
+  /elasticpath:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 01b0208c-329a-4215-b8c5-b905ffc7853e
+    hippo:versionHistory: f486f8eb-9067-4e82-8ffc-3412fcc5bca3
+    /elasticpath[1]:
+      jcr:primaryType: starterstore:connectordoc
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b3a2a20c-cef6-4c96-bfcf-03cebd46363f
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-02-15T14:27:44.180-05:00
+      hippostdpubwf:lastModificationDate: 2019-03-26T14:38:17.363+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-03-26T15:08:51.750+01:00
+      starterstore:id: elasticpath
+      starterstore:moduleName: com.bloomreach.commercedxp.container.connector.elasticpath
+      starterstore:props: ['scope: ${elasticpath.scope}', 'role: ${elasticpath.role}']
+      starterstore:resourceSpace: elasticpath
+      /starterstore:connectorcomponent[1]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: productSearch
+        starterstore:methodType: POST
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /searches/${scope}/keywords/form?FollowLocation=true&zoom=element,element:appliedpromotions,element:availability,element:code,element:definition,element:price
+      /starterstore:connectorcomponent[2]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: customerCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /registrations/${scope}/newaccount/form?followlocation
+      /starterstore:connectorcomponent[3]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/x-www-form-urlencoded']
+        starterstore:id: authenticateCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /oauth2/tokens
+      /starterstore:connectorcomponent[4]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: getCustomer
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /profiles/${scope}/default?_=${.now?long?c}&zoom=addresses,addresses:element,addresses:billingaddresses,addresses:billingaddresses:default,addresses:billingaddresses:element,addresses:shippingaddresses,addresses:shippingaddresses:default,addresses:shippingaddresses:element,emails,emails:element,paymentmethods,paymentmethods:default,paymentmethods:element,purchases,purchases:element
+      /starterstore:connectorcomponent[5]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: categorySearch
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /navigations/${scope}?FollowLocation=true&zoom=child,element
+      /starterstore:connectorcomponent[6]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: updateCustomer
+        starterstore:methodType: PUT
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /profiles/${scope}/${resourceId}
+      /starterstore:connectorcomponent[7]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: updateCustomerAddresses
+        starterstore:methodType: PUT
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /addresses/${scope}/<#if resourceId?has_content>${resourceId}<#else>form</#if>
+      /starterstore:connectorcomponent[8]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: createCustomerAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /addresses/${scope}/form?followlocation
+      /starterstore:connectorcomponent[9]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: removeCustomerAddresses
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /addresses/${scope}/${resourceId!}
+      /starterstore:connectorcomponent[10]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: productSearchByCategory
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /searches/navigations/${scope}/{resourceId}/{currentPage}?FollowLocation=true&zoom=element,element:appliedpromotions,element:availability,element:code,element:definition,element:price
+      /starterstore:connectorcomponent[11]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: productSearchById
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /items/${scope}/lookups/form?followlocation=true&format=zoom.noself&zoom=appliedpromotions,availability,code,definition,price
+      /starterstore:connectorcomponent[12]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: cartProductAdd
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/items/${scope}/{resourceId}/form?followlocation&format=zoom.noself
+      /starterstore:connectorcomponent[13]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductList
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/default?format=zoom.noself&zoom=lineitems,lineitems:element,lineitems:element:item,lineitems:element:item:definition,lineitems:element:item:price,lineitems:element:item:code
+      /starterstore:connectorcomponent[14]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: cartProductUpdate
+        starterstore:methodType: PUT
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/{storeId}/lineitems/{lineItemId}
+      /starterstore:connectorcomponent[15]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductRemove
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/{storeId}/lineitems/{lineItemId}
+      /starterstore:connectorcomponent[16]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: categoryDetailSearch
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /navigations/${scope}/{resourceId}?zoom=child,child:child,child:element
+      /starterstore:connectorcomponent[17]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: cartShipmentAddressUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /shipmentdetails/${scope}/{resourceId}/destinationinfo/selector/addresses/${scope}/{addressId}?followlocation&format=zoom.noself
+      /starterstore:connectorcomponent[18]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: cartCheckout
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/default?zoom=order
+      /starterstore:connectorcomponent[19]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: orderCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /purchases/orders/${scope}/{resourceId}/form?followlocation&format=zoom.noself
+      /starterstore:connectorcomponent[20]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: orderRead
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /orders/${scope}/{resourceId}?zoom=deliveries,deliveries:element,deliveries:element:destinationinfo,deliveries:element:destinationinfo:selector,deliveries:element:destinationinfo:selector:choice,deliveries:element:destinationinfo:selector:chosen,deliveries:element:destinationinfo:selector:choice:description,deliveries:element:destinationinfo:selector:chosen:description
+      /starterstore:connectorcomponent[21]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: orderQuery
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /purchases/${scope}?zoom=element
+    /elasticpath[2]:
+      jcr:primaryType: starterstore:connectordoc
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 399c808a-fdaf-421c-9444-fd562af3d34c
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-02-15T14:27:44.180-05:00
+      hippostdpubwf:lastModificationDate: 2019-03-26T14:38:17.363+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      starterstore:id: elasticpath
+      starterstore:moduleName: com.bloomreach.commercedxp.container.connector.elasticpath
+      starterstore:props: ['scope: ${elasticpath.scope}', 'role: ${elasticpath.role}']
+      starterstore:resourceSpace: elasticpath
+      /starterstore:connectorcomponent[1]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: productSearch
+        starterstore:methodType: POST
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /searches/${scope}/keywords/form?FollowLocation=true&zoom=element,element:appliedpromotions,element:availability,element:code,element:definition,element:price
+      /starterstore:connectorcomponent[2]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: customerCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /registrations/${scope}/newaccount/form?followlocation
+      /starterstore:connectorcomponent[3]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/x-www-form-urlencoded']
+        starterstore:id: authenticateCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /oauth2/tokens
+      /starterstore:connectorcomponent[4]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: getCustomer
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /profiles/${scope}/default?_=${.now?long?c}&zoom=addresses,addresses:element,addresses:billingaddresses,addresses:billingaddresses:default,addresses:billingaddresses:element,addresses:shippingaddresses,addresses:shippingaddresses:default,addresses:shippingaddresses:element,emails,emails:element,paymentmethods,paymentmethods:default,paymentmethods:element,purchases,purchases:element
+      /starterstore:connectorcomponent[5]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: categorySearch
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /navigations/${scope}?FollowLocation=true&zoom=child,element
+      /starterstore:connectorcomponent[6]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: updateCustomer
+        starterstore:methodType: PUT
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /profiles/${scope}/${resourceId}
+      /starterstore:connectorcomponent[7]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: updateCustomerAddresses
+        starterstore:methodType: PUT
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /addresses/${scope}/<#if resourceId?has_content>${resourceId}<#else>form</#if>
+      /starterstore:connectorcomponent[8]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: createCustomerAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /addresses/${scope}/form?followlocation
+      /starterstore:connectorcomponent[9]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: removeCustomerAddresses
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /addresses/${scope}/${resourceId!}
+      /starterstore:connectorcomponent[10]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: productSearchByCategory
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /searches/navigations/${scope}/{resourceId}/{currentPage}?FollowLocation=true&zoom=element,element:appliedpromotions,element:availability,element:code,element:definition,element:price
+      /starterstore:connectorcomponent[11]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: productSearchById
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /items/${scope}/lookups/form?followlocation=true&format=zoom.noself&zoom=appliedpromotions,availability,code,definition,price
+      /starterstore:connectorcomponent[12]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: cartProductAdd
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/items/${scope}/{resourceId}/form?followlocation&format=zoom.noself
+      /starterstore:connectorcomponent[13]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductList
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/default?format=zoom.noself&zoom=lineitems,lineitems:element,lineitems:element:item,lineitems:element:item:definition,lineitems:element:item:price,lineitems:element:item:code
+      /starterstore:connectorcomponent[14]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: cartProductUpdate
+        starterstore:methodType: PUT
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/{storeId}/lineitems/{lineItemId}
+      /starterstore:connectorcomponent[15]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductRemove
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/{storeId}/lineitems/{lineItemId}
+      /starterstore:connectorcomponent[16]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: categoryDetailSearch
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /navigations/${scope}/{resourceId}?zoom=child,child:child,child:element
+      /starterstore:connectorcomponent[17]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: cartShipmentAddressUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /shipmentdetails/${scope}/{resourceId}/destinationinfo/selector/addresses/${scope}/{addressId}?followlocation&format=zoom.noself
+      /starterstore:connectorcomponent[18]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: cartCheckout
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/default?zoom=order
+      /starterstore:connectorcomponent[19]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: orderCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /purchases/orders/${scope}/{resourceId}/form?followlocation&format=zoom.noself
+      /starterstore:connectorcomponent[20]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: orderRead
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /orders/${scope}/{resourceId}?zoom=deliveries,deliveries:element,deliveries:element:destinationinfo,deliveries:element:destinationinfo:selector,deliveries:element:destinationinfo:selector:choice,deliveries:element:destinationinfo:selector:chosen,deliveries:element:destinationinfo:selector:choice:description,deliveries:element:destinationinfo:selector:chosen:description
+      /starterstore:connectorcomponent[21]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: orderQuery
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /purchases/${scope}?zoom=element
+    /elasticpath[3]:
+      jcr:primaryType: starterstore:connectordoc
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1f0c12e8-38cb-4384-979f-2785935f0578
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-02-15T14:27:44.180-05:00
+      hippostdpubwf:lastModificationDate: 2019-03-26T14:37:26.965+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      starterstore:id: elasticpath
+      starterstore:moduleName: com.bloomreach.commercedxp.container.connector.elasticpath
+      starterstore:props: ['scope: ${elasticpath.scope}', 'role: ${elasticpath.role}']
+      starterstore:resourceSpace: elasticpath
+      /starterstore:connectorcomponent[1]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: productSearch
+        starterstore:methodType: POST
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /searches/${scope}/keywords/form?FollowLocation=true&zoom=element,element:appliedpromotions,element:availability,element:code,element:definition,element:price
+      /starterstore:connectorcomponent[2]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: customerCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /registrations/${scope}/newaccount/form?followlocation
+      /starterstore:connectorcomponent[3]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/x-www-form-urlencoded']
+        starterstore:id: authenticateCustomer
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /oauth2/tokens
+      /starterstore:connectorcomponent[4]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: getCustomer
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /profiles/${scope}/default?_=${.now?long?c}&zoom=addresses,addresses:element,addresses:billingaddresses,addresses:billingaddresses:default,addresses:billingaddresses:element,addresses:shippingaddresses,addresses:shippingaddresses:default,addresses:shippingaddresses:element,emails,emails:element,paymentmethods,paymentmethods:default,paymentmethods:element,purchases,purchases:element
+      /starterstore:connectorcomponent[5]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: categorySearch
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /navigations/${scope}?FollowLocation=true&zoom=child,element
+      /starterstore:connectorcomponent[6]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: updateCustomer
+        starterstore:methodType: PUT
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /profiles/${scope}/${resourceId}
+      /starterstore:connectorcomponent[7]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: updateCustomerAddresses
+        starterstore:methodType: PUT
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /addresses/${scope}/<#if resourceId?has_content>${resourceId}<#else>form</#if>
+      /starterstore:connectorcomponent[8]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: createCustomerAddresses
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /addresses/${scope}/form?followlocation
+      /starterstore:connectorcomponent[9]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: removeCustomerAddresses
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /addresses/${scope}/${resourceId!}
+      /starterstore:connectorcomponent[10]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: productSearchByCategory
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /searches/navigations/${scope}/{resourceId}/{currentPage}?FollowLocation=true&zoom=element,element:appliedpromotions,element:availability,element:code,element:definition,element:price
+      /starterstore:connectorcomponent[11]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: productSearchById
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /items/${scope}/lookups/form?followlocation=true&format=zoom.noself&zoom=appliedpromotions,availability,code,definition,price
+      /starterstore:connectorcomponent[12]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: cartProductAdd
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/items/${scope}/{resourceId}/form?followlocation&format=zoom.noself
+      /starterstore:connectorcomponent[13]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductList
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/default?format=zoom.noself&zoom=lineitems,lineitems:element,lineitems:element:item,lineitems:element:item:definition,lineitems:element:item:price,lineitems:element:item:code
+      /starterstore:connectorcomponent[14]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: cartProductUpdate
+        starterstore:methodType: PUT
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/{storeId}/lineitems/{lineItemId}
+      /starterstore:connectorcomponent[15]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: []
+        starterstore:id: cartProductRemove
+        starterstore:methodType: DELETE
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/{storeId}/lineitems/{lineItemId}
+      /starterstore:connectorcomponent[16]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: categoryDetailSearch
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /navigations/${scope}/{resourceId}?zoom=child,child:child,child:element
+      /starterstore:connectorcomponent[17]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: cartShipmentAddressUpdate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /shipmentdetails/${scope}/{resourceId}/destinationinfo/selector/addresses/${scope}/{addressId}?followlocation&format=zoom.noself
+      /starterstore:connectorcomponent[18]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: cartCheckout
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /carts/${scope}/default?zoom=order
+      /starterstore:connectorcomponent[19]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Content-Type: application/json']
+        starterstore:id: orderCreate
+        starterstore:methodType: POST
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /purchases/orders/${scope}/{resourceId}/form?followlocation&format=zoom.noself
+      /starterstore:connectorcomponent[20]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: orderRead
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /orders/${scope}/{resourceId}?zoom=deliveries,deliveries:element,deliveries:element:destinationinfo,deliveries:element:destinationinfo:selector,deliveries:element:destinationinfo:selector:choice,deliveries:element:destinationinfo:selector:chosen,deliveries:element:destinationinfo:selector:choice:description,deliveries:element:destinationinfo:selector:chosen:description
+      /starterstore:connectorcomponent[21]:
+        jcr:primaryType: starterstore:connectorcomponent
+        starterstore:cookies: []
+        starterstore:headers: ['Accept: application/json', 'Content-Type: application/json']
+        starterstore:id: orderQuery
+        starterstore:methodType: GET
+        starterstore:pathVariables: []
+        starterstore:requestBody: ''
+        starterstore:serviceBaseUrl: /purchases/${scope}?zoom=element

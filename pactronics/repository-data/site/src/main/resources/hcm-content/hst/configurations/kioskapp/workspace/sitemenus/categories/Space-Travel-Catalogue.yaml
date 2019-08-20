@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/kioskapp/hst:workspace/hst:sitemenus/categories/Space Travel Catalogue:
+  .meta:order-before: Guides
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: categories/electronics
+  hst:repobased: false

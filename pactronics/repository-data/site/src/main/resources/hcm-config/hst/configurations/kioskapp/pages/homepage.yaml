@@ -1,0 +1,16 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kioskapp/hst:pages/homepage:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        /intro:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: homepage/main/intro
+        /body:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: homepage/main/body
+        /closing:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: homepage/main/closing

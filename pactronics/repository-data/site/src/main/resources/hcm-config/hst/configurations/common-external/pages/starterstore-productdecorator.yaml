@@ -1,0 +1,18 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/starterstore-productdecorator:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:parameternames: [commands, connectorComponent]
+        hst:parametervalues: ['initContextCommand, cartCreateCommand, cartProductListCommand,
+            cartProductAddCommand, personalizationCallCommand, commerceCallCommand,
+            contentRedirectEnricherCommand, targetingCommand', productDetail]
+        hst:referencecomponent: hst:components/ProductDetail
+        /top-container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: starterstore-productdecorator/top-container
+        /bottom-container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: starterstore-productdecorator/bottom-container

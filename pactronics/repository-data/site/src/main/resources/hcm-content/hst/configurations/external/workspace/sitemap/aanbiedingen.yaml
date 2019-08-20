@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/aanbiedingen:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/aanbiedingen-categorypage
+  hst:lastmodified: 2019-08-12T13:53:28.970+02:00
+  hst:pagetitle: aanbiedingen

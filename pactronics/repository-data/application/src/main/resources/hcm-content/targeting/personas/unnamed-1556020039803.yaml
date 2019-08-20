@@ -1,0 +1,20 @@
+/targeting:targeting/targeting:personas/unnamed-1556020039803:
+  jcr:primaryType: targeting:persona
+  targeting:alterego: unnamed-1556020039803-alterego
+  targeting:avatar: image-1556290741338
+  targeting:description: ''
+  targeting:name: Mike
+  targeting:quote: ''
+  targeting:segmentDescription: ''
+  targeting:segmentName: Smart glasses
+  /targeting:expression:
+    jcr:primaryType: targeting:rule
+    targeting:targetgroup: commerceCategories/smartglasses-1556019694878
+  /targeting:avatar:
+    jcr:primaryType: hippo:resource
+    hippo:filename: p6.png
+    jcr:data:
+      type: binary
+      resource: /targeting/personas/unnamed-1556020039803/avatar/p6.png
+    jcr:lastModified: 2019-04-26T16:59:01.338+02:00
+    jcr:mimeType: image/png

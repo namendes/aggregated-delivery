@@ -1,0 +1,254 @@
+// Copyright 2018-2019 BloomReach B.V. (https://www.bloomreach.com)
+
+import groovy.json.JsonSlurper
+
+pipeline {
+    agent {
+        docker {
+            label 'docker'
+            image 'onehippo/buildcms:latest'
+            registryUrl 'https://docker.io/'
+            //customWorkspace "workspace/"
+            args "-v /dev/urandom:/dev/random \
+                  --cap-add=SYS_ADMIN"
+        }
+    }
+    environment {
+        gitCredentialsID = 'a9511950-0b5d-4727-aa82-a0d7f205b1f4'
+        mavenSettingsID = 'org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig1412272376940'
+
+        def workspace = pwd()
+
+        // Setup variables for the deployment
+        od2_environment = "pactronics"
+        od2_url = "https://api-poc.onehippo.io"
+
+        domain = "${od2_environment}-poc.onehippo.io"
+        deployed_site = "https://${od2_environment}-poc.onehippo.io/site/"
+        deployed_cms = "https://${od2_environment}-poc.onehippo.io/cms/"
+
+        TMPDIR="${workspace}/spa/node"
+    }
+
+//    options {
+//        buildDiscarder(logRotator(numToKeepStr:'10'))
+//        disableConcurrentBuilds()
+//        gitLabConnection('https://code.onehippo.org/')
+//        gitlabCommitStatus(name: 'jenkins')
+//        skipStagesAfterUnstable()
+//        timeout(time: 3, unit: 'HOURS')
+//        timestamps()
+//    }
+    triggers {
+           cron('0 7 * * 6')
+       }
+    stages {
+        stage('Prepare') {
+            steps {
+                echo "=== Build Environment ================"
+                sh "java -version && javac -version && node --version && mvn --version && google-chrome --version"
+                echo "======================================"
+            }
+        }
+        stage('Build') {
+            steps {
+                // Run the maven build
+                echo "Build the distribution:"
+                withMaven(
+                    options: [artifactsPublisher(disabled: true)],
+                    mavenSettingsConfig: mavenSettingsID) {
+                    // sh '$MVN_CMD help:effective-settings -U -Dhippo.snapshots=true'
+                    sh '$MVN_CMD initialize'
+                    sh '$MVN_CMD -e -B -Dsurefire.useFile=false -U clean install -Dhippo.snapshots -Pdefault -Pwith-deployment-module -P jenkins'
+                    sh '$MVN_CMD -Dhippo.snapshots -Dhst-properties=conf/hst-dev.properties -P dist-with-development-data'
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                    // Login to get the access token
+                    echo "Login to OD2 and obtains token:"
+                    withCredentials([usernamePassword(credentialsId: 'brc_pactronics_admin', passwordVariable: 'od2_password', usernameVariable: 'od2_username')]) {
+
+                        def json = "{\"username\": \"${od2_username}\", \"password\": \"${od2_password}\"}"
+                        loginResult = sh(script: "curl  -s -X POST '${od2_url}/v3/authn/access_token' \
+                -H 'Content-Type: application/json' \
+                -d '${json}'",
+                                returnStdout: true)
+                    }
+                    echo "Login result ${loginResult}"
+                    String access_token = "Bearer " + parseJson(loginResult).access_token
+
+                    // Get the environment ID
+                    echo "Get the environments"
+                    environments = sh(script: "curl -X GET '${od2_url}/v3/environments/' \
+            -H 'Authorization: ${access_token}' \
+            -H 'Content-Type: application/json'",
+                            returnStdout: true)
+
+                    // We require an exising environment. Alternative is to delete/create one
+                    environmentID = getEnvironmentID(environments, od2_environment)
+                    echo "Environments result: ${environments}"
+                    echo "Environment ID: ${environmentID}"
+
+                    // Delete and create if environment exists, this is optional
+                    if (environmentID != null) {
+                        //get and delete domain if exists
+                        domains = get("${od2_url}/v3/domains/", access_token);
+                        deleteRelatedDomains(domains, environmentID, access_token)
+                        // Environment exists, delete it
+                        echo "Delete environment"
+                        sh(script: "curl --http1.1 -X DELETE '${od2_url}/v3/environments/${environmentID}' \
+            -H 'Authorization: ${access_token}' \
+            -H 'Content-Type: application/json'")
+                        environmentID = null
+                    }
+
+                    sleep 30
+
+                    // Create environment if not already exist
+                    if (environmentID == null) {
+                        // Create environment
+                        echo "Create environment"
+                        json = "{\"name\": \"${od2_environment}\"}"
+                        createEnvironmentResult = sh(script: "curl -X POST '${od2_url}/v3/environments/' \
+            -H 'Authorization: ${access_token}' \
+            -H 'Content-Type: application/json' \
+            -d '${json}'",
+                                returnStdout: true)
+                        echo "createEnvironmentResult " + createEnvironmentResult
+                        environmentID = parseJson(createEnvironmentResult).id
+                    }
+
+                    // Upload the distribution
+                    String projectVersion = readMavenPom(file: "${workspace}/pom.xml").getVersion()
+                    echo "Project version ${projectVersion}"
+                    String projectName = "pactronics-demo"
+                    String distribution = "target/${projectName}-${projectVersion}-distribution-with-development-data.tar.gz"
+                    echo "Upload the distribution ${distribution}"
+                    uploadResult = sh(script: "curl -X POST '${od2_url}/v3/distributions/' \
+            -H 'Authorization: ${access_token}' \
+            -H 'Content-Type:multipart/form-data' \
+            -F 'dist_file=@${workspace}/${distribution}'",
+                            returnStdout: true)
+                    echo "Upload result: ${uploadResult}"
+
+                    distID = parseJson(uploadResult).id
+                    echo "distID: ${distID}"
+
+                    // Deploy the distribution to the environment
+                    echo "Deploy distribution"
+                    json = "{\"distributionId\": \"${distID}\", \"strategy\": \"stopstart\"}"
+                    deployResult = sh(script: "curl  -i --http1.1 -X PUT '${od2_url}/v3/environments/${environmentID}/deploy' \
+            -H 'Authorization: ${access_token}' \
+            -H 'Content-Type: application/json' \
+            -d '${json}'",
+                            returnStdout: true)
+                    echo "Result of deploy: ${deployResult}"
+                    setDomain(domain,"${od2_url}/v3/domains/", environmentID, access_token, "/kiosk-app", "/kiosk-app")
+                }
+            }
+        }
+
+        stage('CMS Up') {
+            steps {
+                // Test if the CMS is up. Try for 10 minutes till the title is as expected
+                timeout(time: 20, unit: 'MINUTES') {
+                    waitUntil {
+                        script {
+                            try {
+                                sh "curl -sSf ${deployed_cms} > /dev/null"
+                                return true
+                            } catch (exception) {
+                                return false
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        stage('Results') {
+            steps {
+                slackSend channel: 'pactronics-ci', color: '#0000ff', message: "Project deployed on the BloomReach Cloud POC stack ${od2_environment} environment. CMS URL ${deployed_cms}"
+//                slackSend channel: 'sc-collaboration', color: '#0000ff', message: "Project deployed on the BloomReach Cloud POC stack ${od2_environment} environment. CMS URL ${deployed_cms} SITE URL ${deployed_site}"
+            }
+        }
+    }
+}
+
+
+@NonCPS
+private void setDomain(domain, url, environmentID, String access_token, sourcePath, targetPath) {
+    echo "Set Domain: {sourcePath: ${sourcePath},targetPath: ${targetPath}}"
+    String json = """{
+                        "name": "${domain}",
+                        "environmentId": "${environmentID}",
+                        "sourcePath": "${sourcePath}",
+                        "targetPath": "${targetPath}"
+                    }"""
+    contextPathResult = post(url, json, access_token)
+    echo "Result of react context path: ${contextPathResult}"
+}
+
+@NonCPS
+private String get(url, access_token = null) {
+    return curl("GET", url, access_token)
+}
+
+@NonCPS
+private String post(url, json, access_token = null) {
+    return curl("POST", url, access_token, json)
+}
+
+@NonCPS
+private String postMultipart(url, String fileName, file, String access_token = null) {
+    return curl("POST", url, access_token, null, fileName, file, null, "multipart/form-data")
+}
+
+@NonCPS
+private String put(url, json, String access_token = null) {
+    return curl("PUT", url, access_token, json, null, null, "-i --http1.1")
+}
+
+@NonCPS
+private String  delete(url, access_token = null) {
+    return curl("DELETE", url, access_token, null, null, null, "--http1.1")
+}
+
+@NonCPS
+private String curl(method, url, access_token, json = null, fileName = null, file = null, extraParams = null, contentType = "application/json") {
+    return sh(script: "curl ${extraParams?:""} \
+            -X ${method} '${url}' \
+            ${access_token?"-H 'Authorization: ${access_token}'":""} \
+            -H 'Content-Type: ${contentType}' \
+            ${json?"-d '${json}'":""} \
+            ${(fileName && file)?"-F '${fileName}=@${file}'":""}",
+            returnStdout: true)
+}
+
+@NonCPS
+def parseJson(text) {
+    return new JsonSlurper().parseText(text)
+}
+
+@NonCPS
+private void deleteRelatedDomains(String domains, environmentID, String access_token) {
+    parseJson(domains).each() { domain ->
+        if (domain.environmentId.toString() == environmentID) {
+            delete("${od2_url}/v3/domains/${domain.id}", access_token)
+        }
+    }
+}
+
+// This can be moved to main script with Groovy 2.4.11 and plugin update
+@NonCPS
+def getEnvironmentID(environments, od2_environment) {
+    result = null
+    parseJson(environments).items.each() { env ->
+        if(env.name.toString() == od2_environment) {
+            result = env.id
+        }
+    }
+    return result
+}

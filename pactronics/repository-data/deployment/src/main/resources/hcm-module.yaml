@@ -1,0 +1,7 @@
+group: 
+  name: pactronics
+  after: hippo-cms
+project: pactronics
+module: 
+  name: pactronics-repository-data-deployment
+  after: pactronics-repository-data-application

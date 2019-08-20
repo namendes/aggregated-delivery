@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  Copyright 2011-2017 Hippo B.V. (http://www.onehippo.com)
+-->
+<Configuration>
+  <Appenders>
+
+    <!-- console -->
+    <Console name="console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{dd.MM.yyyy HH:mm:ss} %-5p [%C.%M():%L] %m%n"/>
+    </Console>
+    <!-- log4j.log -->
+    <File name="root" fileName="log4j.log">
+      <PatternLayout pattern="%d{dd.MM.yyyy HH:mm:ss} %-5p %t [%C.%M():%L] %m%n"/>
+    </File>
+
+  </Appenders>
+
+  <Loggers>
+
+    <Logger additivity="false" name="com.onehippo.cms7.targeting.storage.elastic2" level="warn">
+      <AppenderRef ref="console"/>
+    </Logger>
+    <Logger name="com.onehippo.cms7.targeting.demo" level="debug"/>
+    <Logger name="com.onehippo.cms7.targeting.demo.generator.SimulatedVisitor" level="info"/>
+
+    <Root level="warn">
+      <AppenderRef ref="console"/>
+      <AppenderRef ref="root"/>
+    </Root>
+  </Loggers>
+</Configuration>

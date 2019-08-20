@@ -1,0 +1,19 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/category-detail:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:parameternames: [commands, connectorComponent]
+        hst:parametervalues: ['initContextCommand, personalizationCallCommand, commerceCallCommand,
+            contentEnricherCommand', categoryDetail]
+        hst:referencecomponent: hst:components/CategoryDetail
+        /product-list:
+          jcr:primaryType: hst:component
+          hst:parameternames: [commands, connectorComponent, starterstoreQueryParam_pageSize,
+            starterstoreQueryParam_offset, showPagination, showFacets]
+          hst:parametervalues: ['initContextCommand,  personalizationCallCommand,
+              commerceCallCommand, pageableCommand', productSearchByCategory, '12',
+            '0', 'on', 'on']
+          hst:referencecomponent: hst:components/ProductList

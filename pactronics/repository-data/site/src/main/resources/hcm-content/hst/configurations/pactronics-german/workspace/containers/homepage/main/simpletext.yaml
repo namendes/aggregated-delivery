@@ -1,0 +1,12 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:containers/homepage/main/simpletext:
+  .meta:order-before: ProductsGrid
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.SimpleTextComponent
+  hst:iconpath: images/essentials/catalog-component-icons/banner.png
+  hst:label: Simple Text
+  hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide, text,
+    org.hippoecm.hst.core.component.template]
+  hst:parametervalues: ['off', Große intelligente Uhren, 'webfile:/freemarker/pactronics/simple-text-component/simple-text-component-title.ftl']
+  hst:template: simple-text-component
+  hst:xtype: hst.item

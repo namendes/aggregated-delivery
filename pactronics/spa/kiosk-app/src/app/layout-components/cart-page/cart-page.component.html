@@ -1,0 +1,75 @@
+<bre-render-cms-component [path]="'header'" [renderComponent]="starterstoreHeaderComponent"></bre-render-cms-component>
+
+<div class="container">
+  <!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+      <!--<app-breadcrumb></app-breadcrumb>-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <div class="row" style="padding-top:70px;">
+    <div class="col-md-12">
+      <bre-render-cms-component [path]="'main/intro'"></bre-render-cms-component>
+    </div>
+  </div>
+
+  <div class="row" style="padding-top:20px;">
+    <div class="col-md-12"><h1>Your Cart</h1></div>
+  </div>
+
+  <div *ngIf="!cartFound" class="row">
+    <div class="col-md-4">
+      <p>Enter your cart id to retrieve your cart.</p>
+    </div>
+    <div class="col-md-8">
+      <div style="float:right">
+        <label><input type="text" size="56" [formControl]="cartid" placeholder="cart id"></label>
+        <button class="btn" (click)="findCart()">Find Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <ng-container *ngIf="cartFound">
+    <div class="row cart-row" *ngFor="let item of cartData.lineitems">
+      <div class="col-md-1" style="padding: 10px 5px 10px 10px;">
+        <img class="center-cropped" src="{{ item.image }}">
+      </div>
+      <div class="col-md-9" style="padding: 10px 5px;">
+        <h4 style="margin-bottom:0px;">
+          <a class="title" href="/products/{{ item.pid }}">{{ item.name }}</a>
+        </h4>
+        <p class="light_text">USD {{ item.cost }} - Quantity {{ item.quantity }}</p>
+        <div style="margin-left:10px;margin-top:0px">
+          <button class="btn btn-md btn-primary btn-scroll" (click)="removeItem(item.id)">Remove
+          </button>
+        </div>
+      </div>
+      <div class="col-md-2 quantity-div" style="padding: 10px 10px 10px 5px;">
+        <h4 style="margin-top:0px;display:inline-block">QTY</h4>
+        <input type="text" id="_ciq" name="_ciq" size="3" value="{{item.quantity}}">
+        <button style="display:block;margin: 0px;margin-left:76px;margin-top: 10px;width: 100px;"
+                class="btn btn-md btn-primary btn-scroll quantity-btn"
+                (click)="updateItemCount(item.id)">Set
+        </button>
+      </div>
+    </div>
+  </ng-container>
+
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="checkout">
+        <li class="checkout right">
+          <a routerLink="/checkout">Checkout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row" style="padding-top:20px">
+    <div class="col-md-12">
+      <bre-render-cms-component [path]="'main/closing'"></bre-render-cms-component>
+    </div>
+  </div>
+</div>
+
+<app-base-footer></app-base-footer>

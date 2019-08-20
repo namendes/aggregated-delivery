@@ -1,0 +1,44 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:pages/articles-overview:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2018-11-09T16:40:05.126+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:component
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:template: article-overview-wrapper
+    /left:
+      jcr:primaryType: hst:containercomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:label: Content Page Main
+      hst:lastmodified: 2019-06-05T15:36:40.297+02:00
+      hst:xtype: hst.vbox
+      /list:
+        jcr:primaryType: hst:containeritemcomponent
+        jcr:mixinTypes: ['dxphst:mergeable']
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+        hst:iconpath: images/essentials/catalog-component-icons/generic-list.png
+        hst:label: Generic List
+        hst:parameternames: [path, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+          sortOrder, documentTypes, sortField, pageSize, showPagination, includeSubtypes]
+        hst:parametervalues: [buying-guides, 'off', desc, '', 'hippostdpubwf:creationDate',
+          '10', 'off', 'off']
+        hst:template: article-overview
+        hst:xtype: hst.item
+    /right:
+      jcr:primaryType: hst:containercomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:label: Content Page Main
+      hst:lastmodified: 2018-12-05T10:25:08.577+01:00
+      hst:xtype: hst.vbox
+      /articlefacets:
+        jcr:primaryType: hst:containeritemcomponent
+        jcr:mixinTypes: ['dxphst:mergeable']
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsFacetsComponent
+        hst:iconpath: images/essentials/catalog-component-icons/generic-list.png
+        hst:label: Article Facets
+        hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+          facetPath]
+        hst:parametervalues: ['off', '']
+        hst:template: article-facets
+        hst:xtype: hst.item

@@ -1,0 +1,43 @@
+/content/urlrewriter/proxy/exception:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: ec95476b-8617-4c2c-980d-d09e685102c2
+  hippo:versionHistory: b2bfc54d-88e2-4613-9009-fa4add8430ba
+  /exception[1]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 8962b09b-0f5f-4d95-82d6-69ed181b8e9e
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:04:02.865+02:00
+    hippostdpubwf:lastModificationDate: 2019-07-10T11:45:16.907+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2008-03-26T12:03:00+01:00
+    urlrewriter:rule: "<rule> \r\n<name>BEPartial</name> \r\n<from>^.*[a-zA-Z0-9]+((\\\
+      .\\/)|(\\.\\/.+)+)$</from> \r\n<to last=\"true\">-</to> \r\n</rule>"
+  /exception[2]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: da8f46d6-3805-4a84-88c8-663823d37eea
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:04:02.865+02:00
+    hippostdpubwf:lastModificationDate: 2019-07-10T11:45:26.246+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule> \r\n<name>BEPartial</name> \r\n<from>^.*[a-zA-Z0-9]+((\\\
+      .\\/)|(\\.\\/.+)+)$</from> \r\n<to last=\"true\">-</to> \r\n</rule>"
+  /exception[3]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 82d10c64-48d8-47fe-b0f5-6c76a02ca32e
+    hippo:availability: []
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-05-02T18:04:02.865+02:00
+    hippostdpubwf:lastModificationDate: 2019-07-10T11:45:26.246+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-07-10T11:45:28.935+02:00
+    urlrewriter:rule: "<rule> \r\n<name>BEPartial</name> \r\n<from>^.*[a-zA-Z0-9]+((\\\
+      .\\/)|(\\.\\/.+)+)$</from> \r\n<to last=\"true\">-</to> \r\n</rule>"

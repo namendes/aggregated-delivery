@@ -1,0 +1,20 @@
+<section id="{{configuration.id}}" class="kiosk-{{configuration.name}}">
+  <div class="has-edit-button" *ngIf="hasContent(); else configureComponentBlock">
+    <bre-cms-edit-button *ngIf="hasContent()" [configuration]="content[0]"></bre-cms-edit-button>
+    <img style="height: 100%; width: 100%; display: block;"
+         src="{{ getImageUrl(content[0].image) }}"
+         alt="{{ content[0].title }}">
+    <a *ngIf="hasLink()" [routerLink]="[ getLinkUrl() ]">
+      <button class="shop_now_btn">SHOP NOW</button>
+    </a>
+    <div id="shopnow" style="position: absolute; top: 40px; left: 110px;">
+      <h1 *ngIf="content[0].title" class="banner-title" [innerHTML]="content[0].title"></h1>
+      <div id="sub-content-text"><p *ngIf="content[0].content.value"
+                                    [innerHTML]="content[0].content.value"></p></div>
+    </div>
+  </div>
+  <ng-template #configureComponentBlock>
+    <p>Click to configure {{ configuration.label }}</p>
+  </ng-template>
+</section>
+

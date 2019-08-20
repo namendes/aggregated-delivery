@@ -1,0 +1,16 @@
+body {
+  padding-bottom: 0;
+}
+
+#copyright {
+  font-size: small;
+  padding-top: 10px;
+  text-align: center;
+}
+.container {
+  padding-top: 2rem;
+}
+
+.has-edit-button {
+  position: relative;
+}

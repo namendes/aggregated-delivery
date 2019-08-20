@@ -1,0 +1,454 @@
+/content/gallery/pactronics/icons:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 5925262d-de50-435f-a441-60bf20279226
+  hippo:name: Icons
+  hippostd:foldertype: [new-pactronics-pactronics-folder]
+  hippostd:gallerytype: ['pactronics:pactronics']
+  /camera-icon.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0eec83b2-8e05-40a3-84df-170f9036a38c
+    /camera-icon.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:description: ''
+      hippogallery:filename: camera-icon.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: camera-icon.png
+        hippogallery:height: 42
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-icon.png/camera-icon.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-04-10T22:26:38.473Z
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 319
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-icon.png/camera-icon.png/original/original.png
+        jcr:lastModified: 2019-04-10T22:26:33.158Z
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 319
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-icon.png/camera-icon.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T12:37:05.931+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 319
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-icon.png/camera-icon.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T12:37:05.942+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 319
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-icon.png/camera-icon.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T12:37:05.952+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 282
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-icon.png/camera-icon.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T12:37:05.963+02:00
+        jcr:mimeType: image/png
+  /tracking-device-com.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d5a79665-4385-4c91-b92e-5e1493aaf064
+    /tracking-device-com.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:description: ''
+      hippogallery:filename: tracking-device-com.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: tracking-device-com.png
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/tracking-device-com.png/tracking-device-com.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-03-28T23:44:03.532Z
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 225
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/tracking-device-com.png/tracking-device-com.png/original/original.png
+        jcr:lastModified: 2019-04-10T22:06:43.108Z
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 225
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/tracking-device-com.png/tracking-device-com.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T12:37:04.620+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 225
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/tracking-device-com.png/tracking-device-com.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T12:37:04.633+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 225
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/tracking-device-com.png/tracking-device-com.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T12:37:04.645+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/tracking-device-com.png/tracking-device-com.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T12:37:04.658+02:00
+        jcr:mimeType: image/png
+  /smart-watch-icon.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 6e308bcb-46d8-412e-9c0c-3a0008907754
+    /smart-watch-icon.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:description: ''
+      hippogallery:filename: smart-watch-icon.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: smart-watch-icon.png
+        hippogallery:height: 52
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-watch-icon.png/smart-watch-icon.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-04-10T22:23:23.177Z
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 256
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-watch-icon.png/smart-watch-icon.png/original/original.png
+        jcr:lastModified: 2019-04-10T22:23:16.833Z
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 256
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-watch-icon.png/smart-watch-icon.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T12:37:04.727+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 256
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-watch-icon.png/smart-watch-icon.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T12:37:04.738+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 256
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-watch-icon.png/smart-watch-icon.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T12:37:04.748+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 351
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-watch-icon.png/smart-watch-icon.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T12:37:04.759+02:00
+        jcr:mimeType: image/png
+  /smart-glasses-icon.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d34c917e-c778-4f5c-917e-89d0e03817bb
+    /smart-glasses-icon.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:description: ''
+      hippogallery:filename: smart-glasses-icon.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: smart-glasses-icon.png
+        hippogallery:height: 41
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-glasses-icon.png/smart-glasses-icon.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-04-10T22:35:53.308Z
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 329
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-glasses-icon.png/smart-glasses-icon.png/original/original.png
+        jcr:lastModified: 2019-04-10T22:35:44.510Z
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 329
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-glasses-icon.png/smart-glasses-icon.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T12:37:05.836+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 329
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-glasses-icon.png/smart-glasses-icon.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T12:37:05.880+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 225
+        hippogallery:width: 329
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-glasses-icon.png/smart-glasses-icon.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T12:37:05.897+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 273
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/smart-glasses-icon.png/smart-glasses-icon.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T12:37:05.909+02:00
+        jcr:mimeType: image/png
+  /google-glasses-icon-1_original.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: db8181ee-3a62-4357-a472-450f31dfe7db
+    hippo:name: Google-Glasses-icon-(1)_original.png
+    /google-glasses-icon-1_original.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: Google-Glasses-icon-(1)_original.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: Google-Glasses-icon-(1)_original.png
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/google-glasses-icon-1_original.png/google-glasses-icon-1_original.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-04-26T15:24:49.297+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/google-glasses-icon-1_original.png/google-glasses-icon-1_original.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T15:24:49.297+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/google-glasses-icon-1_original.png/google-glasses-icon-1_original.png/original/original.png
+        jcr:lastModified: 2019-04-26T15:24:49.297+02:00
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/google-glasses-icon-1_original.png/google-glasses-icon-1_original.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T15:24:49.297+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/google-glasses-icon-1_original.png/google-glasses-icon-1_original.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T15:24:49.297+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/google-glasses-icon-1_original.png/google-glasses-icon-1_original.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T15:24:49.297+02:00
+        jcr:mimeType: image/png
+  /apple-watch-blue-icon_original.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 1878ebcc-b540-4231-99c5-12b57516e31e
+    /apple-watch-blue-icon_original.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: apple-watch-blue-icon_original.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: apple-watch-blue-icon_original.png
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/apple-watch-blue-icon_original.png/apple-watch-blue-icon_original.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-04-26T15:24:49.896+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/apple-watch-blue-icon_original.png/apple-watch-blue-icon_original.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T15:24:49.896+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/apple-watch-blue-icon_original.png/apple-watch-blue-icon_original.png/original/original.png
+        jcr:lastModified: 2019-04-26T15:24:49.896+02:00
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/apple-watch-blue-icon_original.png/apple-watch-blue-icon_original.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T15:24:49.896+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/apple-watch-blue-icon_original.png/apple-watch-blue-icon_original.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T15:24:49.896+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/apple-watch-blue-icon_original.png/apple-watch-blue-icon_original.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T15:24:49.896+02:00
+        jcr:mimeType: image/png
+  /camera-nexus-icon-bw_original.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d7ea1ab6-00ba-43b8-b70e-141f9ba7cc01
+    hippo:name: Camera-Nexus-icon-bw_original.png
+    /camera-nexus-icon-bw_original.png:
+      jcr:primaryType: pactronics:pactronics
+      hippo:availability: [live, preview]
+      hippogallery:filename: Camera-Nexus-icon-bw_original.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: Camera-Nexus-icon-bw_original.png
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-nexus-icon-bw_original.png/camera-nexus-icon-bw_original.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2019-04-26T15:24:50.203+02:00
+        jcr:mimeType: image/png
+      /pactronics:tablet:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-nexus-icon-bw_original.png/camera-nexus-icon-bw_original.png/tablet/tablet.png
+        jcr:lastModified: 2019-04-26T15:24:50.203+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-nexus-icon-bw_original.png/camera-nexus-icon-bw_original.png/original/original.png
+        jcr:lastModified: 2019-04-26T15:24:50.203+02:00
+        jcr:mimeType: image/png
+      /pactronics:desktop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-nexus-icon-bw_original.png/camera-nexus-icon-bw_original.png/desktop/desktop.png
+        jcr:lastModified: 2019-04-26T15:24:50.203+02:00
+        jcr:mimeType: image/png
+      /pactronics:mobile:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 400
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-nexus-icon-bw_original.png/camera-nexus-icon-bw_original.png/mobile/mobile.png
+        jcr:lastModified: 2019-04-26T15:24:50.203+02:00
+        jcr:mimeType: image/png
+      /pactronics:laptop:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: /content/gallery/pactronics/icons/camera-nexus-icon-bw_original.png/camera-nexus-icon-bw_original.png/laptop/laptop.png
+        jcr:lastModified: 2019-04-26T15:24:50.203+02:00
+        jcr:mimeType: image/png

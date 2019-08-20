@@ -1,0 +1,205 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:templates:
+      jcr:primaryType: hst:templates
+      /base-layout:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/external/base-layout.ftl
+      /base-top-menu:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/base-top-menu.ftl
+      /base-footer:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/base-footer.ftl
+      /homepage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/homepage-main.ftl
+      /pagenotfound-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pagenotfound-main.ftl
+      /contentlist-main-contentlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/contentlist-main-contentlist.ftl
+      /starterstore-account:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-account.ftl
+      /starterstore-base-layout:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-base-layout.ftl
+      /starterstore-header:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-header.ftl
+      /starterstore-signup:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-signup.ftl
+      /starterstore-login-status:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-login-status.ftl
+      /starterstore-login-form:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-login-form.ftl
+      /starterstore-productlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-productlist.ftl
+      /starterstore-productdecorator:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/starterstore-productdecorator.ftl
+      /starterstore-logo:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-logo.ftl
+      /starterstore-homepage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-homepage-main.ftl
+      /starterstore-productsearch:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-productsearch.ftl
+      /starterstore-searchbox:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-searchbox.ftl
+      /starterstore-facetlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-facetlist.ftl
+      /starterstore-search-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-search-main.ftl
+      /starterstore-contentenricher:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/starterstore-contentenricher.ftl
+      /starterstore-categorydetail:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-categorydetail.ftl
+      /starterstore-footer:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-footer.ftl
+      /starterstore-main-onecolumn:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-main-onecolumn.ftl
+      /starterstore-cartproductlist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-cartproductlist.ftl
+      /faq-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/faq-main.ftl
+      /article-detail:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/article-detail.ftl
+      /article-detail-wrapper:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/article-detail-wrapper.ftl
+      /about-us:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/about-us.ftl
+      /about-us-wrapper:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/about-us-wrapper.ftl
+      /privacy:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/privacy.ftl
+      /privacy-wrapper:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/privacy-wrapper.ftl
+      /starterstore-productexperience:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/starterstore-productexperience.ftl
+      /starterstore-productcontentenricher:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/starterstore-productcontentenricher.ftl
+      /justforyou:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/justforyou.ftl
+      /morelikethis:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/morelikethis.ftl
+      /bannerrow:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/bannerrow.ftl
+      /product-feature:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/product-feature.ftl
+      /eforms-default:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/eforms-default.ftl
+      /product-specs:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/product-specs.ftl
+      /article-facets:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/articlefacets.ftl
+      /product-finder:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/product-finder.ftl
+      /article-overview-wrapper:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/article-overview-wrapper.ftl
+      /article-overview:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/article-overview.ftl
+      /starterstore-autosuggest:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/starterstore-autosuggest.ftl
+      /simple-text-component:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/simple-text-component.ftl
+      /stores:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/stores.ftl
+      /no-results-page:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/no-results-page.ftl
+      /starterstore-account-credentials:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-account-credentials.ftl
+      /starterstore-account-addresses:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-account-addresses.ftl
+      /starterstore-account-address-detail:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-account-address-detail.ftl
+      /starterstore-orderslist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-orderslist.ftl
+      /cart-status:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/starterstore-cart-status.ftl
+      /baseThematicTemplate:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/thematic-templates/base-thematic-template.ftl
+      /contentpage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/contentpage-main.ftl
+      /essentials-banner:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/essentials-banner.ftl
+      /essentials-carousel:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/essentials-carousel.ftl
+      /essentials-menu:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hstdefault/essentials-menu.ftl
+      /video-component:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/video-component.ftl
+      /faqlist-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/faqlist-main.ftl
+      /image-component:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/image-component.ftl
+      /list-component:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/list-component.ftl
+      /thematicControlPanelTemplate:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/thematic-templates/thematic-control-panel.ftl
+      /checkout:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/checkout.ftl
+      /checkout-code:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/checkout-code.ftl
+      /google:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/google.ftl
+      /eforms-validation-default:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/pactronics/pages/eforms-validation-default.ftl

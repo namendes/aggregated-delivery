@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/contact-us:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/contact-us
+  hst:lastmodified: 2018-11-14T10:43:48.099+05:30
+  hst:pagetitle: Contact Us
+  hst:relativecontentpath: services/contact-us

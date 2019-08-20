@@ -1,0 +1,27 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kioskapp/hst:sitemap:
+      jcr:primaryType: hst:sitemap
+      /root:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/homepage
+        hst:refId: root
+      /_any_:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagenotfound
+      /pagenotfound:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagenotfound
+        hst:refId: pagenotfound
+      /search:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/search
+        hst:refId: search
+      /cart:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/cart
+        hst:refId: cart
+      /kiosk:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/homepage
+        hst:hiddeninchannelmanager: true

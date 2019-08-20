@@ -1,0 +1,17 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/contact-us:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: about-us-wrapper
+        /content:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.cms7.eforms.hst.components.EmailEformComponent
+          hst:parameternames: [eforms-from-email, eforms-from-name, behaviors, eforms-to-email,
+            eforms-to-name]
+          hst:parametervalues: [noreply.pactronics@gmail.com, Pactronics, com.onehippo.cms7.eforms.hst.behaviors.StoreFormDataBehavior,
+            noreply.pactronics@gmail.com, Pactronics]
+          hst:resourcetemplate: eforms-validation-default
+          hst:template: eforms-default

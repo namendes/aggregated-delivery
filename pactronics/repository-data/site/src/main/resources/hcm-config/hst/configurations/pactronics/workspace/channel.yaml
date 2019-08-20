@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/pactronics/hst:workspace/hst:channel:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:channel
+      hst:channelinfoclass: com.bloomreach.commercedxp.starterstore.channels.StarterStoreChannelInfo
+      hst:channelinfomixins: [com.onehippo.cms7.addon.unipixel.site.channel.UniversalPixelChannelInfo]
+      hst:defaultdevice: default
+      hst:devices: []
+      hst:lastmodified: 2019-04-10T17:41:22.630-04:00
+      hst:lastmodifiedby: admin
+      hst:name: Pacific Electronics
+      hst:type: website
+      jcr:mixinTypes: ['dxphst:mergeable']

@@ -1,0 +1,59 @@
+/content/gallery/beauty-products.jpg/beauty-products.jpg:
+  jcr:primaryType: pactronics:pactronics
+  hippo:availability: [live, preview]
+  hippogallery:filename: beauty-products.jpg
+  /hippogallery:thumbnail:
+    jcr:primaryType: hippogallery:image
+    hippo:filename: beauty-products.jpg
+    hippogallery:height: 40
+    hippogallery:width: 60
+    jcr:data:
+      type: binary
+      resource: /content/gallery/beauty-products.jpg/beauty-products.jpg/thumbnail/thumbnail.jpg
+    jcr:lastModified: 2019-08-12T12:23:36.773+02:00
+    jcr:mimeType: image/jpeg
+  /pactronics:tablet:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 400
+    hippogallery:width: 600
+    jcr:data:
+      type: binary
+      resource: /content/gallery/beauty-products.jpg/beauty-products.jpg/tablet/tablet.jpg
+    jcr:lastModified: 2019-08-12T12:23:36.773+02:00
+    jcr:mimeType: image/jpeg
+  /hippogallery:original:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 700
+    hippogallery:width: 1050
+    jcr:data:
+      type: binary
+      resource: /content/gallery/beauty-products.jpg/beauty-products.jpg/original/original.jpg
+    jcr:lastModified: 2019-08-12T12:23:36.773+02:00
+    jcr:mimeType: image/jpeg
+  /pactronics:desktop:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 666
+    hippogallery:width: 1000
+    jcr:data:
+      type: binary
+      resource: /content/gallery/beauty-products.jpg/beauty-products.jpg/desktop/desktop.jpg
+    jcr:lastModified: 2019-08-12T12:23:36.773+02:00
+    jcr:mimeType: image/jpeg
+  /pactronics:mobile:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 266
+    hippogallery:width: 400
+    jcr:data:
+      type: binary
+      resource: /content/gallery/beauty-products.jpg/beauty-products.jpg/mobile/mobile.jpg
+    jcr:lastModified: 2019-08-12T12:23:36.773+02:00
+    jcr:mimeType: image/jpeg
+  /pactronics:laptop:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 533
+    hippogallery:width: 800
+    jcr:data:
+      type: binary
+      resource: /content/gallery/beauty-products.jpg/beauty-products.jpg/laptop/laptop.jpg
+    jcr:lastModified: 2019-08-12T12:23:36.773+02:00
+    jcr:mimeType: image/jpeg

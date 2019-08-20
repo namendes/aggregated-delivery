@@ -1,0 +1,71 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/hippo-targeting/characteristic-categories:
+      .meta:order-before: characteristic-brands
+      jcr:primaryType: frontend:plugin
+      characteristic: commerceCategories
+      collector: commerceCategories
+      plugin.class: com.bloomreach.commercedxp.demo.pactronics.cms.targeting.CategoriesCharacteristicPlugin
+      visitor.characteristic.visible: true
+    /hippo:configuration/hippo:frontend/cms/hippo-targeting/visitor-details-panel:
+      plugin.class: com.bloomreach.commercedxp.demo.pactronics.cms.targeting.CommercePanel
+    /hippo:configuration/hippo:frontend/cms/hippo-targeting/characteristic-brands:
+      jcr:primaryType: frontend:plugin
+      characteristic: commerceBrands
+      collector: commerceBrands
+      plugin.class: com.bloomreach.commercedxp.demo.pactronics.cms.targeting.BrandsCharacteristicPlugin
+      visitor.characteristic.visible: true
+    /hippo:configuration/hippo:frontend/cms/hippo-targeting/collerctor-categories:
+      .meta:order-before: collerctor-brands
+      jcr:primaryType: frontend:plugin
+      categories: smart watch,sunglasses,accesories,camera
+      collector: commerceCategories
+      plugin.class: com.bloomreach.commercedxp.demo.pactronics.cms.targeting.CommerceCategoriesCollectorPlugin
+    /hippo:configuration/hippo:frontend/cms/hippo-targeting/collerctor-brands:
+      jcr:primaryType: frontend:plugin
+      collector: commerceBrands
+      plugin.class: com.bloomreach.commercedxp.demo.pactronics.cms.targeting.CommerceBrandsCollectorPlugin
+      brands: casio,garmin,gopro,google,microsoft,motorola,polar,samsung,sony
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/pactronics:desktop:
+      jcr:primaryType: frontend:pluginconfig
+      height: 0
+      upscaling: false
+      width: 1000
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/pactronics:laptop:
+      jcr:primaryType: frontend:pluginconfig
+      height: 0
+      upscaling: false
+      width: 800
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/pactronics:tablet:
+      .meta:order-before: pactronics:mobile
+      jcr:primaryType: frontend:pluginconfig
+      height: 0
+      upscaling: false
+      width: 600
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/pactronics:mobile:
+      jcr:primaryType: frontend:pluginconfig
+      height: 400
+      upscaling: true
+      width: 400
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/ui-extensions/bynder:
+      jcr:primaryType: frontend:uiExtension
+      frontend:config: '{"dataMode":"single", "dataAssetTypes":"image","dataDefaultEnvironment":"https://bloomreach.getbynder.com"}'
+      frontend:displayName: Bynder
+      frontend:extensionPoint: document.field
+      frontend:url: https://bloomreach.github.io/ui-extensions/samples/bynder/
+    /hippo:configuration/hippo:frontend/cms/cms-advanced-search/genericFilters:
+      document.type.excluded: ['pactronics:basedocument']
+      document.type.namespaces: [pactronics]
+    /hippo:configuration/hippo:frontend/cms/ui-extensions/pageConfig:
+      jcr:primaryType: frontend:uiExtension
+      frontend:displayName: Page configuration
+      frontend:extensionPoint: channel.page.tools
+      frontend:url: http://localhost:4200

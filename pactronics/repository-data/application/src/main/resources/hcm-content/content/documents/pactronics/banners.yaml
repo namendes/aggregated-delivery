@@ -1,0 +1,1362 @@
+/content/documents/pactronics/banners:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: d337340f-cc67-44a4-b64a-68e062223f26
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: 2da11673-9868-4379-b92f-c9739a549aeb
+  hippotranslation:locale: en
+  /smart-watch-1s:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 8eb006ad-c95c-4b50-a50b-90bf87989519
+    hippo:name: Smart Watch 1S
+    hippo:versionHistory: 392afa01-fe25-4be4-ab00-fd4e7f005469
+    /smart-watch-1s[1]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f81970fb-76a8-40c1-8538-864852355241
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-29T09:44:17.966+01:00
+      hippostdpubwf:lastModificationDate: 2019-06-05T15:10:51.282+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b6607250-e9be-494b-8f87-2b05732cc5eb
+      hippotranslation:locale: en
+      pactronics:externalLink: ''
+      pactronics:title: The Pactronics Smart Watch 1S
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Even better than the other one</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: b486157c-ea31-4890-acfa-6f6c54553400
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /smart-watch-1s[2]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 29dae56e-8daf-442a-a5fe-d1ab9bf348fb
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-29T09:44:17.966+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-18T12:05:05.124+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b6607250-e9be-494b-8f87-2b05732cc5eb
+      hippotranslation:locale: en
+      pactronics:externalLink: ''
+      pactronics:title: The Pactronics Smart Watch 1S
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Even better than the other one</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: b486157c-ea31-4890-acfa-6f6c54553400
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /smart-watch-1s[3]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: adcd0db0-2f0a-4956-aeb1-a4b21bf6844c
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-29T09:44:17.966+01:00
+      hippostdpubwf:lastModificationDate: 2019-04-18T12:05:05.124+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-18T12:05:13.298+02:00
+      hippotranslation:id: b6607250-e9be-494b-8f87-2b05732cc5eb
+      hippotranslation:locale: en
+      pactronics:externalLink: ''
+      pactronics:title: The Pactronics Smart Watch 1S
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Even better than the other one</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: b486157c-ea31-4890-acfa-6f6c54553400
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /microsoft-surface:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 1f00317e-028a-47c7-81bb-10283fdef181
+    hippo:name: Microsoft Surface
+    hippo:versionHistory: 2df8bc6b-deff-40d1-9846-df00f5dbf9b6
+    /microsoft-surface[1]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8805ee5d-ffeb-4428-8d0b-9ec6b9cf6f9e
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-03T11:04:12.688+05:30
+      hippostdpubwf:lastModificationDate: 2019-04-19T10:57:43.138+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a7d89cc9-7a0c-4829-a879-0fc4bb58fbfe
+      hippotranslation:locale: en
+      pactronics:externalLink: ''
+      pactronics:title: Best-selling Desktop PC's under $800
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Big Memory. 4K pictures. Smart features.</p>
+
+                                  <p>Low prices.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 39780f7a-a3a4-49cd-a212-351ce1bd69cc
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b2847317-d294-4a0c-b07c-c75fce6770d5
+    /microsoft-surface[2]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 083afe79-0e28-4e16-a7eb-b53f3f20b1b3
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-03T11:04:12.688+05:30
+      hippostdpubwf:lastModificationDate: 2019-04-19T10:57:47.471+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a7d89cc9-7a0c-4829-a879-0fc4bb58fbfe
+      hippotranslation:locale: en
+      pactronics:externalLink: ''
+      pactronics:title: Best-selling Desktop PC's under $800
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Big Memory. 4K pictures. Smart features.</p>
+
+                                  <p>Low prices.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 39780f7a-a3a4-49cd-a212-351ce1bd69cc
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b2847317-d294-4a0c-b07c-c75fce6770d5
+    /microsoft-surface[3]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a0c68ad1-48f3-423d-896e-7c9210be492b
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-12-03T11:04:12.688+05:30
+      hippostdpubwf:lastModificationDate: 2019-04-19T10:57:47.471+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-04-19T10:57:52.652+02:00
+      hippotranslation:id: a7d89cc9-7a0c-4829-a879-0fc4bb58fbfe
+      hippotranslation:locale: en
+      pactronics:externalLink: ''
+      pactronics:title: Best-selling Desktop PC's under $800
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Big Memory. 4K pictures. Smart features.</p>
+
+                                  <p>Low prices.</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 39780f7a-a3a4-49cd-a212-351ce1bd69cc
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b2847317-d294-4a0c-b07c-c75fce6770d5
+  /offers:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: c51f394f-d267-4af6-83fc-dfc77c09d9b6
+    hippo:name: Offers
+    hippostd:foldertype: [new-banner-folder, new-banner-document]
+    hippotranslation:id: 60078619-70f5-4bc6-b571-99b421e94129
+    hippotranslation:locale: en
+    /50-off-samsung-watch-banner:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 154f8e8c-e845-4314-99b6-c69727d481e6
+      hippo:name: 50% Off Samsung Watch Banner
+      hippo:versionHistory: fc442a07-ece7-4028-8c6a-31b59af37cad
+      /50-off-samsung-watch-banner[1]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e398cc56-5882-41ab-88db-edcba70f3a8c
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T19:07:56.221Z
+        hippostdpubwf:lastModificationDate: 2019-08-11T12:04:33.500+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 809f265a-6f86-4a51-9ec4-5bf88b23abaa
+        hippotranslation:locale: en
+        pactronics:bynderImage: '[{"id":"8148E5FD-6622-45FD-86A211A5EA908A6E","orientation":"landscape","archive":0,"type":"image","fileSize":74574,"description":"","name":"2watches","height":485,"width":984,"copyright":"","extension":["jpeg"],"userCreated":"Demo
+          User","datePublished":"2019-06-05T12:25:05Z","dateCreated":"2019-06-05T12:27:33Z","dateModified":"2019-06-05T12:27:33Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/8148E5FD-6622-45FD-86A211A5EA908A6E/CDFC2B01-66A9-4BD0-806CC097B198640E/ForIntegrations-2watches.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/8148E5FD-6622-45FD-86A211A5EA908A6E/CDFC2B01-66A9-4BD0-806CC097B198640E/online-2watches.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/8148E5FD-6622-45FD-86A211A5EA908A6E/mini-4011404B-FD8C-4A3B-8B5C4E4CDA691907.jpg","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/8148E5FD-6622-45FD-86A211A5EA908A6E/webimage-63740DA8-77C9-46E9-94B8B87B0757BE95.jpg","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/8148E5FD-6622-45FD-86A211A5EA908A6E/thul-07AD7C4E-961B-4FD2-A6093B6894AE9429.jpg"}}]'
+        pactronics:externalLink: ''
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+
+            <p><strong>Buy the new Samsung Galaxy Watch,<br />
+            get second watch for&nbsp;50% off.</strong></p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: fb7a5eb1-38c9-4851-a60c-8361551349c6
+      /50-off-samsung-watch-banner[2]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 2e01d146-e8df-4649-a681-59996d6a5877
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T19:07:56.221Z
+        hippostdpubwf:lastModificationDate: 2019-06-05T14:28:58.448+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 809f265a-6f86-4a51-9ec4-5bf88b23abaa
+        hippotranslation:locale: en
+        pactronics:bynderImage: '[{"id":"8148E5FD-6622-45FD-86A211A5EA908A6E","orientation":"landscape","archive":0,"type":"image","fileSize":74574,"description":"","name":"2watches","height":485,"width":984,"copyright":"","extension":["jpeg"],"userCreated":"Demo
+          User","datePublished":"2019-06-05T12:25:05Z","dateCreated":"2019-06-05T12:27:33Z","dateModified":"2019-06-05T12:27:33Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/8148E5FD-6622-45FD-86A211A5EA908A6E/CDFC2B01-66A9-4BD0-806CC097B198640E/ForIntegrations-2watches.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/8148E5FD-6622-45FD-86A211A5EA908A6E/CDFC2B01-66A9-4BD0-806CC097B198640E/online-2watches.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/8148E5FD-6622-45FD-86A211A5EA908A6E/mini-4011404B-FD8C-4A3B-8B5C4E4CDA691907.jpg","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/8148E5FD-6622-45FD-86A211A5EA908A6E/webimage-63740DA8-77C9-46E9-94B8B87B0757BE95.jpg","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/8148E5FD-6622-45FD-86A211A5EA908A6E/thul-07AD7C4E-961B-4FD2-A6093B6894AE9429.jpg"}}]'
+        pactronics:externalLink: ''
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+
+            <p><strong>Buy the new Samsung Galaxy Watch,<br />
+            get second watch for&nbsp;50% off.</strong></p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: fb7a5eb1-38c9-4851-a60c-8361551349c6
+      /50-off-samsung-watch-banner[3]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 1abbd7ac-7d21-490c-826a-50f4f4ad9c69
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T19:07:56.221Z
+        hippostdpubwf:lastModificationDate: 2019-04-03T14:06:58.093Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-18T11:38:06.586+02:00
+        hippotranslation:id: 809f265a-6f86-4a51-9ec4-5bf88b23abaa
+        hippotranslation:locale: en
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+
+            <p><strong>Buy the new Samsung Galaxy Watch,<br />
+            get second watch for&nbsp;50% off.</strong></p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: d71233b2-a76d-4dc0-87a8-18faaccc778f
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: fb7a5eb1-38c9-4851-a60c-8361551349c6
+    /buy-a-gopro-hero4-and-receive-a-free-accessory:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 8cf19efc-e5ca-4e21-a378-479dec9bec58
+      hippo:name: Buy a GoPro Hero4 and Receive a Free Accessory
+      hippo:versionHistory: 7c0308f5-a222-47d9-949a-3b6013ca95f4
+      /buy-a-gopro-hero4-and-receive-a-free-accessory[1]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 51948179-d6dc-44df-9760-1feb775ce653
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-03T11:42:30.122Z
+        hippostdpubwf:lastModificationDate: 2019-04-03T13:02:56.439Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 45373639-508e-46e8-bc51-b47918b4edab
+        hippotranslation:locale: en
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p><strong>Your first visit? Buy a GoPro Hero4 and Receive
+            a Free Accessory!</strong></p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 57b759bd-4f70-4234-8808-88b3701bb68c
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /buy-a-gopro-hero4-and-receive-a-free-accessory[2]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: bff1b0ee-c18f-4fe6-8b1c-b32aea86c1df
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-03T11:42:30.122Z
+        hippostdpubwf:lastModificationDate: 2019-04-03T13:03:33.373Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 45373639-508e-46e8-bc51-b47918b4edab
+        hippotranslation:locale: en
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p><strong>Your first visit? Buy a GoPro Hero4 and Receive
+            a Free Accessory!</strong></p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 57b759bd-4f70-4234-8808-88b3701bb68c
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /buy-a-gopro-hero4-and-receive-a-free-accessory[3]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 89c6e87b-5c13-49c1-bab4-de3bcfbceb3b
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-03T11:42:30.122Z
+        hippostdpubwf:lastModificationDate: 2019-04-03T13:03:33.373Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-18T11:31:08.031+02:00
+        hippotranslation:id: 45373639-508e-46e8-bc51-b47918b4edab
+        hippotranslation:locale: en
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p><strong>Your first visit? Buy a GoPro Hero4 and Receive
+            a Free Accessory!</strong></p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 57b759bd-4f70-4234-8808-88b3701bb68c
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /articles:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 7420f0fc-ee78-41e6-9440-0806179bc45f
+    hippo:name: Articles
+    hippostd:foldertype: [new-banner-folder, new-banner-document]
+    hippotranslation:id: c0c8d591-216b-4344-8ff1-7afc5704a909
+    hippotranslation:locale: en
+    /smart-watch-buying-guide:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 10868854-274d-4297-9e5e-7c5382f73148
+      hippo:name: Smart Watch Buying Guide
+      hippo:versionHistory: 0e16bf95-76ab-43f0-b504-af4a7ff1ba32
+      /smart-watch-buying-guide[1]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5bfd01df-79c8-472b-a478-1b9ec4748ff7
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T19:51:32.371Z
+        hippostdpubwf:lastModificationDate: 2019-06-05T15:34:18.437+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 911f418f-6b8c-4eb0-95ae-9e56a1e81290
+        hippotranslation:locale: en
+        pactronics:bynderImage: '[{"id":"2034F03E-60BB-444D-A0F1B54E1F73D1A9","orientation":"landscape","archive":0,"type":"image","fileSize":44369,"description":"","name":"smartwatch-buying-guide-notext","height":342,"width":661,"copyright":"","extension":["jpg"],"userCreated":"Demo
+          User","datePublished":"2019-06-05T12:25:05Z","dateCreated":"2019-06-05T12:27:30Z","dateModified":"2019-06-05T12:27:30Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/81453AEB-82F1-4CCB-AC4F141FFD56CD85/ForIntegrations-smartwatch-buying-guide-notext.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/81453AEB-82F1-4CCB-AC4F141FFD56CD85/online-smartwatch-buying-guide-notext.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/mini-AC05F896-C42A-415F-BE0D64CA3CD4AF2F.png","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/webimage-51802BDA-C164-4C5A-ABD9B1EE9625714A.png","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/thul-6C9D3E8B-4FE0-4D56-925F1774B2E7A9A6.png"}}]'
+        pactronics:externalLink: /site/articles
+        pactronics:title: Smart Watch Buying Guide
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Take a look at our buying guides?</p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 97d6c21c-bc9e-4373-ac74-c567d5a32bcc
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /smart-watch-buying-guide[2]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: fa43d862-e566-421b-b173-76d999554353
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T19:51:32.371Z
+        hippostdpubwf:lastModificationDate: 2019-06-05T15:34:13.133+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 911f418f-6b8c-4eb0-95ae-9e56a1e81290
+        hippotranslation:locale: en
+        pactronics:bynderImage: '[{"id":"2034F03E-60BB-444D-A0F1B54E1F73D1A9","orientation":"landscape","archive":0,"type":"image","fileSize":44369,"description":"","name":"smartwatch-buying-guide-notext","height":342,"width":661,"copyright":"","extension":["jpg"],"userCreated":"Demo
+          User","datePublished":"2019-06-05T12:25:05Z","dateCreated":"2019-06-05T12:27:30Z","dateModified":"2019-06-05T12:27:30Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/81453AEB-82F1-4CCB-AC4F141FFD56CD85/ForIntegrations-smartwatch-buying-guide-notext.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/81453AEB-82F1-4CCB-AC4F141FFD56CD85/online-smartwatch-buying-guide-notext.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/mini-AC05F896-C42A-415F-BE0D64CA3CD4AF2F.png","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/webimage-51802BDA-C164-4C5A-ABD9B1EE9625714A.png","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/thul-6C9D3E8B-4FE0-4D56-925F1774B2E7A9A6.png"}}]'
+        pactronics:externalLink: /site/articles
+        pactronics:title: Smart Watch Buying Guide
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Take a look at our buying guides?</p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 97d6c21c-bc9e-4373-ac74-c567d5a32bcc
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /smart-watch-buying-guide[3]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c6ce0346-5710-4c94-8b37-6402461140a5
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T19:51:32.371Z
+        hippostdpubwf:lastModificationDate: 2019-06-05T15:34:13.133+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-06-05T15:34:18.331+02:00
+        hippotranslation:id: 911f418f-6b8c-4eb0-95ae-9e56a1e81290
+        hippotranslation:locale: en
+        pactronics:bynderImage: '[{"id":"2034F03E-60BB-444D-A0F1B54E1F73D1A9","orientation":"landscape","archive":0,"type":"image","fileSize":44369,"description":"","name":"smartwatch-buying-guide-notext","height":342,"width":661,"copyright":"","extension":["jpg"],"userCreated":"Demo
+          User","datePublished":"2019-06-05T12:25:05Z","dateCreated":"2019-06-05T12:27:30Z","dateModified":"2019-06-05T12:27:30Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/81453AEB-82F1-4CCB-AC4F141FFD56CD85/ForIntegrations-smartwatch-buying-guide-notext.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/81453AEB-82F1-4CCB-AC4F141FFD56CD85/online-smartwatch-buying-guide-notext.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/mini-AC05F896-C42A-415F-BE0D64CA3CD4AF2F.png","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/webimage-51802BDA-C164-4C5A-ABD9B1EE9625714A.png","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/2034F03E-60BB-444D-A0F1B54E1F73D1A9/thul-6C9D3E8B-4FE0-4D56-925F1774B2E7A9A6.png"}}]'
+        pactronics:externalLink: /site/articles
+        pactronics:title: Smart Watch Buying Guide
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Take a look at our buying guides?</p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 97d6c21c-bc9e-4373-ac74-c567d5a32bcc
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /sony-smart-watch-comparison:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: ee3891ac-de44-47d5-95be-81610bae2bf8
+      hippo:name: Sony Smart Watch Comparison
+      hippo:versionHistory: 42908603-08e6-4006-9fd5-6f5438a9bbee
+      /sony-smart-watch-comparison[1]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e2b6429b-5adf-42df-a247-9cc82bde9e24
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-12T21:20:39.485Z
+        hippostdpubwf:lastModificationDate: 2019-06-05T15:28:25.710+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3a216db4-97e2-4475-bec7-f880e6babdca
+        hippotranslation:locale: en
+        pactronics:bynderImage: ''
+        pactronics:externalLink: ''
+        pactronics:title: Sony Smart Watch Comparison
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Does content here matter?</p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: d477cb07-b4b3-47ec-9a91-cb7bae5d2e62
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 16a2ed8d-fd8c-47f0-a368-8ec20c140dff
+      /sony-smart-watch-comparison[2]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: d0bda764-d8a1-4cf7-b30d-b76e2a4df845
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-12T21:20:39.485Z
+        hippostdpubwf:lastModificationDate: 2019-06-05T15:28:19.020+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3a216db4-97e2-4475-bec7-f880e6babdca
+        hippotranslation:locale: en
+        pactronics:bynderImage: ''
+        pactronics:externalLink: ''
+        pactronics:title: Sony Smart Watch Comparison
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Does content here matter?</p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: d477cb07-b4b3-47ec-9a91-cb7bae5d2e62
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 16a2ed8d-fd8c-47f0-a368-8ec20c140dff
+      /sony-smart-watch-comparison[3]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5fe6f7b6-0fd4-49c9-8f14-036dac181e51
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-12T21:20:39.485Z
+        hippostdpubwf:lastModificationDate: 2019-06-05T15:28:19.020+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-06-05T15:28:25.625+02:00
+        hippotranslation:id: 3a216db4-97e2-4475-bec7-f880e6babdca
+        hippotranslation:locale: en
+        pactronics:bynderImage: ''
+        pactronics:externalLink: ''
+        pactronics:title: Sony Smart Watch Comparison
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Does content here matter?</p>
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: d477cb07-b4b3-47ec-9a91-cb7bae5d2e62
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 16a2ed8d-fd8c-47f0-a368-8ec20c140dff
+  /brands:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 9cda6863-ca9a-4048-aaa0-ebbf234663d0
+    hippo:name: Brands
+    hippostd:foldertype: [new-banner-folder, new-banner-document]
+    hippotranslation:id: 86a4d480-9833-460c-974b-427cca0d7a32
+    hippotranslation:locale: en
+    /samsung:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 016026cb-9109-44b1-81a8-76adf17a13d8
+      hippo:name: Samsung
+      hippostd:foldertype: [new-banner-folder, new-banner-document]
+      hippotranslation:id: 3763c8f8-28e0-41ff-abaa-e6be196d9268
+      hippotranslation:locale: en
+      /samsung-smart-watches:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 055f9fee-aee6-48ec-ac1e-13fea7eca774
+        hippo:name: Samsung Smart Watches
+        hippo:versionHistory: 88e28638-0033-414e-b4c4-2889360cd60d
+        /samsung-smart-watches[1]:
+          jcr:primaryType: pactronics:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 99e98c7a-1393-431b-a5e7-e58ca18e1db0
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-04T22:27:08.910Z
+          hippostdpubwf:lastModificationDate: 2019-04-04T22:27:08.910Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 77e52781-5cc8-413e-8121-9767e072d8ac
+          hippotranslation:locale: en
+          pactronics:title: ''
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 6125280b-cfb1-41c6-8129-e9437bf7e079
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /samsung-smart-watches[2]:
+          jcr:primaryType: pactronics:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 0aa691aa-ac7f-4d1e-a2c0-97e48c0241a7
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-04T22:27:08.910Z
+          hippostdpubwf:lastModificationDate: 2019-04-04T22:27:41.444Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 77e52781-5cc8-413e-8121-9767e072d8ac
+          hippotranslation:locale: en
+          pactronics:title: ''
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 6125280b-cfb1-41c6-8129-e9437bf7e079
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /samsung-smart-watches[3]:
+          jcr:primaryType: pactronics:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3076ae94-bc0e-4225-ac2a-041d9e5c1ec0
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-04T22:27:08.910Z
+          hippostdpubwf:lastModificationDate: 2019-04-04T22:27:41.444Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-04-18T11:38:20.684+02:00
+          hippotranslation:id: 77e52781-5cc8-413e-8121-9767e072d8ac
+          hippotranslation:locale: en
+          pactronics:title: ''
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /pactronics:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 6125280b-cfb1-41c6-8129-e9437bf7e079
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /sony:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: f87cf0b4-d4a0-485e-a5da-240a32010ca1
+      hippo:name: Sony
+      hippostd:foldertype: [new-banner-folder, new-banner-document]
+      hippotranslation:id: 57a76857-6904-4d8e-ac99-dbbce12879b0
+      hippotranslation:locale: en
+      /sony-camera-offer:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 1c1cbcbc-4850-478e-8c72-8a2c4600e22c
+        hippo:name: Sony Camera Offer
+        hippo:versionHistory: 6a978db9-bc1f-4445-8845-4d938aa7e310
+        /sony-camera-offer[1]:
+          jcr:primaryType: pactronics:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 837e95a5-37fd-475c-856d-26b6cca7eaca
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-05T01:38:54.490Z
+          hippostdpubwf:lastModificationDate: 2019-06-05T15:56:26.928+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3cf7bfac-ff97-4ee0-8418-845222aa83a8
+          hippotranslation:locale: en
+          pactronics:bynderImage: '[{"id":"E969E459-7C0E-455E-B6ED2D7590FB2B85","orientation":"landscape","archive":0,"type":"image","fileSize":135586,"description":"CREATOR:
+            gd-jpeg v1.0 (using IJG JPEG v62), quality = 100.","name":"camera","height":340,"width":660,"copyright":"","extension":["jpg"],"userCreated":"Demo
+            User","datePublished":"2019-06-05T12:51:05Z","dateCreated":"2019-06-05T12:51:14Z","dateModified":"2019-06-05T12:51:14Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/373E64F1-32EA-4F9F-88FD2D6E9EE913CB/ForIntegrations-camera.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/373E64F1-32EA-4F9F-88FD2D6E9EE913CB/online-camera.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/mini-E59BE6D0-C31F-4A67-970ED07ACF849B71.png","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/webimage-2C4EA5FA-B156-4924-AD32983D6A6AAC86.png","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/thul-DA131B4F-5D36-40AC-B6F35204364E387A.png"}}]'
+          pactronics:externalLink: ''
+          pactronics:title: ''
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>&nbsp;</p>
+
+              <p>&nbsp;</p>
+
+              <p>&nbsp;</p>
+
+              <p><strong>Best camera's at affordable prices</strong></p>
+
+              <p>&nbsp;</p>
+          /pactronics:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d3f2a72b-5a41-4994-977f-f598d710712b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: ea7c8024-3bb4-4fbd-832e-b3f5e44a84df
+        /sony-camera-offer[2]:
+          jcr:primaryType: pactronics:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 061255bf-f4f2-4049-9e6a-5c6329896e85
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-05T01:38:54.490Z
+          hippostdpubwf:lastModificationDate: 2019-06-05T15:49:51.796+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3cf7bfac-ff97-4ee0-8418-845222aa83a8
+          hippotranslation:locale: en
+          pactronics:bynderImage: '[{"id":"E969E459-7C0E-455E-B6ED2D7590FB2B85","orientation":"landscape","archive":0,"type":"image","fileSize":135586,"description":"CREATOR:
+            gd-jpeg v1.0 (using IJG JPEG v62), quality = 100.","name":"camera","height":340,"width":660,"copyright":"","extension":["jpg"],"userCreated":"Demo
+            User","datePublished":"2019-06-05T12:51:05Z","dateCreated":"2019-06-05T12:51:14Z","dateModified":"2019-06-05T12:51:14Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/373E64F1-32EA-4F9F-88FD2D6E9EE913CB/ForIntegrations-camera.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/373E64F1-32EA-4F9F-88FD2D6E9EE913CB/online-camera.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/mini-E59BE6D0-C31F-4A67-970ED07ACF849B71.png","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/webimage-2C4EA5FA-B156-4924-AD32983D6A6AAC86.png","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/thul-DA131B4F-5D36-40AC-B6F35204364E387A.png"}}]'
+          pactronics:externalLink: ''
+          pactronics:title: ''
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>&nbsp;</p>
+
+              <p>&nbsp;</p>
+
+              <p>&nbsp;</p>
+
+              <p><strong>Best camera's at affordable prices</strong></p>
+
+              <p>&nbsp;</p>
+          /pactronics:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d3f2a72b-5a41-4994-977f-f598d710712b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: ea7c8024-3bb4-4fbd-832e-b3f5e44a84df
+        /sony-camera-offer[3]:
+          jcr:primaryType: pactronics:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e08cd3ca-73f7-4f5d-a9e3-f746c4d9c661
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-05T01:38:54.490Z
+          hippostdpubwf:lastModificationDate: 2019-06-05T15:49:51.796+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-06-05T15:50:02.442+02:00
+          hippotranslation:id: 3cf7bfac-ff97-4ee0-8418-845222aa83a8
+          hippotranslation:locale: en
+          pactronics:bynderImage: '[{"id":"E969E459-7C0E-455E-B6ED2D7590FB2B85","orientation":"landscape","archive":0,"type":"image","fileSize":135586,"description":"CREATOR:
+            gd-jpeg v1.0 (using IJG JPEG v62), quality = 100.","name":"camera","height":340,"width":660,"copyright":"","extension":["jpg"],"userCreated":"Demo
+            User","datePublished":"2019-06-05T12:51:05Z","dateCreated":"2019-06-05T12:51:14Z","dateModified":"2019-06-05T12:51:14Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/373E64F1-32EA-4F9F-88FD2D6E9EE913CB/ForIntegrations-camera.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/373E64F1-32EA-4F9F-88FD2D6E9EE913CB/online-camera.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/mini-E59BE6D0-C31F-4A67-970ED07ACF849B71.png","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/webimage-2C4EA5FA-B156-4924-AD32983D6A6AAC86.png","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/E969E459-7C0E-455E-B6ED2D7590FB2B85/thul-DA131B4F-5D36-40AC-B6F35204364E387A.png"}}]'
+          pactronics:externalLink: ''
+          pactronics:title: ''
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>&nbsp;</p>
+
+              <p>&nbsp;</p>
+
+              <p>&nbsp;</p>
+
+              <p><strong>Best camera's at affordable prices</strong></p>
+
+              <p>&nbsp;</p>
+          /pactronics:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d3f2a72b-5a41-4994-977f-f598d710712b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: ea7c8024-3bb4-4fbd-832e-b3f5e44a84df
+      /sony-top-banner:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 46ca2473-5129-42e4-b4ce-26327544626e
+        hippo:name: Sony top banner
+        hippo:versionHistory: 48b42135-4da8-4694-9560-13361a017e03
+        /sony-top-banner[1]:
+          jcr:primaryType: pactronics:bannerdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 05c03d01-67e8-49ca-afba-37e68bd63016
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-05T01:38:54.490Z
+          hippostdpubwf:lastModificationDate: 2019-06-05T15:58:35.968+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c1643188-05c4-4967-97db-cb03873e30d6
+          hippotranslation:locale: en
+          pactronics:bynderImage: ''
+          pactronics:externalLink: ''
+          pactronics:title: Sony Products
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Like no other</p>
+          /pactronics:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d3f2a72b-5a41-4994-977f-f598d710712b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /sony-top-banner[2]:
+          jcr:primaryType: pactronics:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 49f0b511-72ea-47bc-8f61-8209bdeeeaf3
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-05T01:38:54.490Z
+          hippostdpubwf:lastModificationDate: 2019-06-05T15:58:46.702+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c1643188-05c4-4967-97db-cb03873e30d6
+          hippotranslation:locale: en
+          pactronics:bynderImage: ''
+          pactronics:externalLink: ''
+          pactronics:title: Sony Products
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Like no other</p>
+          /pactronics:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d3f2a72b-5a41-4994-977f-f598d710712b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /sony-top-banner[3]:
+          jcr:primaryType: pactronics:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1b409f92-e6ad-468f-a2c1-a64001de4f80
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-04-05T01:38:54.490Z
+          hippostdpubwf:lastModificationDate: 2019-06-05T15:58:35.968+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-06-05T15:58:46.608+02:00
+          hippotranslation:id: c1643188-05c4-4967-97db-cb03873e30d6
+          hippotranslation:locale: en
+          pactronics:bynderImage: ''
+          pactronics:externalLink: ''
+          pactronics:title: Sony Products
+          /pactronics:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Like no other</p>
+          /pactronics:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d3f2a72b-5a41-4994-977f-f598d710712b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /pactronics:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /top-categories:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 5b1ea28f-a18b-44b6-9c41-90af2305829a
+    hippo:name: Top Categories
+    hippostd:foldertype: [new-banner-folder, new-banner-document]
+    hippotranslation:id: 27cfe38f-bb0d-403c-955d-a0d89f3c354a
+    hippotranslation:locale: en
+    /smart-watches:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 8dbba910-d80e-4d47-9c5f-55352a0af41f
+      hippo:name: Smart Watches
+      hippo:versionHistory: 5ea9568b-31dc-4489-aa17-6fbcc4504875
+      /smart-watches[1]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5946a270-5120-4549-be36-139ea86eb8df
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:51:07.874Z
+        hippostdpubwf:lastModificationDate: 2019-04-26T15:26:02.938+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 58c9c762-3e9c-41bc-bed0-5bc73acad40f
+        hippotranslation:locale: en
+        pactronics:externalLink: ''
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 1878ebcc-b540-4231-99c5-12b57516e31e
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: fb7a5eb1-38c9-4851-a60c-8361551349c6
+      /smart-watches[2]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 39bc6230-83f2-4a13-9527-d9e4644321c1
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:51:07.874Z
+        hippostdpubwf:lastModificationDate: 2019-04-26T15:25:53.229+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 58c9c762-3e9c-41bc-bed0-5bc73acad40f
+        hippotranslation:locale: en
+        pactronics:externalLink: ''
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 1878ebcc-b540-4231-99c5-12b57516e31e
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: fb7a5eb1-38c9-4851-a60c-8361551349c6
+      /smart-watches[3]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0ecfeebb-a4cc-4c63-9510-edfa8aacdcee
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:51:07.874Z
+        hippostdpubwf:lastModificationDate: 2019-04-26T15:25:53.229+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-26T15:26:02.850+02:00
+        hippotranslation:id: 58c9c762-3e9c-41bc-bed0-5bc73acad40f
+        hippotranslation:locale: en
+        pactronics:externalLink: ''
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 1878ebcc-b540-4231-99c5-12b57516e31e
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: fb7a5eb1-38c9-4851-a60c-8361551349c6
+    /cameras:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 5dde968b-cf27-49e1-987c-2163bead1f98
+      hippo:name: Cameras
+      hippo:versionHistory: 26e525c3-2e4a-46c2-a305-890dfb928bfd
+      /cameras[1]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c0e5cc60-5f37-41a3-8560-1dc8a6008985
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:52:47.293Z
+        hippostdpubwf:lastModificationDate: 2019-04-26T15:26:07.512+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: df9f53d2-fae6-44b1-b3ee-226e116462b9
+        hippotranslation:locale: en
+        pactronics:externalLink: ''
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: d7ea1ab6-00ba-43b8-b70e-141f9ba7cc01
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: ea7c8024-3bb4-4fbd-832e-b3f5e44a84df
+      /cameras[2]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: eb6f7032-b706-4dd4-8dc5-3081fedc6551
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:52:47.293Z
+        hippostdpubwf:lastModificationDate: 2019-04-26T15:25:41.042+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: df9f53d2-fae6-44b1-b3ee-226e116462b9
+        hippotranslation:locale: en
+        pactronics:externalLink: ''
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: d7ea1ab6-00ba-43b8-b70e-141f9ba7cc01
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: ea7c8024-3bb4-4fbd-832e-b3f5e44a84df
+      /cameras[3]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d6bd10e8-fd75-4d06-9aed-4997698ffe5d
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:52:47.293Z
+        hippostdpubwf:lastModificationDate: 2019-04-26T15:25:41.042+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-26T15:26:07.416+02:00
+        hippotranslation:id: df9f53d2-fae6-44b1-b3ee-226e116462b9
+        hippotranslation:locale: en
+        pactronics:externalLink: ''
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: d7ea1ab6-00ba-43b8-b70e-141f9ba7cc01
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: ea7c8024-3bb4-4fbd-832e-b3f5e44a84df
+    /tracking-devices:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 62d69251-08cf-425c-b195-eb466ccffcc3
+      hippo:name: Tracking Devices
+      hippo:versionHistory: ae2df351-9230-4b4d-8bf1-94c3d5193278
+      /tracking-devices[1]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ca0f16a9-da13-4469-9303-7c581517a2c5
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:53:14.334Z
+        hippostdpubwf:lastModificationDate: 2019-04-26T04:00:15.872+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3e2f76c6-5c1c-4773-83a9-eb1bc7c80f7a
+        hippotranslation:locale: en
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: d5a79665-4385-4c91-b92e-5e1493aaf064
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d7db06ff-2a17-4901-be37-9432e6047a45
+      /tracking-devices[2]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: d7403c66-94ff-4ac1-87cb-4c016e9c9c3a
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:53:14.334Z
+        hippostdpubwf:lastModificationDate: 2019-03-29T00:20:05.724Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3e2f76c6-5c1c-4773-83a9-eb1bc7c80f7a
+        hippotranslation:locale: en
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: d5a79665-4385-4c91-b92e-5e1493aaf064
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d7db06ff-2a17-4901-be37-9432e6047a45
+      /tracking-devices[3]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 4dc3e92c-a9b3-4f51-835b-a3fc02547d3e
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-03-28T23:53:14.334Z
+        hippostdpubwf:lastModificationDate: 2019-03-29T00:20:05.724Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-18T11:38:27.322+02:00
+        hippotranslation:id: 3e2f76c6-5c1c-4773-83a9-eb1bc7c80f7a
+        hippotranslation:locale: en
+        pactronics:title: ''
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: d5a79665-4385-4c91-b92e-5e1493aaf064
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: d7db06ff-2a17-4901-be37-9432e6047a45
+    /smart-glasses:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: d1a432e7-346f-44e9-8bac-e7a502c62db7
+      hippo:name: Smart Glasses
+      hippo:versionHistory: 5b5bd18f-1ce9-440c-b52f-c16e6ec7f709
+      /smart-glasses[1]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b0699ee5-4e7f-4fdd-85c4-0c60f35ea915
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-10T21:29:31.832Z
+        hippostdpubwf:lastModificationDate: 2019-04-26T15:26:11.513+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: dbe25b13-85d7-4f00-9707-92e7de350da8
+        hippotranslation:locale: en
+        pactronics:externalLink: ''
+        pactronics:title: Smart Glasses
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: db8181ee-3a62-4357-a472-450f31dfe7db
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: f18ef203-e49b-4a08-ad48-0711c1f3e689
+      /smart-glasses[2]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: fdfae72c-f074-41b1-afb5-7824bcc75447
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-10T21:29:31.832Z
+        hippostdpubwf:lastModificationDate: 2019-04-26T15:25:20.690+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: dbe25b13-85d7-4f00-9707-92e7de350da8
+        hippotranslation:locale: en
+        pactronics:externalLink: ''
+        pactronics:title: Smart Glasses
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: db8181ee-3a62-4357-a472-450f31dfe7db
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: f18ef203-e49b-4a08-ad48-0711c1f3e689
+      /smart-glasses[3]:
+        jcr:primaryType: pactronics:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0ac64dd7-0e39-452a-9e58-2d9e4d2e9a02
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2019-04-10T21:29:31.832Z
+        hippostdpubwf:lastModificationDate: 2019-04-26T15:25:20.690+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2019-04-26T15:26:11.440+02:00
+        hippotranslation:id: dbe25b13-85d7-4f00-9707-92e7de350da8
+        hippotranslation:locale: en
+        pactronics:externalLink: ''
+        pactronics:title: Smart Glasses
+        /pactronics:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /pactronics:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: db8181ee-3a62-4357-a472-450f31dfe7db
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /pactronics:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: f18ef203-e49b-4a08-ad48-0711c1f3e689
+  /get-a-new-camera:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 478257d0-2808-4ab6-a0d5-900fc1b4a5d7
+    hippo:name: Get a new camera
+    hippo:versionHistory: 3efa3c21-3609-48c3-9ee3-7582c820069f
+    /get-a-new-camera[1]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 80c57703-5fe1-4148-9869-4832fe5c3915
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-06-04T11:09:45.686+02:00
+      hippostdpubwf:lastModificationDate: 2019-06-05T15:14:09.631+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 172ebf00-4321-4844-82e1-271abc8f69a4
+      hippotranslation:locale: en
+      pactronics:bynderImage: '[{"id":"50730183-6E5D-4254-BB23FEC471744A52","orientation":"landscape","archive":0,"type":"image","fileSize":73599,"description":"","name":"old
+        camera","height":340,"width":660,"copyright":"","extension":["jpg"],"userCreated":"Demo
+        User","datePublished":"2019-06-05T12:32:15Z","dateCreated":"2019-06-05T12:32:25Z","dateModified":"2019-06-05T12:32:25Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/771AD0D1-4C5B-4B7A-BEEC4093114426CD/ForIntegrations-old%20camera.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/771AD0D1-4C5B-4B7A-BEEC4093114426CD/online-old%20camera.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/mini-DDA2264F-B2C6-4EFF-9449B4957B629536.png","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/webimage-6790571E-A5D9-4FC9-A24C37ED99063F36.png","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/thul-B7905F8A-3675-425C-991216A47CD22B1F.png"}}]'
+      pactronics:externalLink: ''
+      pactronics:title: Still using one of these?
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Get a new one NOW!</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: eae11ea4-4d0a-4a0d-a94d-7e5260b8d8cb
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: ea7c8024-3bb4-4fbd-832e-b3f5e44a84df
+    /get-a-new-camera[2]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: e75991e2-bb94-46c0-bac5-928871997e9e
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-06-04T11:09:45.686+02:00
+      hippostdpubwf:lastModificationDate: 2019-06-05T15:13:59.719+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 172ebf00-4321-4844-82e1-271abc8f69a4
+      hippotranslation:locale: en
+      pactronics:bynderImage: '[{"id":"50730183-6E5D-4254-BB23FEC471744A52","orientation":"landscape","archive":0,"type":"image","fileSize":73599,"description":"","name":"old
+        camera","height":340,"width":660,"copyright":"","extension":["jpg"],"userCreated":"Demo
+        User","datePublished":"2019-06-05T12:32:15Z","dateCreated":"2019-06-05T12:32:25Z","dateModified":"2019-06-05T12:32:25Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/771AD0D1-4C5B-4B7A-BEEC4093114426CD/ForIntegrations-old%20camera.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/771AD0D1-4C5B-4B7A-BEEC4093114426CD/online-old%20camera.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/mini-DDA2264F-B2C6-4EFF-9449B4957B629536.png","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/webimage-6790571E-A5D9-4FC9-A24C37ED99063F36.png","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/thul-B7905F8A-3675-425C-991216A47CD22B1F.png"}}]'
+      pactronics:externalLink: ''
+      pactronics:title: Still using one of these?
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Get a new one NOW!</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: eae11ea4-4d0a-4a0d-a94d-7e5260b8d8cb
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: ea7c8024-3bb4-4fbd-832e-b3f5e44a84df
+    /get-a-new-camera[3]:
+      jcr:primaryType: pactronics:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 09f91fcc-f326-43b4-ac4f-d7e5d1093b61
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-06-04T11:09:45.686+02:00
+      hippostdpubwf:lastModificationDate: 2019-06-05T15:13:59.719+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-06-05T15:14:09.527+02:00
+      hippotranslation:id: 172ebf00-4321-4844-82e1-271abc8f69a4
+      hippotranslation:locale: en
+      pactronics:bynderImage: '[{"id":"50730183-6E5D-4254-BB23FEC471744A52","orientation":"landscape","archive":0,"type":"image","fileSize":73599,"description":"","name":"old
+        camera","height":340,"width":660,"copyright":"","extension":["jpg"],"userCreated":"Demo
+        User","datePublished":"2019-06-05T12:32:15Z","dateCreated":"2019-06-05T12:32:25Z","dateModified":"2019-06-05T12:32:25Z","watermarked":0,"limited":0,"isPublic":0,"brandId":"C1765522-8958-4A55-880A8A246ED58DE8","thumbnails":{"ForIntegrations":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/771AD0D1-4C5B-4B7A-BEEC4093114426CD/ForIntegrations-old%20camera.jpg","online":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/771AD0D1-4C5B-4B7A-BEEC4093114426CD/online-old%20camera.png","mini":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/mini-DDA2264F-B2C6-4EFF-9449B4957B629536.png","webimage":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/webimage-6790571E-A5D9-4FC9-A24C37ED99063F36.png","thul":"https://d2csxpduxe849s.cloudfront.net/media/0BA0E5F0-0BAC-4AFF-82B70192957A43DD/50730183-6E5D-4254-BB23FEC471744A52/thul-B7905F8A-3675-425C-991216A47CD22B1F.png"}}]'
+      pactronics:externalLink: ''
+      pactronics:title: Still using one of these?
+      /pactronics:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Get a new one NOW!</p>
+      /pactronics:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: eae11ea4-4d0a-4a0d-a94d-7e5260b8d8cb
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pactronics:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: ea7c8024-3bb4-4fbd-832e-b3f5e44a84df

@@ -1,0 +1,26 @@
+/content/urlrewriter/sample-rules/xml-rule:
+  .meta:order-before: proxy-preview
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 9d9ffe84-62d5-4b95-a44d-52b72b0a2c6b
+  hippo:name: XML Rule
+  /xml-rule:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 31a1af51-d0e0-40b1-8147-a78493695a5c
+    hippo:availability: [live]
+    hippo:related___pathreference: rule-documents/xml-rule
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2015-05-19T16:50:53.926+02:00
+    hippostdpubwf:lastModificationDate: 2015-05-19T23:38:16.531+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2015-05-19T23:38:21.749+02:00
+    urlrewriter:rule: |-
+      <rule>
+        <note>
+          This rule means that requests to /test/status will be redirected to /rewrite-status.
+        </note>
+        <from>/test/status</from>
+        <to type="redirect">%{context-path}/rewrite-status</to>
+      </rule>

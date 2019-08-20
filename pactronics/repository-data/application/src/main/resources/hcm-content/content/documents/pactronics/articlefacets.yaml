@@ -1,0 +1,9 @@
+/content/documents/pactronics/articlefacets:
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:docbase: 6002a1fb-e1db-4c30-a08c-d381b80665b2
+  hippofacnav:facetnodenames: ['Date${sortby:''facetvalue'', sortorder:''descending'',
+      limit:10}', 'Tags${sortby:''count'', sortorder:''descending'', limit:10}']
+  hippofacnav:facets: ['pactronics:date$year', 'hippostd:tags']
+  hippofacnav:filters: ['jcr:primaryType=pactronics:article']
+  hippofacnav:sortby: ['pactronics:date']
+  hippofacnav:sortorder: [descending]

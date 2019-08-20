@@ -1,0 +1,53 @@
+/content/urlrewriter/spa/kiosk:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 8f319724-8406-40b0-b467-8e520bd4ca49
+  hippo:name: kiosk
+  hippo:versionHistory: c6e5c180-5802-46a7-93f8-44bc0c148b90
+  /kiosk[1]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0a7bf13a-9d82-4bc6-9ceb-9e5e8de592ea
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-06-03T15:41:43.645+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-04T11:29:52.672+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2008-03-26T12:03:00+01:00
+    urlrewriter:rule: "<rule> \r\n<from>^/_cmsinternal/kiosk/binaries(.*)$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n</rule> \r\n<rule> \r\n<from>^/_cmsinternal/kiosk/resourceapi(.*)$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n</rule> \r\n<rule> \r\n<from>^/_cmsinternal/kiosk(.*)$</from>\
+      \ \r\n<to type=\"proxy\">http://localhost:8080/kiosk-app/</to> \r\n<to last=\"\
+      true\">-</to> \r\n</rule>"
+  /kiosk[2]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 0af41a88-1b14-49c2-ac0a-76256da02217
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-06-03T15:41:43.645+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-04T11:30:04.261+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule> \r\n<from>^/_cmsinternal/kiosk/binaries(.*)$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n</rule> \r\n<rule> \r\n<from>^/_cmsinternal/kiosk/resourceapi(.*)$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n</rule> \r\n<rule> \r\n<from>^/_cmsinternal/kiosk(.*)$</from>\
+      \ \r\n<to type=\"proxy\">http://localhost:8080/kiosk-app/</to> \r\n<to last=\"\
+      true\">-</to> \r\n</rule>"
+  /kiosk[3]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 8374a321-233e-4bc1-94ff-9c0028cc9980
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-06-03T15:41:43.645+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-04T11:30:04.261+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-06-04T11:30:17.210+02:00
+    urlrewriter:rule: "<rule> \r\n<from>^/_cmsinternal/kiosk/binaries(.*)$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n</rule> \r\n<rule> \r\n<from>^/_cmsinternal/kiosk/resourceapi(.*)$</from>\
+      \ \r\n<to last=\"true\">-</to> \r\n</rule> \r\n<rule> \r\n<from>^/_cmsinternal/kiosk(.*)$</from>\
+      \ \r\n<to type=\"proxy\">http://localhost:8080/kiosk-app/</to> \r\n<to last=\"\
+      true\">-</to> \r\n</rule>"

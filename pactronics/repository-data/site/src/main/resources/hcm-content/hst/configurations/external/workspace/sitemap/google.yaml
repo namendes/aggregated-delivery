@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/external/hst:workspace/hst:sitemap/google:
+  jcr:primaryType: hst:sitemapitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentconfigurationid: hst:pages/google
+  hst:lastmodified: 2019-01-16T08:55:19.206+05:30
+  hst:pagetitle: google
+  hst:relativecontentpath: services/googleresults1

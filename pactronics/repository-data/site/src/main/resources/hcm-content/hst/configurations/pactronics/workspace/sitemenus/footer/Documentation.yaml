@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:sitemenus/footer/Documentation:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:referencesitemapitem: content/documentation.html
+  hst:repobased: false

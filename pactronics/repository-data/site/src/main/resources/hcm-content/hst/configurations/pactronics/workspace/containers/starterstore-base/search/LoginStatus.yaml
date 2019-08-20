@@ -1,0 +1,16 @@
+/hst:hst/hst:configurations/pactronics/hst:workspace/hst:containers/starterstore-base/search/LoginStatus:
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.LoginStatusComponent
+  hst:iconpath: images/essentials/catalog-component-icons/starterstore-bloomreach-dxp.png
+  hst:label: Login status
+  hst:template: starterstore-login-status
+  hst:xtype: hst.item
+  /cart-status:
+    jcr:primaryType: hst:component
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+    hst:parameternames: [connectorComponent, commands]
+    hst:parametervalues: [cartProductList, 'initContextCommand, cartCreateCommand,
+        cartProductListCommand, cartProductUpdateCommand, cartProductRemoveCommand']
+    hst:template: cart-status

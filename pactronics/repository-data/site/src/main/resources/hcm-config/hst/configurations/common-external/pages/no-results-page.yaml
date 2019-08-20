@@ -1,0 +1,18 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-external/hst:pages/no-results-page:
+      jcr:primaryType: hst:component
+      jcr:mixinTypes: ['hst:prototypemeta']
+      hst:displayname: No Results Page
+      hst:primarycontainer: main
+      hst:referencecomponent: hst:abstractpages/starterstore-base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: article-detail-wrapper
+        /content:
+          jcr:primaryType: hst:component
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+          hst:template: no-results-page
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: no-results-page/main

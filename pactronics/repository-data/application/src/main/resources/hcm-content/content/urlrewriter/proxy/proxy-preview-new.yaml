@@ -1,0 +1,50 @@
+/content/urlrewriter/proxy/proxy-preview-new:
+  .meta:order-before: frontend-preview-new
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: cad08e13-0335-4e12-ba6c-504fd4e35f5c
+  hippo:name: proxy (preview) new
+  hippo:versionHistory: f4ffd5d6-769f-45e5-a7d7-d04a0f89a0ae
+  /proxy-preview-new[1]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: dee71ed5-8b03-4d96-9547-b692eb45bf6e
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-04-29T17:59:35.124+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-20T16:10:48.109+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule> \r\n  <from>^/_cmsinternal/en(.*)$</from> \r\n  <to\
+      \ type=\"proxy\">http://localhost:3000/en$1</to> \r\n</rule>\r\n<rule> \r\n\
+      \  <from>^/en(.*)$</from> \r\n  <to type=\"proxy\">http://localhost:3000$1</to>\
+      \ \r\n</rule>"
+  /proxy-preview-new[2]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 449cee23-805c-4070-b5bb-36bb9c441cc6
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-04-29T17:59:35.124+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-20T23:06:46.918+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    urlrewriter:rule: "<rule> \r\n  <from>^/_cmsinternal/en(.*)$</from> \r\n  <to\
+      \ type=\"proxy\">http://localhost:3000/en$1</to> \r\n</rule>\r\n<rule> \r\n\
+      \  <from>^/en(.*)$</from> \r\n  <to type=\"proxy\">http://localhost:3000$1</to>\
+      \ \r\n</rule>"
+  /proxy-preview-new[3]:
+    jcr:primaryType: urlrewriter:xmlrule
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 45572324-5d4f-4e01-a014-0d689522e3b1
+    hippo:availability: []
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2019-04-29T17:59:35.124+02:00
+    hippostdpubwf:lastModificationDate: 2019-06-20T16:10:48.109+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2019-06-20T23:20:11.631+02:00
+    urlrewriter:rule: "<rule> \r\n  <from>^/_cmsinternal/en(.*)$</from> \r\n  <to\
+      \ type=\"proxy\">http://localhost:3000/en$1</to> \r\n</rule>\r\n<rule> \r\n\
+      \  <from>^/en(.*)$</from> \r\n  <to type=\"proxy\">http://localhost:3000$1</to>\
+      \ \r\n</rule>"

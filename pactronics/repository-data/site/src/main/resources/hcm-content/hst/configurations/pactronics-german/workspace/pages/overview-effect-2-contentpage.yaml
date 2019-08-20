@@ -1,0 +1,104 @@
+/hst:hst/hst:configurations/pactronics-german/hst:workspace/hst:pages/overview-effect-2-contentpage:
+  jcr:primaryType: hst:component
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:lastmodified: 2019-01-10T00:24:53.722+01:00
+  hst:referencecomponent: hst:abstractpages/starterstore-base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    jcr:mixinTypes: ['dxphst:mergeable']
+    hst:label: Content Page Main
+    hst:lastmodified: 2019-01-11T20:18:58.118+01:00
+    hst:xtype: hst.vbox
+    /simplecontent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+      hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+      hst:label: Simple Content
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, org.hippoecm.hst.core.component.template]
+      hst:parametervalues: ['off', content/overview-effect-introduction, 'webfile:/freemarker/hstdefault/contentpage-main/variant.ftl']
+      hst:template: contentpage-main
+      hst:xtype: hst.item
+    /ProductsGrid:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+      hst:label: Products Grid
+      hst:parameternames: [connectorComponent, starterstoreQueryParam_query, starterstoreQueryParam_currentPage,
+        showFacets, connector, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        widgetId, showPagination, locale, starterstoreQueryParam_pageSize, commands]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+      hst:parametervalues: [productSearch, electronicscamera, '1', 'off', '', 'off',
+        '', 'off', en, '3', 'customInitContextCommand,cartCreateCommand, cartProductListCommand,
+          cartProductAddCommand, personalizationCallCommand, commerceCallCommand,
+          pageableCommand']
+      hst:template: starterstore-productlist
+      hst:xtype: hst.item
+    /featureteaser:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductFeatureComponent
+      hst:iconpath: images/essentials/catalog-component-icons/banner.png
+      hst:label: Product Feature
+      hst:parameternames: [Product Feature Document, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        org.hippoecm.hst.core.component.template]
+      hst:parametervalues: [product-experience/product-features/space-gear-features,
+        'off', 'webfile:/freemarker/pactronics/product-feature.ftl']
+      hst:template: product-feature
+      hst:xtype: hst.item
+    /ProductsHighlight:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/product-highlight.png
+      hst:label: Products Highlight
+      hst:parameternames: [connectorComponent, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, page, locale, commands]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.demo.pactronics.components.ProductDecoratorInfo
+      hst:parametervalues: [productDetail, 'off', products/smart-watch-1s, '1', en,
+        'initContextCommand, cartCreateCommand, cartProductListCommand, cartProductAddCommand,
+          contentSingleDecoratorCommand']
+      hst:template: starterstore-productcontentenricher
+      hst:xtype: hst.item
+    /ProductsGrid1:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/product-grid(search).png
+      hst:label: Products Grid
+      hst:parameternames: [connectorComponent, starterstoreQueryParam_query, starterstoreQueryParam_currentPage,
+        showFacets, connector, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        widgetId, showPagination, locale, starterstoreQueryParam_pageSize, commands]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.QueryComponentInfo
+      hst:parametervalues: [productSearch, electronicswearablessmartwatch, '1', 'off',
+        '', 'off', '', 'off', en, '3', 'customInitContextCommand,cartCreateCommand, cartProductListCommand,
+          cartProductAddCommand, personalizationCallCommand, commerceCallCommand,
+          pageableCommand']
+      hst:template: starterstore-productlist
+      hst:xtype: hst.item
+    /videocomponent:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsVideoComponent
+      hst:iconpath: images/essentials/catalog-component-icons/video.png
+      hst:label: Video
+      hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+        document, width, org.hippoecm.hst.core.component.template, height]
+      hst:parametervalues: ['off', videos/video-example, '1100', 'webfile:/freemarker/hstdefault/video-component/bare.ftl',
+        '700']
+      hst:template: video-component
+      hst:xtype: hst.item
+    /JustForYou:
+      jcr:primaryType: hst:containeritemcomponent
+      jcr:mixinTypes: ['dxphst:mergeable']
+      hst:componentclassname: com.bloomreach.commercedxp.starterstore.components.GenericCommandChainComponent
+      hst:iconpath: images/essentials/catalog-component-icons/just-for-you.png
+      hst:label: Just For You
+      hst:parameternames: [connectorComponent, commands, starterstoreQueryParam_pageSize]
+      hst:parametersinfoclassname: com.bloomreach.commercedxp.starterstore.components.info.JustForYouComponentInfo
+      hst:parametervalues: [justForYou, 'initContextCommand, cartCreateCommand, cartProductListCommand,
+          cartProductAddCommand, personalizationCallCommand', '1']
+      hst:template: justforyou
+      hst:xtype: hst.item

@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kioskapp/hst:components:
+      jcr:primaryType: hst:components

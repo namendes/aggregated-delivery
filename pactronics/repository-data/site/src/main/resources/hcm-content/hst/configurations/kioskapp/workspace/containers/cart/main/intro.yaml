@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/kioskapp/hst:workspace/hst:containers/cart/main/intro:
+  .meta:order-before: closing
+  jcr:primaryType: hst:containercomponent
+  jcr:mixinTypes: ['dxphst:mergeable']
+  hst:label: Intro
+  hst:lastmodified: 2019-05-08T14:57:33.810-07:00
+  hst:xtype: hst.vbox

@@ -1,0 +1,9 @@
+<ng-container *ngIf="response; else configureComponentBlock" [ngSwitch]="template">
+  <app-one-column-atc-button *ngSwitchCase="'starterstore-productlist-one-column-atc'" [categoryMap]="categoryMap" [facetCounts]="facetCounts" [pageSize]="paramsInfo.pageSize" [response]="response"></app-one-column-atc-button>
+  <app-one-column-buy-button *ngSwitchCase="'starterstore-productlist-one-column'" [categoryMap]="categoryMap" [facetCounts]="facetCounts" [pageSize]="paramsInfo.pageSize" [response]="response"></app-one-column-buy-button>
+  <app-three-column-atc-button *ngSwitchCase="'starterstore-productlist-atc'" [categoryMap]="categoryMap" [facetCounts]="facetCounts" [pageSize]="paramsInfo.pageSize" [response]="response"></app-three-column-atc-button>
+  <app-three-column-buy-button *ngSwitchDefault [categoryMap]="categoryMap" [facetCounts]="facetCounts" [pageSize]="paramsInfo.pageSize" [response]="response"></app-three-column-buy-button>
+</ng-container>
+<ng-template #configureComponentBlock>
+  <div><p>Click to configure {{configuration.label}}</p></div>
+</ng-template>

@@ -1,0 +1,5 @@
+/hst:hst/hst:blueprints/commerce-site/hst:configuration/hst:workspace/hst:sitemenus/footer/Privacy Policy:
+  .meta:order-before: Documentation
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: privacy
+  hst:repobased: false

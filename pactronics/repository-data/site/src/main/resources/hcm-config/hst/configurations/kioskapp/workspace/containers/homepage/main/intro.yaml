@@ -1,0 +1,10 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/kioskapp/hst:workspace/hst:containers/homepage/main/intro:
+      .meta:order-before: closing
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:containercomponent
+      hst:label: Intro
+      hst:xtype: hst.vbox
+      hst:lastmodified: 2019-05-09T01:02:43.509-07:00
+      jcr:mixinTypes: ['dxphst:mergeable']
