@@ -26,6 +26,11 @@
             <bean class="org.example.rest.BlogpostResource"/>
           </constructor-arg>
         </bean>
+        <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
+          <constructor-arg>
+            <bean class="org.example.rest.PageResource" />
+          </constructor-arg>
+        </bean>
       </list>
     </property>
   </bean>

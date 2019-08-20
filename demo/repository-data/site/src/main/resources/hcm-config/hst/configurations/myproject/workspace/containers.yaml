@@ -9,6 +9,7 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hst:label: Top
           hst:xtype: hst.vbox
+          hst:lastmodified: 2019-08-20T15:47:26.651+02:00
         /footer:
           .meta:residual-child-node-category: content
           jcr:primaryType: hst:containercomponent
