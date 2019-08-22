@@ -12,3 +12,25 @@ definitions:
           jcr:primaryType: hst:mount
           hst:homepage: root
           hst:mountpoint: /hst:myproject/hst:sites/myproject
+          /api:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:mount
+            hst:alias: api
+            hst:ismapped: false
+            hst:namedpipeline: RestApiPipeline
+            hst:types: [rest]
+          /rest:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:mount
+            hst:alias: api-manual
+            hst:ismapped: false
+            hst:namedpipeline: JaxrsRestPlainPipeline
+            hst:types: [rest]
+            hst:responseheaders: ['Access-Control-Allow-Methods: GET, POST, OPTIONS,PUT,
+                DELETE', 'Access-Control-Allow-Origin:http://localhost:4200', 'access-control-allow-credentials:true']
+          /external:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:mount
+            hst:alias: external
+            hst:homepage: root
+            hst:mountpoint: /hst:myproject/hst:sites/external
