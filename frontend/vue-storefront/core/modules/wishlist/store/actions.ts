@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import { ActionTree } from 'vuex'
 import * as types from './mutation-types'
-import i18n from 'vue-storefront_1'
-import { htmlDecode } from 'vue-storefront_1'
-import rootStore from 'vue-storefront_1'
-import RootState from 'vue-storefront_1'
+import i18n from '@vue-storefront/i18n'
+import { htmlDecode } from '@vue-storefront/core/store/lib/filters'
+import rootStore from '@vue-storefront/core/store'
+import RootState from '@vue-storefront/core/types/RootState'
 import WishlistState from '../types/WishlistState'
 import { cacheStorage } from '../'
-import { Logger } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger'
 
 const actions: ActionTree<WishlistState, RootState> = {
   clear (context) {

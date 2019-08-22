@@ -1,5 +1,5 @@
 // GraphQL and ES queries exposed by this module
-import SearchQuery from 'vue-storefront_1'
+import SearchQuery from '@vue-storefront/core/lib/search/searchQuery'
 
 export function exampleQuery (queryText, queryFilter) {
   let exampleQuery = new SearchQuery()

@@ -3,7 +3,7 @@ import { MutationTree } from 'vuex'
 import * as types from './mutation-types'
 import CartState from '../types/CartState'
 import config from 'config'
-import { calcItemsHmac } from 'vue-storefront_1'
+import { calcItemsHmac } from '@vue-storefront/core/helpers'
 
 const mutations: MutationTree<CartState> = {
   /**

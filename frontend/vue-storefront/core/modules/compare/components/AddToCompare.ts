@@ -1,5 +1,5 @@
-import Product from 'vue-storefront_1'
-import compareMountedMixin from 'vue-storefront_1'
+import Product from '@vue-storefront/core/modules/catalog/types/Product'
+import compareMountedMixin from '@vue-storefront/core/modules/compare/mixins/compareMountedMixin'
 
 export const AddToCompare = {
   name: 'AddToCompare',

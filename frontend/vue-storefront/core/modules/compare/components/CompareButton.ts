@@ -1,4 +1,4 @@
-import compareMountedMixin from 'vue-storefront_1'
+import compareMountedMixin from '@vue-storefront/core/modules/compare/mixins/compareMountedMixin'
 
 export const CompareButton = {
   name: 'CompareButton',

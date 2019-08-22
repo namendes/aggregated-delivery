@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import * as localForage from 'localforage'
-import { Logger } from 'vue-storefront_1'
-import { isServer } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger'
+import { isServer } from '@vue-storefront/core/helpers'
 
 const CACHE_TIMEOUT = 800
 const CACHE_TIMEOUT_ITERATE = 2000

@@ -1,6 +1,6 @@
-import { productThumbnailPath } from 'vue-storefront_1'
-import { currentStoreView } from 'vue-storefront_1'
-import { formatProductLink } from 'vue-storefront_1'
+import { productThumbnailPath } from '@vue-storefront/core/helpers'
+import { currentStoreView } from '@vue-storefront/core/lib/multistore'
+import { formatProductLink } from '@vue-storefront/core/modules/url/helpers'
 import config from 'config'
 
 export const ProductTile = {

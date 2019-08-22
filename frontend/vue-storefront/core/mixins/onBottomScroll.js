@@ -1,4 +1,4 @@
-import { isBottomVisible } from 'vue-storefront_1'
+import { isBottomVisible } from '@vue-storefront/core/helpers'
 
 /**
  * By implementing this mixin add "onBottomScroll" mthod in component.

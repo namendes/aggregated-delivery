@@ -1,11 +1,11 @@
-import { setupMultistoreRoutes } from 'vue-storefront_1'
+import { setupMultistoreRoutes } from '@vue-storefront/core/lib/multistore'
 import App from './App.vue'
 import routes from './router'
 import Vue from 'vue'
 import VueProgressBar from 'vue-progressbar'
-import 'vue-storefront_1'
-import { RouterManager } from 'vue-storefront_1'
-import { once } from 'vue-storefront_1'
+import '@vue-storefront/core/lib/passive-listeners'
+import { RouterManager } from '@vue-storefront/core/lib/router-manager'
+import { once } from '@vue-storefront/core/helpers'
 
 once('__VUE_EXTEND_DROPPOINT_VPB__', () => {
   Vue.use(VueProgressBar)

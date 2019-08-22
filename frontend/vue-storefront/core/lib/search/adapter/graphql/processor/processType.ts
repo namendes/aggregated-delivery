@@ -1,6 +1,6 @@
-import { SearchResponse } from 'vue-storefront_1'
+import { SearchResponse } from '@vue-storefront/core/types/search/SearchResponse'
 import map from 'lodash-es/map'
-import { slugify } from 'vue-storefront_1'
+import { slugify } from '@vue-storefront/core/helpers'
 import config from 'config'
 
 export function processESResponseType (resp, start, size): SearchResponse {

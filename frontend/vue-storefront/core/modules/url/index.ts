@@ -1,8 +1,8 @@
 import { module } from './store'
-import { createModule } from 'vue-storefront_1'
+import { createModule } from '@vue-storefront/core/lib/module'
 
-import { VueStorefrontModule, VueStorefrontModuleConfig } from 'vue-storefront_1'
-import { initCacheStorage } from 'vue-storefront_1'
+import { VueStorefrontModule, VueStorefrontModuleConfig } from '@vue-storefront/core/lib/module'
+import { initCacheStorage } from '@vue-storefront/core/helpers/initCacheStorage'
 import { beforeEach } from './router/beforeEach'
 
 export const KEY = 'url'

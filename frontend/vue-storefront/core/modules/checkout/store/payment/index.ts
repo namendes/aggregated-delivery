@@ -1,7 +1,7 @@
 import { Module } from 'vuex'
-import RootState from 'vue-storefront_1'
+import RootState from '@vue-storefront/core/types/RootState'
 import PaymentState from '../../types/PaymentState'
-import rootStore from 'vue-storefront_1'
+import rootStore from '@vue-storefront/core/store'
 
 export const paymentModule: Module<PaymentState, RootState> = {
   namespaced: true,

@@ -3,7 +3,7 @@ import { paymentModule } from './store/payment'
 import { shippingModule } from './store/shipping'
 import { beforeRegistration } from './hooks/beforeRegistration'
 import { afterRegistration } from './hooks/afterRegistration'
-import { createModule } from 'vue-storefront_1'
+import { createModule } from '@vue-storefront/core/lib/module'
 
 export const KEY = 'checkout'
 export const Checkout = createModule({

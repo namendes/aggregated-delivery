@@ -1,5 +1,5 @@
 import cartGetters from '../../../store/getters';
-import { onlineHelper } from 'vue-storefront_1'
+import { onlineHelper } from '@vue-storefront/core/helpers'
 import config from 'config'
 
 jest.mock('@vue-storefront/i18n', () => ({ t: jest.fn(str => str) }));

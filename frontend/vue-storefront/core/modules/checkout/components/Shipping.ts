@@ -1,7 +1,7 @@
 import { mapState, mapGetters } from 'vuex'
-import RootState from 'vue-storefront_1'
+import RootState from '@vue-storefront/core/types/RootState'
 import toString from 'lodash-es/toString'
-const Countries = require('vue-storefront_1')
+const Countries = require('@vue-storefront/i18n/resource/countries.json')
 
 export const Shipping = {
   name: 'Shipping',

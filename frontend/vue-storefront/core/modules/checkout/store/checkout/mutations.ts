@@ -1,7 +1,7 @@
 import { MutationTree } from 'vuex'
 import * as types from './mutation-types'
 import CheckoutState from '../../types/CheckoutState'
-import { ORDER_PLACE_ORDER } from 'vue-storefront_1'
+import { ORDER_PLACE_ORDER } from '@vue-storefront/core/modules/order/store/mutation-types'
 
 const mutations: MutationTree<CheckoutState> = {
   /**

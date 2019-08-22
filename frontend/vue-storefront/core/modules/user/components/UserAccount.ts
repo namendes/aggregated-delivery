@@ -1,5 +1,5 @@
 import toString from 'lodash-es/toString'
-const Countries = require('vue-storefront_1')
+const Countries = require('@vue-storefront/core/i18n/resource/countries.json')
 
 export const UserAccount = {
   name: 'UserAccount',

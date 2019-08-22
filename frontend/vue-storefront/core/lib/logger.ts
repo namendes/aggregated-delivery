@@ -1,4 +1,4 @@
-import { isServer } from 'vue-storefront_1'
+import { isServer } from '@vue-storefront/core/helpers'
 import buildTimeConfig from 'config'
 const bgColorStyle = (color) => `color: white; background: ${color}; padding: 4px; font-weight: bold; font-size: 0.8em'`
 

@@ -1,4 +1,4 @@
-import { currentStoreView } from 'vue-storefront_1'
+import { currentStoreView } from '@vue-storefront/core/lib/multistore'
 
 export function afterRegistration ({ Vue, config, store, isServer }) {
   if (config.googleTagManager.id && !isServer) {

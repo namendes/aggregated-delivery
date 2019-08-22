@@ -1,11 +1,11 @@
 import * as localForage from 'localforage'
-import UniversalStorage from 'vue-storefront_1'
-import EventBus from 'vue-storefront_1'
-import { Logger } from 'vue-storefront_1'
-import { currentStoreView } from 'vue-storefront_1';
-import rootStore from 'vue-storefront_1'
-import i18n from 'vue-storefront_1'
-import { serial, onlineHelper, processURLAddress } from 'vue-storefront_1'
+import UniversalStorage from '@vue-storefront/core/store/lib/storage'
+import EventBus from '@vue-storefront/core/compatibility/plugins/event-bus/index'
+import { Logger } from '@vue-storefront/core/lib/logger'
+import { currentStoreView } from '@vue-storefront/core/lib/multistore';
+import rootStore from '@vue-storefront/core/store'
+import i18n from '@vue-storefront/i18n'
+import { serial, onlineHelper, processURLAddress } from '@vue-storefront/core/helpers'
 
 export function beforeRegistration ({ Vue, config, store, isServer }) {
   Vue.prototype.$db.ordersCollection = new UniversalStorage(localForage.createInstance({

@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import { ActionTree } from 'vuex'
 import * as types from './mutation-types'
-import { formatBreadCrumbRoutes, productThumbnailPath, isServer } from 'vue-storefront_1'
-import { currentStoreView } from 'vue-storefront_1'
+import { formatBreadCrumbRoutes, productThumbnailPath, isServer } from '@vue-storefront/core/helpers'
+import { currentStoreView } from '@vue-storefront/core/lib/multistore'
 import { configureProductAsync,
   doPlatformPricesSync,
   filterOutUnavailableVariants,
@@ -13,18 +13,18 @@ import { configureProductAsync,
   getMediaGallery,
   configurableChildrenImages,
   attributeImages } from '../../helpers'
-import SearchQuery from 'vue-storefront_1'
-import { entityKeyName } from 'vue-storefront_1'
+import SearchQuery from '@vue-storefront/core/lib/search/searchQuery'
+import { entityKeyName } from '@vue-storefront/core/store/lib/entities'
 import { optionLabel } from '../../helpers/optionLabel'
-import { quickSearchByQuery, isOnline } from 'vue-storefront_1'
+import { quickSearchByQuery, isOnline } from '@vue-storefront/core/lib/search'
 import omit from 'lodash-es/omit'
 import trim from 'lodash-es/trim'
 import uniqBy from 'lodash-es/uniqBy'
-import rootStore from 'vue-storefront_1'
-import RootState from 'vue-storefront_1'
+import rootStore from '@vue-storefront/core/store'
+import RootState from '@vue-storefront/core/types/RootState'
 import ProductState from '../../types/ProductState'
-import { Logger } from 'vue-storefront_1';
-import { TaskQueue } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger';
+import { TaskQueue } from '@vue-storefront/core/lib/sync'
 import toString from 'lodash-es/toString'
 import config from 'config'
 

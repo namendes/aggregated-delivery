@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import RootState from 'vue-storefront_1'
-import { once } from 'vue-storefront_1'
+import RootState from '@vue-storefront/core/types/RootState'
+import { once } from '@vue-storefront/core/helpers'
 
 once('__VUE_EXTEND_VUEX__', () => {
   Vue.use(Vuex)

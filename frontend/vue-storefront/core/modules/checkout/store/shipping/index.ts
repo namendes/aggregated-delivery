@@ -1,5 +1,5 @@
 import { Module } from 'vuex'
-import RootState from 'vue-storefront_1'
+import RootState from '@vue-storefront/core/types/RootState'
 import ShippingState from '../../types/ShippingState'
 import config from 'config'
 

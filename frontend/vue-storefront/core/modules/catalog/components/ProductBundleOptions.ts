@@ -1,8 +1,8 @@
 import { mapMutations } from 'vuex'
 import * as types from '../store/product/mutation-types'
-import rootStore from 'vue-storefront_1'
-import i18n from 'vue-storefront_1'
-import { Logger } from 'vue-storefront_1'
+import rootStore from '@vue-storefront/core/store'
+import i18n from '@vue-storefront/i18n'
+import { Logger } from '@vue-storefront/core/lib/logger'
 
 function _fieldName (co) {
   return ['bundleOption_' + co.option_id, 'bundleOptionQty_' + co.option_id]

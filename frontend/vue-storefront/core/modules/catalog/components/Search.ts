@@ -1,9 +1,9 @@
 import { mapState } from 'vuex'
-import i18n from 'vue-storefront_1'
-import onEscapePress from 'vue-storefront_1'
-import { prepareQuickSearchQuery } from 'vue-storefront_1'
-import RootState from 'vue-storefront_1'
-import { Logger } from 'vue-storefront_1'
+import i18n from '@vue-storefront/i18n'
+import onEscapePress from '@vue-storefront/core/mixins/onEscapePress'
+import { prepareQuickSearchQuery } from '@vue-storefront/core/modules/catalog/queries/searchPanel'
+import RootState from '@vue-storefront/core/types/RootState'
+import { Logger } from '@vue-storefront/core/lib/logger'
 
 export const Search = {
   name: 'SearchPanel',

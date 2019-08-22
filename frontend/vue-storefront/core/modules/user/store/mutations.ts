@@ -1,7 +1,7 @@
 import { MutationTree } from 'vuex'
 import * as types from './mutation-types'
 import UserState from '../types/UserState'
-import { Logger } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger'
 
 const mutations: MutationTree<UserState> = {
   [types.USER_TOKEN_CHANGED] (state, payload) {

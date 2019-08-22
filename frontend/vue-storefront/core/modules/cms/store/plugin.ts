@@ -3,7 +3,7 @@ import * as blockTypes from './block/mutation-types'
 import { cmsPagesStorageKey } from './page'
 import { cmsBlockStorageKey } from './block'
 import { cacheStorage } from '../'
-import { Logger } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger'
 
 export function plugin (mutation, state) {
   const type = mutation.type

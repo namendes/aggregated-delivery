@@ -1,4 +1,4 @@
-import { Logger } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger'
 
 export function registerExtensions (extensions, app, router, store, config, ssrContext = null) {
   for (let extEntryPoint of extensions) {

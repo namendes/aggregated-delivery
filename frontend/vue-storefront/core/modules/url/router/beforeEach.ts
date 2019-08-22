@@ -2,11 +2,11 @@
 // It's important to have 'next()'. It enables navigation to new route.
 // See https://router.vuejs.org/guide/advanced/navigation-guards.html#global-guards
 import { Route } from 'vue-router'
-import store from 'vue-storefront_1'
-import { Logger } from 'vue-storefront_1'
+import store from '@vue-storefront/core/store'
+import { Logger } from '@vue-storefront/core/lib/logger'
 import { processDynamicRoute, normalizeUrlPath } from '../helpers'
-import { isServer } from 'vue-storefront_1'
-import { storeCodeFromRoute, prepareStoreView, currentStoreView, LocalizedRoute } from 'vue-storefront_1'
+import { isServer } from '@vue-storefront/core/helpers'
+import { storeCodeFromRoute, prepareStoreView, currentStoreView, LocalizedRoute } from '@vue-storefront/core/lib/multistore'
 import Vue from 'vue'
 import config from 'config'
 

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
-import UniversalStorage from 'vue-storefront_1';
-import { currentStoreView } from 'vue-storefront_1';
+import UniversalStorage from '@vue-storefront/core/store/lib/storage';
+import { currentStoreView } from '@vue-storefront/core/lib/multistore';
 import { beforeRegistration } from '../../../hooks/beforeRegistration';
 import * as localForage from 'localforage';
 import Mock = jest.Mock;

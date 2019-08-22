@@ -1,4 +1,4 @@
-import Product from 'vue-storefront_1'
+import Product from '@vue-storefront/core/modules/catalog/types/Product'
 
 import CartItemOption from './CartItemOption'
 import CartItemTotals from './CartItemTotals'

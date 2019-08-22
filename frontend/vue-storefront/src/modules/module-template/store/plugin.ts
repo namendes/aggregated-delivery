@@ -1,5 +1,5 @@
 import * as types from './mutation-types'
-import { Logger } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger'
 
 export function plugin (mutation, state) {
   if (types[mutation.type]) {

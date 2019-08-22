@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import rootStore from 'vue-storefront_1'
+import rootStore from '@vue-storefront/core/store'
 import { calculateProductTax } from '../helpers/tax'
 import flattenDeep from 'lodash-es/flattenDeep'
 import omit from 'lodash-es/omit'
@@ -9,11 +9,11 @@ import toString from 'lodash-es/toString'
 import union from 'lodash-es/union'
 // TODO: Remove this dependency
 import { optionLabel } from './optionLabel'
-import i18n from 'vue-storefront_1'
-import { currentStoreView } from 'vue-storefront_1'
-import { getThumbnailPath } from 'vue-storefront_1'
-import { Logger } from 'vue-storefront_1'
-import { isServer } from 'vue-storefront_1'
+import i18n from '@vue-storefront/i18n'
+import { currentStoreView } from '@vue-storefront/core/lib/multistore'
+import { getThumbnailPath } from '@vue-storefront/core/helpers'
+import { Logger } from '@vue-storefront/core/lib/logger'
+import { isServer } from '@vue-storefront/core/helpers'
 import config from 'config';
 
 function _filterRootProductByStockitem (context, stockItem, product, errorCallback) {

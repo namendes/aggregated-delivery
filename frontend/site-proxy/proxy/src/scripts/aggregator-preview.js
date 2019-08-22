@@ -89,7 +89,7 @@ var options = {
         }
 
         console.log("old path: " + path);
-        if (fullConfig.slash_ending_urls && !path.endsWith('/') && !path.endsWith('.html')) {
+        if (fullConfig.slash_ending_urls && !path.endsWith('/') && !path.endsWith('.html') && url_parts.search === null) {
             path = path + "/";
         } else if (!fullConfig.slash_ending_urls && path.endsWith('/')) {
             path = path.substring(0, path.length - 1);

@@ -1,5 +1,5 @@
 import { module } from './store'
-import { createModule } from 'vue-storefront_1'
+import { createModule } from '@vue-storefront/core/lib/module'
 import { beforeRegistration } from './hooks/beforeRegistration'
 import { afterRegistration } from './hooks/afterRegistration'
 

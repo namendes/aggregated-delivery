@@ -1,6 +1,6 @@
 import { Module } from 'vuex'
 import actions from './actions'
-import RootState from 'vue-storefront_1'
+import RootState from '@vue-storefront/core/types/RootState'
 import StockState from '../../types/StockState'
 
 export const stockModule: Module<StockState, RootState> = {

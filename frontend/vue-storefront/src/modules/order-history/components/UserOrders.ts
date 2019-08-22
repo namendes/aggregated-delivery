@@ -1,6 +1,6 @@
-import MyOrders from 'vue-storefront_1'
+import MyOrders from '@vue-storefront/core/compatibility/components/blocks/MyAccount/MyOrders'
 import { mapGetters } from 'vuex';
-import onBottomScroll from 'vue-storefront_1'
+import onBottomScroll from '@vue-storefront/core/mixins/onBottomScroll'
 
 export default {
   name: 'UserOrders',

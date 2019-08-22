@@ -1,8 +1,8 @@
 import * as localForage from 'localforage'
-import EventBus from 'vue-storefront_1'
-import UniversalStorage from 'vue-storefront_1'
-import { currentStoreView } from 'vue-storefront_1'
-import { Logger } from 'vue-storefront_1'
+import EventBus from '@vue-storefront/core/compatibility/plugins/event-bus/index'
+import UniversalStorage from '@vue-storefront/core/store/lib/storage'
+import { currentStoreView } from '@vue-storefront/core/lib/multistore'
+import { Logger } from '@vue-storefront/core/lib/logger'
 import config from 'config'
 
 export function onNetworkStatusChange (store) {

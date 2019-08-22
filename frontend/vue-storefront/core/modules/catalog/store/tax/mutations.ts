@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import { MutationTree } from 'vuex'
 import * as types from './mutation-types'
-import { entityKeyName } from 'vue-storefront_1'
+import { entityKeyName } from '@vue-storefront/core/store/lib/entities'
 import TaxState from '../../types/TaxState'
-import { Logger } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger'
 
 const mutations: MutationTree<TaxState> = {
   [types.TAX_UPDATE_RULES] (state, taxClasses) {

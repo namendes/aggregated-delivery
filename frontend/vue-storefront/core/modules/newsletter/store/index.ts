@@ -3,7 +3,7 @@ import { Module } from 'vuex'
 import { NewsletterState } from '../types/NewsletterState'
 import { cacheStorage } from '../'
 import config from 'config'
-import { processURLAddress } from 'vue-storefront_1'
+import { processURLAddress } from '@vue-storefront/core/helpers'
 
 export const module: Module<NewsletterState, any> = {
   namespaced: true,

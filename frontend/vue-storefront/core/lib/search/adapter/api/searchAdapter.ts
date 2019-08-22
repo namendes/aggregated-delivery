@@ -1,12 +1,12 @@
 import map from 'lodash-es/map'
 import { prepareElasticsearchQueryBody } from './elasticsearchQuery'
 import fetch from 'isomorphic-fetch'
-import { slugify, processURLAddress } from 'vue-storefront_1'
+import { slugify, processURLAddress } from '@vue-storefront/core/helpers'
 import queryString from 'query-string'
 import { currentStoreView, prepareStoreView } from '../../../multistore'
-import SearchQuery from 'vue-storefront_1'
-import HttpQuery from 'vue-storefront_1'
-import { SearchResponse } from 'vue-storefront_1'
+import SearchQuery from '@vue-storefront/core/lib/search/searchQuery'
+import HttpQuery from '@vue-storefront/core/types/search/HttpQuery'
+import { SearchResponse } from '@vue-storefront/core/types/search/SearchResponse'
 import config from 'config'
 
 export class SearchAdapter {

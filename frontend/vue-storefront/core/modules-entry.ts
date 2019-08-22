@@ -1,5 +1,5 @@
 
-import { VueStorefrontModule } from 'vue-storefront_1'
+import { VueStorefrontModule } from '@vue-storefront/core/lib/module'
 import { Cms } from './modules/cms'
 import { Order } from './modules/order'
 import { User } from './modules/user'

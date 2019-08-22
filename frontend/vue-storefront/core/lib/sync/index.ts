@@ -1,11 +1,11 @@
 
 import Vue from 'vue'
-import rootStore from 'vue-storefront_1'
-import { Logger } from 'vue-storefront_1'
+import rootStore from '@vue-storefront/core/store'
+import { Logger } from '@vue-storefront/core/lib/logger'
 import { execute as taskExecute, _prepareTask } from './task'
-import { isServer } from 'vue-storefront_1'
+import { isServer } from '@vue-storefront/core/helpers'
 import config from 'config'
-import Task from 'vue-storefront_1'
+import Task from '@vue-storefront/core/lib/sync/types/Task'
 
 /** Syncs given task. If user is offline requiest will be sent to the server after restored connection */
 async function queue (task) {

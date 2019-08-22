@@ -1,16 +1,18 @@
 {
     "proxy": {
         "common": {
-            "target_url": "https://www.site.com",
+            "target_url": "http://localhost:3002",
             "br_base_url": "http://localhost:8080",
             "service_url": "http://localhost:8080/site/rest/page/url",
             "host": "localhost",
             "br_mount_alias": "external",
             "br_mount_path": "/external",
             "site_root_path": "",
-            "slash_ending_urls": true,
+            "slash_ending_urls": false,
             "root_urls":[
-                "/on"
+                "/dist",
+                "/assets",
+            "__webpack_hmr"
             ],
             "br_static_container": {
                 "uuid": "00000000-0000-0000-0000-000000000000",

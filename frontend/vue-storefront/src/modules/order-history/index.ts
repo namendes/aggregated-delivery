@@ -1,4 +1,4 @@
-import { createModule } from 'vue-storefront_1'
+import { createModule } from '@vue-storefront/core/lib/module'
 
 const KEY = 'order-history'
 export const OrderHistory = createModule({

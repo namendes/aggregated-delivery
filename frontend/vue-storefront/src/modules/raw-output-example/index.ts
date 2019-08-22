@@ -1,4 +1,4 @@
-import { createModule } from 'vue-storefront_1'
+import { createModule } from '@vue-storefront/core/lib/module'
 import { routes } from './router/routes'
 
 const KEY = 'raw-output-example'

@@ -1,6 +1,6 @@
 import * as localForage from 'localforage'
-import UniversalStorage from 'vue-storefront_1'
-import { currentStoreView } from 'vue-storefront_1'
+import UniversalStorage from '@vue-storefront/core/store/lib/storage'
+import { currentStoreView } from '@vue-storefront/core/lib/multistore'
 import config from 'config'
 
 /** Inits cache storage for given module. By default via local storage */

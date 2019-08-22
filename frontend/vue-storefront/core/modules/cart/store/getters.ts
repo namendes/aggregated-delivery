@@ -1,12 +1,12 @@
 import { GetterTree } from 'vuex'
 import sumBy from 'lodash-es/sumBy'
-import i18n from 'vue-storefront_1'
+import i18n from '@vue-storefront/i18n'
 import CartState from '../types/CartState'
-import RootState from 'vue-storefront_1'
+import RootState from '@vue-storefront/core/types/RootState'
 import AppliedCoupon from '../types/AppliedCoupon'
-import { onlineHelper, isServer, calcItemsHmac } from 'vue-storefront_1'
+import { onlineHelper, isServer, calcItemsHmac } from '@vue-storefront/core/helpers'
 import config from 'config'
-import { Logger } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger'
 
 const getters: GetterTree<CartState, RootState> = {
   getCartToken (state) {

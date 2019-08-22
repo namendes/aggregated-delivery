@@ -1,8 +1,8 @@
-import { router } from 'vue-storefront_1'
+import { router } from '@vue-storefront/core/app'
 import config from 'config'
-import { localizedDispatcherRoute, localizedRoute, LocalizedRoute } from 'vue-storefront_1'
+import { localizedDispatcherRoute, localizedRoute, LocalizedRoute } from '@vue-storefront/core/lib/multistore'
 import { RouteConfig } from 'vue-router/types/router';
-import { RouterManager } from 'vue-storefront_1'
+import { RouterManager } from '@vue-storefront/core/lib/router-manager'
 
 export function parametrizeRouteData (routeData: LocalizedRoute, query: { [id: string]: any } | string, storeCodeInPath: string): LocalizedRoute {
   const parametrizedRoute = Object.assign({}, routeData)

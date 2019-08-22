@@ -1,4 +1,4 @@
-import Review from 'vue-storefront_1'
+import Review from '@vue-storefront/core/modules/review/types/Review'
 
 export const AddReview = {
   name: 'AddReview',

@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import union from 'lodash-es/union'
 
-import { createApp } from 'vue-storefront_1'
-import rootStore from 'vue-storefront_1'
-import { registerSyncTaskProcessor } from 'vue-storefront_1'
-import i18n from 'vue-storefront_1'
-import { prepareStoreView, storeCodeFromRoute, currentStoreView, localizedRoute } from 'vue-storefront_1'
-import { onNetworkStatusChange } from 'vue-storefront_1'
-import 'vue-storefront_1' // register the service worker
+import { createApp } from '@vue-storefront/core/app'
+import rootStore from '@vue-storefront/core/store'
+import { registerSyncTaskProcessor } from '@vue-storefront/core/lib/sync/task'
+import i18n from '@vue-storefront/i18n'
+import { prepareStoreView, storeCodeFromRoute, currentStoreView, localizedRoute } from '@vue-storefront/core/lib/multistore'
+import { onNetworkStatusChange } from '@vue-storefront/core/modules/offline-order/helpers/onNetworkStatusChange'
+import '@vue-storefront/core/service-worker/registration' // register the service worker
 import { AsyncDataLoader } from './lib/async-data-loader'
-import { Logger } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger'
 import globalConfig from 'config'
 declare var window: any
 

@@ -1,4 +1,4 @@
-import { mountMixinWithStore } from 'vue-storefront_1'
+import { mountMixinWithStore } from '@vue-storefront/unit-tests/utils'
 
 import SubscriptionStatus from '../../../mixins/SubscriptionStatus'
 

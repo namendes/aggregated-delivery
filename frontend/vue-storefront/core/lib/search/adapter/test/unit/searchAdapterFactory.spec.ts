@@ -1,4 +1,4 @@
-import {getSearchAdapter} from 'vue-storefront_1'
+import {getSearchAdapter} from '@vue-storefront/core/lib/search/adapter/searchAdapterFactory'
 
 jest.mock('config', () => {
   return {server: {api: 'api'}};

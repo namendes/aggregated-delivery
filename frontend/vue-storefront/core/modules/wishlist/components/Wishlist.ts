@@ -1,5 +1,5 @@
 import { Wishlist as WishlistModule } from '../'
-import wishlistMountedMixin from 'vue-storefront_1'
+import wishlistMountedMixin from '@vue-storefront/core/modules/wishlist/mixins/wishlistMountedMixin'
 
 export const Wishlist = {
   name: 'Wishlist',

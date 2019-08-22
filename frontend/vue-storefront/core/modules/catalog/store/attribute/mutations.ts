@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import { MutationTree } from 'vuex'
-import { entityKeyName } from 'vue-storefront_1'
+import { entityKeyName } from '@vue-storefront/core/store/lib/entities'
 import * as types from './mutation-types'
 import AttributeState from '../../types/AttributeState'
-import { Logger } from 'vue-storefront_1'
+import { Logger } from '@vue-storefront/core/lib/logger'
 
 const mutations: MutationTree<AttributeState> = {
   /**

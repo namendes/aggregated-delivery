@@ -1,7 +1,7 @@
 import { module } from './store'
 import { plugin } from './store/plugin'
-import { createModule } from 'vue-storefront_1'
-import { initCacheStorage } from 'vue-storefront_1'
+import { createModule } from '@vue-storefront/core/lib/module'
+import { initCacheStorage } from '@vue-storefront/core/helpers/initCacheStorage'
 import { afterRegistration } from './hooks/afterRegistration'
 
 export const KEY = 'recently-viewed'

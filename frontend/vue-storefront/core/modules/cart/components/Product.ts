@@ -1,4 +1,4 @@
-import { productThumbnailPath } from 'vue-storefront_1'
+import { productThumbnailPath } from '@vue-storefront/core/helpers'
 import config from 'config'
 
 export const MicrocartProduct = {

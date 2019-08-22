@@ -1,5 +1,5 @@
 import { GetterTree } from 'vuex'
-import RootState from 'vue-storefront_1'
+import RootState from '@vue-storefront/core/types/RootState'
 import PromotedOffersState from '../types/PromotedOffersState'
 
 const getters: GetterTree<PromotedOffersState, RootState> = {

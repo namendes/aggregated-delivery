@@ -1,4 +1,4 @@
-import i18n from 'vue-storefront_1'
+import i18n from '@vue-storefront/i18n'
 import MailItem from '../types/MailItem'
 
 export const EmailForm = {

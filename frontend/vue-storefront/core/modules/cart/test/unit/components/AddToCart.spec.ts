@@ -1,6 +1,6 @@
-import { mountMixinWithStore } from 'vue-storefront_1';
+import { mountMixinWithStore } from '@vue-storefront/unit-tests/utils';
 
-import Product from 'vue-storefront_1';
+import Product from '@vue-storefront/core/modules/catalog/types/Product';
 
 import { AddToCart } from '../../../components/AddToCart'
 jest.mock('@vue-storefront/core/helpers', () => ({

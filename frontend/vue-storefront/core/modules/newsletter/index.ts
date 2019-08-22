@@ -1,6 +1,6 @@
 import { module } from './store'
-import { VueStorefrontModule, VueStorefrontModuleConfig } from 'vue-storefront_1'
-import { initCacheStorage } from 'vue-storefront_1'
+import { VueStorefrontModule, VueStorefrontModuleConfig } from '@vue-storefront/core/lib/module'
+import { initCacheStorage } from '@vue-storefront/core/helpers/initCacheStorage'
 
 export const KEY = 'newsletter'
 export const cacheStorage = initCacheStorage(KEY)
